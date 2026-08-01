@@ -106,7 +106,7 @@ def parse_time_sort(start_time_str):
     return 999_999_999
 
 # ─────────────────────────────────────────────────────────────────────────────
-# NUXT DATA PARSER  (Nuxt SSR payload = flat JSON array + integer references)
+# NUXT DATA PARSER  (Nuxt3 SSR payload = flat JSON array + integer references)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def parse_nuxt_data(html_text):
@@ -128,26 +128,22 @@ def parse_nuxt_data(html_text):
             return idx
         item = raw[idx]
 
-        if isinstance(item, str):
+        if isinstance(item, (str, bool, int, float)):
             return item
-        if isinstance(item, bool):
-            return item
-        if isinstance(item, (int, float)):
-            return item              # ← literal value, NOT a reference
         if item is None:
             return None
         if isinstance(item, list):
-            # Reactive wrapper:  ["ShallowReactive", N]
             if len(item) >= 1 and isinstance(item[0], str) and item[0] in REACTIVE:
                 return resolve(item[1], depth + 1) if len(item) >= 2 else None
             if len(item) == 1 and isinstance(item[0], str) and item[0] == "Set":
                 return []
-            # Regular array – elements are references
             out = []
             for x in item:
-                if isinstance(x, int) and not isinstance(x, bool):
+                if isinstance(x, bool):
+                    out.append(x)
+                elif isinstance(x, int):
                     out.append(resolve(x, depth + 1))
-                elif isinstance(x, (str, bool, float)) or x is None:
+                elif isinstance(x, (str, float)) or x is None:
                     out.append(x)
             return out
         if isinstance(item, dict):
@@ -195,26 +191,6 @@ def extract_matches_from_nuxt(nuxt_data):
 # FETCH SOURCES
 # ─────────────────────────────────────────────────────────────────────────────
 
-def fetch_matches_from_api():
-    """Thử gọi /api/matches – nếu có thì dùng."""
-    for url in [f"{API_BASE}/matches", f"{API_BASE}/matches/"]:
-        try:
-            res = requests.get(url, headers=HEADERS, timeout=15)
-            if res.status_code == 200:
-                data = res.json()
-                if isinstance(data, list):
-                    return data
-                if isinstance(data, dict):
-                    for key in ("results", "matches", "data", "items"):
-                        if key in data and isinstance(data[key], list):
-                            return data[key]
-                    if "id" in data and "slug" in data:
-                        return [data]
-        except Exception:
-            pass
-    return None
-
-
 def fetch_matches_from_html(page_url):
     """Parse __NUXT_DATA__ từ trang HTML."""
     try:
@@ -225,7 +201,6 @@ def fetch_matches_from_html(page_url):
         return extract_matches_from_nuxt(nuxt) if nuxt else []
     except Exception:
         return []
-
 
 def fetch_match_detail(slug):
     """Gọi /api/matches/{slug}/ để lấy commentators (fallback)."""
@@ -239,7 +214,7 @@ def fetch_match_detail(slug):
     return None
 
 # ─────────────────────────────────────────────────────────────────────────────
-# THUMBNAIL  (giữ nguyên logic gốc, chỉ đổi logo URL)
+# THUMBNAIL
 # ─────────────────────────────────────────────────────────────────────────────
 
 def make_thumbnail(match, match_id_safe):
@@ -380,33 +355,41 @@ def cleanup_old_thumbs(days=3):
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_grouped_matches():
-    """
-    Chiến lược 3 lớp:
-      1. Thử /api/matches  (nếu API có list endpoint)
-      2. Parse __NUXT_DATA__ từ trang chủ
-      3. Parse __NUXT_DATA__ từ /lich-truc-tiep  (thêm trận chưa có)
-    """
-    all_matches = fetch_matches_from_api()
-    source = "API"
-
-    if not all_matches:
-        all_matches = fetch_matches_from_html(f"{BASE_URL}/")
-        source = "HTML(home)"
-
-    # Thêm trận từ trang lịch trực tiếp
-    sched = fetch_matches_from_html(f"{BASE_URL}/lich-truc-tiep")
-    if sched:
-        existing = {m.get("id") for m in (all_matches or [])}
+    all_matches = []
+    
+    # 1. Parse homepage (Trận tâm điểm, LIVE)
+    home_matches = fetch_matches_from_html(f"{BASE_URL}/")
+    if home_matches:
+        all_matches.extend(home_matches)
+        print(f"  HTML(home): {len(home_matches)} tran")
+        
+    # 2. Parse schedule page (Lịch trực tiếp)
+    sched_matches = fetch_matches_from_html(f"{BASE_URL}/lich-truc-tiep")
+    if sched_matches:
+        existing = {m.get("id") for m in all_matches}
         added = 0
-        for m in sched:
+        for m in sched_matches:
             if m.get("id") not in existing:
                 all_matches.append(m)
                 existing.add(m.get("id"))
                 added += 1
         if added:
-            source += f" + HTML(schedule +{added})"
+            print(f"  HTML(schedule): +{added} tran")
+            
+    # 3. Parse scores page (Tỷ số)
+    score_matches = fetch_matches_from_html(f"{BASE_URL}/ty-so")
+    if score_matches:
+        existing = {m.get("id") for m in all_matches}
+        added = 0
+        for m in score_matches:
+            if m.get("id") not in existing:
+                all_matches.append(m)
+                existing.add(m.get("id"))
+                added += 1
+        if added:
+            print(f"  HTML(scores): +{added} tran")
 
-    print(f"  Nguon: {source} | Tong tran goc: {len(all_matches or [])}")
+    print(f"  Tong tran goc: {len(all_matches)}")
     if not all_matches:
         return {}
 
@@ -580,7 +563,7 @@ def main():
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cleanup_old_thumbs(days=3)
     print(f"Gio VN: {now_vn().strftime('%H:%M %d/%m/%Y')}")
-    print("Lay tran dau tu PhaohoaTV...")
+    print("Lay tran dau tu PhaohoaTV (Nuxt HTML)...")
 
     grouped = get_grouped_matches()
     matches = list(grouped.values())
