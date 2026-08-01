@@ -1,0 +1,12 @@
+{
+  "id": "phaohoa",
+  "url": "https://phaohoa1.live",
+  "name": "PhaohoaTV",
+  "color": "#dc1e28",
+  "grid_number": 3,
+  "image": {
+    "type": "cover",
+    "url": "https://phaohoa1.live/images/logo.png"
+  },
+  "groups": []
+}
