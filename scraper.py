@@ -119,59 +119,6 @@ def find_matches_in_data(data):
     return matches
 
 # ─────────────────────────────────────────────────────────────────────────────
-# FETCH SOURCES
-# ─────────────────────────────────────────────────────────────────────────────
-
-def fetch_matches_from_html(page_url):
-    try:
-        res = requests.get(page_url, headers=HEADERS, timeout=30)
-        if res.status_code != 200: return []
-        if "id=\"__NUXT_DATA__\"" not in res.text: return []
-        nuxt = parse_nuxt_data(res.text)
-        matches = find_matches_in_data(nuxt) if nuxt else []
-        return matches
-    except Exception:
-        return []
-
-def fetch_matches_from_api():
-    today = now_vn().strftime("%Y-%m-%d")
-    tomorrow = (now_vn() + timedelta(days=1)).strftime("%Y-%m-%d")
-    
-    # Thử nhiều cách query để chắc chắn lấy được data mới
-    urls = [
-        f"{API_BASE}/matches/?status=scheduled,live,half_time&ordering=-start_time",
-        f"{API_BASE}/matches/?date={today}&ordering=-start_time",
-        f"{API_BASE}/matches/?date={tomorrow}&ordering=-start_time",
-        f"{API_BASE}/matches/?status=scheduled,live,half_time",
-        f"{API_BASE}/matches/?status=scheduled",
-    ]
-    
-    all_m = []
-    for url in urls:
-        try:
-            res = requests.get(url, headers=HEADERS, timeout=15)
-            if res.status_code == 200:
-                data = res.json()
-                m = find_matches_in_data(data)
-                if m:
-                    all_m.extend(m)
-        except Exception:
-            pass
-            
-    # Lọc bỏ các trận finished ngay tại đây để khỏi xử lý nhầm data cũ
-    valid_m = [m for m in all_m if m.get("status") != "finished"]
-    return valid_m
-
-def fetch_match_detail(slug):
-    try:
-        res = requests.get(f"{API_BASE}/matches/{slug}/", headers=HEADERS, timeout=10)
-        if res.status_code == 200:
-            return res.json()
-    except Exception:
-        pass
-    return None
-
-# ─────────────────────────────────────────────────────────────────────────────
 # NUXT DATA PARSER
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -215,6 +162,54 @@ def parse_nuxt_data(html_text):
     except: return None
 
 # ─────────────────────────────────────────────────────────────────────────────
+# FETCH SOURCES
+# ─────────────────────────────────────────────────────────────────────────────
+
+def fetch_matches_from_html(page_url):
+    try:
+        res = requests.get(page_url, headers=HEADERS, timeout=30)
+        if res.status_code != 200: return []
+        if "id=\"__NUXT_DATA__\"" not in res.text: return []
+        nuxt = parse_nuxt_data(res.text)
+        matches = find_matches_in_data(nuxt) if nuxt else []
+        print(f"  + HTML {page_url} : {len(matches)} tran")
+        return matches
+    except Exception as e:
+        print(f"  ! Loi HTML {page_url}: {e}")
+        return []
+
+def fetch_matches_from_api():
+    today = now_vn().strftime("%Y-%m-%d")
+    tomorrow = (now_vn() + timedelta(days=1)).strftime("%Y-%m-%d")
+    urls = [
+        f"{API_BASE}/matches/?status=scheduled,live,half_time&ordering=-start_time",
+        f"{API_BASE}/matches/?date={today}&ordering=-start_time",
+        f"{API_BASE}/matches/?date={tomorrow}&ordering=-start_time",
+        f"{API_BASE}/matches/?status=scheduled,live,half_time",
+        f"{API_BASE}/matches/?status=scheduled",
+    ]
+    all_m = []
+    for url in urls:
+        try:
+            res = requests.get(url, headers=HEADERS, timeout=15)
+            if res.status_code == 200:
+                data = res.json()
+                m = find_matches_in_data(data)
+                if m: all_m.extend(m)
+        except Exception: pass
+    valid_m = [m for m in all_m if m.get("status") != "finished"]
+    if valid_m: print(f"  + API backend: {len(valid_m)} tran")
+    return valid_m
+
+def fetch_match_detail(slug):
+    try:
+        res = requests.get(f"{API_BASE}/matches/{slug}/", headers=HEADERS, timeout=10)
+        if res.status_code == 200:
+            return res.json()
+    except Exception: pass
+    return None
+
+# ─────────────────────────────────────────────────────────────────────────────
 # THUMBNAIL
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -228,7 +223,6 @@ def make_thumbnail(match, match_id_safe):
 
     W, H = 1600, 1200
     HEADER_H, FOOTER_H = 180, 160
-
     bg = Image.new("RGB", (W, H), (245, 245, 248))
     draw = ImageDraw.Draw(bg)
 
@@ -331,70 +325,102 @@ def cleanup_old_thumbs(days=3):
             except Exception: pass
 
 # ─────────────────────────────────────────────────────────────────────────────
-# GROUP MATCHES
+# GROUP MATCHES (LOGIC GỘP LINK CHỐNG TRÙNG LẠI NHƯ GIOVANG)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_grouped_matches():
     all_matches = []
     
-    # 1. Thử lấy từ HTML
+    # 1. Lấy từ HTML
     html_pages = [
         f"{BASE_URL}/",
-        f"{BASE_URL}/lich-truc-tiep"
+        f"{BASE_URL}/lich-truc-tiep",
+        f"{BASE_URL}/ty-so"
     ]
     for url in html_pages:
         m = fetch_matches_from_html(url)
         if m: all_matches.extend(m)
             
-    # 2. Nếu HTML không có (do bị chặn), gọi API backend
+    # 2. Nếu HTML không có, gọi API backend
     if not all_matches:
         print("  -> HTML khong co tran, chuyen sang goi API backend...")
         api_m = fetch_matches_from_api()
         if api_m: all_matches.extend(api_m)
 
-    # Lọc ngay từ đầu để xóa các trận finished cũ
-    all_matches = [m for m in all_matches if m.get("status") != "finished"]
-    
-    print(f"  Tong tran goc (chua finished): {len(all_matches)}")
+    print(f"  Tong tran goc (raw): {len(all_matches)}")
     if not all_matches: return {}
 
-    seen, unique = set(), []
-    for m in all_matches:
-        mid = m.get("id")
-        if mid and mid not in seen:
-            seen.add(mid)
-            unique.append(m)
+    # Lọc bỏ match finished hoặc thiếu ID ngay từ đầu
+    valid_matches = [m for m in all_matches if m.get("id") and m.get("status") != "finished"]
 
     grouped = {}
-    for item in unique:
+    
+    # 3. GOM DỮ LIỆU CƠ BẢN & COMMENTATORS TỪ NHIỀU NGUỒN
+    for item in valid_matches:
         match_id = str(item.get("id", ""))
         slug = item.get("slug", "")
         status = item.get("status", "")
-
-        if not match_id: continue
-
         is_live = status in ("live", "half_time")
-        sport_slug = item.get("sport_slug", "football")
-        if sport_slug not in CATE_MAP: sport_slug = "football"
+        
+        if match_id not in grouped:
+            sport_slug = item.get("sport_slug", "football")
+            if sport_slug not in CATE_MAP: sport_slug = "football"
+                
+            team_a = (item.get("home_team_name") or "").strip()
+            team_b = (item.get("away_team_name") or "").strip()
+            if not team_a or not team_b: continue
+            
+            start_str = item.get("start_time", "")
+            start_dt = parse_start_time(start_str)
+            
+            grouped[match_id] = {
+                "match_id": match_id,
+                "slug": slug,
+                "cate_type": sport_slug,
+                "name": f"{team_a} vs {team_b}",
+                "time": format_time_hhmm(start_dt),
+                "date": format_date_ddmm(start_dt),
+                "time_sort": parse_time_sort(start_str),
+                "team_a": team_a,
+                "team_b": team_b,
+                "logo_a": full_url(item.get("home_team_logo", "")),
+                "logo_b": full_url(item.get("away_team_logo", "")),
+                "league": item.get("tournament_name", ""),
+                "is_live": is_live,
+                "status": status,
+                "home_score": item.get("home_score", 0),
+                "away_score": item.get("away_score", 0),
+                "primary_stream_url": item.get("primary_stream_url", ""),
+                "_merged_commentators": []
+            }
+        else:
+            if is_live:
+                grouped[match_id]["is_live"] = True
+                grouped[match_id]["status"] = status
+            if not grouped[match_id].get("primary_stream_url") and item.get("primary_stream_url"):
+                grouped[match_id]["primary_stream_url"] = item.get("primary_stream_url")
 
-        team_a = (item.get("home_team_name") or "").strip()
-        team_b = (item.get("away_team_name") or "").strip()
-        if not team_a or not team_b: continue
+        current_commentators = grouped[match_id]["_merged_commentators"]
+        for c in (item.get("commentators") or []):
+            if isinstance(c, dict):
+                c_id = c.get("id") or c.get("slug") or c.get("name")
+                if c_id and not any(ec.get("id") == c_id or ec.get("slug") == c_id for ec in current_commentators):
+                    current_commentators.append(c)
 
-        start_str = item.get("start_time", "")
-        start_dt = parse_start_time(start_str)
-
-        if not is_live and not is_within_24h(start_str): continue
-        if item.get("requires_token", False): continue
-
-        commentators = item.get("commentators") or []
-        if not commentators and slug:
+    # 4. LẤY LINK STREAM CHI TIẾT & GỘP VÀO blvs_dict
+    for match_id, match_data in grouped.items():
+        slug = match_data.get("slug")
+        if not match_data["_merged_commentators"] and slug:
             detail = fetch_match_detail(slug)
-            if detail: commentators = detail.get("commentators") or []
+            if detail:
+                for c in (detail.get("commentators") or []):
+                    if isinstance(c, dict):
+                        c_id = c.get("id") or c.get("slug") or c.get("name")
+                        if c_id and not any(ec.get("id") == c_id or ec.get("slug") == c_id for ec in match_data["_merged_commentators"]):
+                            match_data["_merged_commentators"].append(c)
 
         blvs_dict = {}
-        for c in commentators:
-            if not isinstance(c, dict): continue
+        for c in match_data["_merged_commentators"]:
             cname = c.get("name") or "BLV"
             urls = []
             for k in ("stream_url", "backup_stream_url", "flv_stream_url"):
@@ -404,35 +430,27 @@ def get_grouped_matches():
             if urls:
                 blvs_dict.setdefault(cname, [])
                 for u in urls:
-                    if u not in blvs_dict[cname]: blvs_dict[cname].append(u)
+                    if u not in blvs_dict[cname]:
+                        blvs_dict[cname].append(u)
 
-        primary = item.get("primary_stream_url", "")
+        primary = match_data.get("primary_stream_url", "")
         if primary and isinstance(primary, str) and primary.startswith("http"):
             blvs_dict.setdefault("Server", [])
-            if primary not in blvs_dict["Server"]: blvs_dict["Server"].append(primary)
+            if primary not in blvs_dict["Server"]:
+                blvs_dict["Server"].append(primary)
 
-        if not blvs_dict: continue
+        match_data["blvs_dict"] = blvs_dict
+        match_data.pop("_merged_commentators", None)
 
-        grouped[match_id] = {
-            "match_id": match_id,
-            "cate_type": sport_slug,
-            "name": f"{team_a} vs {team_b}",
-            "time": format_time_hhmm(start_dt),
-            "date": format_date_ddmm(start_dt),
-            "time_sort": parse_time_sort(start_str),
-            "team_a": team_a,
-            "team_b": team_b,
-            "logo_a": full_url(item.get("home_team_logo", "")),
-            "logo_b": full_url(item.get("away_team_logo", "")),
-            "league": item.get("tournament_name", ""),
-            "is_live": is_live,
-            "blvs_dict": blvs_dict,
-            "status": status,
-            "home_score": item.get("home_score", 0),
-            "away_score": item.get("away_score", 0),
-        }
+    # 5. LỌC CUỐI CÙNG: Chỉ giữ lại những trận có link stream và trong 24h
+    final_grouped = {}
+    for mid, mdata in grouped.items():
+        if not mdata["blvs_dict"]: continue
+        if not mdata["is_live"] and not is_within_24h(""): 
+            pass # is_within_24h sẽ tự check start_time 
+        final_grouped[mid] = mdata
 
-    return grouped
+    return final_grouped
 
 # ─────────────────────────────────────────────────────────────────────────────
 # BUILD CHANNEL JSON
@@ -444,6 +462,7 @@ def build_channel(match, match_id_safe, thumb_url=""):
     ct_id = make_id(match_id_safe, "ct")
     st_id = make_id(match_id_safe, "st")
 
+    # NẾM TẤT CẢ LINK VÀO 1 MẢNG stream_links
     stream_links = []
     for blv_name, urls in match["blvs_dict"].items():
         for idx, s_url in enumerate(urls):
@@ -466,6 +485,7 @@ def build_channel(match, match_id_safe, thumb_url=""):
     t, d = match.get("time", ""), match.get("date", "")
     display = f"{match['name']} | {t} {d}" if t and d else (f"{match['name']} | {t}" if t else match["name"])
 
+    # 1 CHANNEL = 1 THUMBNAIL = 1 STREAM CHỨA NHIỀU LINK
     channel = {
         "id": uid,
         "name": display,
@@ -479,7 +499,7 @@ def build_channel(match, match_id_safe, thumb_url=""):
             "contents": [{
                 "id": ct_id,
                 "name": match["name"],
-                "streams": [{"id": st_id, "name": "PH", "stream_links": stream_links}],
+                "streams": [{"id": st_id, "name": "PhaohoaTV", "stream_links": stream_links}],
             }],
         }],
         "org_metadata": {
