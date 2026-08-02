@@ -124,7 +124,7 @@ def find_matches_in_data(data):
 
 def fetch_matches_from_html(page_url):
     try:
-        res = requests.get(page_url, headers=HEADERS, timeout=15)
+        res = requests.get(page_url, headers=HEADERS, timeout=30)
         if res.status_code != 200: return []
         if "id=\"__NUXT_DATA__\"" not in res.text: return []
         nuxt = parse_nuxt_data(res.text)
@@ -136,11 +136,16 @@ def fetch_matches_from_html(page_url):
 def fetch_matches_from_api():
     today = now_vn().strftime("%Y-%m-%d")
     tomorrow = (now_vn() + timedelta(days=1)).strftime("%Y-%m-%d")
+    
+    # Thử nhiều cách query để chắc chắn lấy được data mới
     urls = [
-        f"{API_BASE}/matches/?date={today}",
-        f"{API_BASE}/matches/?date={tomorrow}",
-        f"{API_BASE}/matches/",
+        f"{API_BASE}/matches/?status=scheduled,live,half_time&ordering=-start_time",
+        f"{API_BASE}/matches/?date={today}&ordering=-start_time",
+        f"{API_BASE}/matches/?date={tomorrow}&ordering=-start_time",
+        f"{API_BASE}/matches/?status=scheduled,live,half_time",
+        f"{API_BASE}/matches/?status=scheduled",
     ]
+    
     all_m = []
     for url in urls:
         try:
@@ -148,10 +153,14 @@ def fetch_matches_from_api():
             if res.status_code == 200:
                 data = res.json()
                 m = find_matches_in_data(data)
-                if m: all_m.extend(m)
+                if m:
+                    all_m.extend(m)
         except Exception:
             pass
-    return all_m
+            
+    # Lọc bỏ các trận finished ngay tại đây để khỏi xử lý nhầm data cũ
+    valid_m = [m for m in all_m if m.get("status") != "finished"]
+    return valid_m
 
 def fetch_match_detail(slug):
     try:
@@ -322,15 +331,31 @@ def cleanup_old_thumbs(days=3):
             except Exception: pass
 
 # ─────────────────────────────────────────────────────────────────────────────
-# GROUP MATCHES (DEBUG MODE BẬT)
+# GROUP MATCHES
 # ─────────────────────────────────────────────────────────────────────────────
 
 def get_grouped_matches():
     all_matches = []
-    api_m = fetch_matches_from_api()
-    if api_m: all_matches.extend(api_m)
+    
+    # 1. Thử lấy từ HTML
+    html_pages = [
+        f"{BASE_URL}/",
+        f"{BASE_URL}/lich-truc-tiep"
+    ]
+    for url in html_pages:
+        m = fetch_matches_from_html(url)
+        if m: all_matches.extend(m)
+            
+    # 2. Nếu HTML không có (do bị chặn), gọi API backend
+    if not all_matches:
+        print("  -> HTML khong co tran, chuyen sang goi API backend...")
+        api_m = fetch_matches_from_api()
+        if api_m: all_matches.extend(api_m)
 
-    print(f"  Tong tran goc: {len(all_matches)}")
+    # Lọc ngay từ đầu để xóa các trận finished cũ
+    all_matches = [m for m in all_matches if m.get("status") != "finished"]
+    
+    print(f"  Tong tran goc (chua finished): {len(all_matches)}")
     if not all_matches: return {}
 
     seen, unique = set(), []
@@ -341,22 +366,12 @@ def get_grouped_matches():
             unique.append(m)
 
     grouped = {}
-    for i, item in enumerate(unique):
+    for item in unique:
         match_id = str(item.get("id", ""))
         slug = item.get("slug", "")
         status = item.get("status", "")
 
-        # ─── DEBUG LOG 3 TRAN DAU TIEN ───
-        if i < 3:
-            print(f"\n  DEBUG Tran {i+1}: ID={match_id} | Slug={slug}")
-            print(f"    Status: {status} | TeamA: {item.get('home_team_name')} | TeamB: {item.get('away_team_name')}")
-            print(f"    Start time: {item.get('start_time')}")
-            print(f"    Commentators: {item.get('commentators')}")
-            print(f"    Primary stream: {item.get('primary_stream_url')}")
-        
-        if not match_id or status == "finished":
-            if i < 3: print(f"    -> BỎ QUA vì status 'finished' hoặc không có ID")
-            continue
+        if not match_id: continue
 
         is_live = status in ("live", "half_time")
         sport_slug = item.get("sport_slug", "football")
@@ -364,30 +379,18 @@ def get_grouped_matches():
 
         team_a = (item.get("home_team_name") or "").strip()
         team_b = (item.get("away_team_name") or "").strip()
-        if not team_a or not team_b:
-            if i < 3: print(f"    -> BỎ QUA vì thiếu tên đội")
-            continue
+        if not team_a or not team_b: continue
 
         start_str = item.get("start_time", "")
         start_dt = parse_start_time(start_str)
 
-        if not is_live and not is_within_24h(start_str):
-            if i < 3: print(f"    -> BỎ QUA vì ngoài 24h")
-            continue
-            
-        if item.get("requires_token", False):
-            if i < 3: print(f"    -> BỎ QUA vì requires_token=True")
-            continue
+        if not is_live and not is_within_24h(start_str): continue
+        if item.get("requires_token", False): continue
 
         commentators = item.get("commentators") or []
         if not commentators and slug:
-            if i < 3: print(f"    -> Đang gọi API detail để lấy commentators...")
             detail = fetch_match_detail(slug)
-            if detail:
-                commentators = detail.get("commentators") or []
-                if i < 3: print(f"    -> API detail trả về {len(commentators)} commentators")
-            else:
-                if i < 3: print(f"    -> LỖI: API detail trả về NULL hoặc LỖI")
+            if detail: commentators = detail.get("commentators") or []
 
         blvs_dict = {}
         for c in commentators:
@@ -408,11 +411,7 @@ def get_grouped_matches():
             blvs_dict.setdefault("Server", [])
             if primary not in blvs_dict["Server"]: blvs_dict["Server"].append(primary)
 
-        if not blvs_dict:
-            if i < 3: print(f"    -> BỎ QUA vì KHÔNG LẤY ĐƯỢC LINK STREAM NÀO")
-            continue
-            
-        if i < 3: print(f"    => THÀNH CÔNG! Lấy được {len(blvs_dict)} kênh BLV")
+        if not blvs_dict: continue
 
         grouped[match_id] = {
             "match_id": match_id,
@@ -521,7 +520,7 @@ def main():
     matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
 
     live_cnt = sum(1 for m in matches if m["is_live"])
-    print(f"\nTong: {len(matches)} | LIVE: {live_cnt} | Sap: {len(matches) - live_cnt}\n")
+    print(f"Tong: {len(matches)} | LIVE: {live_cnt} | Sap: {len(matches) - live_cnt}\n")
 
     cate_channels = {c: [] for c in CATE_ORDER}
 
