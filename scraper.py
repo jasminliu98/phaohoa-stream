@@ -21,7 +21,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Referer":   f"{BASE_URL}/",
     "Origin":    BASE_URL,
-    "Accept":    "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept":    "application/json, text/plain, */*",
     "Accept-Language": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5",
 }
 
@@ -102,6 +102,24 @@ def parse_time_sort(start_time_str):
     return 999_999_999
 
 # ─────────────────────────────────────────────────────────────────────────────
+# DATA EXTRACTOR
+# ─────────────────────────────────────────────────────────────────────────────
+
+def find_matches_in_data(data):
+    """Tìm đệ quy mọi danh sách chứa các dictionary có key 'slug' và 'home_team_name'"""
+    matches = []
+    if isinstance(data, list):
+        for item in data:
+            matches.extend(find_matches_in_data(item))
+    elif isinstance(data, dict):
+        if "slug" in data and ("home_team_name" in data or "home_team" in data):
+            matches.append(data)
+        else:
+            for v in data.values():
+                matches.extend(find_matches_in_data(v))
+    return matches
+
+# ─────────────────────────────────────────────────────────────────────────────
 # NUXT DATA PARSER
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -149,25 +167,8 @@ def parse_nuxt_data(html_text):
     except Exception:
         return None
 
-def extract_matches_from_nuxt(nuxt_data):
-    if not nuxt_data: return []
-    matches = []
-
-    def _find(obj):
-        if isinstance(obj, dict):
-            if "matches" in obj and isinstance(obj["matches"], list):
-                for m in obj["matches"]:
-                    if isinstance(m, dict) and "id" in m and "slug" in m:
-                        matches.append(m)
-            for v in obj.values(): _find(v)
-        elif isinstance(obj, list):
-            for item in obj: _find(item)
-
-    _find(nuxt_data)
-    return matches
-
 # ─────────────────────────────────────────────────────────────────────────────
-# FETCH SOURCES (HTML + API FALLBACK)
+# FETCH SOURCES
 # ─────────────────────────────────────────────────────────────────────────────
 
 def fetch_matches_from_html(page_url):
@@ -177,49 +178,45 @@ def fetch_matches_from_html(page_url):
             print(f"  ! HTML {page_url} ma loi {res.status_code}")
             return []
         if "id=\"__NUXT_DATA__\"" not in res.text:
-            print(f"  ! HTML {page_url} khong tim thay __NUXT_DATA__ (Web chuyen sang CSR?)")
+            print(f"  ! HTML {page_url} khong co __NUXT_DATA__")
             return []
         nuxt = parse_nuxt_data(res.text)
-        matches = extract_matches_from_nuxt(nuxt) if nuxt else []
+        matches = find_matches_in_data(nuxt) if nuxt else []
         print(f"  + HTML {page_url} : {len(matches)} tran")
         return matches
     except Exception as e:
-        print(f"  ! Loi ket noi HTML {page_url}: {e}")
+        print(f"  ! Loi HTML {page_url}: {e}")
         return []
 
-def fetch_matches_from_api_fallback():
-    """Dự phòng gọi API nếu HTML lỗi"""
-    endpoints = [
-        f"{API_BASE}/matches",
-        f"{API_BASE}/home",
-        f"{API_BASE}/matches/?status=scheduled,live,half_time",
+def fetch_matches_from_api():
+    """Lấy danh sách trận qua API backend theo ngày"""
+    today = now_vn().strftime("%Y-%m-%d")
+    tomorrow = (now_vn() + timedelta(days=1)).strftime("%Y-%m-%d")
+    urls = [
+        f"{API_BASE}/matches/?date={today}",
+        f"{API_BASE}/matches/?date={tomorrow}",
+        f"{API_BASE}/matches/",
     ]
-    for url in endpoints:
+    all_m = []
+    for url in urls:
         try:
-            print(f"  Thu fallback API: {url}")
             res = requests.get(url, headers=HEADERS, timeout=15)
             if res.status_code == 200:
                 data = res.json()
-                # Tìm list matches trong json
-                if isinstance(data, list):
-                    if data and "id" in data[0]:
-                        print(f"  + API fallback thanh cong: {len(data)} tran")
-                        return data
-                elif isinstance(data, dict):
-                    for key in ("matches", "results", "data"):
-                        if key in data and isinstance(data[key], list):
-                            print(f"  + API fallback thanh cong: {len(data[key])} tran")
-                            return data[key]
+                m = find_matches_in_data(data)
+                if m:
+                    all_m.extend(m)
         except Exception:
             pass
-    return []
+    if all_m:
+        print(f"  + API backend: {len(all_m)} tran")
+    return all_m
 
 def fetch_match_detail(slug):
     try:
         res = requests.get(f"{API_BASE}/matches/{slug}/", headers=HEADERS, timeout=10)
         if res.status_code == 200:
-            data = res.json()
-            return data if isinstance(data, dict) else None
+            return res.json()
     except Exception:
         pass
     return None
@@ -350,32 +347,21 @@ def cleanup_old_thumbs(days=3):
 def get_grouped_matches():
     all_matches = []
     
-    # 1. Thử lấy từ HTML (Nuxt SSR)
-    home_matches = fetch_matches_from_html(f"{BASE_URL}/")
-    if home_matches: all_matches.extend(home_matches)
-        
-    sched_matches = fetch_matches_from_html(f"{BASE_URL}/lich-truc-tiep")
-    if sched_matches:
-        existing = {m.get("id") for m in all_matches}
-        for m in sched_matches:
-            if m.get("id") not in existing:
-                all_matches.append(m)
-                existing.add(m.get("id"))
-                
-    score_matches = fetch_matches_from_html(f"{BASE_URL}/ty-so")
-    if score_matches:
-        existing = {m.get("id") for m in all_matches}
-        for m in score_matches:
-            if m.get("id") not in existing:
-                all_matches.append(m)
-                existing.add(m.get("id"))
-
-    # 2. Nếu HTML rỗng (do lỗi 403, 503 hoặc web chuyển sang CSR), fallback gọi API
+    # 1. Lấy từ HTML các trang chính
+    html_pages = [
+        f"{BASE_URL}/",
+        f"{BASE_URL}/lich-truc-tiep",
+        f"{BASE_URL}/ty-so"
+    ]
+    for url in html_pages:
+        m = fetch_matches_from_html(url)
+        if m: all_matches.extend(m)
+            
+    # 2. Nếu HTML không có (do bị chặn), gọi API backend
     if not all_matches:
-        print("  -> HTML khong co tran, chuyen sang goi API fallback...")
-        api_matches = fetch_matches_from_api_fallback()
-        if api_matches:
-            all_matches.extend(api_matches)
+        print("  -> HTML khong co tran, chuyen sang goi API backend...")
+        api_m = fetch_matches_from_api()
+        if api_m: all_matches.extend(api_m)
 
     print(f"  Tong tran goc: {len(all_matches)}")
     if not all_matches: return {}
@@ -535,7 +521,7 @@ def main():
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cleanup_old_thumbs(days=3)
     print(f"Gio VN: {now_vn().strftime('%H:%M %d/%m/%Y')}")
-    print("Lay tran dau tu PhaohoaTV (Nuxt HTML)...")
+    print("Lay tran dau tu PhaohoaTV...")
 
     grouped = get_grouped_matches()
     matches = list(grouped.values())
