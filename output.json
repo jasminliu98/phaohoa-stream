@@ -415,7 +415,7 @@
     },
     {
       "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -428,10 +428,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -484,9 +484,9 @@
             "time": "14:40",
             "date": "02/08",
             "blv": "Chim Nhỏ",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "bong-chuyen",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
