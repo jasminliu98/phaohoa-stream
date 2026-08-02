@@ -21,6 +21,8 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
     "Referer":   f"{BASE_URL}/",
     "Origin":    BASE_URL,
+    "Accept":    "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5",
 }
 
 THUMBS_DIR    = "thumbs"
@@ -52,10 +54,8 @@ def make_id(text, prefix):
     return f"{prefix}-{hashlib.md5(text.encode()).hexdigest()[:10]}"
 
 def full_url(path):
-    if not path:
-        return ""
-    if path.startswith("http"):
-        return path
+    if not path: return ""
+    if path.startswith("http"): return path
     return f"{BASE_URL}{path}"
 
 def fetch_image(url):
@@ -67,8 +67,7 @@ def fetch_image(url):
         return None
 
 def parse_start_time(s):
-    if not s:
-        return None
+    if not s: return None
     try:
         dt = datetime.fromisoformat(s)
         return dt if dt.tzinfo else dt.replace(tzinfo=VN_TZ)
@@ -82,20 +81,17 @@ def format_date_ddmm(dt):
     return dt.strftime("%d/%m") if dt else ""
 
 def get_stream_type(url):
-    if not url:
-        return "hls"
+    if not url: return "hls"
     c = url.lower().split("?")[0]
-    if c.endswith(".flv"):  return "httpflv"
-    if c.endswith(".mpd"):  return "dash"
-    if c.endswith(".mp4"):  return "mp4"
+    if c.endswith(".flv"): return "httpflv"
+    if c.endswith(".mpd"): return "dash"
+    if c.endswith(".mp4"): return "mp4"
     return "hls"
 
 def is_within_24h(start_time_str, is_live=False):
-    if is_live:
-        return True
+    if is_live: return True
     dt = parse_start_time(start_time_str)
-    if dt is None:
-        return True
+    if dt is None: return True
     now = now_vn()
     return (now - timedelta(hours=6)) <= dt <= (now + timedelta(hours=24))
 
@@ -106,14 +102,12 @@ def parse_time_sort(start_time_str):
     return 999_999_999
 
 # ─────────────────────────────────────────────────────────────────────────────
-# NUXT DATA PARSER  (Nuxt3 SSR payload = flat JSON array + integer references)
+# NUXT DATA PARSER
 # ─────────────────────────────────────────────────────────────────────────────
 
 def parse_nuxt_data(html_text):
-    """Trích xuất & resolve __NUXT_DATA__ từ HTML."""
     m = re.search(r'<script[^>]*id="__NUXT_DATA__"[^>]*>(.*?)</script>', html_text, re.DOTALL)
-    if not m:
-        return None
+    if not m: return None
     try:
         raw = json.loads(m.group(1))
     except Exception:
@@ -122,16 +116,12 @@ def parse_nuxt_data(html_text):
     REACTIVE = {"ShallowReactive", "Reactive", "ShallowRef", "Ref"}
 
     def resolve(idx, depth=0):
-        if depth > 30:
-            return None
-        if not isinstance(idx, int) or idx < 0 or idx >= len(raw):
-            return idx
+        if depth > 30: return None
+        if not isinstance(idx, int) or idx < 0 or idx >= len(raw): return idx
         item = raw[idx]
 
-        if isinstance(item, (str, bool, int, float)):
-            return item
-        if item is None:
-            return None
+        if isinstance(item, (str, bool, int, float)): return item
+        if item is None: return None
         if isinstance(item, list):
             if len(item) >= 1 and isinstance(item[0], str) and item[0] in REACTIVE:
                 return resolve(item[1], depth + 1) if len(item) >= 2 else None
@@ -139,24 +129,18 @@ def parse_nuxt_data(html_text):
                 return []
             out = []
             for x in item:
-                if isinstance(x, bool):
-                    out.append(x)
-                elif isinstance(x, int):
-                    out.append(resolve(x, depth + 1))
-                elif isinstance(x, (str, float)) or x is None:
-                    out.append(x)
+                if isinstance(x, bool): out.append(x)
+                elif isinstance(x, int): out.append(resolve(x, depth + 1))
+                elif isinstance(x, (str, float)) or x is None: out.append(x)
             return out
         if isinstance(item, dict):
             out = {}
             for k, v in item.items():
-                if isinstance(v, bool):
-                    out[k] = v
-                elif isinstance(v, int):
-                    out[k] = resolve(v, depth + 1)
+                if isinstance(v, bool): out[k] = v
+                elif isinstance(v, int): out[k] = resolve(v, depth + 1)
                 elif isinstance(v, list) and len(v) == 2 and isinstance(v[0], str) and v[0] in REACTIVE:
                     out[k] = resolve(v[1], depth + 1)
-                else:
-                    out[k] = v
+                else: out[k] = v
             return out
         return item
 
@@ -165,11 +149,8 @@ def parse_nuxt_data(html_text):
     except Exception:
         return None
 
-
 def extract_matches_from_nuxt(nuxt_data):
-    """Tìm đệ quy mọi mảng 'matches' trong resolved Nuxt data."""
-    if not nuxt_data:
-        return []
+    if not nuxt_data: return []
     matches = []
 
     def _find(obj):
@@ -178,32 +159,62 @@ def extract_matches_from_nuxt(nuxt_data):
                 for m in obj["matches"]:
                     if isinstance(m, dict) and "id" in m and "slug" in m:
                         matches.append(m)
-            for v in obj.values():
-                _find(v)
+            for v in obj.values(): _find(v)
         elif isinstance(obj, list):
-            for item in obj:
-                _find(item)
+            for item in obj: _find(item)
 
     _find(nuxt_data)
     return matches
 
 # ─────────────────────────────────────────────────────────────────────────────
-# FETCH SOURCES
+# FETCH SOURCES (HTML + API FALLBACK)
 # ─────────────────────────────────────────────────────────────────────────────
 
 def fetch_matches_from_html(page_url):
-    """Parse __NUXT_DATA__ từ trang HTML."""
     try:
         res = requests.get(page_url, headers=HEADERS, timeout=15)
         if res.status_code != 200:
+            print(f"  ! HTML {page_url} ma loi {res.status_code}")
+            return []
+        if "id=\"__NUXT_DATA__\"" not in res.text:
+            print(f"  ! HTML {page_url} khong tim thay __NUXT_DATA__ (Web chuyen sang CSR?)")
             return []
         nuxt = parse_nuxt_data(res.text)
-        return extract_matches_from_nuxt(nuxt) if nuxt else []
-    except Exception:
+        matches = extract_matches_from_nuxt(nuxt) if nuxt else []
+        print(f"  + HTML {page_url} : {len(matches)} tran")
+        return matches
+    except Exception as e:
+        print(f"  ! Loi ket noi HTML {page_url}: {e}")
         return []
 
+def fetch_matches_from_api_fallback():
+    """Dự phòng gọi API nếu HTML lỗi"""
+    endpoints = [
+        f"{API_BASE}/matches",
+        f"{API_BASE}/home",
+        f"{API_BASE}/matches/?status=scheduled,live,half_time",
+    ]
+    for url in endpoints:
+        try:
+            print(f"  Thu fallback API: {url}")
+            res = requests.get(url, headers=HEADERS, timeout=15)
+            if res.status_code == 200:
+                data = res.json()
+                # Tìm list matches trong json
+                if isinstance(data, list):
+                    if data and "id" in data[0]:
+                        print(f"  + API fallback thanh cong: {len(data)} tran")
+                        return data
+                elif isinstance(data, dict):
+                    for key in ("matches", "results", "data"):
+                        if key in data and isinstance(data[key], list):
+                            print(f"  + API fallback thanh cong: {len(data[key])} tran")
+                            return data[key]
+        except Exception:
+            pass
+    return []
+
 def fetch_match_detail(slug):
-    """Gọi /api/matches/{slug}/ để lấy commentators (fallback)."""
     try:
         res = requests.get(f"{API_BASE}/matches/{slug}/", headers=HEADERS, timeout=10)
         if res.status_code == 200:
@@ -224,29 +235,28 @@ def make_thumbnail(match, match_id_safe):
     date_str   = now_vn().strftime("%Y%m%d")
     out_path   = f"{THUMBS_DIR}/{match_id_safe}_{logo_hash}_{date_str}.png"
 
-    if os.path.exists(out_path):
-        return out_path
+    if os.path.exists(out_path): return out_path
 
     W, H = 1600, 1200
     HEADER_H, FOOTER_H = 180, 160
 
-    bg   = Image.new("RGB", (W, H), (245, 245, 248))
+    bg = Image.new("RGB", (W, H), (245, 245, 248))
     draw = ImageDraw.Draw(bg)
 
     for y in range(HEADER_H, H - FOOTER_H):
         ratio = (y - HEADER_H) / (H - FOOTER_H - HEADER_H)
-        gray  = int(248 - ratio * 18)
+        gray = int(248 - ratio * 18)
         draw.line([(0, y), (W, y)], fill=(gray, gray, gray + 4))
 
-    draw.rectangle([(0, 0),            (W, HEADER_H)],  fill=(13, 20, 40))
-    draw.rectangle([(0, H - FOOTER_H), (W, H)],         fill=(13, 20, 40))
+    draw.rectangle([(0, 0), (W, HEADER_H)], fill=(13, 20, 40))
+    draw.rectangle([(0, H - FOOTER_H), (W, H)], fill=(13, 20, 40))
     ACCENT = (220, 30, 40)
-    draw.rectangle([(0, HEADER_H),         (W, HEADER_H + 5)],    fill=ACCENT)
-    draw.rectangle([(0, H - FOOTER_H - 5), (W, H - FOOTER_H)],    fill=ACCENT)
+    draw.rectangle([(0, HEADER_H), (W, HEADER_H + 5)], fill=ACCENT)
+    draw.rectangle([(0, H - FOOTER_H - 5), (W, H - FOOTER_H)], fill=ACCENT)
 
     FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
     try:
-        font_vs   = ImageFont.truetype(FONT_BOLD, 160)
+        font_vs = ImageFont.truetype(FONT_BOLD, 160)
         font_time = ImageFont.truetype(FONT_BOLD, 100)
         font_team = ImageFont.truetype(FONT_BOLD, 58)
     except Exception:
@@ -254,29 +264,26 @@ def make_thumbnail(match, match_id_safe):
 
     content_top = HEADER_H + 5
     content_bot = H - FOOTER_H - 5
-    content_h   = content_bot - content_top
+    content_h = content_bot - content_top
 
     logo_size, name_h, time_h = 360, 120, 110
     gap_ln, gap_nt = 40, 60
     total_h = logo_size + gap_ln + name_h + gap_nt + time_h
     block_top = content_top + (content_h - total_h) // 2
 
-    logo_y       = block_top
+    logo_y = block_top
     name_block_y = logo_y + logo_size + gap_ln
-    name_center  = name_block_y + name_h // 2
-    time_y       = name_block_y + name_h + gap_nt + time_h // 2
+    name_center = name_block_y + name_h // 2
+    time_y = name_block_y + name_h + gap_nt + time_h // 2
 
     def draw_team_name(text, cx):
         max_w = W // 2 - 60
         fs = 58
         f = font_team
         while fs >= 28:
-            try:
-                f = ImageFont.truetype(FONT_BOLD, fs)
-            except Exception:
-                f = ImageFont.load_default()
-            if draw.textbbox((0, 0), text, font=f)[2] <= max_w:
-                break
+            try: f = ImageFont.truetype(FONT_BOLD, fs)
+            except Exception: f = ImageFont.load_default()
+            if draw.textbbox((0, 0), text, font=f)[2] <= max_w: break
             fs -= 3
         draw.text((cx, name_center), text, fill=(20, 20, 20), font=f, anchor="mm")
 
@@ -289,15 +296,11 @@ def make_thumbnail(match, match_id_safe):
                     r = img.resize((logo_size, logo_size), Image.LANCZOS)
                     x = cx - logo_size // 2
                     bg.paste(r, (x, logo_y), r)
-                except Exception:
-                    pass
+                except Exception: pass
 
     draw.text((W // 2, logo_y + logo_size // 2), "VS", fill=ACCENT, font=font_vs, anchor="mm")
-
-    if match.get("team_a"):
-        draw_team_name(match["team_a"], W // 4)
-    if match.get("team_b"):
-        draw_team_name(match["team_b"], W * 3 // 4)
+    if match.get("team_a"): draw_team_name(match["team_a"], W // 4)
+    if match.get("team_b"): draw_team_name(match["team_b"], W * 3 // 4)
 
     time_fmt = match.get("time", "")
     date_fmt = match.get("date", "")
@@ -306,27 +309,21 @@ def make_thumbnail(match, match_id_safe):
         fs = 100
         f_t = font_time
         while fs >= 40:
-            try:
-                f_t = ImageFont.truetype(FONT_BOLD, fs)
-            except Exception:
-                f_t = ImageFont.load_default()
-            if draw.textbbox((0, 0), td, font=f_t)[2] <= W - 100:
-                break
+            try: f_t = ImageFont.truetype(FONT_BOLD, fs)
+            except Exception: f_t = ImageFont.load_default()
+            if draw.textbbox((0, 0), td, font=f_t)[2] <= W - 100: break
             fs -= 4
         draw.text((W // 2 + 4, time_y + 4), td, fill=ACCENT, font=f_t, anchor="mm")
-        draw.text((W // 2, time_y),         td, fill=(15, 15, 15), font=f_t, anchor="mm")
+        draw.text((W // 2, time_y), td, fill=(15, 15, 15), font=f_t, anchor="mm")
 
     if match.get("league"):
         lt = match["league"].upper()
         fs = 62
         f = None
         while fs >= 28:
-            try:
-                f = ImageFont.truetype(FONT_BOLD, fs)
-            except Exception:
-                f = ImageFont.load_default()
-            if draw.textbbox((0, 0), lt, font=f)[2] <= W - 60:
-                break
+            try: f = ImageFont.truetype(FONT_BOLD, fs)
+            except Exception: f = ImageFont.load_default()
+            if draw.textbbox((0, 0), lt, font=f)[2] <= W - 60: break
             fs -= 3
         draw.text((W // 2, HEADER_H // 2), lt, fill=(255, 255, 255), font=f, anchor="mm")
 
@@ -334,21 +331,17 @@ def make_thumbnail(match, match_id_safe):
     bg.save(out_path, "PNG", optimize=True)
     return out_path
 
-
 def cleanup_old_thumbs(days=3):
-    if not os.path.exists(THUMBS_DIR):
-        return
+    if not os.path.exists(THUMBS_DIR): return
     cutoff = now_vn() - timedelta(days=days)
     for fname in os.listdir(THUMBS_DIR):
-        if not fname.endswith(".png"):
-            continue
+        if not fname.endswith(".png"): continue
         m = re.search(r'_(\d{8})\.png$', fname)
         if m:
             try:
                 if datetime.strptime(m.group(1), "%Y%m%d").replace(tzinfo=VN_TZ) < cutoff:
                     os.remove(os.path.join(THUMBS_DIR, fname))
-            except Exception:
-                pass
+            except Exception: pass
 
 # ─────────────────────────────────────────────────────────────────────────────
 # GROUP MATCHES
@@ -357,43 +350,36 @@ def cleanup_old_thumbs(days=3):
 def get_grouped_matches():
     all_matches = []
     
-    # 1. Parse homepage (Trận tâm điểm, LIVE)
+    # 1. Thử lấy từ HTML (Nuxt SSR)
     home_matches = fetch_matches_from_html(f"{BASE_URL}/")
-    if home_matches:
-        all_matches.extend(home_matches)
-        print(f"  HTML(home): {len(home_matches)} tran")
+    if home_matches: all_matches.extend(home_matches)
         
-    # 2. Parse schedule page (Lịch trực tiếp)
     sched_matches = fetch_matches_from_html(f"{BASE_URL}/lich-truc-tiep")
     if sched_matches:
         existing = {m.get("id") for m in all_matches}
-        added = 0
         for m in sched_matches:
             if m.get("id") not in existing:
                 all_matches.append(m)
                 existing.add(m.get("id"))
-                added += 1
-        if added:
-            print(f"  HTML(schedule): +{added} tran")
-            
-    # 3. Parse scores page (Tỷ số)
+                
     score_matches = fetch_matches_from_html(f"{BASE_URL}/ty-so")
     if score_matches:
         existing = {m.get("id") for m in all_matches}
-        added = 0
         for m in score_matches:
             if m.get("id") not in existing:
                 all_matches.append(m)
                 existing.add(m.get("id"))
-                added += 1
-        if added:
-            print(f"  HTML(scores): +{added} tran")
+
+    # 2. Nếu HTML rỗng (do lỗi 403, 503 hoặc web chuyển sang CSR), fallback gọi API
+    if not all_matches:
+        print("  -> HTML khong co tran, chuyen sang goi API fallback...")
+        api_matches = fetch_matches_from_api_fallback()
+        if api_matches:
+            all_matches.extend(api_matches)
 
     print(f"  Tong tran goc: {len(all_matches)}")
-    if not all_matches:
-        return {}
+    if not all_matches: return {}
 
-    # Deduplicate
     seen, unique = set(), []
     for m in all_matches:
         mid = m.get("id")
@@ -404,82 +390,68 @@ def get_grouped_matches():
     grouped = {}
     for item in unique:
         match_id = str(item.get("id", ""))
-        slug     = item.get("slug", "")
-        status   = item.get("status", "")
+        slug = item.get("slug", "")
+        status = item.get("status", "")
 
-        if not match_id or status == "finished":
-            continue
+        if not match_id or status == "finished": continue
 
         is_live = status in ("live", "half_time")
         sport_slug = item.get("sport_slug", "football")
-        if sport_slug not in CATE_MAP:
-            sport_slug = "football"
+        if sport_slug not in CATE_MAP: sport_slug = "football"
 
         team_a = (item.get("home_team_name") or "").strip()
         team_b = (item.get("away_team_name") or "").strip()
-        if not team_a or not team_b:
-            continue
+        if not team_a or not team_b: continue
 
         start_str = item.get("start_time", "")
-        start_dt  = parse_start_time(start_str)
+        start_dt = parse_start_time(start_str)
 
-        if not is_live and not is_within_24h(start_str):
-            continue
-        if item.get("requires_token", False):
-            continue
+        if not is_live and not is_within_24h(start_str): continue
+        if item.get("requires_token", False): continue
 
-        # ── Lấy commentators + stream URLs ──
         commentators = item.get("commentators") or []
         if not commentators and slug:
             detail = fetch_match_detail(slug)
-            if detail:
-                commentators = detail.get("commentators") or []
+            if detail: commentators = detail.get("commentators") or []
 
         blvs_dict = {}
         for c in commentators:
-            if not isinstance(c, dict):
-                continue
+            if not isinstance(c, dict): continue
             cname = c.get("name") or "BLV"
-            urls  = []
+            urls = []
             for k in ("stream_url", "backup_stream_url", "flv_stream_url"):
                 v = c.get(k, "")
                 if v and isinstance(v, str) and v.startswith("http"):
-                    if v not in urls:
-                        urls.append(v)
+                    if v not in urls: urls.append(v)
             if urls:
                 blvs_dict.setdefault(cname, [])
                 for u in urls:
-                    if u not in blvs_dict[cname]:
-                        blvs_dict[cname].append(u)
+                    if u not in blvs_dict[cname]: blvs_dict[cname].append(u)
 
-        # Match-level primary_stream_url (nếu có)
         primary = item.get("primary_stream_url", "")
         if primary and isinstance(primary, str) and primary.startswith("http"):
             blvs_dict.setdefault("Server", [])
-            if primary not in blvs_dict["Server"]:
-                blvs_dict["Server"].append(primary)
+            if primary not in blvs_dict["Server"]: blvs_dict["Server"].append(primary)
 
-        if not blvs_dict:
-            continue
+        if not blvs_dict: continue
 
         grouped[match_id] = {
-            "match_id":   match_id,
-            "cate_type":  sport_slug,
-            "name":       f"{team_a} vs {team_b}",
-            "time":       format_time_hhmm(start_dt),
-            "date":       format_date_ddmm(start_dt),
-            "time_sort":  parse_time_sort(start_str),
-            "team_a":     team_a,
-            "team_b":     team_b,
-            "logo_a":     full_url(item.get("home_team_logo", "")),
-            "logo_b":     full_url(item.get("away_team_logo", "")),
-            "league":     item.get("tournament_name", ""),
-            "is_live":    is_live,
-            "blvs_dict":  blvs_dict,
-            "status":     status,
+            "match_id": match_id,
+            "cate_type": sport_slug,
+            "name": f"{team_a} vs {team_b}",
+            "time": format_time_hhmm(start_dt),
+            "date": format_date_ddmm(start_dt),
+            "time_sort": parse_time_sort(start_str),
+            "team_a": team_a,
+            "team_b": team_b,
+            "logo_a": full_url(item.get("home_team_logo", "")),
+            "logo_b": full_url(item.get("away_team_logo", "")),
+            "league": item.get("tournament_name", ""),
+            "is_live": is_live,
+            "blvs_dict": blvs_dict,
+            "status": status,
             "home_score": item.get("home_score", 0),
             "away_score": item.get("away_score", 0),
-            "is_hot":     item.get("is_hot", False),
         }
 
     return grouped
@@ -489,61 +461,61 @@ def get_grouped_matches():
 # ─────────────────────────────────────────────────────────────────────────────
 
 def build_channel(match, match_id_safe, thumb_url=""):
-    uid    = make_id(match_id_safe, "ph")
+    uid = make_id(match_id_safe, "ph")
     src_id = make_id(match_id_safe, "src")
-    ct_id  = make_id(match_id_safe, "ct")
-    st_id  = make_id(match_id_safe, "st")
+    ct_id = make_id(match_id_safe, "ct")
+    st_id = make_id(match_id_safe, "st")
 
     stream_links = []
     for blv_name, urls in match["blvs_dict"].items():
         for idx, s_url in enumerate(urls):
             stream_links.append({
-                "id":      make_id(s_url + str(idx), "lnk"),
-                "name":    f"{blv_name} {idx + 1}" if len(urls) > 1 else blv_name,
-                "type":    get_stream_type(s_url),
+                "id": make_id(s_url + str(idx), "lnk"),
+                "name": f"{blv_name} {idx + 1}" if len(urls) > 1 else blv_name,
+                "type": get_stream_type(s_url),
                 "default": len(stream_links) == 0,
-                "url":     s_url,
+                "url": s_url,
                 "request_headers": [
-                    {"key": "Referer",     "value": f"{BASE_URL}/"},
-                    {"key": "User-Agent",  "value": HEADERS["User-Agent"]},
-                    {"key": "Origin",      "value": BASE_URL},
+                    {"key": "Referer", "value": f"{BASE_URL}/"},
+                    {"key": "User-Agent", "value": HEADERS["User-Agent"]},
+                    {"key": "Origin", "value": BASE_URL},
                 ],
             })
 
-    label_text  = "● LIVE" if match["is_live"] else "🕐 Sắp"
+    label_text = "● LIVE" if match["is_live"] else "🕐 Sắp"
     label_color = "#ff4444" if match["is_live"] else "#aaaaaa"
 
     t, d = match.get("time", ""), match.get("date", "")
     display = f"{match['name']} | {t} {d}" if t and d else (f"{match['name']} | {t}" if t else match["name"])
 
     channel = {
-        "id":            uid,
-        "name":          display,
-        "type":          "single",
-        "display":       "thumbnail-only",
+        "id": uid,
+        "name": display,
+        "type": "single",
+        "display": "thumbnail-only",
         "enable_detail": False,
-        "labels":        [{"text": label_text, "position": "top-left", "color": "#00000080", "text_color": label_color}],
+        "labels": [{"text": label_text, "position": "top-left", "color": "#00000080", "text_color": label_color}],
         "sources": [{
-            "id":   src_id,
+            "id": src_id,
             "name": "PhaohoaTV",
             "contents": [{
-                "id":      ct_id,
-                "name":    match["name"],
+                "id": ct_id,
+                "name": match["name"],
                 "streams": [{"id": st_id, "name": "PH", "stream_links": stream_links}],
             }],
         }],
         "org_metadata": {
-            "league":     match.get("league", ""),
-            "team_a":     match.get("team_a", ""),
-            "team_b":     match.get("team_b", ""),
-            "logo_a":     match.get("logo_a", ""),
-            "logo_b":     match.get("logo_b", ""),
-            "time":       match.get("time", ""),
-            "date":       match.get("date", ""),
-            "blv":        ", ".join(match["blvs_dict"].keys()),
-            "is_live":    match["is_live"],
-            "cate_type":  match.get("cate_type", ""),
-            "status":     match.get("status", ""),
+            "league": match.get("league", ""),
+            "team_a": match.get("team_a", ""),
+            "team_b": match.get("team_b", ""),
+            "logo_a": match.get("logo_a", ""),
+            "logo_b": match.get("logo_b", ""),
+            "time": match.get("time", ""),
+            "date": match.get("date", ""),
+            "blv": ", ".join(match["blvs_dict"].keys()),
+            "is_live": match["is_live"],
+            "cate_type": match.get("cate_type", ""),
+            "status": match.get("status", ""),
             "home_score": match.get("home_score", 0),
             "away_score": match.get("away_score", 0),
         },
@@ -593,8 +565,7 @@ def main():
     groups = []
     for ct in CATE_ORDER:
         chs = cate_channels.get(ct, [])
-        if not chs:
-            continue
+        if not chs: continue
         label = CATE_MAP.get(ct, "🏅 Thể Thao")
         lc = sum(1 for c in chs if c.get("org_metadata", {}).get("is_live", False))
         name = f"{label} ({lc} LIVE)" if lc > 0 else label
@@ -612,8 +583,8 @@ def main():
             })
 
     output = {
-        "id":   "phaohoa",
-        "url":  BASE_URL,
+        "id": "phaohoa",
+        "url": BASE_URL,
         "name": "PhaohoaTV",
         "color": "#dc1e28",
         "grid_number": 3,
@@ -631,8 +602,7 @@ def main():
         try:
             with open(p, encoding="utf-8") as f:
                 return json.dumps(json.load(f), sort_keys=True, ensure_ascii=False)
-        except Exception:
-            return ""
+        except Exception: return ""
 
     if norm("output.json") != norm(staging):
         os.replace(staging, "output.json")
