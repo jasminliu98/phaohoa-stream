@@ -11,11 +11,90 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-eb2b32ca42",
+          "name": "Indonesia vs Việt Nam | 20:30 03/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb2b32ca42",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-eb2b32ca42",
+                  "name": "Indonesia vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-eb2b32ca42",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Dế Lửa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship",
+            "team_a": "Indonesia",
+            "team_b": "Việt Nam",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_484.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_479.jpg",
+            "time": "20:30",
+            "date": "03/08",
+            "blv": "Dế Lửa",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58461_9df16f1f_20260803.png?v=9df16f1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-7f097541f4",
           "name": "Indonesia vs Việt Nam | 20:30 03/08",
@@ -91,85 +170,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61269_9df16f1f_20260803.png?v=9df16f1f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-eb2b32ca42",
-          "name": "Indonesia vs Việt Nam | 20:30 03/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb2b32ca42",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-eb2b32ca42",
-                  "name": "Indonesia vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-eb2b32ca42",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Dế Lửa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship",
-            "team_a": "Indonesia",
-            "team_b": "Việt Nam",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_484.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_479.jpg",
-            "time": "20:30",
-            "date": "03/08",
-            "blv": "Dế Lửa",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58461_9df16f1f_20260803.png?v=9df16f1f",
             "width": 1600,
             "height": 1200
           }
