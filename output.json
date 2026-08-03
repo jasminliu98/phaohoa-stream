@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -90,7 +90,165 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58492_c2674d86_20260803.png?v=c2674d86",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58492_c2674d86_20260804.png?v=c2674d86",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-8075174964",
+          "name": "Djurgarden vs Vasteras SK | 00:00 04/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8075174964",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-8075174964",
+                  "name": "Djurgarden vs Vasteras SK",
+                  "streams": [
+                    {
+                      "id": "st-8075174964",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Allsvenskan",
+            "team_a": "Djurgarden",
+            "team_b": "Vasteras SK",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_189.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7341.jpg",
+            "time": "00:00",
+            "date": "04/08",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58558_46c89b8e_20260804.png?v=46c89b8e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-dde13d18f8",
+          "name": "Halmstad vs Sirius | 00:00 04/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dde13d18f8",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-dde13d18f8",
+                  "name": "Halmstad vs Sirius",
+                  "streams": [
+                    {
+                      "id": "st-dde13d18f8",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Allsvenskan",
+            "team_a": "Halmstad",
+            "team_b": "Sirius",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7344.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7357.jpg",
+            "time": "00:00",
+            "date": "04/08",
+            "blv": "Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58559_169e8968_20260804.png?v=169e8968",
             "width": 1600,
             "height": 1200
           }
@@ -169,165 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58572_255586f5_20260803.png?v=255586f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-8075174964",
-          "name": "Djurgarden vs Vasteras SK | 00:00 04/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8075174964",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-8075174964",
-                  "name": "Djurgarden vs Vasteras SK",
-                  "streams": [
-                    {
-                      "id": "st-8075174964",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "Djurgarden",
-            "team_b": "Vasteras SK",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_189.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7341.jpg",
-            "time": "00:00",
-            "date": "04/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58558_46c89b8e_20260803.png?v=46c89b8e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-dde13d18f8",
-          "name": "Halmstad vs Sirius | 00:00 04/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dde13d18f8",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-dde13d18f8",
-                  "name": "Halmstad vs Sirius",
-                  "streams": [
-                    {
-                      "id": "st-dde13d18f8",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "Halmstad",
-            "team_b": "Sirius",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7344.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7357.jpg",
-            "time": "00:00",
-            "date": "04/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58559_169e8968_20260803.png?v=169e8968",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58572_255586f5_20260804.png?v=255586f5",
             "width": 1600,
             "height": 1200
           }
@@ -406,7 +406,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58580_d797cc05_20260803.png?v=d797cc05",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58580_d797cc05_20260804.png?v=d797cc05",
             "width": 1600,
             "height": 1200
           }
@@ -485,7 +485,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58613_a3e59866_20260803.png?v=a3e59866",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58613_a3e59866_20260804.png?v=a3e59866",
             "width": 1600,
             "height": 1200
           }
@@ -564,7 +564,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58614_6c8eecbd_20260803.png?v=6c8eecbd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58614_6c8eecbd_20260804.png?v=6c8eecbd",
             "width": 1600,
             "height": 1200
           }
@@ -643,7 +643,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58623_7ee60b0e_20260803.png?v=7ee60b0e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58623_7ee60b0e_20260804.png?v=7ee60b0e",
             "width": 1600,
             "height": 1200
           }
@@ -722,7 +722,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58635_b03c8a3c_20260803.png?v=b03c8a3c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58635_b03c8a3c_20260804.png?v=b03c8a3c",
             "width": 1600,
             "height": 1200
           }
@@ -801,7 +801,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58933_97d432f3_20260803.png?v=97d432f3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58933_97d432f3_20260804.png?v=97d432f3",
             "width": 1600,
             "height": 1200
           }
@@ -880,7 +880,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59138_07e113db_20260803.png?v=07e113db",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59138_07e113db_20260804.png?v=07e113db",
             "width": 1600,
             "height": 1200
           }
@@ -959,7 +959,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58971_ca4fbf38_20260803.png?v=ca4fbf38",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58971_ca4fbf38_20260804.png?v=ca4fbf38",
             "width": 1600,
             "height": 1200
           }
@@ -1038,7 +1038,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59137_2666407f_20260803.png?v=2666407f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59137_2666407f_20260804.png?v=2666407f",
             "width": 1600,
             "height": 1200
           }
@@ -1117,7 +1117,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58726_7ed54e1b_20260803.png?v=7ed54e1b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58726_7ed54e1b_20260804.png?v=7ed54e1b",
             "width": 1600,
             "height": 1200
           }
@@ -1196,7 +1196,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58727_c51cca03_20260803.png?v=c51cca03",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58727_c51cca03_20260804.png?v=c51cca03",
             "width": 1600,
             "height": 1200
           }
@@ -1275,7 +1275,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58728_3d38cd1a_20260803.png?v=3d38cd1a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58728_3d38cd1a_20260804.png?v=3d38cd1a",
             "width": 1600,
             "height": 1200
           }
