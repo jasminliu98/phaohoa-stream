@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-4d93a08e9b",
-          "name": "Cambodia vs Timor-Leste | 17:30 03/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d93a08e9b",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-4d93a08e9b",
-                  "name": "Cambodia vs Timor-Leste",
-                  "streams": [
-                    {
-                      "id": "st-4d93a08e9b",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship",
-            "team_a": "Cambodia",
-            "team_b": "Timor-Leste",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_358.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_2rRVLbr.jpg",
-            "time": "17:30",
-            "date": "03/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58453_3f95a04b_20260803.png?v=3f95a04b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-eb2b32ca42",
           "name": "Indonesia vs Việt Nam | 20:30 03/08",
