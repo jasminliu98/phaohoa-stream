@@ -1200,6 +1200,401 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-3156e1ab31",
+          "name": "Brann vs Apollon | 00:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3156e1ab31",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-3156e1ab31",
+                  "name": "Brann vs Apollon",
+                  "streams": [
+                    {
+                      "id": "st-3156e1ab31",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Conference League",
+            "team_a": "Brann",
+            "team_b": "Apollon",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5608.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_179.jpg",
+            "time": "00:00",
+            "date": "06/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59177_6b31e3b1_20260804.png?v=6b31e3b1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-b8e49c3941",
+          "name": "Fenerbahce vs Sturm Graz | 01:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8e49c3941",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b8e49c3941",
+                  "name": "Fenerbahce vs Sturm Graz",
+                  "streams": [
+                    {
+                      "id": "st-b8e49c3941",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Fenerbahce",
+            "team_b": "Sturm Graz",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7694.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1236.jpg",
+            "time": "01:00",
+            "date": "06/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59136_cb3c2979_20260804.png?v=cb3c2979",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f78dc844a4",
+          "name": "Ferencvaros vs Gornik Zabrze | 01:15 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f78dc844a4",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f78dc844a4",
+                  "name": "Ferencvaros vs Gornik Zabrze",
+                  "streams": [
+                    {
+                      "id": "st-f78dc844a4",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Ferencvaros",
+            "team_b": "Gornik Zabrze",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_99.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5765.jpg",
+            "time": "01:15",
+            "date": "06/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59401_bc174560_20260804.png?v=bc174560",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-73b1e41dfb",
+          "name": "Arsenal vs Real Betis | 01:30 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73b1e41dfb",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-73b1e41dfb",
+                  "name": "Arsenal vs Real Betis",
+                  "streams": [
+                    {
+                      "id": "st-73b1e41dfb",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Ken",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Arsenal",
+            "team_b": "Real Betis",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_141.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7261.jpg",
+            "time": "01:30",
+            "date": "06/08",
+            "blv": "Ken",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59011_9c2824b7_20260804.png?v=9c2824b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1a13007220",
+          "name": "Mallorca vs PSG | 02:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a13007220",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1a13007220",
+                  "name": "Mallorca vs PSG",
+                  "streams": [
+                    {
+                      "id": "st-1a13007220",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Mallorca",
+            "team_b": "PSG",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7285.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_100.jpg",
+            "time": "02:00",
+            "date": "06/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58997_a85e74a6_20260804.png?v=a85e74a6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
