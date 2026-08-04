@@ -491,85 +491,6 @@
           }
         },
         {
-          "id": "ph-f9e1b74986",
-          "name": "Aarhus vs Sabah Baku | 00:00 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9e1b74986",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-f9e1b74986",
-                  "name": "Aarhus vs Sabah Baku",
-                  "streams": [
-                    {
-                      "id": "st-f9e1b74986",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Aarhus",
-            "team_b": "Sabah Baku",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_250.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1305.jpg",
-            "time": "00:00",
-            "date": "05/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59135_2d496750_20260804.png?v=2d496750",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-39cabf35fa",
           "name": "Levski Sofia vs Kairat Almaty | 00:30 05/08",
           "type": "single",
@@ -1276,6 +1197,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/58855_b149dd26_20260804.png?v=b149dd26",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f9e1b74986",
+          "name": "Aarhus vs Sabah Baku | 23:30 05/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9e1b74986",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f9e1b74986",
+                  "name": "Aarhus vs Sabah Baku",
+                  "streams": [
+                    {
+                      "id": "st-f9e1b74986",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Aarhus",
+            "team_b": "Sabah Baku",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_250.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1305.jpg",
+            "time": "23:30",
+            "date": "05/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59135_2d496750_20260804.png?v=2d496750",
             "width": 1600,
             "height": 1200
           }
