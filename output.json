@@ -360,11 +360,11 @@
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -395,7 +395,7 @@
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_116.jpg",
             "time": "23:00",
             "date": "04/08",
-            "blv": "Chim Nhỏ",
+            "blv": "Văn Minh",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -570,8 +570,8 @@
           }
         },
         {
-          "id": "ph-bf190332af",
-          "name": "H. Beer Sheva vs Crvena zvezda | 00:30 05/08",
+          "id": "ph-92d086778e",
+          "name": "Olympiacos Piraeus vs Nijmegen | 01:00 05/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -585,15 +585,15 @@
           ],
           "sources": [
             {
-              "id": "src-bf190332af",
+              "id": "src-92d086778e",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-bf190332af",
-                  "name": "H. Beer Sheva vs Crvena zvezda",
+                  "id": "ct-92d086778e",
+                  "name": "Olympiacos Piraeus vs Nijmegen",
                   "streams": [
                     {
-                      "id": "st-bf190332af",
+                      "id": "st-92d086778e",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
@@ -626,92 +626,13 @@
           ],
           "org_metadata": {
             "league": "UEFA Champions League",
-            "team_a": "H. Beer Sheva",
-            "team_b": "Crvena zvezda",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_144.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_112.jpg",
-            "time": "00:30",
-            "date": "05/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59137_2666407f_20260804.png?v=2666407f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-92d086778e",
-          "name": "Olympiacos Piraeus vs Nijmegen | 01:00 05/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-92d086778e",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-92d086778e",
-                  "name": "Olympiacos Piraeus vs Nijmegen",
-                  "streams": [
-                    {
-                      "id": "st-92d086778e",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
             "team_a": "Olympiacos Piraeus",
             "team_b": "Nijmegen",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_82.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_5466.jpg",
             "time": "01:00",
             "date": "05/08",
-            "blv": "Chim Nhỏ",
+            "blv": "Pháo Thủ",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -913,11 +834,11 @@
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -948,7 +869,7 @@
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_79.jpg",
             "time": "17:00",
             "date": "05/08",
-            "blv": "Chim Nhỏ",
+            "blv": "Pháo Thủ",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -1150,11 +1071,11 @@
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1185,7 +1106,7 @@
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_6265.jpg",
             "time": "22:30",
             "date": "05/08",
-            "blv": "Pháo Thủ",
+            "blv": "KaKa",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
