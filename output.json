@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-b8e49c3941",
-          "name": "Fenerbahce vs Sturm Graz | 01:00 06/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8e49c3941",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-b8e49c3941",
-                  "name": "Fenerbahce vs Sturm Graz",
-                  "streams": [
-                    {
-                      "id": "st-b8e49c3941",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Fenerbahce",
-            "team_b": "Sturm Graz",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7694.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1236.jpg",
-            "time": "01:00",
-            "date": "06/08",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59136_cb3c2979_20260806.png?v=cb3c2979",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-f78dc844a4",
           "name": "Ferencvaros vs Gornik Zabrze | 01:15 06/08",
