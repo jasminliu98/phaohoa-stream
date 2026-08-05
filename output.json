@@ -805,6 +805,322 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-878aef337a",
+          "name": "Sogdiana vs Andijan | 21:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-878aef337a",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-878aef337a",
+                  "name": "Sogdiana vs Andijan",
+                  "streams": [
+                    {
+                      "id": "st-878aef337a",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Sogdiana",
+            "team_b": "Andijan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7993.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_8000.jpg",
+            "time": "21:00",
+            "date": "06/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59083_8d741f96_20260805.png?v=8d741f96",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-aa4c275fba",
+          "name": "KuPS vs Univ. Craiova | 22:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa4c275fba",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-aa4c275fba",
+                  "name": "KuPS vs Univ. Craiova",
+                  "streams": [
+                    {
+                      "id": "st-aa4c275fba",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "KuPS",
+            "team_b": "Univ. Craiova",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_180.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6187.jpg",
+            "time": "22:00",
+            "date": "06/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59169_1016c71a_20260805.png?v=1016c71a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-b81071b8d0",
+          "name": "Jagiellonia vs Rangers | 23:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b81071b8d0",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b81071b8d0",
+                  "name": "Jagiellonia vs Rangers",
+                  "streams": [
+                    {
+                      "id": "st-b81071b8d0",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Jagiellonia",
+            "team_b": "Rangers",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5770.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_146.jpg",
+            "time": "23:00",
+            "date": "06/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59205_b367c9c6_20260805.png?v=b367c9c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-4456aec990",
+          "name": "Maccabi Tel Aviv vs CSKA Sofia | 23:00 06/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4456aec990",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-4456aec990",
+                  "name": "Maccabi Tel Aviv vs CSKA Sofia",
+                  "streams": [
+                    {
+                      "id": "st-4456aec990",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Maccabi Tel Aviv",
+            "team_b": "CSKA Sofia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_105.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_140.jpg",
+            "time": "23:00",
+            "date": "06/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59402_c37b5631_20260805.png?v=c37b5631",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
