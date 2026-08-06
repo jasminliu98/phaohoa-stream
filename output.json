@@ -1044,85 +1044,6 @@
           }
         },
         {
-          "id": "ph-b73aff8e3b",
-          "name": "Việt Nam vs Cambodia | 20:00 07/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b73aff8e3b",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-b73aff8e3b",
-                  "name": "Việt Nam vs Cambodia",
-                  "streams": [
-                    {
-                      "id": "st-b73aff8e3b",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Dế Lửa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship",
-            "team_a": "Việt Nam",
-            "team_b": "Cambodia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_479.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_358.jpg",
-            "time": "20:00",
-            "date": "07/08",
-            "blv": "Dế Lửa",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59272_ba290f11_20260806.png?v=ba290f11",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-6dac3e26c4",
           "name": "Việt Nam vs Cambodia | 20:00 07/08",
           "type": "single",
@@ -1513,6 +1434,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59478_4d8fbeff_20260806.png?v=4d8fbeff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-70d81e6c9e",
+          "name": "Sonderjyske vs Viborg | 00:00 08/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70d81e6c9e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-70d81e6c9e",
+                  "name": "Sonderjyske vs Viborg",
+                  "streams": [
+                    {
+                      "id": "st-70d81e6c9e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superliga",
+            "team_a": "Sonderjyske",
+            "team_b": "Viborg",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_183.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2727.jpg",
+            "time": "00:00",
+            "date": "08/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59504_79d5efa7_20260806.png?v=79d5efa7",
             "width": 1600,
             "height": 1200
           }
