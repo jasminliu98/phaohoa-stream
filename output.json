@@ -82,7 +82,7 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 1
           },
@@ -1042,49 +1042,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-6d553dcfbd",
-          "name": "Serbia vs Nga | 23:55 07/08",
+          "id": "ph-554f84922e",
+          "name": "Ferencvaros vs Real Madrid | 00:00 09/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-6d553dcfbd",
+              "id": "src-554f84922e",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-6d553dcfbd",
-                  "name": "Serbia vs Nga",
+                  "id": "ct-554f84922e",
+                  "name": "Ferencvaros vs Real Madrid",
                   "streams": [
                     {
-                      "id": "st-6d553dcfbd",
+                      "id": "st-554f84922e",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-95e438c878",
+                          "name": "Ken",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1108,17 +1099,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Serbia",
-            "team_b": "Nga",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_HVc2T0n.jpg",
-            "time": "23:55",
-            "date": "07/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Club Friendlies",
+            "team_a": "Ferencvaros",
+            "team_b": "Real Madrid",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_99.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_76.jpg",
+            "time": "00:00",
+            "date": "09/08",
+            "blv": "Ken",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1126,11 +1117,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62352_ce9c9069_20260808.png?v=ce9c9069",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60619_d69557dd_20260808.png?v=d69557dd",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-f4339771e5",
           "name": "Việt Nam vs Philippines | 13:00 08/08",
