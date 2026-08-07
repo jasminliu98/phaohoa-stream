@@ -11,248 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-70d81e6c9e",
-          "name": "Sonderjyske vs Viborg | 00:00 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-70d81e6c9e",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-70d81e6c9e",
-                  "name": "Sonderjyske vs Viborg",
-                  "streams": [
-                    {
-                      "id": "st-70d81e6c9e",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superliga",
-            "team_a": "Sonderjyske",
-            "team_b": "Viborg",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_183.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2727.jpg",
-            "time": "00:00",
-            "date": "08/08",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59504_79d5efa7_20260808.png?v=79d5efa7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-7ac5315511",
-          "name": "Altach vs Tirol | 00:30 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7ac5315511",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-7ac5315511",
-                  "name": "Altach vs Tirol",
-                  "streams": [
-                    {
-                      "id": "st-7ac5315511",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Altach",
-            "team_b": "Tirol",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1238.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1240.jpg",
-            "time": "00:30",
-            "date": "08/08",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59554_7f234fc0_20260808.png?v=7f234fc0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-fcdf47fc00",
-          "name": "Bochum vs Hertha Berlin | 01:30 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcdf47fc00",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-fcdf47fc00",
-                  "name": "Bochum vs Hertha Berlin",
-                  "streams": [
-                    {
-                      "id": "st-fcdf47fc00",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2. Bundesliga",
-            "team_a": "Bochum",
-            "team_b": "Hertha Berlin",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3911.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_4268.jpg",
-            "time": "01:30",
-            "date": "08/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59597_f889a4bf_20260808.png?v=f889a4bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-c5090882eb",
           "name": "Avispa Fukuoka vs Vissel Kobe | 17:00 08/08",
@@ -1042,49 +805,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-6d553dcfbd",
-          "name": "Serbia vs Nga | 23:55 07/08",
+          "id": "ph-190c0a29f9",
+          "name": "St. Liege vs Cercle Brugge KSV | 23:15 08/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-6d553dcfbd",
+              "id": "src-190c0a29f9",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-6d553dcfbd",
-                  "name": "Serbia vs Nga",
+                  "id": "ct-190c0a29f9",
+                  "name": "St. Liege vs Cercle Brugge KSV",
                   "streams": [
                     {
-                      "id": "st-6d553dcfbd",
+                      "id": "st-190c0a29f9",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1108,17 +862,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Serbia",
-            "team_b": "Nga",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_HVc2T0n.jpg",
-            "time": "23:55",
-            "date": "07/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "First Division A",
+            "team_a": "St. Liege",
+            "team_b": "Cercle Brugge KSV",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_148.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1370.jpg",
+            "time": "23:15",
+            "date": "08/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1126,11 +880,415 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62352_ce9c9069_20260808.png?v=ce9c9069",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60532_d6e8d027_20260808.png?v=d6e8d027",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "ph-1a51210905",
+          "name": "Vitoria Guimaraes vs Arouca | 00:00 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1a51210905",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1a51210905",
+                  "name": "Vitoria Guimaraes vs Arouca",
+                  "streams": [
+                    {
+                      "id": "st-1a51210905",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Vitoria Guimaraes",
+            "team_b": "Arouca",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6005.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6009.jpg",
+            "time": "00:00",
+            "date": "09/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60617_09e7b38a_20260808.png?v=09e7b38a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-554f84922e",
+          "name": "Ferencvaros vs Real Madrid | 00:00 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-554f84922e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-554f84922e",
+                  "name": "Ferencvaros vs Real Madrid",
+                  "streams": [
+                    {
+                      "id": "st-554f84922e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Ken",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Ferencvaros",
+            "team_b": "Real Madrid",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_99.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_76.jpg",
+            "time": "00:00",
+            "date": "09/08",
+            "blv": "Ken",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60619_d69557dd_20260808.png?v=d69557dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f32151da76",
+          "name": "Real Betis vs Bournemouth | 01:30 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f32151da76",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f32151da76",
+                  "name": "Real Betis vs Bournemouth",
+                  "streams": [
+                    {
+                      "id": "st-f32151da76",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Real Betis",
+            "team_b": "Bournemouth",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7261.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3071.jpg",
+            "time": "01:30",
+            "date": "09/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60674_6bee4155_20260808.png?v=6bee4155",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-65602dccbf",
+          "name": "Wolfsburg vs Kaiserslautern | 01:30 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65602dccbf",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-65602dccbf",
+                  "name": "Wolfsburg vs Kaiserslautern",
+                  "streams": [
+                    {
+                      "id": "st-65602dccbf",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "Wolfsburg",
+            "team_b": "Kaiserslautern",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_196.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3956.jpg",
+            "time": "01:30",
+            "date": "09/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60685_836a0eda_20260808.png?v=836a0eda",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-c75364d8fb",
+          "name": "Estrela vs Sporting CP | 02:30 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c75364d8fb",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-c75364d8fb",
+                  "name": "Estrela vs Sporting CP",
+                  "streams": [
+                    {
+                      "id": "st-c75364d8fb",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Estrela",
+            "team_b": "Sporting CP",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5946.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_177.jpg",
+            "time": "02:30",
+            "date": "09/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60724_fc41642f_20260808.png?v=fc41642f",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-f4339771e5",
           "name": "Việt Nam vs Philippines | 13:00 08/08",
