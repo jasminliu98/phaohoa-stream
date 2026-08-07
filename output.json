@@ -96,85 +96,6 @@
           }
         },
         {
-          "id": "ph-56085b6a4b",
-          "name": "Yokohama F. Marinos vs Kashima Antlers | 17:25 07/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-56085b6a4b",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-56085b6a4b",
-                  "name": "Yokohama F. Marinos vs Kashima Antlers",
-                  "streams": [
-                    {
-                      "id": "st-56085b6a4b",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Yokohama F. Marinos",
-            "team_b": "Kashima Antlers",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_387.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5053.jpg",
-            "time": "17:25",
-            "date": "07/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59250_8fbbcf09_20260807.png?v=8fbbcf09",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-374f0b04b8",
           "name": "Bayern Munich vs Aston Villa | 19:00 07/08",
           "type": "single",
@@ -1355,6 +1276,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59884_0a15092d_20260807.png?v=0a15092d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-6e05feca3b",
+          "name": "Chelsea vs AC Milan | 19:00 08/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e05feca3b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-6e05feca3b",
+                  "name": "Chelsea vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-6e05feca3b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Chelsea",
+            "team_b": "AC Milan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_88.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_159.jpg",
+            "time": "19:00",
+            "date": "08/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59931_a13e85b7_20260807.png?v=a13e85b7",
             "width": 1600,
             "height": 1200
           }
