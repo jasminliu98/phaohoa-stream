@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -161,7 +161,7 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 1
           },
@@ -254,85 +254,6 @@
           }
         },
         {
-          "id": "ph-85fc0797fc",
-          "name": "Fulham vs Crystal Palace | 00:00 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85fc0797fc",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-85fc0797fc",
-                  "name": "Fulham vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-85fc0797fc",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "Ken",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Club Friendlies",
-            "team_a": "Fulham",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3085.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3429.jpg",
-            "time": "00:00",
-            "date": "08/08",
-            "blv": "Ken",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59519_41a103a6_20260808.png?v=41a103a6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-7ac5315511",
           "name": "Altach vs Tirol | 00:30 08/08",
           "type": "single",
@@ -399,7 +320,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -1039,6 +960,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60051_b608a8a4_20260808.png?v=b608a8a4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-5be4199967",
+          "name": "Thái Lan vs Myanmar | 20:00 08/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5be4199967",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-5be4199967",
+                  "name": "Thái Lan vs Myanmar",
+                  "streams": [
+                    {
+                      "id": "st-5be4199967",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Ken",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship",
+            "team_a": "Thái Lan",
+            "team_b": "Myanmar",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_480.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_345.jpg",
+            "time": "20:00",
+            "date": "08/08",
+            "blv": "Ken",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60052_4e6f69ba_20260808.png?v=4e6f69ba",
             "width": 1600,
             "height": 1200
           }
