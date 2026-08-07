@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -1279,49 +1279,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-a428efa6c2",
-          "name": "Thái Lan vs Philippines | 16:30 07/08",
+          "id": "ph-6e05feca3b",
+          "name": "Chelsea vs AC Milan | 19:00 08/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-a428efa6c2",
+              "id": "src-6e05feca3b",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-a428efa6c2",
-                  "name": "Thái Lan vs Philippines",
+                  "id": "ct-6e05feca3b",
+                  "name": "Chelsea vs AC Milan",
                   "streams": [
                     {
-                      "id": "st-a428efa6c2",
+                      "id": "st-6e05feca3b",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1345,17 +1336,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Sea V Cup",
-            "team_a": "Thái Lan",
-            "team_b": "Philippines",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_Q9mUTFM.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_njudfFz.jpg",
-            "time": "16:30",
-            "date": "07/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Club Friendlies",
+            "team_a": "Chelsea",
+            "team_b": "AC Milan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_88.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_159.jpg",
+            "time": "19:00",
+            "date": "08/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1363,11 +1354,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62280_8b603b09_20260807.png?v=8b603b09",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59931_a13e85b7_20260807.png?v=a13e85b7",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-6d553dcfbd",
           "name": "Serbia vs Nga | 23:55 07/08",
