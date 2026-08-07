@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-374f0b04b8",
-          "name": "Bayern Munich vs Aston Villa | 19:00 07/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-374f0b04b8",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-374f0b04b8",
-                  "name": "Bayern Munich vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-374f0b04b8",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Club Friendlies",
-            "team_a": "Bayern Munich",
-            "team_b": "Aston Villa",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_72.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3088_UHAISAx.jpg",
-            "time": "19:00",
-            "date": "07/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59265_440762cc_20260807.png?v=440762cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-6dac3e26c4",
           "name": "Việt Nam vs Cambodia | 20:00 07/08",
@@ -1118,6 +1039,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59868_bd052347_20260807.png?v=bd052347",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1d28c643f8",
+          "name": "Darmstadt vs Holstein Kiel | 18:00 08/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d28c643f8",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1d28c643f8",
+                  "name": "Darmstadt vs Holstein Kiel",
+                  "streams": [
+                    {
+                      "id": "st-1d28c643f8",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "Darmstadt",
+            "team_b": "Holstein Kiel",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3922.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3914.jpg",
+            "time": "18:00",
+            "date": "08/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59884_0a15092d_20260807.png?v=0a15092d",
             "width": 1600,
             "height": 1200
           }
