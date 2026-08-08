@@ -90,86 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60617_09e7b38a_20260808.png?v=09e7b38a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-eaf75082fc",
-          "name": "Sparta Rotterdam vs Feyenoord | 17:15 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eaf75082fc",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-eaf75082fc",
-                  "name": "Sparta Rotterdam vs Feyenoord",
-                  "streams": [
-                    {
-                      "id": "st-eaf75082fc",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Eredivisie",
-            "team_a": "Sparta Rotterdam",
-            "team_b": "Feyenoord",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5512.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_168.jpg",
-            "time": "17:15",
-            "date": "09/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60929_78f520b0_20260808.png?v=78f520b0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60617_09e7b38a_20260809.png?v=09e7b38a",
             "width": 1600,
             "height": 1200
           }
@@ -182,10 +103,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -238,9 +159,9 @@
             "time": "00:00",
             "date": "09/08",
             "blv": "Ken",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -248,7 +169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60619_d69557dd_20260808.png?v=d69557dd",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60619_d69557dd_20260809.png?v=d69557dd",
             "width": 1600,
             "height": 1200
           }
@@ -327,7 +248,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60685_836a0eda_20260808.png?v=836a0eda",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60685_836a0eda_20260809.png?v=836a0eda",
             "width": 1600,
             "height": 1200
           }
@@ -406,7 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60724_fc41642f_20260808.png?v=fc41642f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60724_fc41642f_20260809.png?v=fc41642f",
             "width": 1600,
             "height": 1200
           }
@@ -485,7 +406,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60842_b3b802fe_20260808.png?v=b3b802fe",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60842_b3b802fe_20260809.png?v=b3b802fe",
             "width": 1600,
             "height": 1200
           }
@@ -564,7 +485,86 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60909_a5750923_20260808.png?v=a5750923",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60909_a5750923_20260809.png?v=a5750923",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-eaf75082fc",
+          "name": "Sparta Rotterdam vs Feyenoord | 17:15 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eaf75082fc",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-eaf75082fc",
+                  "name": "Sparta Rotterdam vs Feyenoord",
+                  "streams": [
+                    {
+                      "id": "st-eaf75082fc",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eredivisie",
+            "team_a": "Sparta Rotterdam",
+            "team_b": "Feyenoord",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5512.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_168.jpg",
+            "time": "17:15",
+            "date": "09/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60929_78f520b0_20260809.png?v=78f520b0",
             "width": 1600,
             "height": 1200
           }
@@ -643,7 +643,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60950_9b9817a3_20260808.png?v=9b9817a3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60950_9b9817a3_20260809.png?v=9b9817a3",
             "width": 1600,
             "height": 1200
           }
@@ -722,7 +722,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60972_4d5bf53f_20260808.png?v=4d5bf53f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60972_4d5bf53f_20260809.png?v=4d5bf53f",
             "width": 1600,
             "height": 1200
           }
@@ -801,7 +801,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61032_098517f1_20260808.png?v=098517f1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61032_098517f1_20260809.png?v=098517f1",
             "width": 1600,
             "height": 1200
           }
@@ -880,7 +880,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61076_4c78493b_20260808.png?v=4c78493b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61076_4c78493b_20260809.png?v=4c78493b",
             "width": 1600,
             "height": 1200
           }
@@ -959,7 +959,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61116_809c8a00_20260808.png?v=809c8a00",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61116_809c8a00_20260809.png?v=809c8a00",
             "width": 1600,
             "height": 1200
           }
@@ -1047,7 +1047,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63700_c0c1f02d_20260808.png?v=c0c1f02d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63700_c0c1f02d_20260809.png?v=c0c1f02d",
             "width": 1600,
             "height": 1200
           }
@@ -1126,7 +1126,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63701_89b98df5_20260808.png?v=89b98df5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63701_89b98df5_20260809.png?v=89b98df5",
             "width": 1600,
             "height": 1200
           }
@@ -1205,7 +1205,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63702_0b0d267c_20260808.png?v=0b0d267c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63702_0b0d267c_20260809.png?v=0b0d267c",
             "width": 1600,
             "height": 1200
           }
