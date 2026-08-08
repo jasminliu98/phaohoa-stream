@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-c5090882eb",
-          "name": "Avispa Fukuoka vs Vissel Kobe | 17:00 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c5090882eb",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-c5090882eb",
-                  "name": "Avispa Fukuoka vs Vissel Kobe",
-                  "streams": [
-                    {
-                      "id": "st-c5090882eb",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Avispa Fukuoka",
-            "team_b": "Vissel Kobe",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5048.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_383.jpg",
-            "time": "17:00",
-            "date": "08/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59821_7892465d_20260808.png?v=7892465d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-71f5a7ba66",
           "name": "Cerezo Osaka vs Okayama | 17:00 08/08",
           "type": "single",
@@ -1276,6 +1197,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60724_fc41642f_20260808.png?v=fc41642f",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "ph-590f713356",
+          "name": "Thái Lan vs Indonesia | 16:30 08/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-590f713356",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-590f713356",
+                  "name": "Thái Lan vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "st-590f713356",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Sea V Cup",
+            "team_a": "Thái Lan",
+            "team_b": "Indonesia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_Q9mUTFM.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_WqmhllM.jpg",
+            "time": "16:30",
+            "date": "08/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63698_54f18fc6_20260808.png?v=54f18fc6",
             "width": 1600,
             "height": 1200
           }
