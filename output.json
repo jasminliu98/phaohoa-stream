@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-71f5a7ba66",
-          "name": "Cerezo Osaka vs Okayama | 17:00 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-71f5a7ba66",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-71f5a7ba66",
-                  "name": "Cerezo Osaka vs Okayama",
-                  "streams": [
-                    {
-                      "id": "st-71f5a7ba66",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Cerezo Osaka",
-            "team_b": "Okayama",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5045.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5084.jpg",
-            "time": "17:00",
-            "date": "08/08",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59822_29c6bc8f_20260808.png?v=29c6bc8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-f4654add86",
-          "name": "FC Tokyo vs Machida | 17:00 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4654add86",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-f4654add86",
-                  "name": "FC Tokyo vs Machida",
-                  "streams": [
-                    {
-                      "id": "st-f4654add86",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "FC Tokyo",
-            "team_b": "Machida",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_380.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5085.jpg",
-            "time": "17:00",
-            "date": "08/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 5
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59823_3dd0f0ec_20260808.png?v=3dd0f0ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-ce1dce480e",
           "name": "Juventus vs Inter | 18:00 08/08",
@@ -328,6 +170,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59884_0a15092d_20260808.png?v=0a15092d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-6e05feca3b",
+          "name": "Chelsea vs AC Milan | 19:00 08/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e05feca3b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-6e05feca3b",
+                  "name": "Chelsea vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-6e05feca3b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Chelsea",
+            "team_b": "AC Milan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_88.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_159.jpg",
+            "time": "19:00",
+            "date": "08/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59931_a13e85b7_20260808.png?v=a13e85b7",
             "width": 1600,
             "height": 1200
           }
@@ -1039,6 +960,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60724_fc41642f_20260808.png?v=fc41642f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-d623611645",
+          "name": "Verdy vs Kawasaki Frontale | 16:00 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d623611645",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-d623611645",
+                  "name": "Verdy vs Kawasaki Frontale",
+                  "streams": [
+                    {
+                      "id": "st-d623611645",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Ken",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Verdy",
+            "team_b": "Kawasaki Frontale",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5088.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_417.jpg",
+            "time": "16:00",
+            "date": "09/08",
+            "blv": "Ken",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60909_a5750923_20260808.png?v=a5750923",
             "width": 1600,
             "height": 1200
           }
