@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "ph-5006cfa37a",
-          "name": "Manchester United vs PSG | 22:00 08/08",
+          "name": "PSG vs Manchester United | 22:00 08/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -37,7 +37,7 @@
               "contents": [
                 {
                   "id": "ct-5006cfa37a",
-                  "name": "Manchester United vs PSG",
+                  "name": "PSG vs Manchester United",
                   "streams": [
                     {
                       "id": "st-5006cfa37a",
@@ -73,10 +73,10 @@
           ],
           "org_metadata": {
             "league": "Club Friendlies",
-            "team_a": "Manchester United",
-            "team_b": "PSG",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_102.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_100.jpg",
+            "team_a": "PSG",
+            "team_b": "Manchester United",
+            "logo_a": "",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_102.jpg",
             "time": "22:00",
             "date": "08/08",
             "blv": "Ken",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60346_5e7e3833_20260808.png?v=5e7e3833",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60346_e0133c9d_20260808.png?v=e0133c9d",
             "width": 1600,
             "height": 1200
           }
@@ -960,85 +960,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61076_4c78493b_20260808.png?v=4c78493b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-af9bfe1963",
-          "name": "Goteborg vs Kalmar | 21:30 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af9bfe1963",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-af9bfe1963",
-                  "name": "Goteborg vs Kalmar",
-                  "streams": [
-                    {
-                      "id": "st-af9bfe1963",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "Goteborg",
-            "team_b": "Kalmar",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_213.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7351.jpg",
-            "time": "21:30",
-            "date": "09/08",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61116_809c8a00_20260808.png?v=809c8a00",
             "width": 1600,
             "height": 1200
           }
