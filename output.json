@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-6e05feca3b",
-          "name": "Chelsea vs AC Milan | 19:00 08/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e05feca3b",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-6e05feca3b",
-                  "name": "Chelsea vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-6e05feca3b",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Club Friendlies",
-            "team_a": "Chelsea",
-            "team_b": "AC Milan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_88.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_159.jpg",
-            "time": "19:00",
-            "date": "08/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59931_a13e85b7_20260808.png?v=a13e85b7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-d773061e2a",
           "name": "Malaysia vs Philippines | 20:00 08/08",
@@ -161,7 +82,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -240,7 +161,7 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -960,6 +881,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60929_78f520b0_20260808.png?v=78f520b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-52f567614a",
+          "name": "Manchester City vs Atl. Madrid | 18:00 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52f567614a",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-52f567614a",
+                  "name": "Manchester City vs Atl. Madrid",
+                  "streams": [
+                    {
+                      "id": "st-52f567614a",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Manchester City",
+            "team_b": "Atl. Madrid",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_80.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_73.jpg",
+            "time": "18:00",
+            "date": "09/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60950_9b9817a3_20260808.png?v=9b9817a3",
             "width": 1600,
             "height": 1200
           }
