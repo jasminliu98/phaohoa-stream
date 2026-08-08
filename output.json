@@ -75,7 +75,7 @@
             "league": "Club Friendlies",
             "team_a": "PSG",
             "team_b": "Manchester United",
-            "logo_a": "",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_100.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_102.jpg",
             "time": "22:00",
             "date": "08/08",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60346_e0133c9d_20260808.png?v=e0133c9d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60346_39e1fe63_20260808.png?v=39e1fe63",
             "width": 1600,
             "height": 1200
           }
