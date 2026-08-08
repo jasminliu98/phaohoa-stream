@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-c75364d8fb",
-          "name": "Estrela vs Sporting CP | 02:30 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c75364d8fb",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-c75364d8fb",
-                  "name": "Estrela vs Sporting CP",
-                  "streams": [
-                    {
-                      "id": "st-c75364d8fb",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Primeira Liga",
-            "team_a": "Estrela",
-            "team_b": "Sporting CP",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5946.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_177.jpg",
-            "time": "02:30",
-            "date": "09/08",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60724_fc41642f_20260809.png?v=fc41642f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-1f3f06e843",
           "name": "Inter Miami vs Monterrey | 07:00 09/08",
@@ -1276,6 +1197,243 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61374_82687018_20260809.png?v=82687018",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-b32ee517e4",
+          "name": "Polissya Zhytomyr vs Metalist 1925 | 19:30 10/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b32ee517e4",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b32ee517e4",
+                  "name": "Polissya Zhytomyr vs Metalist 1925",
+                  "streams": [
+                    {
+                      "id": "st-b32ee517e4",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Polissya Zhytomyr",
+            "team_b": "Metalist 1925",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7780.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7774.jpg",
+            "time": "19:30",
+            "date": "10/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61460_f361a0cc_20260809.png?v=f361a0cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-78d4d488f2",
+          "name": "Karpaty Lviv vs LNZ Cherkasy | 22:00 10/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78d4d488f2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-78d4d488f2",
+                  "name": "Karpaty Lviv vs LNZ Cherkasy",
+                  "streams": [
+                    {
+                      "id": "st-78d4d488f2",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Karpaty Lviv",
+            "team_b": "LNZ Cherkasy",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7820.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_19481.jpg",
+            "time": "22:00",
+            "date": "10/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61474_ba043ad9_20260809.png?v=ba043ad9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-50466b5ff1",
+          "name": "Botev Vratsa vs Slavia Sofia | 23:00 10/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50466b5ff1",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-50466b5ff1",
+                  "name": "Botev Vratsa vs Slavia Sofia",
+                  "streams": [
+                    {
+                      "id": "st-50466b5ff1",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First League",
+            "team_a": "Botev Vratsa",
+            "team_b": "Slavia Sofia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_2169.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2168.jpg",
+            "time": "23:00",
+            "date": "10/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61484_07d3088f_20260809.png?v=07d3088f",
             "width": 1600,
             "height": 1200
           }
