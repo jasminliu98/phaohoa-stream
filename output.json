@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-af9bfe1963",
-          "name": "Goteborg vs Kalmar | 21:30 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af9bfe1963",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-af9bfe1963",
-                  "name": "Goteborg vs Kalmar",
-                  "streams": [
-                    {
-                      "id": "st-af9bfe1963",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "Goteborg",
-            "team_b": "Kalmar",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_213.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7351.jpg",
-            "time": "21:30",
-            "date": "09/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61116_809c8a00_20260809.png?v=809c8a00",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-bbeec3050f",
           "name": "Wolfsberger AC vs Salzburg | 22:00 09/08",
@@ -881,6 +802,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61484_07d3088f_20260809.png?v=07d3088f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-a335f40c23",
+          "name": "Sirius vs Brommapojkarna | 00:00 11/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a335f40c23",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a335f40c23",
+                  "name": "Sirius vs Brommapojkarna",
+                  "streams": [
+                    {
+                      "id": "st-a335f40c23",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Allsvenskan",
+            "team_a": "Sirius",
+            "team_b": "Brommapojkarna",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7357.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7382.jpg",
+            "time": "00:00",
+            "date": "11/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61507_cd26243c_20260809.png?v=cd26243c",
             "width": 1600,
             "height": 1200
           }
