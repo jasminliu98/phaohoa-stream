@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-bbeec3050f",
-          "name": "Wolfsberger AC vs Salzburg | 22:00 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bbeec3050f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-bbeec3050f",
-                  "name": "Wolfsberger AC vs Salzburg",
-                  "streams": [
-                    {
-                      "id": "st-bbeec3050f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Wolfsberger AC",
-            "team_b": "Salzburg",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_167.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_74.jpg",
-            "time": "22:00",
-            "date": "09/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61178_7df00664_20260809.png?v=7df00664",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-d966e072fa",
           "name": "Anderlecht vs RAAL La Louviere | 23:30 09/08",
@@ -169,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61227_b8b95608_20260809.png?v=b8b95608",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61227_b8b95608_20260810.png?v=b8b95608",
             "width": 1600,
             "height": 1200
           }
@@ -248,7 +169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61306_2574ae24_20260809.png?v=2574ae24",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61306_2574ae24_20260810.png?v=2574ae24",
             "width": 1600,
             "height": 1200
           }
@@ -327,7 +248,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61310_3ddce2e2_20260809.png?v=3ddce2e2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61310_3ddce2e2_20260810.png?v=3ddce2e2",
             "width": 1600,
             "height": 1200
           }
@@ -406,7 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61340_c9e9b120_20260809.png?v=c9e9b120",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61340_c9e9b120_20260810.png?v=c9e9b120",
             "width": 1600,
             "height": 1200
           }
@@ -485,7 +406,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61372_dd3a860d_20260809.png?v=dd3a860d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61372_dd3a860d_20260810.png?v=dd3a860d",
             "width": 1600,
             "height": 1200
           }
@@ -564,7 +485,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61374_82687018_20260809.png?v=82687018",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61374_82687018_20260810.png?v=82687018",
             "width": 1600,
             "height": 1200
           }
@@ -643,7 +564,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61460_f361a0cc_20260809.png?v=f361a0cc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61460_f361a0cc_20260810.png?v=f361a0cc",
             "width": 1600,
             "height": 1200
           }
@@ -722,7 +643,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61474_ba043ad9_20260809.png?v=ba043ad9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61474_ba043ad9_20260810.png?v=ba043ad9",
             "width": 1600,
             "height": 1200
           }
@@ -801,7 +722,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61484_07d3088f_20260809.png?v=07d3088f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61484_07d3088f_20260810.png?v=07d3088f",
             "width": 1600,
             "height": 1200
           }
@@ -880,7 +801,86 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61507_cd26243c_20260809.png?v=cd26243c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61507_cd26243c_20260810.png?v=cd26243c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f48f4aef98",
+          "name": "Vasteras SK vs Djurgarden | 00:00 11/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f48f4aef98",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f48f4aef98",
+                  "name": "Vasteras SK vs Djurgarden",
+                  "streams": [
+                    {
+                      "id": "st-f48f4aef98",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Allsvenskan",
+            "team_a": "Vasteras SK",
+            "team_b": "Djurgarden",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7341.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_189.jpg",
+            "time": "00:00",
+            "date": "11/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61508_9ec87abe_20260810.png?v=9ec87abe",
             "width": 1600,
             "height": 1200
           }
