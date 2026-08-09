@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-d966e072fa",
-          "name": "Anderlecht vs RAAL La Louviere | 23:30 09/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d966e072fa",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d966e072fa",
-                  "name": "Anderlecht vs RAAL La Louviere",
-                  "streams": [
-                    {
-                      "id": "st-d966e072fa",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "First Division A",
-            "team_a": "Anderlecht",
-            "team_b": "RAAL La Louviere",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1361.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1372.jpg",
-            "time": "23:30",
-            "date": "09/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61227_b8b95608_20260810.png?v=b8b95608",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-bbd3184274",
           "name": "FC Porto vs Alverca | 00:00 10/08",
           "type": "single",
@@ -333,6 +254,85 @@
           }
         },
         {
+          "id": "ph-2591c97a45",
+          "name": "Moreirense vs Braga | 02:30 10/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2591c97a45",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2591c97a45",
+                  "name": "Moreirense vs Braga",
+                  "streams": [
+                    {
+                      "id": "st-2591c97a45",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Moreirense",
+            "team_b": "Braga",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5997.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_156.jpg",
+            "time": "02:30",
+            "date": "10/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61374_82687018_20260810.png?v=82687018",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-da31235cec",
           "name": "Benfica vs Academico Viseu | 02:30 10/08",
           "type": "single",
@@ -407,85 +407,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61372_dd3a860d_20260810.png?v=dd3a860d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-2591c97a45",
-          "name": "Moreirense vs Braga | 02:30 10/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2591c97a45",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-2591c97a45",
-                  "name": "Moreirense vs Braga",
-                  "streams": [
-                    {
-                      "id": "st-2591c97a45",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Primeira Liga",
-            "team_a": "Moreirense",
-            "team_b": "Braga",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5997.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_156.jpg",
-            "time": "02:30",
-            "date": "10/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61374_82687018_20260810.png?v=82687018",
             "width": 1600,
             "height": 1200
           }
@@ -881,6 +802,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61508_9ec87abe_20260810.png?v=9ec87abe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-d57aa6c349",
+          "name": "CFR Cluj vs U. Cluj | 01:30 11/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d57aa6c349",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-d57aa6c349",
+                  "name": "CFR Cluj vs U. Cluj",
+                  "streams": [
+                    {
+                      "id": "st-d57aa6c349",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga I",
+            "team_a": "CFR Cluj",
+            "team_b": "U. Cluj",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_120.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6175.jpg",
+            "time": "01:30",
+            "date": "11/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61527_c0c33f61_20260810.png?v=c0c33f61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-a0ad3c5a5b",
+          "name": "Santa Clara vs Nacional | 02:15 11/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0ad3c5a5b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a0ad3c5a5b",
+                  "name": "Santa Clara vs Nacional",
+                  "streams": [
+                    {
+                      "id": "st-a0ad3c5a5b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Santa Clara",
+            "team_b": "Nacional",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5998.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5999.jpg",
+            "time": "02:15",
+            "date": "11/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61538_db6da2ee_20260810.png?v=db6da2ee",
             "width": 1600,
             "height": 1200
           }
