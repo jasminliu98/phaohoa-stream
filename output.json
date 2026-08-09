@@ -11,11 +11,248 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-eaf75082fc",
+          "name": "Sparta Rotterdam vs Feyenoord | 17:15 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eaf75082fc",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-eaf75082fc",
+                  "name": "Sparta Rotterdam vs Feyenoord",
+                  "streams": [
+                    {
+                      "id": "st-eaf75082fc",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Ken",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eredivisie",
+            "team_a": "Sparta Rotterdam",
+            "team_b": "Feyenoord",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5512.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_168.jpg",
+            "time": "17:15",
+            "date": "09/08",
+            "blv": "Ken",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60929_78f520b0_20260809.png?v=78f520b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-52f567614a",
+          "name": "Manchester City vs Atl. Madrid | 18:00 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-52f567614a",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-52f567614a",
+                  "name": "Manchester City vs Atl. Madrid",
+                  "streams": [
+                    {
+                      "id": "st-52f567614a",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Manchester City",
+            "team_b": "Atl. Madrid",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_80.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/43bf43c332f9d4bb5b14da0db6b12471.png",
+            "time": "18:00",
+            "date": "09/08",
+            "blv": "Kevin",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "half_time",
+            "home_score": 0,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60950_d006daa5_20260809.png?v=d006daa5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-c776369be2",
+          "name": "Johor DT vs Chelsea | 19:00 09/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c776369be2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-c776369be2",
+                  "name": "Johor DT vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-c776369be2",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendlies",
+            "team_a": "Johor DT",
+            "team_b": "Chelsea",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_386.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_88.jpg",
+            "time": "19:00",
+            "date": "09/08",
+            "blv": "Tày",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/60986_774023b0_20260809.png?v=774023b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-adc29e09af",
           "name": "Zwolle vs Ajax | 19:30 09/08",
@@ -881,1191 +1118,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61374_82687018_20260809.png?v=82687018",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-b32ee517e4",
-          "name": "Polissya Zhytomyr vs Metalist 1925 | 19:30 10/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b32ee517e4",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-b32ee517e4",
-                  "name": "Polissya Zhytomyr vs Metalist 1925",
-                  "streams": [
-                    {
-                      "id": "st-b32ee517e4",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Polissya Zhytomyr",
-            "team_b": "Metalist 1925",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7780.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7774.jpg",
-            "time": "19:30",
-            "date": "10/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61460_f361a0cc_20260809.png?v=f361a0cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-78d4d488f2",
-          "name": "Karpaty Lviv vs LNZ Cherkasy | 22:00 10/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78d4d488f2",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-78d4d488f2",
-                  "name": "Karpaty Lviv vs LNZ Cherkasy",
-                  "streams": [
-                    {
-                      "id": "st-78d4d488f2",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Karpaty Lviv",
-            "team_b": "LNZ Cherkasy",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7820.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_19481.jpg",
-            "time": "22:00",
-            "date": "10/08",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61474_ba043ad9_20260809.png?v=ba043ad9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-50466b5ff1",
-          "name": "Botev Vratsa vs Slavia Sofia | 23:00 10/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50466b5ff1",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-50466b5ff1",
-                  "name": "Botev Vratsa vs Slavia Sofia",
-                  "streams": [
-                    {
-                      "id": "st-50466b5ff1",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "First League",
-            "team_a": "Botev Vratsa",
-            "team_b": "Slavia Sofia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_2169.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2168.jpg",
-            "time": "23:00",
-            "date": "10/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61484_07d3088f_20260809.png?v=07d3088f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-a335f40c23",
-          "name": "Sirius vs Brommapojkarna | 00:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a335f40c23",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-a335f40c23",
-                  "name": "Sirius vs Brommapojkarna",
-                  "streams": [
-                    {
-                      "id": "st-a335f40c23",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "Sirius",
-            "team_b": "Brommapojkarna",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7357.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7382.jpg",
-            "time": "00:00",
-            "date": "11/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61507_cd26243c_20260809.png?v=cd26243c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-f48f4aef98",
-          "name": "Vasteras SK vs Djurgarden | 00:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f48f4aef98",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-f48f4aef98",
-                  "name": "Vasteras SK vs Djurgarden",
-                  "streams": [
-                    {
-                      "id": "st-f48f4aef98",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "Vasteras SK",
-            "team_b": "Djurgarden",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7341.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_189.jpg",
-            "time": "00:00",
-            "date": "11/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61508_9ec87abe_20260809.png?v=9ec87abe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-d57aa6c349",
-          "name": "CFR Cluj vs U. Cluj | 01:30 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d57aa6c349",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d57aa6c349",
-                  "name": "CFR Cluj vs U. Cluj",
-                  "streams": [
-                    {
-                      "id": "st-d57aa6c349",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga I",
-            "team_a": "CFR Cluj",
-            "team_b": "U. Cluj",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_120.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6175.jpg",
-            "time": "01:30",
-            "date": "11/08",
-            "blv": "Kevin",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61527_c0c33f61_20260809.png?v=c0c33f61",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-a0ad3c5a5b",
-          "name": "Santa Clara vs Nacional | 02:15 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0ad3c5a5b",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-a0ad3c5a5b",
-                  "name": "Santa Clara vs Nacional",
-                  "streams": [
-                    {
-                      "id": "st-a0ad3c5a5b",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Primeira Liga",
-            "team_a": "Santa Clara",
-            "team_b": "Nacional",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5998.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5999.jpg",
-            "time": "02:15",
-            "date": "11/08",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61538_db6da2ee_20260809.png?v=db6da2ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-7e96d0cc91",
-          "name": "Adelaide United vs Công An Hà Nội | 16:30 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e96d0cc91",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-7e96d0cc91",
-                  "name": "Adelaide United vs Công An Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-7e96d0cc91",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "Ken",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Adelaide United",
-            "team_b": "Công An Hà Nội",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1052.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/dde2897a-7204-4f4b-a5e7-cbd526e8e9a2.png",
-            "time": "16:30",
-            "date": "11/08",
-            "blv": "Ken",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61557_9f0e64a8_20260809.png?v=9f0e64a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-3886c03149",
-          "name": "Adelaide United vs Công An Hà Nội | 16:30 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3886c03149",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-3886c03149",
-                  "name": "Adelaide United vs Công An Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-3886c03149",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Adelaide United",
-            "team_b": "Công An Hà Nội",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1052.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/dde2897a-7204-4f4b-a5e7-cbd526e8e9a2.png",
-            "time": "16:30",
-            "date": "11/08",
-            "blv": "Kevin",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64513_9f0e64a8_20260809.png?v=9f0e64a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-5127331943",
-          "name": "Gangwon vs Gamba Osaka | 17:30 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5127331943",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-5127331943",
-                  "name": "Gangwon vs Gamba Osaka",
-                  "streams": [
-                    {
-                      "id": "st-5127331943",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Gangwon",
-            "team_b": "Gamba Osaka",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5171.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_411.jpg",
-            "time": "17:30",
-            "date": "11/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61563_7d3c1455_20260809.png?v=7d3c1455",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-d6116f9905",
-          "name": "Pakhtakor vs Al Hussein | 22:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d6116f9905",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d6116f9905",
-                  "name": "Pakhtakor vs Al Hussein",
-                  "streams": [
-                    {
-                      "id": "st-d6116f9905",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Pakhtakor",
-            "team_b": "Al Hussein",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_363.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5098.jpg",
-            "time": "22:00",
-            "date": "11/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61569_5ef83bff_20260809.png?v=5ef83bff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-c92b008c4c",
-          "name": "Kairat Almaty vs Levski Sofia | 22:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c92b008c4c",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-c92b008c4c",
-                  "name": "Kairat Almaty vs Levski Sofia",
-                  "streams": [
-                    {
-                      "id": "st-c92b008c4c",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Kairat Almaty",
-            "team_b": "Levski Sofia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_245.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2164.jpg",
-            "time": "22:00",
-            "date": "11/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61571_31538cb2_20260809.png?v=31538cb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-6d142fd3fe",
-          "name": "Bodo/Glimt vs Royale Union SG | 23:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6d142fd3fe",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-6d142fd3fe",
-                  "name": "Bodo/Glimt vs Royale Union SG",
-                  "streams": [
-                    {
-                      "id": "st-6d142fd3fe",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Bodo/Glimt",
-            "team_b": "Royale Union SG",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_215.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1373.jpg",
-            "time": "23:00",
-            "date": "11/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61578_566cc038_20260809.png?v=566cc038",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-76748ef381",
-          "name": "Al Jazira vs Al Ittihad | 23:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-76748ef381",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-76748ef381",
-                  "name": "Al Jazira vs Al Ittihad",
-                  "streams": [
-                    {
-                      "id": "st-76748ef381",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "Ken",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Al Jazira",
-            "team_b": "Al Ittihad",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7826.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6328_JmJ5TyE.jpg",
-            "time": "23:00",
-            "date": "11/08",
-            "blv": "Ken",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61579_9d192477_20260809.png?v=9d192477",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-defab63b1b",
-          "name": "Sabah Baku vs Aarhus | 23:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-defab63b1b",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-defab63b1b",
-                  "name": "Sabah Baku vs Aarhus",
-                  "streams": [
-                    {
-                      "id": "st-defab63b1b",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Sabah Baku",
-            "team_b": "Aarhus",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1305.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_250.jpg",
-            "time": "23:00",
-            "date": "11/08",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61587_148aa52b_20260809.png?v=148aa52b",
             "width": 1600,
             "height": 1200
           }
