@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-b32ee517e4",
-          "name": "Polissya Zhytomyr vs Metalist 1925 | 19:30 10/08",
+          "id": "ph-78d4d488f2",
+          "name": "Karpaty Lviv vs LNZ Cherkasy | 22:00 10/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,85 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b32ee517e4",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-b32ee517e4",
-                  "name": "Polissya Zhytomyr vs Metalist 1925",
-                  "streams": [
-                    {
-                      "id": "st-b32ee517e4",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Polissya Zhytomyr",
-            "team_b": "Metalist 1925",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7780.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7774.jpg",
-            "time": "19:30",
-            "date": "10/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61460_f361a0cc_20260810.png?v=f361a0cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-78d4d488f2",
-          "name": "Karpaty Lviv vs LNZ Cherkasy | 22:00 10/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -159,9 +80,9 @@
             "time": "22:00",
             "date": "10/08",
             "blv": "Tày",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
