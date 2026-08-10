@@ -17,8 +17,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-a335f40c23",
-          "name": "Sirius vs Brommapojkarna | 00:00 11/08",
+          "id": "ph-a0ad3c5a5b",
+          "name": "Santa Clara vs Nacional | 02:15 11/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -28,85 +28,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a335f40c23",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-a335f40c23",
-                  "name": "Sirius vs Brommapojkarna",
-                  "streams": [
-                    {
-                      "id": "st-a335f40c23",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Allsvenskan",
-            "team_a": "Sirius",
-            "team_b": "Brommapojkarna",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7357.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7382.jpg",
-            "time": "00:00",
-            "date": "11/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61507_cd26243c_20260811.png?v=cd26243c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-a0ad3c5a5b",
-          "name": "Santa Clara vs Nacional | 02:15 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -159,9 +80,9 @@
             "time": "02:15",
             "date": "11/08",
             "blv": "Pháo Thủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1355,6 +1276,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62161_53fe8185_20260811.png?v=53fe8185",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-4c03ca5c4f",
+          "name": "GKS Katowice vs Hapoel Tel Aviv | 23:00 12/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c03ca5c4f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-4c03ca5c4f",
+                  "name": "GKS Katowice vs Hapoel Tel Aviv",
+                  "streams": [
+                    {
+                      "id": "st-4c03ca5c4f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Conference League",
+            "team_a": "GKS Katowice",
+            "team_b": "Hapoel Tel Aviv",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5820.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_4804.jpg",
+            "time": "23:00",
+            "date": "12/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62163_62c01cc1_20260811.png?v=62c01cc1",
             "width": 1600,
             "height": 1200
           }
