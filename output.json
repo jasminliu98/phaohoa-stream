@@ -82,7 +82,7 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -161,7 +161,7 @@
             "blv": "Ken",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 2
           },
@@ -1279,49 +1279,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-c72fc0895f",
-          "name": "Pháp vs Italy | 22:30 11/08",
+          "id": "ph-d0ca712ec6",
+          "name": "PSG vs Aston Villa | 02:00 13/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-c72fc0895f",
+              "id": "src-d0ca712ec6",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-c72fc0895f",
-                  "name": "Pháp vs Italy",
+                  "id": "ct-d0ca712ec6",
+                  "name": "PSG vs Aston Villa",
                   "streams": [
                     {
-                      "id": "st-c72fc0895f",
+                      "id": "st-d0ca712ec6",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1345,17 +1336,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Pháp",
-            "team_b": "Italy",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_4kCzOp7.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
-            "time": "22:30",
-            "date": "11/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "UEFA Super Cup",
+            "team_a": "PSG",
+            "team_b": "Aston Villa",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_100.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3088_UHAISAx.jpg",
+            "time": "02:00",
+            "date": "13/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1363,11 +1354,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64833_42120472_20260812.png?v=42120472",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65015_cecc378b_20260812.png?v=cecc378b",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-205c46a2b1",
           "name": "Ba Lan vs Ukraine | 01:30 12/08",
