@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-c92b008c4c",
-          "name": "Kairat Almaty vs Levski Sofia | 22:00 11/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c92b008c4c",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-c92b008c4c",
-                  "name": "Kairat Almaty vs Levski Sofia",
-                  "streams": [
-                    {
-                      "id": "st-c92b008c4c",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Kairat Almaty",
-            "team_b": "Levski Sofia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_245.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2164.jpg",
-            "time": "22:00",
-            "date": "11/08",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61571_31538cb2_20260811.png?v=31538cb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-6d142fd3fe",
           "name": "Bodo/Glimt vs Royale Union SG | 23:00 11/08",
           "type": "single",
@@ -169,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61578_566cc038_20260811.png?v=566cc038",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61578_566cc038_20260812.png?v=566cc038",
             "width": 1600,
             "height": 1200
           }
@@ -248,7 +169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61579_9d192477_20260811.png?v=9d192477",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61579_9d192477_20260812.png?v=9d192477",
             "width": 1600,
             "height": 1200
           }
@@ -327,7 +248,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61587_148aa52b_20260811.png?v=148aa52b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61587_148aa52b_20260812.png?v=148aa52b",
             "width": 1600,
             "height": 1200
           }
@@ -340,10 +261,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -396,9 +317,9 @@
             "time": "00:30",
             "date": "12/08",
             "blv": "Kevin",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -406,7 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61965_a456e927_20260811.png?v=a456e927",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61965_a456e927_20260812.png?v=a456e927",
             "width": 1600,
             "height": 1200
           }
@@ -485,7 +406,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61602_f615e00e_20260811.png?v=f615e00e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61602_f615e00e_20260812.png?v=f615e00e",
             "width": 1600,
             "height": 1200
           }
@@ -564,7 +485,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61604_32edd62e_20260811.png?v=32edd62e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61604_32edd62e_20260812.png?v=32edd62e",
             "width": 1600,
             "height": 1200
           }
@@ -643,7 +564,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62058_47f0d3f5_20260811.png?v=47f0d3f5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62058_47f0d3f5_20260812.png?v=47f0d3f5",
             "width": 1600,
             "height": 1200
           }
@@ -722,7 +643,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62104_d196acf6_20260811.png?v=d196acf6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62104_d196acf6_20260812.png?v=d196acf6",
             "width": 1600,
             "height": 1200
           }
@@ -801,7 +722,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62121_61927c2b_20260811.png?v=61927c2b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62121_61927c2b_20260812.png?v=61927c2b",
             "width": 1600,
             "height": 1200
           }
@@ -880,7 +801,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62160_78ca0561_20260811.png?v=78ca0561",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62160_78ca0561_20260812.png?v=78ca0561",
             "width": 1600,
             "height": 1200
           }
@@ -959,7 +880,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62161_53fe8185_20260811.png?v=53fe8185",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62161_53fe8185_20260812.png?v=53fe8185",
             "width": 1600,
             "height": 1200
           }
@@ -1038,7 +959,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62163_62c01cc1_20260811.png?v=62c01cc1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62163_62c01cc1_20260812.png?v=62c01cc1",
             "width": 1600,
             "height": 1200
           }
@@ -1117,7 +1038,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61639_19034018_20260811.png?v=19034018",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61639_19034018_20260812.png?v=19034018",
             "width": 1600,
             "height": 1200
           }
@@ -1196,7 +1117,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61640_88dea8eb_20260811.png?v=88dea8eb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61640_88dea8eb_20260812.png?v=88dea8eb",
             "width": 1600,
             "height": 1200
           }
@@ -1275,7 +1196,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61644_25cdec39_20260811.png?v=25cdec39",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61644_25cdec39_20260812.png?v=25cdec39",
             "width": 1600,
             "height": 1200
           }
@@ -1354,7 +1275,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61647_cecc378b_20260811.png?v=cecc378b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61647_cecc378b_20260812.png?v=cecc378b",
             "width": 1600,
             "height": 1200
           }
@@ -1442,7 +1363,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64833_42120472_20260811.png?v=42120472",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64833_42120472_20260812.png?v=42120472",
             "width": 1600,
             "height": 1200
           }
@@ -1521,7 +1442,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64834_c7813cd7_20260811.png?v=c7813cd7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64834_c7813cd7_20260812.png?v=c7813cd7",
             "width": 1600,
             "height": 1200
           }
@@ -1600,7 +1521,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64835_30715cef_20260811.png?v=30715cef",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64835_30715cef_20260812.png?v=30715cef",
             "width": 1600,
             "height": 1200
           }
@@ -1679,7 +1600,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64836_e901920b_20260811.png?v=e901920b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64836_e901920b_20260812.png?v=e901920b",
             "width": 1600,
             "height": 1200
           }
@@ -1758,7 +1679,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65014_8b38f7a7_20260811.png?v=8b38f7a7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65014_8b38f7a7_20260812.png?v=8b38f7a7",
             "width": 1600,
             "height": 1200
           }
