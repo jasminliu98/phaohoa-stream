@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 3,
+            "home_score": 4,
             "away_score": 1
           },
           "image": {
@@ -162,7 +162,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -1358,49 +1358,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-97e4dfb09a",
-          "name": "Italy vs Ukraine | 22:30 12/08",
+          "id": "ph-c9897ec264",
+          "name": "Verdy vs Kashiwa Reysol | 17:00 14/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-97e4dfb09a",
+              "id": "src-c9897ec264",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-97e4dfb09a",
-                  "name": "Italy vs Ukraine",
+                  "id": "ct-c9897ec264",
+                  "name": "Verdy vs Kashiwa Reysol",
                   "streams": [
                     {
-                      "id": "st-97e4dfb09a",
+                      "id": "st-c9897ec264",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1424,17 +1415,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Italy",
-            "team_b": "Ukraine",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_7oS7OkG.jpg",
-            "time": "22:30",
-            "date": "12/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "J1 League",
+            "team_a": "Verdy",
+            "team_b": "Kashiwa Reysol",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5088.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5055.jpg",
+            "time": "17:00",
+            "date": "14/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1442,11 +1433,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64836_e901920b_20260813.png?v=e901920b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61815_ff33983d_20260813.png?v=ff33983d",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-68ab4e45b9",
           "name": "Ba Lan vs Pháp | 01:30 13/08",
@@ -1455,10 +1455,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1511,9 +1511,9 @@
             "time": "01:30",
             "date": "13/08",
             "blv": "KaKa",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bong-chuyen",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
