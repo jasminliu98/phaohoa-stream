@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-9cb52496a9",
-          "name": "FC Copenhagen vs Debrecen | 23:00 12/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9cb52496a9",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-9cb52496a9",
-                  "name": "FC Copenhagen vs Debrecen",
-                  "streams": [
-                    {
-                      "id": "st-9cb52496a9",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "Ken",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Conference League",
-            "team_a": "FC Copenhagen",
-            "team_b": "Debrecen",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_175.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_4561.jpg",
-            "time": "23:00",
-            "date": "12/08",
-            "blv": "Ken",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 5,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62160_78ca0561_20260813.png?v=78ca0561",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-4c03ca5c4f",
           "name": "GKS Katowice vs Hapoel Tel Aviv | 23:00 12/08",
           "type": "single",
@@ -162,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -249,6 +170,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61640_88dea8eb_20260813.png?v=88dea8eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-fa0e49bd6f",
+          "name": "PSG vs Aston Villa | 02:00 13/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa0e49bd6f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-fa0e49bd6f",
+                  "name": "PSG vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-fa0e49bd6f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Ken",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Super Cup",
+            "team_a": "PSG",
+            "team_b": "Aston Villa",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_100.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3088_UHAISAx.jpg",
+            "time": "02:00",
+            "date": "13/08",
+            "blv": "Ken",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61647_cecc378b_20260813.png?v=cecc378b",
             "width": 1600,
             "height": 1200
           }
@@ -407,85 +407,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61644_25cdec39_20260813.png?v=25cdec39",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-fa0e49bd6f",
-          "name": "PSG vs Aston Villa | 02:00 13/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fa0e49bd6f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-fa0e49bd6f",
-                  "name": "PSG vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-fa0e49bd6f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "Ken",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Super Cup",
-            "team_a": "PSG",
-            "team_b": "Aston Villa",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_100.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3088_UHAISAx.jpg",
-            "time": "02:00",
-            "date": "13/08",
-            "blv": "Ken",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61647_cecc378b_20260813.png?v=cecc378b",
             "width": 1600,
             "height": 1200
           }
@@ -1434,6 +1355,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61823_893fc07f_20260813.png?v=893fc07f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2740ea70c2",
+          "name": "Wuhan Three Towns vs Shanghai Port | 18:35 14/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2740ea70c2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2740ea70c2",
+                  "name": "Wuhan Three Towns vs Shanghai Port",
+                  "streams": [
+                    {
+                      "id": "st-2740ea70c2",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Super League",
+            "team_a": "Wuhan Three Towns",
+            "team_b": "Shanghai Port",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_11814.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2256.jpg",
+            "time": "18:35",
+            "date": "14/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61824_3ad879a9_20260813.png?v=3ad879a9",
             "width": 1600,
             "height": 1200
           }
