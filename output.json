@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 1
           },
           "image": {
@@ -649,6 +649,85 @@
           }
         },
         {
+          "id": "ph-c76b6ace37",
+          "name": "Inter Miami vs Club Leon | 06:30 13/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c76b6ace37",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-c76b6ace37",
+                  "name": "Inter Miami vs Club Leon",
+                  "streams": [
+                    {
+                      "id": "st-c76b6ace37",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Leagues Cup",
+            "team_a": "Inter Miami",
+            "team_b": "Club Leon",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7953.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_303.jpg",
+            "time": "06:30",
+            "date": "13/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61686_5faa6c08_20260813.png?v=5faa6c08",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-24d78c4896",
           "name": "Andijan vs Neftchi Fargona | 21:00 13/08",
           "type": "single",
@@ -960,6 +1039,322 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61730_b78c6d18_20260813.png?v=b78c6d18",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-135cef9732",
+          "name": "Pafos vs Salzburg | 00:00 14/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-135cef9732",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-135cef9732",
+                  "name": "Pafos vs Salzburg",
+                  "streams": [
+                    {
+                      "id": "st-135cef9732",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Ken",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Pafos",
+            "team_b": "Salzburg",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_2473.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_74.jpg",
+            "time": "00:00",
+            "date": "14/08",
+            "blv": "Ken",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61738_7b1e2b8d_20260813.png?v=7b1e2b8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-ad83443074",
+          "name": "Al Diriyah vs Al Ahli SC | 01:00 14/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ad83443074",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-ad83443074",
+                  "name": "Al Diriyah vs Al Ahli SC",
+                  "streams": [
+                    {
+                      "id": "st-ad83443074",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Diriyah",
+            "team_b": "Al Ahli SC",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Diriyah_Club_Logo.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_359.jpg",
+            "time": "01:00",
+            "date": "14/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61762_c41579d8_20260813.png?v=c41579d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-a13ac1662c",
+          "name": "Al Shabab vs Al Qadsiah | 01:00 14/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a13ac1662c",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a13ac1662c",
+                  "name": "Al Shabab vs Al Qadsiah",
+                  "streams": [
+                    {
+                      "id": "st-a13ac1662c",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Shabab",
+            "team_b": "Al Qadsiah",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6327.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Al-Qadsiah_Logo.svg.webp",
+            "time": "01:00",
+            "date": "14/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61763_3388ca97_20260813.png?v=3388ca97",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-aa754b4ad5",
+          "name": "Hearts vs Benfica | 01:45 14/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa754b4ad5",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-aa754b4ad5",
+                  "name": "Hearts vs Benfica",
+                  "streams": [
+                    {
+                      "id": "st-aa754b4ad5",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Hearts",
+            "team_b": "Benfica",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6422.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_147.jpg",
+            "time": "01:45",
+            "date": "14/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61775_aa62be66_20260813.png?v=aa62be66",
             "width": 1600,
             "height": 1200
           }
@@ -1364,6 +1759,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65016_6fcffe5f_20260813.png?v=6fcffe5f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-50c8b88134",
+          "name": "Pháp vs Ukraine | 01:30 14/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50c8b88134",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-50c8b88134",
+                  "name": "Pháp vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-50c8b88134",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu",
+            "team_a": "Pháp",
+            "team_b": "Ukraine",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_4kCzOp7.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_7oS7OkG.jpg",
+            "time": "01:30",
+            "date": "14/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65305_8c6eb707_20260813.png?v=8c6eb707",
             "width": 1600,
             "height": 1200
           }
