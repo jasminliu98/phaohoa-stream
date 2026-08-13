@@ -1437,6 +1437,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-1bba357b61",
+          "name": "Sporting CP vs Vitoria Guimaraes | 02:15 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bba357b61",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1bba357b61",
+                  "name": "Sporting CP vs Vitoria Guimaraes",
+                  "streams": [
+                    {
+                      "id": "st-1bba357b61",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Sporting CP",
+            "team_b": "Vitoria Guimaraes",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_177.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6005.jpg",
+            "time": "02:15",
+            "date": "15/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62705_9a68ff09_20260813.png?v=9a68ff09",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1680,6 +1759,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65504_fbbb2fcb_20260813.png?v=fbbb2fcb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-57b35ccfeb",
+          "name": "Croatia vs Trung Quốc | 01:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-57b35ccfeb",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-57b35ccfeb",
+                  "name": "Croatia vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-57b35ccfeb",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U17 World Championship",
+            "team_a": "Croatia",
+            "team_b": "Trung Quốc",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_cIbmzlW.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "time": "01:00",
+            "date": "15/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65505_3153db7e_20260813.png?v=3153db7e",
             "width": 1600,
             "height": 1200
           }
