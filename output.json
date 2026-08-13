@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-d1070be66c",
-          "name": "Tobol vs Partizan | 22:30 13/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d1070be66c",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d1070be66c",
-                  "name": "Tobol vs Partizan",
-                  "streams": [
-                    {
-                      "id": "st-d1070be66c",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Conference League",
-            "team_a": "Tobol",
-            "team_b": "Partizan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5105.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/FK_Partizan.svg.webp",
-            "time": "22:30",
-            "date": "13/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61723_c012fb80_20260813.png?v=c012fb80",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-cdec5b1983",
           "name": "Qarabag vs Dyn. Kyiv | 23:00 13/08",
           "type": "single",
@@ -169,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61729_d9d90d23_20260813.png?v=d9d90d23",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61729_d9d90d23_20260814.png?v=d9d90d23",
             "width": 1600,
             "height": 1200
           }
@@ -248,7 +169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61730_b78c6d18_20260813.png?v=b78c6d18",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61730_b78c6d18_20260814.png?v=b78c6d18",
             "width": 1600,
             "height": 1200
           }
@@ -327,7 +248,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61738_7b1e2b8d_20260813.png?v=7b1e2b8d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61738_7b1e2b8d_20260814.png?v=7b1e2b8d",
             "width": 1600,
             "height": 1200
           }
@@ -340,10 +261,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -396,9 +317,9 @@
             "time": "01:00",
             "date": "14/08",
             "blv": "Pháo Thủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -406,7 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61762_c41579d8_20260813.png?v=c41579d8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61762_c41579d8_20260814.png?v=c41579d8",
             "width": 1600,
             "height": 1200
           }
@@ -485,7 +406,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61763_3388ca97_20260813.png?v=3388ca97",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61763_3388ca97_20260814.png?v=3388ca97",
             "width": 1600,
             "height": 1200
           }
@@ -564,7 +485,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61775_aa62be66_20260813.png?v=aa62be66",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61775_aa62be66_20260814.png?v=aa62be66",
             "width": 1600,
             "height": 1200
           }
@@ -643,7 +564,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61815_ff33983d_20260813.png?v=ff33983d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61815_ff33983d_20260814.png?v=ff33983d",
             "width": 1600,
             "height": 1200
           }
@@ -722,7 +643,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61823_893fc07f_20260813.png?v=893fc07f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61823_893fc07f_20260814.png?v=893fc07f",
             "width": 1600,
             "height": 1200
           }
@@ -801,7 +722,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61824_3ad879a9_20260813.png?v=3ad879a9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61824_3ad879a9_20260814.png?v=3ad879a9",
             "width": 1600,
             "height": 1200
           }
@@ -880,7 +801,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61847_bae0f256_20260813.png?v=bae0f256",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61847_bae0f256_20260814.png?v=bae0f256",
             "width": 1600,
             "height": 1200
           }
@@ -959,7 +880,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61871_2fac8623_20260813.png?v=2fac8623",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61871_2fac8623_20260814.png?v=2fac8623",
             "width": 1600,
             "height": 1200
           }
@@ -1038,7 +959,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61909_e4047975_20260813.png?v=e4047975",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61909_e4047975_20260814.png?v=e4047975",
             "width": 1600,
             "height": 1200
           }
@@ -1117,7 +1038,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62514_344c3000_20260813.png?v=344c3000",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62514_344c3000_20260814.png?v=344c3000",
             "width": 1600,
             "height": 1200
           }
@@ -1196,7 +1117,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62651_c82894bc_20260813.png?v=c82894bc",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62651_c82894bc_20260814.png?v=c82894bc",
             "width": 1600,
             "height": 1200
           }
@@ -1275,7 +1196,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62652_62d37086_20260813.png?v=62d37086",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62652_62d37086_20260814.png?v=62d37086",
             "width": 1600,
             "height": 1200
           }
@@ -1354,7 +1275,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62659_165b0303_20260813.png?v=165b0303",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62659_165b0303_20260814.png?v=165b0303",
             "width": 1600,
             "height": 1200
           }
@@ -1433,7 +1354,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62705_9a68ff09_20260813.png?v=9a68ff09",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62705_9a68ff09_20260814.png?v=9a68ff09",
             "width": 1600,
             "height": 1200
           }
@@ -1521,7 +1442,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65016_6fcffe5f_20260813.png?v=6fcffe5f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65016_6fcffe5f_20260814.png?v=6fcffe5f",
             "width": 1600,
             "height": 1200
           }
@@ -1600,7 +1521,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65305_8c6eb707_20260813.png?v=8c6eb707",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65305_8c6eb707_20260814.png?v=8c6eb707",
             "width": 1600,
             "height": 1200
           }
@@ -1679,7 +1600,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65504_fbbb2fcb_20260813.png?v=fbbb2fcb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65504_fbbb2fcb_20260814.png?v=fbbb2fcb",
             "width": 1600,
             "height": 1200
           }
@@ -1758,7 +1679,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65505_3153db7e_20260813.png?v=3153db7e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65505_3153db7e_20260814.png?v=3153db7e",
             "width": 1600,
             "height": 1200
           }
@@ -1837,7 +1758,86 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65507_ef095b0d_20260813.png?v=ef095b0d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65507_ef095b0d_20260814.png?v=ef095b0d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-169d44ff5c",
+          "name": "Thổ Nhĩ Kì vs Hàn Quốc | 07:00 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-169d44ff5c",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-169d44ff5c",
+                  "name": "Thổ Nhĩ Kì vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-169d44ff5c",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U17 World Championship",
+            "team_a": "Thổ Nhĩ Kì",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_South_Korea.svg.webp",
+            "time": "07:00",
+            "date": "15/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65506_8e6015f9_20260814.png?v=8e6015f9",
             "width": 1600,
             "height": 1200
           }
