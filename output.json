@@ -1358,49 +1358,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-a256dfbc64",
-          "name": "Ba Lan vs Italy | 23:00 13/08",
+          "id": "ph-8313b45586",
+          "name": "Mito vs Gamba Osaka | 16:00 15/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-a256dfbc64",
+              "id": "src-8313b45586",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-a256dfbc64",
-                  "name": "Ba Lan vs Italy",
+                  "id": "ct-8313b45586",
+                  "name": "Mito vs Gamba Osaka",
                   "streams": [
                     {
-                      "id": "st-a256dfbc64",
+                      "id": "st-8313b45586",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1424,17 +1415,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Ba Lan",
-            "team_b": "Italy",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
-            "time": "23:00",
-            "date": "13/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "J1 League",
+            "team_a": "Mito",
+            "team_b": "Gamba Osaka",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5081.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_411.jpg",
+            "time": "16:00",
+            "date": "15/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1442,11 +1433,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65016_6fcffe5f_20260814.png?v=6fcffe5f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62853_84b54399_20260814.png?v=84b54399",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-50c8b88134",
           "name": "Pháp vs Ukraine | 01:30 14/08",
