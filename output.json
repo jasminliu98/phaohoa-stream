@@ -1528,7 +1528,7 @@
       "channels": [
         {
           "id": "ph-a256dfbc64",
-          "name": "Ba Lan vs Italy | 22:00 13/08",
+          "name": "Ba Lan vs Italy | 23:00 13/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1587,7 +1587,7 @@
             "team_b": "Italy",
             "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
-            "time": "22:00",
+            "time": "23:00",
             "date": "13/08",
             "blv": "KaKa",
             "is_live": false,
