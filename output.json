@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,85 +83,6 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 3,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62651_c82894bc_20260815.png?v=c82894bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-130366f124",
-          "name": "Al Hilal vs Al-Faisaly | 01:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-130366f124",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-130366f124",
-                  "name": "Al Hilal vs Al-Faisaly",
-                  "streams": [
-                    {
-                      "id": "st-130366f124",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "Ken",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Pro League",
-            "team_a": "Al Hilal",
-            "team_b": "Al-Faisaly",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_366.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6333_chkqLsE.jpg",
-            "time": "01:00",
-            "date": "15/08",
-            "blv": "Ken",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
             "home_score": 4,
             "away_score": 2
           },
@@ -169,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62652_62d37086_20260815.png?v=62d37086",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62651_c82894bc_20260815.png?v=c82894bc",
             "width": 1600,
             "height": 1200
           }
@@ -1118,6 +1039,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63674_733cd346_20260815.png?v=733cd346",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-8662765691",
+          "name": "Utrecht vs AZ Alkmaar | 23:45 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8662765691",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-8662765691",
+                  "name": "Utrecht vs AZ Alkmaar",
+                  "streams": [
+                    {
+                      "id": "st-8662765691",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eredivisie",
+            "team_a": "Utrecht",
+            "team_b": "AZ Alkmaar",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5475.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_113.jpg",
+            "time": "23:45",
+            "date": "15/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63687_d23ba519_20260815.png?v=d23ba519",
             "width": 1600,
             "height": 1200
           }
