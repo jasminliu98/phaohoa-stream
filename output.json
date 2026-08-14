@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 2
           },
           "image": {
@@ -1121,49 +1121,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-57b35ccfeb",
-          "name": "Croatia vs Trung Quốc | 01:00 15/08",
+          "id": "ph-33d9bf495c",
+          "name": "Al Ittihad vs Al Kholood | 01:00 16/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-57b35ccfeb",
+              "id": "src-33d9bf495c",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-57b35ccfeb",
-                  "name": "Croatia vs Trung Quốc",
+                  "id": "ct-33d9bf495c",
+                  "name": "Al Ittihad vs Al Kholood",
                   "streams": [
                     {
-                      "id": "st-57b35ccfeb",
+                      "id": "st-33d9bf495c",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1187,17 +1178,17 @@
             }
           ],
           "org_metadata": {
-            "league": "U17 World Championship",
-            "team_a": "Croatia",
-            "team_b": "Trung Quốc",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_cIbmzlW.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "league": "Saudi Pro League",
+            "team_a": "Al Ittihad",
+            "team_b": "Al Kholood",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6328_JmJ5TyE.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Al_Kholood_Club_Logo.svg.webp",
             "time": "01:00",
-            "date": "15/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "date": "16/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1205,11 +1196,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65505_3153db7e_20260815.png?v=3153db7e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63885_5a09e615_20260815.png?v=5a09e615",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-20f5f413ac",
           "name": "Thái Lan vs Đài Loan | 04:00 15/08",
