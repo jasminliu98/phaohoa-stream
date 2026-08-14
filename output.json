@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-853c5fcbea",
-          "name": "Al Ettifaq vs Al Riyadh | 01:00 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-853c5fcbea",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-853c5fcbea",
-                  "name": "Al Ettifaq vs Al Riyadh",
-                  "streams": [
-                    {
-                      "id": "st-853c5fcbea",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Pro League",
-            "team_a": "Al Ettifaq",
-            "team_b": "Al Riyadh",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/19c61b1ae0b964b7a8a79d3bf3648a69.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Al-Riyadh_SC.svg.webp",
-            "time": "01:00",
-            "date": "15/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 4,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62651_c82894bc_20260815.png?v=c82894bc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-f3cdbec569",
           "name": "Galatasaray vs Corum | 01:30 15/08",
@@ -240,7 +161,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 3,
             "away_score": 0
           },
@@ -1118,6 +1039,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63687_d23ba519_20260815.png?v=d23ba519",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-917c0ebf4e",
+          "name": "Alaves vs Getafe | 00:30 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-917c0ebf4e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-917c0ebf4e",
+                  "name": "Alaves vs Getafe",
+                  "streams": [
+                    {
+                      "id": "st-917c0ebf4e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Alaves",
+            "team_b": "Getafe",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Deportivo_Alaves_logo_2020.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7288.jpg",
+            "time": "00:30",
+            "date": "16/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63851_90720d8f_20260815.png?v=90720d8f",
             "width": 1600,
             "height": 1200
           }
