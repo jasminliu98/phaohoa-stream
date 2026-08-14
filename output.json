@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-f3cdbec569",
-          "name": "Galatasaray vs Corum | 01:30 15/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3cdbec569",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-f3cdbec569",
-                  "name": "Galatasaray vs Corum",
-                  "streams": [
-                    {
-                      "id": "st-f3cdbec569",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Süper Lig",
-            "team_a": "Galatasaray",
-            "team_b": "Corum",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_192.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Çorum_F.K._crest.svg.webp",
-            "time": "01:30",
-            "date": "15/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/62659_165b0303_20260815.png?v=165b0303",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-1bba357b61",
           "name": "Sporting CP vs Vitoria Guimaraes | 02:15 15/08",
@@ -161,7 +82,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 3,
             "away_score": 0
           },
@@ -1197,6 +1118,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63885_5a09e615_20260815.png?v=5a09e615",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-a07a3f343e",
+          "name": "Al Nassr vs Al Fateh | 01:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a07a3f343e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a07a3f343e",
+                  "name": "Al Nassr vs Al Fateh",
+                  "streams": [
+                    {
+                      "id": "st-a07a3f343e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Ken",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Nassr",
+            "team_b": "Al Fateh",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_371.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6331.jpg",
+            "time": "01:00",
+            "date": "16/08",
+            "blv": "Ken",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63886_b82a71ed_20260815.png?v=b82a71ed",
             "width": 1600,
             "height": 1200
           }
