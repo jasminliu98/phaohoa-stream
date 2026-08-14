@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-14aa26e12f",
-          "name": "Shandong Taishan vs Qingdao Hainiu | 18:35 14/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14aa26e12f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-14aa26e12f",
-                  "name": "Shandong Taishan vs Qingdao Hainiu",
-                  "streams": [
-                    {
-                      "id": "st-14aa26e12f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Super League",
-            "team_a": "Shandong Taishan",
-            "team_b": "Qingdao Hainiu",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_2251.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_13465.jpg",
-            "time": "18:35",
-            "date": "14/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61823_893fc07f_20260814.png?v=893fc07f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-2740ea70c2",
-          "name": "Wuhan Three Towns vs Shanghai Port | 18:35 14/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2740ea70c2",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-2740ea70c2",
-                  "name": "Wuhan Three Towns vs Shanghai Port",
-                  "streams": [
-                    {
-                      "id": "st-2740ea70c2",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Super League",
-            "team_a": "Wuhan Three Towns",
-            "team_b": "Shanghai Port",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_11814.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2256.jpg",
-            "time": "18:35",
-            "date": "14/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61824_3ad879a9_20260814.png?v=3ad879a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-491418ebb3",
           "name": "Orenburg vs Lokomotiv Moscow | 21:00 14/08",
@@ -1513,6 +1355,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65551_d6a88573_20260814.png?v=d6a88573",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1ee350834c",
+          "name": "Al Taawon vs Al Khaleej | 23:15 15/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ee350834c",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1ee350834c",
+                  "name": "Al Taawon vs Al Khaleej",
+                  "streams": [
+                    {
+                      "id": "st-1ee350834c",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Taawon",
+            "team_b": "Al Khaleej",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_368.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Al-Khaleej_FC_Logo.svg.webp",
+            "time": "23:15",
+            "date": "15/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/63674_733cd346_20260814.png?v=733cd346",
             "width": 1600,
             "height": 1200
           }
