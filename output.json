@@ -963,6 +963,252 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-38f9777249",
+          "name": "Nashville SC vs Inter Miami | 07:30 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-38f9777249",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-38f9777249",
+                  "name": "Nashville SC vs Inter Miami",
+                  "streams": [
+                    {
+                      "id": "st-38f9777249",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "A Heo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "Nashville SC",
+            "team_b": "Inter Miami",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7955.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7953.jpg",
+            "time": "07:30",
+            "date": "16/08",
+            "blv": "A Heo",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64031_760ce079_20260815.png?v=760ce079",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "ph-b7bf3ead01",
+          "name": "Mỹ vs Trung Quốc | 04:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7bf3ead01",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b7bf3ead01",
+                  "name": "Mỹ vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-b7bf3ead01",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U17 World Championship",
+            "team_a": "Mỹ",
+            "team_b": "Trung Quốc",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_tj4Ymih.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "time": "04:00",
+            "date": "16/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67096_c33a791b_20260815.png?v=c33a791b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-60cfde0924",
+          "name": "Đài Loan vs Thổ Nhĩ Kì | 07:00 16/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-60cfde0924",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-60cfde0924",
+                  "name": "Đài Loan vs Thổ Nhĩ Kì",
+                  "streams": [
+                    {
+                      "id": "st-60cfde0924",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U17 World Championship",
+            "team_a": "Đài Loan",
+            "team_b": "Thổ Nhĩ Kì",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
+            "time": "07:00",
+            "date": "16/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67097_06b97315_20260815.png?v=06b97315",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
