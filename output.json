@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -182,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -238,9 +238,9 @@
             "time": "23:15",
             "date": "15/08",
             "blv": "Văn Minh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
