@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -254,30 +254,30 @@
           }
         },
         {
-          "id": "ph-4f6e93f101",
-          "name": "Braga vs Gil Vicente | 02:30 17/08",
+          "id": "ph-49d9bbd25e",
+          "name": "Famalicao vs Maritimo | 02:30 17/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-4f6e93f101",
+              "id": "src-49d9bbd25e",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-4f6e93f101",
-                  "name": "Braga vs Gil Vicente",
+                  "id": "ct-49d9bbd25e",
+                  "name": "Famalicao vs Maritimo",
                   "streams": [
                     {
-                      "id": "st-4f6e93f101",
+                      "id": "st-49d9bbd25e",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
@@ -310,16 +310,16 @@
           ],
           "org_metadata": {
             "league": "Primeira Liga",
-            "team_a": "Braga",
-            "team_b": "Gil Vicente",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_156.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5996.jpg",
+            "team_a": "Famalicao",
+            "team_b": "Maritimo",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6008.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5995.jpg",
             "time": "02:30",
             "date": "17/08",
             "blv": "Pháo Thủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -327,7 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64648_a841d2d1_20260817.png?v=a841d2d1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64647_9b3af6e0_20260817.png?v=9b3af6e0",
             "width": 1600,
             "height": 1200
           }
