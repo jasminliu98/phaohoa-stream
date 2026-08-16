@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -254,6 +254,85 @@
           }
         },
         {
+          "id": "ph-18877d5cdd",
+          "name": "Lens vs PSG | 01:45 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18877d5cdd",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-18877d5cdd",
+                  "name": "Lens vs PSG",
+                  "streams": [
+                    {
+                      "id": "st-18877d5cdd",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trophée des Champions",
+            "team_a": "Lens",
+            "team_b": "PSG",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3821.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_100.jpg",
+            "time": "01:45",
+            "date": "17/08",
+            "blv": "Kevin",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64617_f3d39d1b_20260817.png?v=f3d39d1b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-80869551c7",
           "name": "Besiktas vs Eyupspor | 01:30 17/08",
           "type": "single",
@@ -328,85 +407,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64612_6c683458_20260817.png?v=6c683458",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-18877d5cdd",
-          "name": "Lens vs PSG | 01:45 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-18877d5cdd",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-18877d5cdd",
-                  "name": "Lens vs PSG",
-                  "streams": [
-                    {
-                      "id": "st-18877d5cdd",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Trophée des Champions",
-            "team_a": "Lens",
-            "team_b": "PSG",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3821.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_100.jpg",
-            "time": "01:45",
-            "date": "17/08",
-            "blv": "Kevin",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64617_f3d39d1b_20260817.png?v=f3d39d1b",
             "width": 1600,
             "height": 1200
           }
