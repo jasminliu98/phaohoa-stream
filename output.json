@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-27f68e30be",
-          "name": "Racing Santander vs Villarreal | 22:00 16/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-27f68e30be",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-27f68e30be",
-                  "name": "Racing Santander vs Villarreal",
-                  "streams": [
-                    {
-                      "id": "st-27f68e30be",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Racing Santander",
-            "team_b": "Villarreal",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7220.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_162.jpg",
-            "time": "22:00",
-            "date": "16/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64407_11ff4e8d_20260816.png?v=11ff4e8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-23fcf35b0a",
           "name": "KV Mechelen vs St. Liege | 23:30 16/08",
           "type": "single",
@@ -163,13 +84,92 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64507_5e0c8fc4_20260816.png?v=5e0c8fc4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64507_5e0c8fc4_20260817.png?v=5e0c8fc4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2fef730295",
+          "name": "Espanyol vs Levante | 00:00 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2fef730295",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2fef730295",
+                  "name": "Espanyol vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-2fef730295",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Espanyol",
+            "team_b": "Levante",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7268.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7259.jpg",
+            "time": "00:00",
+            "date": "17/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64566_e50eecf0_20260817.png?v=e50eecf0",
             "width": 1600,
             "height": 1200
           }
@@ -248,86 +248,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68084_b9f5d28b_20260816.png?v=b9f5d28b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-2fef730295",
-          "name": "Espanyol vs Levante | 00:00 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2fef730295",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-2fef730295",
-                  "name": "Espanyol vs Levante",
-                  "streams": [
-                    {
-                      "id": "st-2fef730295",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Espanyol",
-            "team_b": "Levante",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7268.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7259.jpg",
-            "time": "00:00",
-            "date": "17/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64566_e50eecf0_20260816.png?v=e50eecf0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68084_b9f5d28b_20260817.png?v=b9f5d28b",
             "width": 1600,
             "height": 1200
           }
@@ -406,7 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64612_6c683458_20260816.png?v=6c683458",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64612_6c683458_20260817.png?v=6c683458",
             "width": 1600,
             "height": 1200
           }
@@ -485,7 +406,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64617_f3d39d1b_20260816.png?v=f3d39d1b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64617_f3d39d1b_20260817.png?v=f3d39d1b",
             "width": 1600,
             "height": 1200
           }
@@ -564,7 +485,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64648_a841d2d1_20260816.png?v=a841d2d1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64648_a841d2d1_20260817.png?v=a841d2d1",
             "width": 1600,
             "height": 1200
           }
@@ -643,7 +564,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64755_d6469c50_20260816.png?v=d6469c50",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64755_d6469c50_20260817.png?v=d6469c50",
             "width": 1600,
             "height": 1200
           }
@@ -722,7 +643,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64762_6ce55b87_20260816.png?v=6ce55b87",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64762_6ce55b87_20260817.png?v=6ce55b87",
             "width": 1600,
             "height": 1200
           }
@@ -801,7 +722,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64777_101065f7_20260816.png?v=101065f7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64777_101065f7_20260817.png?v=101065f7",
             "width": 1600,
             "height": 1200
           }
@@ -880,7 +801,244 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64792_890e3cc5_20260816.png?v=890e3cc5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64792_890e3cc5_20260817.png?v=890e3cc5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2ac3f5bda1",
+          "name": "Al Zulfi vs Al Riyadh | 23:15 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ac3f5bda1",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2ac3f5bda1",
+                  "name": "Al Zulfi vs Al Riyadh",
+                  "streams": [
+                    {
+                      "id": "st-2ac3f5bda1",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "King's Cup",
+            "team_a": "Al Zulfi",
+            "team_b": "Al Riyadh",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_18884.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Al-Riyadh_SC.svg.webp",
+            "time": "23:15",
+            "date": "17/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64793_baf64a12_20260817.png?v=baf64a12",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-b7f61a5965",
+          "name": "Brondby vs Sonderjyske | 00:00 18/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7f61a5965",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b7f61a5965",
+                  "name": "Brondby vs Sonderjyske",
+                  "streams": [
+                    {
+                      "id": "st-b7f61a5965",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superliga",
+            "team_a": "Brondby",
+            "team_b": "Sonderjyske",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_2647.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_183.jpg",
+            "time": "00:00",
+            "date": "18/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64857_ac6135c1_20260817.png?v=ac6135c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-18e233117b",
+          "name": "Al Raed vs Al Hilal | 01:00 18/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18e233117b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-18e233117b",
+                  "name": "Al Raed vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-18e233117b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "King's Cup",
+            "team_a": "Al Raed",
+            "team_b": "Al Hilal",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6334.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_366.jpg",
+            "time": "01:00",
+            "date": "18/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64878_843b50a9_20260817.png?v=843b50a9",
             "width": 1600,
             "height": 1200
           }
@@ -968,7 +1126,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68090_16399e7e_20260816.png?v=16399e7e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68090_16399e7e_20260817.png?v=16399e7e",
             "width": 1600,
             "height": 1200
           }
@@ -1047,7 +1205,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68091_bf6a577d_20260816.png?v=bf6a577d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68091_bf6a577d_20260817.png?v=bf6a577d",
             "width": 1600,
             "height": 1200
           }
