@@ -1279,6 +1279,401 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-fb15e2247f",
+          "name": "Gnistan vs Ilves | 22:00 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb15e2247f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-fb15e2247f",
+                  "name": "Gnistan vs Ilves",
+                  "streams": [
+                    {
+                      "id": "st-fb15e2247f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "Gnistan",
+            "team_b": "Ilves",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3541.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3551.jpg",
+            "time": "22:00",
+            "date": "17/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64755_d6469c50_20260816.png?v=d6469c50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-18bd524154",
+          "name": "Polissya Zhytomyr vs FK Zorya Luhansk | 22:00 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18bd524154",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-18bd524154",
+                  "name": "Polissya Zhytomyr vs FK Zorya Luhansk",
+                  "streams": [
+                    {
+                      "id": "st-18bd524154",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Polissya Zhytomyr",
+            "team_b": "FK Zorya Luhansk",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7780.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_157.jpg",
+            "time": "22:00",
+            "date": "17/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64762_6ce55b87_20260816.png?v=6ce55b87",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1defbd6ab8",
+          "name": "Al Anwar vs Al Ahli SC | 23:00 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1defbd6ab8",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1defbd6ab8",
+                  "name": "Al Anwar vs Al Ahli SC",
+                  "streams": [
+                    {
+                      "id": "st-1defbd6ab8",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "King's Cup",
+            "team_a": "Al Anwar",
+            "team_b": "Al Ahli SC",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/saffteamlargerCpxd1758029390.png",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_359.jpg",
+            "time": "23:00",
+            "date": "17/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64777_101065f7_20260816.png?v=101065f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-bca1603e87",
+          "name": "Al Taee vs Al Qadsiah | 23:15 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bca1603e87",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-bca1603e87",
+                  "name": "Al Taee vs Al Qadsiah",
+                  "streams": [
+                    {
+                      "id": "st-bca1603e87",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "King's Cup",
+            "team_a": "Al Taee",
+            "team_b": "Al Qadsiah",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Al-Tai_FC_Logo.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Al-Qadsiah_Logo.svg.webp",
+            "time": "23:15",
+            "date": "17/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64792_890e3cc5_20260816.png?v=890e3cc5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2ac3f5bda1",
+          "name": "Al Zulfi vs Al Riyadh | 23:15 17/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ac3f5bda1",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2ac3f5bda1",
+                  "name": "Al Zulfi vs Al Riyadh",
+                  "streams": [
+                    {
+                      "id": "st-2ac3f5bda1",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "King's Cup",
+            "team_a": "Al Zulfi",
+            "team_b": "Al Riyadh",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_18884.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Al-Riyadh_SC.svg.webp",
+            "time": "23:15",
+            "date": "17/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64793_baf64a12_20260816.png?v=baf64a12",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
