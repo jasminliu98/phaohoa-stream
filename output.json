@@ -175,8 +175,8 @@
           }
         },
         {
-          "id": "ph-5fe93099ca",
-          "name": "Beveren vs Anderlecht | 18:30 16/08",
+          "id": "ph-f845a936b6",
+          "name": "SG Dynamo Dresden vs Darmstadt | 18:30 16/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -190,15 +190,15 @@
           ],
           "sources": [
             {
-              "id": "src-5fe93099ca",
+              "id": "src-f845a936b6",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-5fe93099ca",
-                  "name": "Beveren vs Anderlecht",
+                  "id": "ct-f845a936b6",
+                  "name": "SG Dynamo Dresden vs Darmstadt",
                   "streams": [
                     {
-                      "id": "st-5fe93099ca",
+                      "id": "st-f845a936b6",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
@@ -230,11 +230,11 @@
             }
           ],
           "org_metadata": {
-            "league": "First Division A",
-            "team_a": "Beveren",
-            "team_b": "Anderlecht",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1371.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1361.jpg",
+            "league": "2. Bundesliga",
+            "team_a": "SG Dynamo Dresden",
+            "team_b": "Darmstadt",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3938.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3922.jpg",
             "time": "18:30",
             "date": "16/08",
             "blv": "Chim Nhỏ",
@@ -248,7 +248,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64173_7623928c_20260816.png?v=7623928c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64172_675103c4_20260816.png?v=675103c4",
             "width": 1600,
             "height": 1200
           }
