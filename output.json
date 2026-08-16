@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 3
           },
           "image": {
@@ -328,85 +328,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64617_f3d39d1b_20260817.png?v=f3d39d1b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-80869551c7",
-          "name": "Besiktas vs Eyupspor | 01:30 17/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80869551c7",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-80869551c7",
-                  "name": "Besiktas vs Eyupspor",
-                  "streams": [
-                    {
-                      "id": "st-80869551c7",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Süper Lig",
-            "team_a": "Besiktas",
-            "team_b": "Eyupspor",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_187.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Eyüpspor_Logosu.png",
-            "time": "01:30",
-            "date": "17/08",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64612_6c683458_20260817.png?v=6c683458",
             "width": 1600,
             "height": 1200
           }
@@ -960,6 +881,322 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64857_ac6135c1_20260817.png?v=ac6135c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-18e233117b",
+          "name": "Al Raed vs Al Hilal | 01:00 18/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-18e233117b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-18e233117b",
+                  "name": "Al Raed vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-18e233117b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "King's Cup",
+            "team_a": "Al Raed",
+            "team_b": "Al Hilal",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6334.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_366.jpg",
+            "time": "01:00",
+            "date": "18/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64878_843b50a9_20260817.png?v=843b50a9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-23e93b1f24",
+          "name": "Samsunspor vs Goztepe | 01:30 18/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23e93b1f24",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-23e93b1f24",
+                  "name": "Samsunspor vs Goztepe",
+                  "streams": [
+                    {
+                      "id": "st-23e93b1f24",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Süper Lig",
+            "team_a": "Samsunspor",
+            "team_b": "Goztepe",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7665_lT9ZeBb.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7701.jpg",
+            "time": "01:30",
+            "date": "18/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64886_e8706f2f_20260817.png?v=e8706f2f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1517ca975e",
+          "name": "Dep. La Coruna vs Elche | 02:00 18/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1517ca975e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1517ca975e",
+                  "name": "Dep. La Coruna vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-1517ca975e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Dep. La Coruna",
+            "team_b": "Elche",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7200.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7274.jpg",
+            "time": "02:00",
+            "date": "18/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64893_088da028_20260817.png?v=088da028",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-7e8145ab66",
+          "name": "Casa Pia vs Benfica | 02:15 18/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e8145ab66",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-7e8145ab66",
+                  "name": "Casa Pia vs Benfica",
+                  "streams": [
+                    {
+                      "id": "st-7e8145ab66",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Casa Pia",
+            "team_b": "Benfica",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6018.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_147.jpg",
+            "time": "02:15",
+            "date": "18/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64899_b57f3fac_20260817.png?v=b57f3fac",
             "width": 1600,
             "height": 1200
           }
