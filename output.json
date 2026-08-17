@@ -76,7 +76,7 @@
             "team_a": "Al Taee",
             "team_b": "Al Qadsiah",
             "logo_a": "https://phaohoa1.live/media/teams/logos/Al-Tai_FC_Logo.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Al-Qadsiah_Logo.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/QAD_LOGO.png",
             "time": "23:15",
             "date": "17/08",
             "blv": "Chim Nhỏ",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64792_890e3cc5_20260817.png?v=890e3cc5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64792_b45309ec_20260817.png?v=b45309ec",
             "width": 1600,
             "height": 1200
           }
