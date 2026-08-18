@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-a1a67abe6a",
-          "name": "Shanghai Shenhua vs Beijing Guoan | 18:35 18/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a1a67abe6a",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-a1a67abe6a",
-                  "name": "Shanghai Shenhua vs Beijing Guoan",
-                  "streams": [
-                    {
-                      "id": "st-a1a67abe6a",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Super League",
-            "team_a": "Shanghai Shenhua",
-            "team_b": "Beijing Guoan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_381.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_375.jpg",
-            "time": "18:35",
-            "date": "18/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/50918_dff8c7c1_20260818.png?v=dff8c7c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-e1c883f904",
-          "name": "Thái Lan vs Singapore | 20:00 18/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1c883f904",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-e1c883f904",
-                  "name": "Thái Lan vs Singapore",
-                  "streams": [
-                    {
-                      "id": "st-e1c883f904",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Kevin + Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship",
-            "team_a": "Thái Lan",
-            "team_b": "Singapore",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_480.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_483.jpg",
-            "time": "20:00",
-            "date": "18/08",
-            "blv": "Kevin + Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64936_3bc802b9_20260818.png?v=3bc802b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-3f7cce19df",
           "name": "Buxoro vs Neftchi Fargona | 22:00 18/08",
@@ -1908,6 +1750,401 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65419_cc5ea6d6_20260818.png?v=cc5ea6d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-44186c84a1",
+          "name": "Al Wakra vs Qatar SC | 21:15 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-44186c84a1",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-44186c84a1",
+                  "name": "Al Wakra vs Qatar SC",
+                  "streams": [
+                    {
+                      "id": "st-44186c84a1",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Stars League",
+            "team_a": "Al Wakra",
+            "team_b": "Qatar SC",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6061_oV2JM2t.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6057.jpg",
+            "time": "21:15",
+            "date": "20/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65486_4dd7d50f_20260818.png?v=4dd7d50f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-4c473e1b45",
+          "name": "Kairat Almaty vs Anderlecht | 22:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c473e1b45",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-4c473e1b45",
+                  "name": "Kairat Almaty vs Anderlecht",
+                  "streams": [
+                    {
+                      "id": "st-4c473e1b45",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Kairat Almaty",
+            "team_b": "Anderlecht",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_245.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1361.jpg",
+            "time": "22:00",
+            "date": "20/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65851_f3806323_20260818.png?v=f3806323",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-ea35e26502",
+          "name": "Mjallby vs Salzburg | 23:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ea35e26502",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-ea35e26502",
+                  "name": "Mjallby vs Salzburg",
+                  "streams": [
+                    {
+                      "id": "st-ea35e26502",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Mjallby",
+            "team_b": "Salzburg",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7354.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_74.jpg",
+            "time": "23:00",
+            "date": "20/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65563_97ae3ee8_20260818.png?v=97ae3ee8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-9ac284b01e",
+          "name": "Inter Turku vs FC Copenhagen | 23:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ac284b01e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-9ac284b01e",
+                  "name": "Inter Turku vs FC Copenhagen",
+                  "streams": [
+                    {
+                      "id": "st-9ac284b01e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Conference League",
+            "team_a": "Inter Turku",
+            "team_b": "FC Copenhagen",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3542.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_175.jpg",
+            "time": "23:00",
+            "date": "20/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65569_a0c7d1dd_20260818.png?v=a0c7d1dd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1cd4397a35",
+          "name": "Jagiellonia vs Iberia 1999 | 23:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1cd4397a35",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1cd4397a35",
+                  "name": "Jagiellonia vs Iberia 1999",
+                  "streams": [
+                    {
+                      "id": "st-1cd4397a35",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Jagiellonia",
+            "team_b": "Iberia 1999",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5770.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3906.jpg",
+            "time": "23:00",
+            "date": "20/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65850_8e05b376_20260818.png?v=8e05b376",
             "width": 1600,
             "height": 1200
           }
