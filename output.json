@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,6 +91,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65348_b180e2f1_20260820.png?v=b180e2f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-eefe7a85c2",
+          "name": "Atl. Madrid vs Malaga | 02:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eefe7a85c2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-eefe7a85c2",
+                  "name": "Atl. Madrid vs Malaga",
+                  "streams": [
+                    {
+                      "id": "st-eefe7a85c2",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Atl. Madrid",
+            "team_b": "Malaga",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/atletico-madrid.0e6714cc.png",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7267.jpg",
+            "time": "02:00",
+            "date": "20/08",
+            "blv": "Kevin",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65372_da001a18_20260820.png?v=da001a18",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-aab2f15c7f",
+          "name": "Nijmegen vs Bodo/Glimt | 02:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aab2f15c7f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-aab2f15c7f",
+                  "name": "Nijmegen vs Bodo/Glimt",
+                  "streams": [
+                    {
+                      "id": "st-aab2f15c7f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Nijmegen",
+            "team_b": "Bodo/Glimt",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5466.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_215.jpg",
+            "time": "02:00",
+            "date": "20/08",
+            "blv": "Tày",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65377_6a293f5f_20260820.png?v=6a293f5f",
             "width": 1600,
             "height": 1200
           }
@@ -249,164 +407,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61606_4a47ab2c_20260820.png?v=4a47ab2c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-eefe7a85c2",
-          "name": "Atl. Madrid vs Malaga | 02:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eefe7a85c2",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-eefe7a85c2",
-                  "name": "Atl. Madrid vs Malaga",
-                  "streams": [
-                    {
-                      "id": "st-eefe7a85c2",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Atl. Madrid",
-            "team_b": "Malaga",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/atletico-madrid.0e6714cc.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7267.jpg",
-            "time": "02:00",
-            "date": "20/08",
-            "blv": "Kevin",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65372_da001a18_20260820.png?v=da001a18",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-aab2f15c7f",
-          "name": "Nijmegen vs Bodo/Glimt | 02:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aab2f15c7f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-aab2f15c7f",
-                  "name": "Nijmegen vs Bodo/Glimt",
-                  "streams": [
-                    {
-                      "id": "st-aab2f15c7f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Nijmegen",
-            "team_b": "Bodo/Glimt",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5466.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_215.jpg",
-            "time": "02:00",
-            "date": "20/08",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65377_6a293f5f_20260820.png?v=6a293f5f",
             "width": 1600,
             "height": 1200
           }
