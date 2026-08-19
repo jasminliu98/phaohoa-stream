@@ -240,7 +240,7 @@
             "blv": "Tày",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 2
           },
