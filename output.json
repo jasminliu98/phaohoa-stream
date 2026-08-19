@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-41e9c697b3",
-          "name": "Jeddah vs Al Kholood | 23:30 19/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41e9c697b3",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-41e9c697b3",
-                  "name": "Jeddah vs Al Kholood",
-                  "streams": [
-                    {
-                      "id": "st-41e9c697b3",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "King's Cup",
-            "team_a": "Jeddah",
-            "team_b": "Al Kholood",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6318.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Al_Kholood_Club_Logo.svg.webp",
-            "time": "23:30",
-            "date": "19/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 5
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65283_d46eb1c2_20260820.png?v=d46eb1c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-f896cfd79f",
           "name": "Barcelona vs Al Ahly | 01:00 20/08",
           "type": "single",
@@ -170,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65348_b180e2f1_20260820.png?v=b180e2f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-707319a0b6",
+          "name": "Slovan Bratislava vs Celje | 02:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-707319a0b6",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-707319a0b6",
+                  "name": "Slovan Bratislava vs Celje",
+                  "streams": [
+                    {
+                      "id": "st-707319a0b6",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Slovan Bratislava",
+            "team_b": "Celje",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6565.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_116.jpg",
+            "time": "02:00",
+            "date": "20/08",
+            "blv": "Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65378_af93e910_20260820.png?v=af93e910",
             "width": 1600,
             "height": 1200
           }
@@ -407,85 +407,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65377_6a293f5f_20260820.png?v=6a293f5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-707319a0b6",
-          "name": "Slovan Bratislava vs Celje | 02:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-707319a0b6",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-707319a0b6",
-                  "name": "Slovan Bratislava vs Celje",
-                  "streams": [
-                    {
-                      "id": "st-707319a0b6",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Slovan Bratislava",
-            "team_b": "Celje",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6565.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_116.jpg",
-            "time": "02:00",
-            "date": "20/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65378_af93e910_20260820.png?v=af93e910",
             "width": 1600,
             "height": 1200
           }
@@ -1759,6 +1680,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68845_e53ccc89_20260820.png?v=e53ccc89",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-190fd024f4",
+          "name": "Pháp vs Slovakia | 18:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-190fd024f4",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-190fd024f4",
+                  "name": "Pháp vs Slovakia",
+                  "streams": [
+                    {
+                      "id": "st-190fd024f4",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Pháp",
+            "team_b": "Slovakia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_4kCzOp7.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_VYjid2m.jpg",
+            "time": "18:00",
+            "date": "21/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68848_d3990392_20260820.png?v=d3990392",
             "width": 1600,
             "height": 1200
           }
