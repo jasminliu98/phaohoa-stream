@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-36690b57c2",
-          "name": "Celtic vs LASK | 02:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-36690b57c2",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-36690b57c2",
-                  "name": "Celtic vs LASK",
-                  "streams": [
-                    {
-                      "id": "st-36690b57c2",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Celtic",
-            "team_b": "LASK",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_127.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_166.jpg",
-            "time": "02:00",
-            "date": "20/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61606_4a47ab2c_20260820.png?v=4a47ab2c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-eefe7a85c2",
           "name": "Atl. Madrid vs Malaga | 02:00 20/08",
@@ -162,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -170,164 +91,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65372_da001a18_20260820.png?v=da001a18",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-aab2f15c7f",
-          "name": "Nijmegen vs Bodo/Glimt | 02:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aab2f15c7f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-aab2f15c7f",
-                  "name": "Nijmegen vs Bodo/Glimt",
-                  "streams": [
-                    {
-                      "id": "st-aab2f15c7f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Nijmegen",
-            "team_b": "Bodo/Glimt",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5466.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_215.jpg",
-            "time": "02:00",
-            "date": "20/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65377_6a293f5f_20260820.png?v=6a293f5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-707319a0b6",
-          "name": "Slovan Bratislava vs Celje | 02:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-707319a0b6",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-707319a0b6",
-                  "name": "Slovan Bratislava vs Celje",
-                  "streams": [
-                    {
-                      "id": "st-707319a0b6",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Slovan Bratislava",
-            "team_b": "Celje",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6565.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_116.jpg",
-            "time": "02:00",
-            "date": "20/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65378_af93e910_20260820.png?v=af93e910",
             "width": 1600,
             "height": 1200
           }
@@ -1358,6 +1121,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-9f5fe5a178",
+          "name": "Al Riyadh vs Al Nassr | 23:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f5fe5a178",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-9f5fe5a178",
+                  "name": "Al Riyadh vs Al Nassr",
+                  "streams": [
+                    {
+                      "id": "st-9f5fe5a178",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Riyadh",
+            "team_b": "Al Nassr",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/al-riyadh-logo-footylogos-320.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_371.jpg",
+            "time": "23:00",
+            "date": "21/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65733_cfccccdb_20260820.png?v=cfccccdb",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1917,6 +1759,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68846_9a38ec75_20260820.png?v=9a38ec75",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f61fe5a906",
+          "name": "Bulgaria vs Ukraine | 22:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f61fe5a906",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f61fe5a906",
+                  "name": "Bulgaria vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-f61fe5a906",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "A Heo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Bulgaria",
+            "team_b": "Ukraine",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Bulgaria.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_7oS7OkG.jpg",
+            "time": "22:00",
+            "date": "21/08",
+            "blv": "A Heo",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68852_89c31bb1_20260820.png?v=89c31bb1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-27fc0c96df",
+          "name": "Thổ Nhĩ Kì vs Latvia | 23:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-27fc0c96df",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-27fc0c96df",
+                  "name": "Thổ Nhĩ Kì vs Latvia",
+                  "streams": [
+                    {
+                      "id": "st-27fc0c96df",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Thổ Nhĩ Kì",
+            "team_b": "Latvia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Latvia.svg.webp",
+            "time": "23:00",
+            "date": "21/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68847_e9832fd8_20260820.png?v=e9832fd8",
             "width": 1600,
             "height": 1200
           }
