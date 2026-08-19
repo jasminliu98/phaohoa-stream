@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -182,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -238,9 +238,9 @@
             "time": "01:00",
             "date": "20/08",
             "blv": "A Heo",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1024,7 +1024,7 @@
             "team_a": "Besiktas",
             "team_b": "Kauno Zalgiris",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_187.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Zalgiris-Logo-500x281.png",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/kauno-zalgiris-football.webp",
             "time": "00:00",
             "date": "21/08",
             "blv": "Chim Nhỏ",
@@ -1038,7 +1038,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65562_ba107329_20260820.png?v=ba107329",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65562_96f8905c_20260820.png?v=96f8905c",
             "width": 1600,
             "height": 1200
           }
@@ -1181,7 +1181,7 @@
             "league": "Saudi Pro League",
             "team_a": "Al Fayha",
             "team_b": "Al Hilal",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Al_Fayha_FC_logo.png",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/al-fayha-logo-footylogos-320.webp",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_366.jpg",
             "time": "01:00",
             "date": "21/08",
@@ -1196,7 +1196,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65581_9a562b73_20260820.png?v=9a562b73",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65581_9e0ae881_20260820.png?v=9e0ae881",
             "width": 1600,
             "height": 1200
           }
