@@ -865,7 +865,7 @@
             "league": "La Liga",
             "team_a": "Atl. Madrid",
             "team_b": "Malaga",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/43bf43c332f9d4bb5b14da0db6b12471.png",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/atletico-madrid.0e6714cc.png",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_7267.jpg",
             "time": "02:00",
             "date": "20/08",
@@ -880,7 +880,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65372_92144d30_20260819.png?v=92144d30",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65372_da001a18_20260819.png?v=da001a18",
             "width": 1600,
             "height": 1200
           }
@@ -1437,85 +1437,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "ph-1cd4397a35",
-          "name": "Jagiellonia vs Iberia 1999 | 23:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1cd4397a35",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-1cd4397a35",
-                  "name": "Jagiellonia vs Iberia 1999",
-                  "streams": [
-                    {
-                      "id": "st-1cd4397a35",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Jagiellonia",
-            "team_b": "Iberia 1999",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5770.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3906.jpg",
-            "time": "23:00",
-            "date": "20/08",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65850_8e05b376_20260819.png?v=8e05b376",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -1601,6 +1522,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68800_4b3e1a3b_20260819.png?v=4b3e1a3b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-efb9833652",
+          "name": "Brazil vs Mexico | 18:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-efb9833652",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-efb9833652",
+                  "name": "Brazil vs Mexico",
+                  "streams": [
+                    {
+                      "id": "st-efb9833652",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U17 World Championship",
+            "team_a": "Brazil",
+            "team_b": "Mexico",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_RsNoEng.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_vhHosxe.jpg",
+            "time": "18:00",
+            "date": "20/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68801_ccf6c331_20260819.png?v=ccf6c331",
             "width": 1600,
             "height": 1200
           }
