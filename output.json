@@ -82,7 +82,7 @@
             "blv": "KaKa",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 1
           },
@@ -163,7 +163,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 3
+            "away_score": 4
           },
           "image": {
             "padding": 1,
@@ -1276,6 +1276,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65561_3491a3fd_20260820.png?v=3491a3fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2d57c04ff4",
+          "name": "Rayo Vallecano vs Alaves | 02:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d57c04ff4",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2d57c04ff4",
+                  "name": "Rayo Vallecano vs Alaves",
+                  "streams": [
+                    {
+                      "id": "st-2d57c04ff4",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Alaves",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7264.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Deportivo_Alaves_logo_2020.svg.webp",
+            "time": "02:00",
+            "date": "21/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65597_bd7911e7_20260820.png?v=bd7911e7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f155ac5c22",
+          "name": "Benfica vs Aarhus | 02:00 21/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f155ac5c22",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f155ac5c22",
+                  "name": "Benfica vs Aarhus",
+                  "streams": [
+                    {
+                      "id": "st-f155ac5c22",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Benfica",
+            "team_b": "Aarhus",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_147.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_250.jpg",
+            "time": "02:00",
+            "date": "21/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65848_9ff1d952_20260820.png?v=9ff1d952",
             "width": 1600,
             "height": 1200
           }
