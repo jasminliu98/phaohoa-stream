@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-d877b25660",
-          "name": "Besiktas vs Kauno Zalgiris | 00:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d877b25660",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d877b25660",
-                  "name": "Besiktas vs Kauno Zalgiris",
-                  "streams": [
-                    {
-                      "id": "st-d877b25660",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Besiktas",
-            "team_b": "Kauno Zalgiris",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_187.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/kauno-zalgiris-football.webp",
-            "time": "00:00",
-            "date": "21/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65562_96f8905c_20260821.png?v=96f8905c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-ca371f7499",
-          "name": "Tromso vs Brighton | 00:00 21/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ca371f7499",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-ca371f7499",
-                  "name": "Tromso vs Brighton",
-                  "streams": [
-                    {
-                      "id": "st-ca371f7499",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "A Heo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Conference League",
-            "team_a": "Tromso",
-            "team_b": "Brighton",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5634.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3079.jpg",
-            "time": "00:00",
-            "date": "21/08",
-            "blv": "A Heo",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65573_6eb75146_20260821.png?v=6eb75146",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-54078928d1",
           "name": "Al Fayha vs Al Hilal | 01:00 21/08",
@@ -419,10 +261,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -475,9 +317,9 @@
             "time": "02:00",
             "date": "21/08",
             "blv": "Chim Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1118,6 +960,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66072_e93ef6c9_20260821.png?v=e93ef6c9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-8c18d2a16e",
+          "name": "Kashima Antlers vs Avispa Fukuoka | 16:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c18d2a16e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-8c18d2a16e",
+                  "name": "Kashima Antlers vs Avispa Fukuoka",
+                  "streams": [
+                    {
+                      "id": "st-8c18d2a16e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Avispa Fukuoka",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5053.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5048.jpg",
+            "time": "16:00",
+            "date": "22/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66211_b22482f2_20260821.png?v=b22482f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-ac726e4f2a",
+          "name": "Yokohama F. Marinos vs Vissel Kobe | 17:30 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac726e4f2a",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-ac726e4f2a",
+                  "name": "Yokohama F. Marinos vs Vissel Kobe",
+                  "streams": [
+                    {
+                      "id": "st-ac726e4f2a",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Yokohama F. Marinos",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_387.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_383.jpg",
+            "time": "17:30",
+            "date": "22/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66272_e2d28b4b_20260821.png?v=e2d28b4b",
             "width": 1600,
             "height": 1200
           }
