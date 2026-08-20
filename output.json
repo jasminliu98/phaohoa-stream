@@ -1200,49 +1200,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-efb9833652",
-          "name": "Brazil vs Mexico | 18:00 20/08",
+          "id": "ph-db3cdb0f88",
+          "name": "Marseille vs Strasbourg | 01:45 22/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-efb9833652",
+              "id": "src-db3cdb0f88",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-efb9833652",
-                  "name": "Brazil vs Mexico",
+                  "id": "ct-db3cdb0f88",
+                  "name": "Marseille vs Strasbourg",
                   "streams": [
                     {
-                      "id": "st-efb9833652",
+                      "id": "st-db3cdb0f88",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1266,17 +1257,17 @@
             }
           ],
           "org_metadata": {
-            "league": "U17 World Championship",
-            "team_a": "Brazil",
-            "team_b": "Mexico",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_RsNoEng.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_vhHosxe.jpg",
-            "time": "18:00",
-            "date": "20/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Ligue 1",
+            "team_a": "Marseille",
+            "team_b": "Strasbourg",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_83.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3818.jpg",
+            "time": "01:45",
+            "date": "22/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1284,11 +1275,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68801_ccf6c331_20260820.png?v=ccf6c331",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66066_c8f53ced_20260820.png?v=c8f53ced",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-0babfe8976",
           "name": "Đài Loan vs Iran | 09:00 21/08",
