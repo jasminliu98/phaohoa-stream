@@ -1200,253 +1200,95 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "ph-db3cdb0f88",
-          "name": "Marseille vs Strasbourg | 01:45 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db3cdb0f88",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-db3cdb0f88",
-                  "name": "Marseille vs Strasbourg",
-                  "streams": [
-                    {
-                      "id": "st-db3cdb0f88",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Marseille",
-            "team_b": "Strasbourg",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_83.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3818.jpg",
-            "time": "01:45",
-            "date": "22/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66066_c8f53ced_20260820.png?v=c8f53ced",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-e252da8e88",
-          "name": "Real Betis vs Real Sociedad | 02:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e252da8e88",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-e252da8e88",
-                  "name": "Real Betis vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-e252da8e88",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Betis",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7261.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_153.jpg",
-            "time": "02:00",
-            "date": "22/08",
-            "blv": "Kevin",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66070_298425a8_20260820.png?v=298425a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-4e1c2472e0",
-          "name": "Arsenal vs Coventry | 02:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e1c2472e0",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-4e1c2472e0",
-                  "name": "Arsenal vs Coventry",
-                  "streams": [
-                    {
-                      "id": "st-4e1c2472e0",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "A Heo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Arsenal",
-            "team_b": "Coventry",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_141.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3094.jpg",
-            "time": "02:00",
-            "date": "22/08",
-            "blv": "A Heo",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66072_e93ef6c9_20260820.png?v=e93ef6c9",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
     {
       "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "ph-efb9833652",
+          "name": "Brazil vs Mexico | 18:00 20/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-efb9833652",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-efb9833652",
+                  "name": "Brazil vs Mexico",
+                  "streams": [
+                    {
+                      "id": "st-efb9833652",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "U17 World Championship",
+            "team_a": "Brazil",
+            "team_b": "Mexico",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_RsNoEng.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_vhHosxe.jpg",
+            "time": "18:00",
+            "date": "20/08",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "bong-chuyen",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68801_ccf6c331_20260820.png?v=ccf6c331",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "ph-0babfe8976",
           "name": "Đài Loan vs Iran | 09:00 21/08",
@@ -2075,85 +1917,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68847_e9832fd8_20260820.png?v=e9832fd8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-35edba6d51",
-          "name": "Việt Nam vs Hàn Quốc | 09:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-35edba6d51",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-35edba6d51",
-                  "name": "Việt Nam vs Hàn Quốc",
-                  "streams": [
-                    {
-                      "id": "st-35edba6d51",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Á",
-            "team_a": "Việt Nam",
-            "team_b": "Hàn Quốc",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_hdpF9Rm.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_South_Korea.svg.webp",
-            "time": "09:00",
-            "date": "22/08",
-            "blv": "KaKa",
-            "is_live": false,
-            "cate_type": "bong-chuyen",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68851_bfb8065d_20260820.png?v=bfb8065d",
             "width": 1600,
             "height": 1200
           }
