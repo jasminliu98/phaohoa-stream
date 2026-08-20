@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-44186c84a1",
-          "name": "Al Wakra vs Qatar SC | 21:15 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44186c84a1",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-44186c84a1",
-                  "name": "Al Wakra vs Qatar SC",
-                  "streams": [
-                    {
-                      "id": "st-44186c84a1",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Stars League",
-            "team_a": "Al Wakra",
-            "team_b": "Qatar SC",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6061_oV2JM2t.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6057.jpg",
-            "time": "21:15",
-            "date": "20/08",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65486_4dd7d50f_20260820.png?v=4dd7d50f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-4c473e1b45",
           "name": "Kairat Almaty vs Anderlecht | 22:00 20/08",
@@ -1276,6 +1197,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66066_c8f53ced_20260820.png?v=c8f53ced",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-e252da8e88",
+          "name": "Real Betis vs Real Sociedad | 02:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e252da8e88",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-e252da8e88",
+                  "name": "Real Betis vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-e252da8e88",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7261.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_153.jpg",
+            "time": "02:00",
+            "date": "22/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66070_298425a8_20260820.png?v=298425a8",
             "width": 1600,
             "height": 1200
           }
