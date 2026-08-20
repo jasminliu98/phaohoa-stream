@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-9ac284b01e",
-          "name": "Inter Turku vs FC Copenhagen | 23:00 20/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ac284b01e",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-9ac284b01e",
-                  "name": "Inter Turku vs FC Copenhagen",
-                  "streams": [
-                    {
-                      "id": "st-9ac284b01e",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Conference League",
-            "team_a": "Inter Turku",
-            "team_b": "FC Copenhagen",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3542.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_175.jpg",
-            "time": "23:00",
-            "date": "20/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/65569_a0c7d1dd_20260821.png?v=a0c7d1dd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-d877b25660",
           "name": "Besiktas vs Kauno Zalgiris | 00:00 21/08",
@@ -1024,7 +945,7 @@
             "team_a": "Marseille",
             "team_b": "Strasbourg",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_83.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3818.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Racing_Club_de_Strasbourg_logo.svg.webp",
             "time": "01:45",
             "date": "22/08",
             "blv": "Chim Nhỏ",
@@ -1038,7 +959,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66066_c8f53ced_20260821.png?v=c8f53ced",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66066_dab4419e_20260821.png?v=dab4419e",
             "width": 1600,
             "height": 1200
           }
@@ -1917,6 +1838,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68851_bfb8065d_20260821.png?v=bfb8065d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-71a8ad2060",
+          "name": "Indonesia vs Kazakhstan | 14:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71a8ad2060",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-71a8ad2060",
+                  "name": "Indonesia vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-71a8ad2060",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Indonesia",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_WqmhllM.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Kazakhstan.svg.webp",
+            "time": "14:00",
+            "date": "22/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69066_1f8049eb_20260821.png?v=1f8049eb",
             "width": 1600,
             "height": 1200
           }
