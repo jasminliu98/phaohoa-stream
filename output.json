@@ -805,49 +805,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-27fc0c96df",
-          "name": "Thổ Nhĩ Kì vs Latvia | 23:00 21/08",
+          "id": "ph-35d0c0e834",
+          "name": "Thái Lan vs Việt Nam | 20:00 22/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-27fc0c96df",
+              "id": "src-35d0c0e834",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-27fc0c96df",
-                  "name": "Thổ Nhĩ Kì vs Latvia",
+                  "id": "ct-35d0c0e834",
+                  "name": "Thái Lan vs Việt Nam",
                   "streams": [
                     {
-                      "id": "st-27fc0c96df",
+                      "id": "st-35d0c0e834",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -871,17 +862,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Thổ Nhĩ Kì",
-            "team_b": "Latvia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Latvia.svg.webp",
-            "time": "23:00",
-            "date": "21/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "ASEAN Championship",
+            "team_a": "Thái Lan",
+            "team_b": "Việt Nam",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_480.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_479.jpg",
+            "time": "20:00",
+            "date": "22/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -889,11 +880,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68847_e9832fd8_20260822.png?v=e9832fd8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69069_6c084b9a_20260822.png?v=6c084b9a",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-35edba6d51",
           "name": "Việt Nam vs Hàn Quốc | 09:00 22/08",
