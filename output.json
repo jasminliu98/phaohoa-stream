@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-e252da8e88",
-          "name": "Real Betis vs Real Sociedad | 02:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e252da8e88",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-e252da8e88",
-                  "name": "Real Betis vs Real Sociedad",
-                  "streams": [
-                    {
-                      "id": "st-e252da8e88",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Betis",
-            "team_b": "Real Sociedad",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7261.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_153.jpg",
-            "time": "02:00",
-            "date": "22/08",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66070_298425a8_20260822.png?v=298425a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-8c18d2a16e",
           "name": "Kashima Antlers vs Avispa Fukuoka | 16:00 22/08",
@@ -723,6 +644,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66696_43021229_20260822.png?v=43021229",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-abe6f4d4de",
+          "name": "Ath Bilbao vs Sevilla | 22:00 22/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-abe6f4d4de",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-abe6f4d4de",
+                  "name": "Ath Bilbao vs Sevilla",
+                  "streams": [
+                    {
+                      "id": "st-abe6f4d4de",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Ath Bilbao",
+            "team_b": "Sevilla",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7258.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_89.jpg",
+            "time": "22:00",
+            "date": "22/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66866_14840937_20260822.png?v=14840937",
             "width": 1600,
             "height": 1200
           }
