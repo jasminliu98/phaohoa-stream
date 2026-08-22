@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -161,8 +161,8 @@
             "blv": "Văn Minh",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
+            "status": "half_time",
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -281,11 +281,11 @@
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Lửa",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -316,7 +316,7 @@
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_164_JyQ7jiO.jpg",
             "time": "23:30",
             "date": "22/08",
-            "blv": "Người Lửa",
+            "blv": "Tày",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
