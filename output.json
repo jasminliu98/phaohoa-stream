@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-475d1b99aa",
-          "name": "Everton vs Crystal Palace | 21:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-475d1b99aa",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-475d1b99aa",
-                  "name": "Everton vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-475d1b99aa",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "A Heo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Everton",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Everton_FC_logo.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3429.jpg",
-            "time": "21:00",
-            "date": "22/08",
-            "blv": "A Heo",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66694_50765dde_20260822.png?v=50765dde",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-abe6f4d4de",
           "name": "Ath Bilbao vs Sevilla | 22:00 22/08",
@@ -963,6 +884,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-828eb2792d",
+          "name": "Machida vs Urawa Reds | 17:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-828eb2792d",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-828eb2792d",
+                  "name": "Machida vs Urawa Reds",
+                  "streams": [
+                    {
+                      "id": "st-828eb2792d",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Machida",
+            "team_b": "Urawa Reds",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5085.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5051.jpg",
+            "time": "17:30",
+            "date": "23/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67642_29adeab1_20260822.png?v=29adeab1",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1206,6 +1206,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70787_9ec3fa42_20260822.png?v=9ec3fa42",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-a2d9c5a42b",
+          "name": "Nhật Bản vs Hàn Quốc | 17:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a2d9c5a42b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a2d9c5a42b",
+                  "name": "Nhật Bản vs Hàn Quốc",
+                  "streams": [
+                    {
+                      "id": "st-a2d9c5a42b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Nhật Bản",
+            "team_b": "Hàn Quốc",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_4xNC98N.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_South_Korea.svg.webp",
+            "time": "17:30",
+            "date": "23/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70788_0f505cc9_20260822.png?v=0f505cc9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-554e981f49",
+          "name": "Bồ Đào Nha vs Bỉ | 18:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-554e981f49",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-554e981f49",
+                  "name": "Bồ Đào Nha vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-554e981f49",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Bồ Đào Nha",
+            "team_b": "Bỉ",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_d8ChyRq.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP.jpg",
+            "time": "18:30",
+            "date": "23/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70789_5e5220bb_20260822.png?v=5e5220bb",
             "width": 1600,
             "height": 1200
           }
