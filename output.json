@@ -175,85 +175,6 @@
           }
         },
         {
-          "id": "ph-a5835b9d77",
-          "name": "Thái Lan vs Việt Nam | 20:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a5835b9d77",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-a5835b9d77",
-                  "name": "Thái Lan vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-a5835b9d77",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Lửa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship",
-            "team_a": "Thái Lan",
-            "team_b": "Việt Nam",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_480.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_479.jpg",
-            "time": "20:00",
-            "date": "22/08",
-            "blv": "Người Lửa",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69025_6c084b9a_20260822.png?v=6c084b9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-475d1b99aa",
           "name": "Everton vs Crystal Palace | 21:00 22/08",
           "type": "single",
@@ -802,6 +723,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67083_d9a19839_20260822.png?v=d9a19839",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-c501783eb8",
+          "name": "Valencia vs Celta Vigo | 00:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c501783eb8",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-c501783eb8",
+                  "name": "Valencia vs Celta Vigo",
+                  "streams": [
+                    {
+                      "id": "st-c501783eb8",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Valencia",
+            "team_b": "Celta Vigo",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7272.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7290.jpg",
+            "time": "00:30",
+            "date": "23/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67298_0bf795d7_20260822.png?v=0bf795d7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-cfcc621ccc",
+          "name": "Al Ahli SC vs Abha | 01:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cfcc621ccc",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-cfcc621ccc",
+                  "name": "Al Ahli SC vs Abha",
+                  "streams": [
+                    {
+                      "id": "st-cfcc621ccc",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Ahli SC",
+            "team_b": "Abha",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_359.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Abha_Club_Logo.svg.webp",
+            "time": "01:00",
+            "date": "23/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67345_ff0f1547_20260822.png?v=ff0f1547",
             "width": 1600,
             "height": 1200
           }
