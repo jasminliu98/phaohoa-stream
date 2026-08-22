@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,164 +96,6 @@
           }
         },
         {
-          "id": "ph-98f32170e2",
-          "name": "Ipswich vs Sunderland | 21:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98f32170e2",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-98f32170e2",
-                  "name": "Ipswich vs Sunderland",
-                  "streams": [
-                    {
-                      "id": "st-98f32170e2",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Ipswich",
-            "team_b": "Sunderland",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3121.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3111.jpg",
-            "time": "21:00",
-            "date": "22/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66695_11c676be_20260822.png?v=11c676be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-9a1470c3ad",
-          "name": "Nottingham vs Leeds | 21:00 22/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a1470c3ad",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-9a1470c3ad",
-                  "name": "Nottingham vs Leeds",
-                  "streams": [
-                    {
-                      "id": "st-9a1470c3ad",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Nottingham",
-            "team_b": "Leeds",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3089.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3103.jpg",
-            "time": "21:00",
-            "date": "22/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66696_43021229_20260822.png?v=43021229",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-abe6f4d4de",
           "name": "Ath Bilbao vs Sevilla | 22:00 22/08",
           "type": "single",
@@ -319,7 +161,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 1
           },
@@ -1206,6 +1048,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69070_c97bf825_20260822.png?v=c97bf825",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-a17d8a6b77",
+          "name": "Kazakhstan vs Úc | 09:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a17d8a6b77",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a17d8a6b77",
+                  "name": "Kazakhstan vs Úc",
+                  "streams": [
+                    {
+                      "id": "st-a17d8a6b77",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Kazakhstan",
+            "team_b": "Úc",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Kazakhstan.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_a1Zy5Tv.jpg",
+            "time": "09:00",
+            "date": "23/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70786_b9da2142_20260822.png?v=b9da2142",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-946a74e58f",
+          "name": "Đài Loan vs Iraq | 13:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-946a74e58f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-946a74e58f",
+                  "name": "Đài Loan vs Iraq",
+                  "streams": [
+                    {
+                      "id": "st-946a74e58f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Đài Loan",
+            "team_b": "Iraq",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Iraq.svg.webp",
+            "time": "13:00",
+            "date": "23/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70787_9ec3fa42_20260822.png?v=9ec3fa42",
             "width": 1600,
             "height": 1200
           }
