@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -254,6 +254,85 @@
           }
         },
         {
+          "id": "ph-aa0f2be4cf",
+          "name": "Dortmund vs Bayern Munich | 01:30 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa0f2be4cf",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-aa0f2be4cf",
+                  "name": "Dortmund vs Bayern Munich",
+                  "streams": [
+                    {
+                      "id": "st-aa0f2be4cf",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "A Heo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super Cup",
+            "team_a": "Dortmund",
+            "team_b": "Bayern Munich",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_92.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_72.jpg",
+            "time": "01:30",
+            "date": "23/08",
+            "blv": "A Heo",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67377_25a592c7_20260823.png?v=25a592c7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-67a198577b",
           "name": "Genoa vs Napoli | 01:45 23/08",
           "type": "single",
@@ -328,85 +407,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67384_6ef27c48_20260823.png?v=6ef27c48",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-aa0f2be4cf",
-          "name": "Dortmund vs Bayern Munich | 01:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa0f2be4cf",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-aa0f2be4cf",
-                  "name": "Dortmund vs Bayern Munich",
-                  "streams": [
-                    {
-                      "id": "st-aa0f2be4cf",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "A Heo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super Cup",
-            "team_a": "Dortmund",
-            "team_b": "Bayern Munich",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_92.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_72.jpg",
-            "time": "01:30",
-            "date": "23/08",
-            "blv": "A Heo",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67377_25a592c7_20260823.png?v=25a592c7",
             "width": 1600,
             "height": 1200
           }
