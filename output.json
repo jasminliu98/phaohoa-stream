@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,85 +96,6 @@
           }
         },
         {
-          "id": "ph-3bd4c0027a",
-          "name": "Toulouse vs Lyon | 01:45 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3bd4c0027a",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-3bd4c0027a",
-                  "name": "Toulouse vs Lyon",
-                  "streams": [
-                    {
-                      "id": "st-3bd4c0027a",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Toulouse",
-            "team_b": "Lyon",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3794.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3815.jpg",
-            "time": "01:45",
-            "date": "23/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67388_729c3f54_20260823.png?v=729c3f54",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-fe0ee9a28f",
           "name": "Espanyol vs Real Madrid | 02:30 23/08",
           "type": "single",
@@ -240,7 +161,7 @@
             "blv": "Tày",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 1
           },
@@ -1364,6 +1285,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70791_f6e39a72_20260823.png?v=f6e39a72",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-3e8ba22393",
+          "name": "Slovenia vs Thổ Nhĩ Kì | 23:00 23/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e8ba22393",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-3e8ba22393",
+                  "name": "Slovenia vs Thổ Nhĩ Kì",
+                  "streams": [
+                    {
+                      "id": "st-3e8ba22393",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Slovenia",
+            "team_b": "Thổ Nhĩ Kì",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_oeLkAjM.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
+            "time": "23:00",
+            "date": "23/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70792_f94aa760_20260823.png?v=f94aa760",
             "width": 1600,
             "height": 1200
           }
