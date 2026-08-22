@@ -647,19 +647,10 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-495c0f6e98",
-          "name": "Trung Quốc vs Iraq | 18:30 22/08",
+          "id": "ph-781f1931f2",
+          "name": "Lens vs Auxerre | 22:15 22/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -673,23 +664,23 @@
           ],
           "sources": [
             {
-              "id": "src-495c0f6e98",
+              "id": "src-781f1931f2",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-495c0f6e98",
-                  "name": "Trung Quốc vs Iraq",
+                  "id": "ct-781f1931f2",
+                  "name": "Lens vs Auxerre",
                   "streams": [
                     {
-                      "id": "st-495c0f6e98",
+                      "id": "st-781f1931f2",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -713,16 +704,16 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Á",
-            "team_a": "Trung Quốc",
-            "team_b": "Iraq",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OOrZwnR.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Iraq.svg.webp",
-            "time": "18:30",
+            "league": "Ligue 1",
+            "team_a": "Lens",
+            "team_b": "Auxerre",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3821.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3797.jpg",
+            "time": "22:15",
             "date": "22/08",
-            "blv": "KaKa",
+            "blv": "Văn Minh",
             "is_live": false,
-            "cate_type": "bong-chuyen",
+            "cate_type": "football",
             "status": "scheduled",
             "home_score": 0,
             "away_score": 0
@@ -731,11 +722,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69067_fde822df_20260822.png?v=fde822df",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66968_010e88a9_20260822.png?v=010e88a9",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-fc61d0a773",
           "name": "Italy vs Montenegro | 19:59 22/08",
