@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -240,7 +240,7 @@
             "blv": "Người Lửa",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -1364,85 +1364,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71717_38cb0279_20260823.png?v=38cb0279",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-208a1c3633",
-          "name": "Hà Lan vs Bồ Đào Nha | 18:30 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-208a1c3633",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-208a1c3633",
-                  "name": "Hà Lan vs Bồ Đào Nha",
-                  "streams": [
-                    {
-                      "id": "st-208a1c3633",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Hà Lan",
-            "team_b": "Bồ Đào Nha",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_kMG9h3O.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_d8ChyRq.jpg",
-            "time": "18:30",
-            "date": "24/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "bong-chuyen",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71718_6bcef889_20260823.png?v=6bcef889",
             "width": 1600,
             "height": 1200
           }
