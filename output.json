@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-853e527816",
-          "name": "Frosinone vs Juventus | 23:30 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-853e527816",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-853e527816",
-                  "name": "Frosinone vs Juventus",
-                  "streams": [
-                    {
-                      "id": "st-853e527816",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Frosinone",
-            "team_b": "Juventus",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5000_eIuatyP.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_96.jpg",
-            "time": "23:30",
-            "date": "23/08",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68015_da6e043b_20260824.png?v=da6e043b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-9061e7260b",
-          "name": "Getafe vs Racing Santander | 00:30 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9061e7260b",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-9061e7260b",
-                  "name": "Getafe vs Racing Santander",
-                  "streams": [
-                    {
-                      "id": "st-9061e7260b",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Getafe",
-            "team_b": "Racing Santander",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7288.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7220.jpg",
-            "time": "00:30",
-            "date": "24/08",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68125_4f49b875_20260824.png?v=4f49b875",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-4fa6c06c16",
           "name": "Atalanta vs Sassuolo | 01:45 24/08",
@@ -249,85 +91,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68165_1c49ab41_20260824.png?v=1c49ab41",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-ff92a87f22",
-          "name": "Torino vs AC Milan | 01:45 24/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff92a87f22",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-ff92a87f22",
-                  "name": "Torino vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-ff92a87f22",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Torino",
-            "team_b": "AC Milan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_4973_5ELZ9aJ.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_159.jpg",
-            "time": "01:45",
-            "date": "24/08",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68166_3d73b8ff_20260824.png?v=3d73b8ff",
             "width": 1600,
             "height": 1200
           }
@@ -726,49 +489,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-3e8ba22393",
-          "name": "Slovenia vs Thổ Nhĩ Kì | 23:00 23/08",
+          "id": "ph-e806005d0b",
+          "name": "Neom SC vs Al Qadsiah | 23:40 24/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-3e8ba22393",
+              "id": "src-e806005d0b",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-3e8ba22393",
-                  "name": "Slovenia vs Thổ Nhĩ Kì",
+                  "id": "ct-e806005d0b",
+                  "name": "Neom SC vs Al Qadsiah",
                   "streams": [
                     {
-                      "id": "st-3e8ba22393",
+                      "id": "st-e806005d0b",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -792,17 +546,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Slovenia",
-            "team_b": "Thổ Nhĩ Kì",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_oeLkAjM.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
-            "time": "23:00",
-            "date": "23/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Saudi Pro League",
+            "team_a": "Neom SC",
+            "team_b": "Al Qadsiah",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_18904.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/al-qadsiah-logo-footylogos-320.webp",
+            "time": "23:40",
+            "date": "24/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -810,36 +564,36 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70792_f94aa760_20260824.png?v=f94aa760",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68322_a2a1b4d8_20260824.png?v=a2a1b4d8",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "ph-0628d73fb1",
-          "name": "Serbia vs Cộng Hoà Séc | 00:00 24/08",
+          "id": "ph-67b8452a1c",
+          "name": "Osasuna vs Levante | 00:30 25/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-0628d73fb1",
+              "id": "src-67b8452a1c",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-0628d73fb1",
-                  "name": "Serbia vs Cộng Hoà Séc",
+                  "id": "ct-67b8452a1c",
+                  "name": "Osasuna vs Levante",
                   "streams": [
                     {
-                      "id": "st-0628d73fb1",
+                      "id": "st-67b8452a1c",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
@@ -871,17 +625,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Serbia",
-            "team_b": "Cộng Hoà Séc",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_the_Czech_Republic.svg.webp",
-            "time": "00:00",
-            "date": "24/08",
+            "league": "La Liga",
+            "team_a": "Osasuna",
+            "team_b": "Levante",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7269.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7259.jpg",
+            "time": "00:30",
+            "date": "25/08",
             "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -889,11 +643,652 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70794_ec68f7ed_20260824.png?v=ec68f7ed",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68372_5c89fc30_20260824.png?v=5c89fc30",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "ph-c0b6e6e1bf",
+          "name": "Al Ittihad vs Al Hazem | 01:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c0b6e6e1bf",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-c0b6e6e1bf",
+                  "name": "Al Ittihad vs Al Hazem",
+                  "streams": [
+                    {
+                      "id": "st-c0b6e6e1bf",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Ittihad",
+            "team_b": "Al Hazem",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6328_JmJ5TyE.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/al-hazem-logo-footylogos-320.webp",
+            "time": "01:00",
+            "date": "25/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68382_35b4075e_20260824.png?v=35b4075e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-8bfc4b718d",
+          "name": "AS Roma vs Fiorentina | 01:45 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bfc4b718d",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-8bfc4b718d",
+                  "name": "AS Roma vs Fiorentina",
+                  "streams": [
+                    {
+                      "id": "st-8bfc4b718d",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "AS Roma",
+            "team_b": "Fiorentina",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_139.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_4974.jpg",
+            "time": "01:45",
+            "date": "25/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68393_ded547f0_20260824.png?v=ded547f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f24619a7d5",
+          "name": "Fulham vs Chelsea | 02:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f24619a7d5",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f24619a7d5",
+                  "name": "Fulham vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-f24619a7d5",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Lửa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Fulham",
+            "team_b": "Chelsea",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3085.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_88.jpg",
+            "time": "02:00",
+            "date": "25/08",
+            "blv": "Người Lửa",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68398_550d2945_20260824.png?v=550d2945",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-333494fc52",
+          "name": "Malaga vs Dep. La Coruna | 02:30 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-333494fc52",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-333494fc52",
+                  "name": "Malaga vs Dep. La Coruna",
+                  "streams": [
+                    {
+                      "id": "st-333494fc52",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Malaga",
+            "team_b": "Dep. La Coruna",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7267.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7200.jpg",
+            "time": "02:30",
+            "date": "25/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68408_210d9f9b_20260824.png?v=210d9f9b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-e84b12e918",
+          "name": "Gimcheon Sangmu vs Jeonbuk | 17:30 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e84b12e918",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-e84b12e918",
+                  "name": "Gimcheon Sangmu vs Jeonbuk",
+                  "streams": [
+                    {
+                      "id": "st-e84b12e918",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Gimcheon Sangmu",
+            "team_b": "Jeonbuk",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5165.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_389.jpg",
+            "time": "17:30",
+            "date": "25/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68432_9551995d_20260824.png?v=9551995d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2e400a73fc",
+          "name": "Lok. Tashkent vs Bunyodkor | 22:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e400a73fc",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2e400a73fc",
+                  "name": "Lok. Tashkent vs Bunyodkor",
+                  "streams": [
+                    {
+                      "id": "st-2e400a73fc",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Lok. Tashkent",
+            "team_b": "Bunyodkor",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_8003.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7994.jpg",
+            "time": "22:00",
+            "date": "25/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68450_e6c6d120_20260824.png?v=e6c6d120",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-47c3593713",
+          "name": "Al Taawon vs Al Fayha | 23:10 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47c3593713",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-47c3593713",
+                  "name": "Al Taawon vs Al Fayha",
+                  "streams": [
+                    {
+                      "id": "st-47c3593713",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Taawon",
+            "team_b": "Al Fayha",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_368.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/al-fayha-logo-footylogos-320.webp",
+            "time": "23:10",
+            "date": "25/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68473_9499b9de_20260824.png?v=9499b9de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-7cda64779b",
+          "name": "Sabah Baku vs H. Beer Sheva | 23:45 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7cda64779b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-7cda64779b",
+                  "name": "Sabah Baku vs H. Beer Sheva",
+                  "streams": [
+                    {
+                      "id": "st-7cda64779b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "A Heo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Sabah Baku",
+            "team_b": "H. Beer Sheva",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1305.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_144.jpg",
+            "time": "23:45",
+            "date": "25/08",
+            "blv": "A Heo",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68482_c154307d_20260824.png?v=c154307d",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-5f8ec7cf1b",
           "name": "Mỹ vs Canada | 05:00 24/08",
@@ -1443,6 +1838,638 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71719_4926c062_20260824.png?v=4926c062",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-0318b2890e",
+          "name": "Serbia vs Bulgaria | 00:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0318b2890e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-0318b2890e",
+                  "name": "Serbia vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-0318b2890e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Serbia",
+            "team_b": "Bulgaria",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Bulgaria.svg.webp",
+            "time": "00:00",
+            "date": "25/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71720_1cf368a1_20260824.png?v=1cf368a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-495baa1aaf",
+          "name": "Thái Lan vs Kazakhstan | 09:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-495baa1aaf",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-495baa1aaf",
+                  "name": "Thái Lan vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-495baa1aaf",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Thái Lan",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_Q9mUTFM.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Kazakhstan.svg.webp",
+            "time": "09:00",
+            "date": "25/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71838_08d22cd0_20260824.png?v=08d22cd0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-81ce9a54df",
+          "name": "Iran vs Iraq | 13:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81ce9a54df",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-81ce9a54df",
+                  "name": "Iran vs Iraq",
+                  "streams": [
+                    {
+                      "id": "st-81ce9a54df",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Iran",
+            "team_b": "Iraq",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_xjljaQl.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Iraq.svg.webp",
+            "time": "13:00",
+            "date": "25/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71839_8541c319_20260824.png?v=8541c319",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1e7a14be63",
+          "name": "Việt Nam vs Nhật Bản | 17:30 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1e7a14be63",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1e7a14be63",
+                  "name": "Việt Nam vs Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-1e7a14be63",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Việt Nam",
+            "team_b": "Nhật Bản",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_hdpF9Rm.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_4xNC98N.jpg",
+            "time": "17:30",
+            "date": "25/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71840_08b9ad6b_20260824.png?v=08b9ad6b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-505e7e6fe5",
+          "name": "Romania vs Bỉ | 18:30 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-505e7e6fe5",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-505e7e6fe5",
+                  "name": "Romania vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-505e7e6fe5",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Romania",
+            "team_b": "Bỉ",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Romania.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP.jpg",
+            "time": "18:30",
+            "date": "25/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71843_722b38a6_20260824.png?v=722b38a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f2e4065771",
+          "name": "Hungary vs Đức | 20:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f2e4065771",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f2e4065771",
+                  "name": "Hungary vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-f2e4065771",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Hungary",
+            "team_b": "Đức",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Hungary.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_A336z2d.jpg",
+            "time": "20:00",
+            "date": "25/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71844_4a47ece3_20260824.png?v=4a47ece3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-a457eefe5c",
+          "name": "Italy vs Slovakia | 21:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a457eefe5c",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a457eefe5c",
+                  "name": "Italy vs Slovakia",
+                  "streams": [
+                    {
+                      "id": "st-a457eefe5c",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Italy",
+            "team_b": "Slovakia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_VYjid2m.jpg",
+            "time": "21:00",
+            "date": "25/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71841_8777d0ed_20260824.png?v=8777d0ed",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-31498b55e4",
+          "name": "Ba Lan vs Slovenia | 23:00 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-31498b55e4",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-31498b55e4",
+                  "name": "Ba Lan vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-31498b55e4",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Ba Lan",
+            "team_b": "Slovenia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_oeLkAjM.jpg",
+            "time": "23:00",
+            "date": "25/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71842_1c04f615_20260824.png?v=1c04f615",
             "width": 1600,
             "height": 1200
           }
