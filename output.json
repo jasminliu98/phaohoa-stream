@@ -810,90 +810,11 @@
     },
     {
       "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-cdd3f176df",
-          "name": "Latvia vs Đức | 20:00 23/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cdd3f176df",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-cdd3f176df",
-                  "name": "Latvia vs Đức",
-                  "streams": [
-                    {
-                      "id": "st-cdd3f176df",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Latvia",
-            "team_b": "Đức",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Latvia.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_A336z2d.jpg",
-            "time": "20:00",
-            "date": "23/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70790_042d7473_20260823.png?v=042d7473",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-96874538f1",
           "name": "Nga vs Cuba | 21:00 23/08",
@@ -1443,6 +1364,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71716_54f18fc6_20260823.png?v=54f18fc6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-ed5efb35b2",
+          "name": "Trung Quốc vs Iran | 18:30 24/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ed5efb35b2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-ed5efb35b2",
+                  "name": "Trung Quốc vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-ed5efb35b2",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Trung Quốc",
+            "team_b": "Iran",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_xjljaQl.jpg",
+            "time": "18:30",
+            "date": "24/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71717_38cb0279_20260823.png?v=38cb0279",
             "width": 1600,
             "height": 1200
           }
