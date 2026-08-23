@@ -726,49 +726,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-a17d8a6b77",
-          "name": "Kazakhstan vs Úc | 09:00 23/08",
+          "id": "ph-4fa6c06c16",
+          "name": "Atalanta vs Sassuolo | 01:45 24/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-a17d8a6b77",
+              "id": "src-4fa6c06c16",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-a17d8a6b77",
-                  "name": "Kazakhstan vs Úc",
+                  "id": "ct-4fa6c06c16",
+                  "name": "Atalanta vs Sassuolo",
                   "streams": [
                     {
-                      "id": "st-a17d8a6b77",
+                      "id": "st-4fa6c06c16",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -792,17 +783,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Á",
-            "team_a": "Kazakhstan",
-            "team_b": "Úc",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Kazakhstan.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_a1Zy5Tv.jpg",
-            "time": "09:00",
-            "date": "23/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Serie A",
+            "team_a": "Atalanta",
+            "team_b": "Sassuolo",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_85.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_4975_oQw4WZa.jpg",
+            "time": "01:45",
+            "date": "24/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -810,11 +801,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70786_b9da2142_20260823.png?v=b9da2142",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68165_41bb7550_20260823.png?v=41bb7550",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-946a74e58f",
           "name": "Đài Loan vs Iraq | 13:00 23/08",
