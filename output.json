@@ -884,6 +884,164 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-747d17b822",
+          "name": "Southampton vs West Ham | 01:45 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-747d17b822",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-747d17b822",
+                  "name": "Southampton vs West Ham",
+                  "streams": [
+                    {
+                      "id": "st-747d17b822",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Southampton",
+            "team_b": "West Ham",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3072.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3081.jpg",
+            "time": "01:45",
+            "date": "26/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68613_75bac9b9_20260824.png?v=75bac9b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-32bbe0b3e7",
+          "name": "Valencia vs Real Betis | 02:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-32bbe0b3e7",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-32bbe0b3e7",
+                  "name": "Valencia vs Real Betis",
+                  "streams": [
+                    {
+                      "id": "st-32bbe0b3e7",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "A Heo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Valencia",
+            "team_b": "Real Betis",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7272.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7261.jpg",
+            "time": "02:00",
+            "date": "26/08",
+            "blv": "A Heo",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68623_9924b4ba_20260824.png?v=9924b4ba",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1601,6 +1759,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71842_1c04f615_20260824.png?v=1c04f615",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2177f35486",
+          "name": "Thuỵ Điển vs Croatia | 00:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2177f35486",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2177f35486",
+                  "name": "Thuỵ Điển vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-2177f35486",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Thuỵ Điển",
+            "team_b": "Croatia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Sweden.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_cIbmzlW.jpg",
+            "time": "00:00",
+            "date": "26/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72250_0f3b9ccb_20260824.png?v=0f3b9ccb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-cea1f2e0e7",
+          "name": "Cộng Hoà Séc vs Ukraine | 00:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cea1f2e0e7",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-cea1f2e0e7",
+                  "name": "Cộng Hoà Séc vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-cea1f2e0e7",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Cộng Hoà Séc",
+            "team_b": "Ukraine",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_the_Czech_Republic.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_7oS7OkG.jpg",
+            "time": "00:00",
+            "date": "26/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72251_4402283f_20260824.png?v=4402283f",
             "width": 1600,
             "height": 1200
           }
