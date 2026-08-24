@@ -1121,49 +1121,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-0318b2890e",
-          "name": "Serbia vs Bulgaria | 00:00 25/08",
+          "id": "ph-0188fc0709",
+          "name": "Nottingham vs Leeds | 02:00 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-0318b2890e",
+              "id": "src-0188fc0709",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-0318b2890e",
-                  "name": "Serbia vs Bulgaria",
+                  "id": "ct-0188fc0709",
+                  "name": "Nottingham vs Leeds",
                   "streams": [
                     {
-                      "id": "st-0318b2890e",
+                      "id": "st-0188fc0709",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1187,17 +1178,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Serbia",
-            "team_b": "Bulgaria",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Bulgaria.svg.webp",
-            "time": "00:00",
-            "date": "25/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "League Cup",
+            "team_a": "Nottingham",
+            "team_b": "Leeds",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3089.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3103.jpg",
+            "time": "02:00",
+            "date": "26/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1205,11 +1196,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71720_1cf368a1_20260825.png?v=1cf368a1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68629_43021229_20260825.png?v=43021229",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-495baa1aaf",
           "name": "Thái Lan vs Kazakhstan | 09:00 25/08",
