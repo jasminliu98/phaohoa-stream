@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -82,7 +82,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -261,10 +261,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -317,9 +317,9 @@
             "time": "01:00",
             "date": "25/08",
             "blv": "Văn Minh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -707,7 +707,7 @@
             "league": "Super League",
             "team_a": "Lok. Tashkent",
             "team_b": "Bunyodkor",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_8003.jpg",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/lokomotiv-tashkent_G8wVPdk.d0bb27dc.png",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_7994.jpg",
             "time": "22:00",
             "date": "25/08",
@@ -722,7 +722,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68450_e6c6d120_20260825.png?v=e6c6d120",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68450_e149c80f_20260825.png?v=e149c80f",
             "width": 1600,
             "height": 1200
           }
