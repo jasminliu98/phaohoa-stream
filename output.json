@@ -884,49 +884,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-90768e9f5a",
-          "name": "Thái Lan vs Indonesia | 14:00 24/08",
+          "id": "ph-7cda64779b",
+          "name": "Sabah Baku vs H. Beer Sheva | 23:45 25/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-90768e9f5a",
+              "id": "src-7cda64779b",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-90768e9f5a",
-                  "name": "Thái Lan vs Indonesia",
+                  "id": "ct-7cda64779b",
+                  "name": "Sabah Baku vs H. Beer Sheva",
                   "streams": [
                     {
-                      "id": "st-90768e9f5a",
+                      "id": "st-7cda64779b",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-95e438c878",
+                          "name": "A Heo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -950,17 +941,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Á",
-            "team_a": "Thái Lan",
-            "team_b": "Indonesia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_Q9mUTFM.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_WqmhllM.jpg",
-            "time": "14:00",
-            "date": "24/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "UEFA Champions League",
+            "team_a": "Sabah Baku",
+            "team_b": "H. Beer Sheva",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1305.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_144.jpg",
+            "time": "23:45",
+            "date": "25/08",
+            "blv": "A Heo",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -968,11 +959,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71716_54f18fc6_20260824.png?v=54f18fc6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68482_c154307d_20260824.png?v=c154307d",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-ed5efb35b2",
           "name": "Trung Quốc vs Iran | 18:30 24/08",
@@ -981,10 +981,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1037,9 +1037,9 @@
             "time": "18:30",
             "date": "24/08",
             "blv": "Tày",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bong-chuyen",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
