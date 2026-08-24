@@ -1238,11 +1238,11 @@
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1273,7 +1273,7 @@
             "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Kazakhstan.svg.webp",
             "time": "09:00",
             "date": "25/08",
-            "blv": "KaKa",
+            "blv": "Chim Nhỏ",
             "is_live": false,
             "cate_type": "bong-chuyen",
             "status": "scheduled",
@@ -1369,6 +1369,85 @@
           }
         },
         {
+          "id": "ph-acaa34b54a",
+          "name": "Nhật Bản vs Brazil | 16:30 25/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-acaa34b54a",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-acaa34b54a",
+                  "name": "Nhật Bản vs Brazil",
+                  "streams": [
+                    {
+                      "id": "st-acaa34b54a",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu",
+            "team_a": "Nhật Bản",
+            "team_b": "Brazil",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_4xNC98N.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_RsNoEng.jpg",
+            "time": "16:30",
+            "date": "25/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72248_30715cef_20260824.png?v=30715cef",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-1e7a14be63",
           "name": "Việt Nam vs Nhật Bản | 17:30 25/08",
           "type": "single",
@@ -1443,85 +1522,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71840_08b9ad6b_20260824.png?v=08b9ad6b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-505e7e6fe5",
-          "name": "Romania vs Bỉ | 18:30 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-505e7e6fe5",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-505e7e6fe5",
-                  "name": "Romania vs Bỉ",
-                  "streams": [
-                    {
-                      "id": "st-505e7e6fe5",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Romania",
-            "team_b": "Bỉ",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Romania.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP.jpg",
-            "time": "18:30",
-            "date": "25/08",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "bong-chuyen",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71843_722b38a6_20260824.png?v=722b38a6",
             "width": 1600,
             "height": 1200
           }
