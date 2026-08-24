@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-c0b6e6e1bf",
-          "name": "Al Ittihad vs Al Hazem | 01:00 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c0b6e6e1bf",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-c0b6e6e1bf",
-                  "name": "Al Ittihad vs Al Hazem",
-                  "streams": [
-                    {
-                      "id": "st-c0b6e6e1bf",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Pro League",
-            "team_a": "Al Ittihad",
-            "team_b": "Al Hazem",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6328_JmJ5TyE.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/al-hazem-logo-footylogos-320.webp",
-            "time": "01:00",
-            "date": "25/08",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68382_35b4075e_20260825.png?v=35b4075e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-8bfc4b718d",
           "name": "AS Roma vs Fiorentina | 01:45 25/08",
@@ -240,7 +161,7 @@
             "blv": "Người Lửa",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 2
           },
@@ -1039,6 +960,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68669_bf2724a5_20260825.png?v=bf2724a5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-bdb4a9e854",
+          "name": "Gangwon vs Gwangju FC | 17:30 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bdb4a9e854",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-bdb4a9e854",
+                  "name": "Gangwon vs Gwangju FC",
+                  "streams": [
+                    {
+                      "id": "st-bdb4a9e854",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Gangwon",
+            "team_b": "Gwangju FC",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5171.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5172.jpg",
+            "time": "17:30",
+            "date": "26/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68670_0bfbab66_20260825.png?v=0bfbab66",
             "width": 1600,
             "height": 1200
           }
