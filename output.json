@@ -805,49 +805,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-e7b020dc5b",
-          "name": "Việt Nam vs Hong Kong | 09:00 24/08",
+          "id": "ph-47c3593713",
+          "name": "Al Taawon vs Al Fayha | 23:10 25/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-e7b020dc5b",
+              "id": "src-47c3593713",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-e7b020dc5b",
-                  "name": "Việt Nam vs Hong Kong",
+                  "id": "ct-47c3593713",
+                  "name": "Al Taawon vs Al Fayha",
                   "streams": [
                     {
-                      "id": "st-e7b020dc5b",
+                      "id": "st-47c3593713",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -871,17 +862,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Á",
-            "team_a": "Việt Nam",
-            "team_b": "Hong Kong",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_hdpF9Rm.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_y52YJOU.jpg",
-            "time": "09:00",
-            "date": "24/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Saudi Pro League",
+            "team_a": "Al Taawon",
+            "team_b": "Al Fayha",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_368.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/al-fayha-logo-footylogos-320.webp",
+            "time": "23:10",
+            "date": "25/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -889,11 +880,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71714_a60a6c93_20260824.png?v=a60a6c93",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68473_9499b9de_20260824.png?v=9499b9de",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-90768e9f5a",
           "name": "Thái Lan vs Indonesia | 14:00 24/08",
