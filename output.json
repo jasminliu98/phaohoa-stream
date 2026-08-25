@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -91,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68569_d419af2d_20260826.png?v=d419af2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-747d17b822",
+          "name": "Southampton vs West Ham | 01:45 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-747d17b822",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-747d17b822",
+                  "name": "Southampton vs West Ham",
+                  "streams": [
+                    {
+                      "id": "st-747d17b822",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Southampton",
+            "team_b": "West Ham",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3072.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3081.jpg",
+            "time": "01:45",
+            "date": "26/08",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68613_75bac9b9_20260826.png?v=75bac9b9",
             "width": 1600,
             "height": 1200
           }
@@ -175,38 +254,38 @@
           }
         },
         {
-          "id": "ph-747d17b822",
-          "name": "Southampton vs West Ham | 01:45 26/08",
+          "id": "ph-0188fc0709",
+          "name": "Nottingham vs Leeds | 02:00 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-747d17b822",
+              "id": "src-0188fc0709",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-747d17b822",
-                  "name": "Southampton vs West Ham",
+                  "id": "ct-0188fc0709",
+                  "name": "Nottingham vs Leeds",
                   "streams": [
                     {
-                      "id": "st-747d17b822",
+                      "id": "st-0188fc0709",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -231,16 +310,16 @@
           ],
           "org_metadata": {
             "league": "League Cup",
-            "team_a": "Southampton",
-            "team_b": "West Ham",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3072.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3081.jpg",
-            "time": "01:45",
+            "team_a": "Nottingham",
+            "team_b": "Leeds",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3089.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3103.jpg",
+            "time": "02:00",
             "date": "26/08",
-            "blv": "Văn Minh",
-            "is_live": false,
+            "blv": "Kevin",
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -248,7 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68613_75bac9b9_20260826.png?v=75bac9b9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68629_43021229_20260826.png?v=43021229",
             "width": 1600,
             "height": 1200
           }
@@ -328,85 +407,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68623_9924b4ba_20260826.png?v=9924b4ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-0188fc0709",
-          "name": "Nottingham vs Leeds | 02:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0188fc0709",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-0188fc0709",
-                  "name": "Nottingham vs Leeds",
-                  "streams": [
-                    {
-                      "id": "st-0188fc0709",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Cup",
-            "team_a": "Nottingham",
-            "team_b": "Leeds",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3089.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3103.jpg",
-            "time": "02:00",
-            "date": "26/08",
-            "blv": "Kevin",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68629_43021229_20260826.png?v=43021229",
             "width": 1600,
             "height": 1200
           }
