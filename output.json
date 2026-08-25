@@ -963,49 +963,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-1e7a14be63",
-          "name": "Việt Nam vs Nhật Bản | 17:30 25/08",
+          "id": "ph-eb98a974c6",
+          "name": "Al-Faisaly vs Al Fateh | 23:00 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-1e7a14be63",
+              "id": "src-eb98a974c6",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-1e7a14be63",
-                  "name": "Việt Nam vs Nhật Bản",
+                  "id": "ct-eb98a974c6",
+                  "name": "Al-Faisaly vs Al Fateh",
                   "streams": [
                     {
-                      "id": "st-1e7a14be63",
+                      "id": "st-eb98a974c6",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1029,17 +1020,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Á",
-            "team_a": "Việt Nam",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_hdpF9Rm.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_4xNC98N.jpg",
-            "time": "17:30",
-            "date": "25/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Saudi Pro League",
+            "team_a": "Al-Faisaly",
+            "team_b": "Al Fateh",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6333_chkqLsE.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6331.jpg",
+            "time": "23:00",
+            "date": "26/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1047,11 +1038,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71840_08b9ad6b_20260825.png?v=08b9ad6b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68784_52a06be1_20260825.png?v=52a06be1",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-f2e4065771",
           "name": "Hungary vs Đức | 20:00 25/08",
