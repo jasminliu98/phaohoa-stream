@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68569_d419af2d_20260826.png?v=d419af2d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-9287d16b2e",
+          "name": "Bodo/Glimt vs Nijmegen | 02:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9287d16b2e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-9287d16b2e",
+                  "name": "Bodo/Glimt vs Nijmegen",
+                  "streams": [
+                    {
+                      "id": "st-9287d16b2e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Bodo/Glimt",
+            "team_b": "Nijmegen",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_215.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5466.jpg",
+            "time": "02:00",
+            "date": "26/08",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68627_2b4409d6_20260826.png?v=2b4409d6",
             "width": 1600,
             "height": 1200
           }
@@ -249,85 +328,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68623_9924b4ba_20260826.png?v=9924b4ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-9287d16b2e",
-          "name": "Bodo/Glimt vs Nijmegen | 02:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9287d16b2e",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-9287d16b2e",
-                  "name": "Bodo/Glimt vs Nijmegen",
-                  "streams": [
-                    {
-                      "id": "st-9287d16b2e",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Bodo/Glimt",
-            "team_b": "Nijmegen",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_215.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5466.jpg",
-            "time": "02:00",
-            "date": "26/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68627_2b4409d6_20260826.png?v=2b4409d6",
             "width": 1600,
             "height": 1200
           }
