@@ -161,7 +161,7 @@
             "blv": "A Heo",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -240,7 +240,7 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 2,
             "away_score": 0
           },
@@ -321,7 +321,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -889,90 +889,11 @@
     },
     {
       "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-2177f35486",
-          "name": "Thuỵ Điển vs Croatia | 00:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2177f35486",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-2177f35486",
-                  "name": "Thuỵ Điển vs Croatia",
-                  "streams": [
-                    {
-                      "id": "st-2177f35486",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Thuỵ Điển",
-            "team_b": "Croatia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Sweden.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_cIbmzlW.jpg",
-            "time": "00:00",
-            "date": "26/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72250_0f3b9ccb_20260826.png?v=0f3b9ccb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-b90ea5a56b",
           "name": "Cộng hòa Dominica vs Mỹ | 07:30 26/08",
@@ -1522,6 +1443,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72257_41bae95d_20260826.png?v=41bae95d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-d0ca8a9ac2",
+          "name": "Serbia vs Hy Lạp | 00:00 27/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d0ca8a9ac2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-d0ca8a9ac2",
+                  "name": "Serbia vs Hy Lạp",
+                  "streams": [
+                    {
+                      "id": "st-d0ca8a9ac2",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Serbia",
+            "team_b": "Hy Lạp",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Greece.svg.webp",
+            "time": "00:00",
+            "date": "27/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72260_377bd6bb_20260826.png?v=377bd6bb",
             "width": 1600,
             "height": 1200
           }
