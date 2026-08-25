@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-d43ceff0f3",
-          "name": "Din. Samarkand vs Pakhtakor | 22:00 25/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d43ceff0f3",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d43ceff0f3",
-                  "name": "Din. Samarkand vs Pakhtakor",
-                  "streams": [
-                    {
-                      "id": "st-d43ceff0f3",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League",
-            "team_a": "Din. Samarkand",
-            "team_b": "Pakhtakor",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_10545.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_363.jpg",
-            "time": "22:00",
-            "date": "25/08",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68506_33b16434_20260825.png?v=33b16434",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-47c3593713",
           "name": "Al Taawon vs Al Fayha | 23:10 25/08",
@@ -161,7 +82,7 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -169,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68473_9499b9de_20260825.png?v=9499b9de",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68473_9499b9de_20260826.png?v=9499b9de",
             "width": 1600,
             "height": 1200
           }
@@ -248,7 +169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68569_d419af2d_20260825.png?v=d419af2d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68569_d419af2d_20260826.png?v=d419af2d",
             "width": 1600,
             "height": 1200
           }
@@ -327,7 +248,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68613_75bac9b9_20260825.png?v=75bac9b9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68613_75bac9b9_20260826.png?v=75bac9b9",
             "width": 1600,
             "height": 1200
           }
@@ -406,7 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68623_9924b4ba_20260825.png?v=9924b4ba",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68623_9924b4ba_20260826.png?v=9924b4ba",
             "width": 1600,
             "height": 1200
           }
@@ -485,7 +406,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68627_2b4409d6_20260825.png?v=2b4409d6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68627_2b4409d6_20260826.png?v=2b4409d6",
             "width": 1600,
             "height": 1200
           }
@@ -564,7 +485,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68629_43021229_20260825.png?v=43021229",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68629_43021229_20260826.png?v=43021229",
             "width": 1600,
             "height": 1200
           }
@@ -643,7 +564,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68669_bf2724a5_20260825.png?v=bf2724a5",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68669_bf2724a5_20260826.png?v=bf2724a5",
             "width": 1600,
             "height": 1200
           }
@@ -722,7 +643,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68670_0bfbab66_20260825.png?v=0bfbab66",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68670_0bfbab66_20260826.png?v=0bfbab66",
             "width": 1600,
             "height": 1200
           }
@@ -801,7 +722,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69055_3b026a43_20260825.png?v=3b026a43",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69055_3b026a43_20260826.png?v=3b026a43",
             "width": 1600,
             "height": 1200
           }
@@ -880,7 +801,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72258_3b026a43_20260825.png?v=3b026a43",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72258_3b026a43_20260826.png?v=3b026a43",
             "width": 1600,
             "height": 1200
           }
@@ -959,7 +880,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72259_3b026a43_20260825.png?v=3b026a43",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72259_3b026a43_20260826.png?v=3b026a43",
             "width": 1600,
             "height": 1200
           }
@@ -1038,7 +959,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68784_52a06be1_20260825.png?v=52a06be1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68784_52a06be1_20260826.png?v=52a06be1",
             "width": 1600,
             "height": 1200
           }
@@ -1117,7 +1038,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68799_54842dd2_20260825.png?v=54842dd2",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68799_54842dd2_20260826.png?v=54842dd2",
             "width": 1600,
             "height": 1200
           }
@@ -1205,7 +1126,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71842_1c04f615_20260825.png?v=1c04f615",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71842_1c04f615_20260826.png?v=1c04f615",
             "width": 1600,
             "height": 1200
           }
@@ -1284,7 +1205,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72250_0f3b9ccb_20260825.png?v=0f3b9ccb",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72250_0f3b9ccb_20260826.png?v=0f3b9ccb",
             "width": 1600,
             "height": 1200
           }
@@ -1363,7 +1284,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72251_4402283f_20260825.png?v=4402283f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72251_4402283f_20260826.png?v=4402283f",
             "width": 1600,
             "height": 1200
           }
@@ -1442,7 +1363,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72420_2d7a0b51_20260825.png?v=2d7a0b51",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72420_2d7a0b51_20260826.png?v=2d7a0b51",
             "width": 1600,
             "height": 1200
           }
@@ -1521,7 +1442,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72252_22b756cf_20260825.png?v=22b756cf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72252_22b756cf_20260826.png?v=22b756cf",
             "width": 1600,
             "height": 1200
           }
@@ -1600,7 +1521,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72253_df9618f3_20260825.png?v=df9618f3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72253_df9618f3_20260826.png?v=df9618f3",
             "width": 1600,
             "height": 1200
           }
@@ -1679,7 +1600,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72254_b1530538_20260825.png?v=b1530538",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72254_b1530538_20260826.png?v=b1530538",
             "width": 1600,
             "height": 1200
           }
@@ -1758,7 +1679,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72255_42120472_20260825.png?v=42120472",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72255_42120472_20260826.png?v=42120472",
             "width": 1600,
             "height": 1200
           }
@@ -1837,7 +1758,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72256_55e66bbf_20260825.png?v=55e66bbf",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72256_55e66bbf_20260826.png?v=55e66bbf",
             "width": 1600,
             "height": 1200
           }
@@ -1916,7 +1837,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72257_41bae95d_20260825.png?v=41bae95d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72257_41bae95d_20260826.png?v=41bae95d",
             "width": 1600,
             "height": 1200
           }
