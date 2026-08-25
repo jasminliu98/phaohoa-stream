@@ -1042,49 +1042,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-f2e4065771",
-          "name": "Hungary vs Đức | 20:00 25/08",
+          "id": "ph-a2b0b37517",
+          "name": "SK Rapid vs Hearts | 23:45 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-f2e4065771",
+              "id": "src-a2b0b37517",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-f2e4065771",
-                  "name": "Hungary vs Đức",
+                  "id": "ct-a2b0b37517",
+                  "name": "SK Rapid vs Hearts",
                   "streams": [
                     {
-                      "id": "st-f2e4065771",
+                      "id": "st-a2b0b37517",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1108,17 +1099,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Hungary",
-            "team_b": "Đức",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Hungary.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_A336z2d.jpg",
-            "time": "20:00",
-            "date": "25/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "UEFA Conference League",
+            "team_a": "SK Rapid",
+            "team_b": "Hearts",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_118.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6422.jpg",
+            "time": "23:45",
+            "date": "26/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1126,11 +1117,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71844_4a47ece3_20260825.png?v=4a47ece3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68799_54842dd2_20260825.png?v=54842dd2",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-a457eefe5c",
           "name": "Italy vs Slovakia | 21:00 25/08",
