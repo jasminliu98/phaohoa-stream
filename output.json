@@ -963,49 +963,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-495baa1aaf",
-          "name": "Thái Lan vs Kazakhstan | 09:00 25/08",
+          "id": "ph-6fa0cf575d",
+          "name": "Việt Nam vs Thái Lan | 20:00 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-495baa1aaf",
+              "id": "src-6fa0cf575d",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-495baa1aaf",
-                  "name": "Thái Lan vs Kazakhstan",
+                  "id": "ct-6fa0cf575d",
+                  "name": "Việt Nam vs Thái Lan",
                   "streams": [
                     {
-                      "id": "st-495baa1aaf",
+                      "id": "st-6fa0cf575d",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1029,17 +1020,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Á",
-            "team_a": "Thái Lan",
-            "team_b": "Kazakhstan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_Q9mUTFM.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Kazakhstan.svg.webp",
-            "time": "09:00",
-            "date": "25/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "ASEAN Championship",
+            "team_a": "Việt Nam",
+            "team_b": "Thái Lan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_479.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_480.jpg",
+            "time": "20:00",
+            "date": "26/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1047,11 +1038,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71838_08d22cd0_20260825.png?v=08d22cd0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72259_3b026a43_20260825.png?v=3b026a43",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-81ce9a54df",
           "name": "Iran vs Iraq | 13:00 25/08",
