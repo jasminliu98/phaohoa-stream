@@ -1448,6 +1448,85 @@
           }
         },
         {
+          "id": "ph-b90ea5a56b",
+          "name": "Cộng hòa Dominica vs Mỹ | 07:30 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b90ea5a56b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b90ea5a56b",
+                  "name": "Cộng hòa Dominica vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-b90ea5a56b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NORCECA Championship",
+            "team_a": "Cộng hòa Dominica",
+            "team_b": "Mỹ",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_the_Dominican_Republic.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_tj4Ymih.jpg",
+            "time": "07:30",
+            "date": "26/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72420_2d7a0b51_20260825.png?v=2d7a0b51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-a5f951a47f",
           "name": "Hàn Quốc vs Hong Kong | 09:00 26/08",
           "type": "single",
@@ -1838,85 +1917,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72256_55e66bbf_20260825.png?v=55e66bbf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-3f6a15c5c2",
-          "name": "Đức vs Thổ Nhĩ Kì | 23:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3f6a15c5c2",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-3f6a15c5c2",
-                  "name": "Đức vs Thổ Nhĩ Kì",
-                  "streams": [
-                    {
-                      "id": "st-3f6a15c5c2",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Đức",
-            "team_b": "Thổ Nhĩ Kì",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_A336z2d.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
-            "time": "23:00",
-            "date": "26/08",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "bong-chuyen",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72257_41bae95d_20260825.png?v=41bae95d",
             "width": 1600,
             "height": 1200
           }
