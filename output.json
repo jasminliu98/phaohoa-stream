@@ -968,90 +968,11 @@
     },
     {
       "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-ff2610b5ec",
-          "name": "Indonesia vs Úc | 14:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff2610b5ec",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-ff2610b5ec",
-                  "name": "Indonesia vs Úc",
-                  "streams": [
-                    {
-                      "id": "st-ff2610b5ec",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Á",
-            "team_a": "Indonesia",
-            "team_b": "Úc",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_WqmhllM.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_a1Zy5Tv.jpg",
-            "time": "14:00",
-            "date": "26/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72253_df9618f3_20260826.png?v=df9618f3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-397ad9c392",
           "name": "Trung Quốc vs Đài Loan | 18:30 26/08",
@@ -1443,6 +1364,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72260_377bd6bb_20260826.png?v=377bd6bb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-4582720816",
+          "name": "Hà Lan vs Bỉ | 18:30 27/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4582720816",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-4582720816",
+                  "name": "Hà Lan vs Bỉ",
+                  "streams": [
+                    {
+                      "id": "st-4582720816",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Hà Lan",
+            "team_b": "Bỉ",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_kMG9h3O.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP.jpg",
+            "time": "18:30",
+            "date": "27/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72421_1867b4e9_20260826.png?v=1867b4e9",
             "width": 1600,
             "height": 1200
           }
