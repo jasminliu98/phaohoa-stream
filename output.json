@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -96,8 +96,8 @@
           }
         },
         {
-          "id": "ph-bdb4a9e854",
-          "name": "Gangwon vs Gwangju FC | 17:30 26/08",
+          "id": "ph-9ae4354e97",
+          "name": "Việt Nam vs Thái Lan | 20:00 26/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -107,85 +107,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdb4a9e854",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-bdb4a9e854",
-                  "name": "Gangwon vs Gwangju FC",
-                  "streams": [
-                    {
-                      "id": "st-bdb4a9e854",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Gangwon",
-            "team_b": "Gwangju FC",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5171.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5172.jpg",
-            "time": "17:30",
-            "date": "26/08",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68670_0bfbab66_20260826.png?v=0bfbab66",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-9ae4354e97",
-          "name": "Việt Nam vs Thái Lan | 20:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -238,9 +159,9 @@
             "time": "20:00",
             "date": "26/08",
             "blv": "Người Lửa",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -249,6 +170,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69055_3b026a43_20260826.png?v=3b026a43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-6fa0cf575d",
+          "name": "Việt Nam vs Thái Lan | 20:00 26/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6fa0cf575d",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-6fa0cf575d",
+                  "name": "Việt Nam vs Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-6fa0cf575d",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Championship",
+            "team_a": "Việt Nam",
+            "team_b": "Thái Lan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_479.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_480.jpg",
+            "time": "20:00",
+            "date": "26/08",
+            "blv": "Kevin",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72259_3b026a43_20260826.png?v=3b026a43",
             "width": 1600,
             "height": 1200
           }
@@ -328,85 +328,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72258_3b026a43_20260826.png?v=3b026a43",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-6fa0cf575d",
-          "name": "Việt Nam vs Thái Lan | 20:00 26/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6fa0cf575d",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-6fa0cf575d",
-                  "name": "Việt Nam vs Thái Lan",
-                  "streams": [
-                    {
-                      "id": "st-6fa0cf575d",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Championship",
-            "team_a": "Việt Nam",
-            "team_b": "Thái Lan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_479.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_480.jpg",
-            "time": "20:00",
-            "date": "26/08",
-            "blv": "Kevin",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72259_3b026a43_20260826.png?v=3b026a43",
             "width": 1600,
             "height": 1200
           }
@@ -802,6 +723,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68917_346a38ae_20260826.png?v=346a38ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-b60a488b14",
+          "name": "Real Madrid vs Real Sociedad | 02:00 27/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b60a488b14",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b60a488b14",
+                  "name": "Real Madrid vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-b60a488b14",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Lửa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Madrid",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_76.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_153.jpg",
+            "time": "02:00",
+            "date": "27/08",
+            "blv": "Người Lửa",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68920_613a59f1_20260826.png?v=613a59f1",
             "width": 1600,
             "height": 1200
           }
