@@ -805,49 +805,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-b90ea5a56b",
-          "name": "Cộng hòa Dominica vs Mỹ | 07:30 26/08",
+          "id": "ph-b60a488b14",
+          "name": "Real Madrid vs Real Sociedad | 02:00 27/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-b90ea5a56b",
+              "id": "src-b60a488b14",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-b90ea5a56b",
-                  "name": "Cộng hòa Dominica vs Mỹ",
+                  "id": "ct-b60a488b14",
+                  "name": "Real Madrid vs Real Sociedad",
                   "streams": [
                     {
-                      "id": "st-b90ea5a56b",
+                      "id": "st-b60a488b14",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Lửa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -871,17 +862,17 @@
             }
           ],
           "org_metadata": {
-            "league": "NORCECA Championship",
-            "team_a": "Cộng hòa Dominica",
-            "team_b": "Mỹ",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_the_Dominican_Republic.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_tj4Ymih.jpg",
-            "time": "07:30",
-            "date": "26/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "La Liga",
+            "team_a": "Real Madrid",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_76.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_153.jpg",
+            "time": "02:00",
+            "date": "27/08",
+            "blv": "Người Lửa",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -889,11 +880,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72420_2d7a0b51_20260826.png?v=2d7a0b51",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/68920_613a59f1_20260826.png?v=613a59f1",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-a5f951a47f",
           "name": "Hàn Quốc vs Hong Kong | 09:00 26/08",
