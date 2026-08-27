@@ -11,14 +11,14 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "ph-8ae2cfa229",
-          "name": "KuPS vs Shamrock Rovers | 16:00 27/08",
+          "name": "KuPS vs Shamrock Rovers | 22:00 27/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -77,7 +77,7 @@
             "team_b": "Shamrock Rovers",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_180.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_226.jpg",
-            "time": "16:00",
+            "time": "22:00",
             "date": "27/08",
             "blv": "Văn Minh",
             "is_live": true,
@@ -103,10 +103,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -159,9 +159,9 @@
             "time": "23:00",
             "date": "27/08",
             "blv": "Tiểu Mây",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -182,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -238,9 +238,9 @@
             "time": "23:00",
             "date": "27/08",
             "blv": "Pháo Thủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -261,10 +261,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -317,9 +317,9 @@
             "time": "23:00",
             "date": "27/08",
             "blv": "Người Lửa",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
