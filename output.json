@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -175,85 +175,6 @@
           }
         },
         {
-          "id": "ph-673420dab7",
-          "name": "Bốc Thăm vs Bốc Thăm | 23:00 27/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-673420dab7",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-673420dab7",
-                  "name": "Bốc Thăm vs Bốc Thăm",
-                  "streams": [
-                    {
-                      "id": "st-673420dab7",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Lửa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Bốc Thăm",
-            "team_b": "Bốc Thăm",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/UEFA_Champions_League_Logo.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/UEFA_Champions_League_Logo.png",
-            "time": "23:00",
-            "date": "27/08",
-            "blv": "Người Lửa",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72811_82bcb3f7_20260828.png?v=82bcb3f7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-7635378985",
           "name": "Monaco vs Gornik Zabrze | 23:45 27/08",
           "type": "single",
@@ -320,7 +241,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
