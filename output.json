@@ -805,6 +805,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-67c8325eb3",
+          "name": "Shenzhen Xinpengcheng vs Shanghai Port | 19:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-67c8325eb3",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-67c8325eb3",
+                  "name": "Shenzhen Xinpengcheng vs Shanghai Port",
+                  "streams": [
+                    {
+                      "id": "st-67c8325eb3",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Super League",
+            "team_a": "Shenzhen Xinpengcheng",
+            "team_b": "Shanghai Port",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_2241.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2256.jpg",
+            "time": "19:00",
+            "date": "28/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69166_264f3b65_20260827.png?v=264f3b65",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1285,6 +1364,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72812_9189eb4f_20260827.png?v=9189eb4f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1c725741fa",
+          "name": "Indonesia vs Iran | 14:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c725741fa",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1c725741fa",
+                  "name": "Indonesia vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-1c725741fa",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Indonesia",
+            "team_b": "Iran",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_WqmhllM.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_xjljaQl.jpg",
+            "time": "14:00",
+            "date": "28/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73023_54fd0b9e_20260827.png?v=54fd0b9e",
             "width": 1600,
             "height": 1200
           }
