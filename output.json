@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-d2d786a5b4",
-          "name": "KuPS vs Shamrock Rovers | 22:00 27/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2d786a5b4",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d2d786a5b4",
-                  "name": "KuPS vs Shamrock Rovers",
-                  "streams": [
-                    {
-                      "id": "st-d2d786a5b4",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Conference League",
-            "team_a": "KuPS",
-            "team_b": "Shamrock Rovers",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_180.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_226.jpg",
-            "time": "22:00",
-            "date": "27/08",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69001_88005b33_20260827.png?v=88005b33",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-3cf3794a55",
           "name": "Ararat-Armenia vs Univ. Craiova | 23:00 27/08",
