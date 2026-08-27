@@ -807,6 +807,85 @@
           }
         },
         {
+          "id": "ph-eb1f553444",
+          "name": "Shanghai Shenhua vs Shandong Taishan | 18:35 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb1f553444",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-eb1f553444",
+                  "name": "Shanghai Shenhua vs Shandong Taishan",
+                  "streams": [
+                    {
+                      "id": "st-eb1f553444",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Super League",
+            "team_a": "Shanghai Shenhua",
+            "team_b": "Shandong Taishan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_381.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2251.jpg",
+            "time": "18:35",
+            "date": "28/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69162_8b22e288_20260827.png?v=8b22e288",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-67c8325eb3",
           "name": "Shenzhen Xinpengcheng vs Shanghai Port | 19:00 28/08",
           "type": "single",
@@ -881,6 +960,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69166_264f3b65_20260827.png?v=264f3b65",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-c983f18ead",
+          "name": "Al Ahli Doha vs Lusail | 21:15 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c983f18ead",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-c983f18ead",
+                  "name": "Al Ahli Doha vs Lusail",
+                  "streams": [
+                    {
+                      "id": "st-c983f18ead",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Stars League",
+            "team_a": "Al Ahli Doha",
+            "team_b": "Lusail",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6058.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_8590.jpg",
+            "time": "21:15",
+            "date": "28/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69203_36d86ebd_20260827.png?v=36d86ebd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-daef3dd225",
+          "name": "Al Riyadh vs Neom SC | 22:50 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-daef3dd225",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-daef3dd225",
+                  "name": "Al Riyadh vs Neom SC",
+                  "streams": [
+                    {
+                      "id": "st-daef3dd225",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Riyadh",
+            "team_b": "Neom SC",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/al-riyadh-logo-footylogos-320.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_18904.jpg",
+            "time": "22:50",
+            "date": "28/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69232_d49d0b95_20260827.png?v=d49d0b95",
             "width": 1600,
             "height": 1200
           }
@@ -1522,6 +1759,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72814_db034fd2_20260827.png?v=db034fd2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-0fd961ff25",
+          "name": "Slovenia vs Hungary | 20:00 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0fd961ff25",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-0fd961ff25",
+                  "name": "Slovenia vs Hungary",
+                  "streams": [
+                    {
+                      "id": "st-0fd961ff25",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Slovenia",
+            "team_b": "Hungary",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_oeLkAjM.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Hungary.svg.webp",
+            "time": "20:00",
+            "date": "28/08",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73024_d2cdd7f5_20260827.png?v=d2cdd7f5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-4111a04b7b",
+          "name": "Mỹ vs Pháp | 22:30 28/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4111a04b7b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-4111a04b7b",
+                  "name": "Mỹ vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-4111a04b7b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hubert Wagner Memorial",
+            "team_a": "Mỹ",
+            "team_b": "Pháp",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_tj4Ymih.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_4kCzOp7.jpg",
+            "time": "22:30",
+            "date": "28/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73026_055d3992_20260827.png?v=055d3992",
             "width": 1600,
             "height": 1200
           }
