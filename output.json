@@ -320,7 +320,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 0
           },
           "image": {
@@ -1358,49 +1358,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-a2878c944d",
-          "name": "Thuỵ Điển vs Pháp | 00:00 28/08",
+          "id": "ph-2985082d6c",
+          "name": "Alaves vs Villarreal | 02:30 29/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-a2878c944d",
+              "id": "src-2985082d6c",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-a2878c944d",
-                  "name": "Thuỵ Điển vs Pháp",
+                  "id": "ct-2985082d6c",
+                  "name": "Alaves vs Villarreal",
                   "streams": [
                     {
-                      "id": "st-a2878c944d",
+                      "id": "st-2985082d6c",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1424,17 +1415,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Thuỵ Điển",
-            "team_b": "Pháp",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Sweden.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_4kCzOp7.jpg",
-            "time": "00:00",
-            "date": "28/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "La Liga",
+            "team_a": "Alaves",
+            "team_b": "Villarreal",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Deportivo_Alaves_logo_2020.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_162.jpg",
+            "time": "02:30",
+            "date": "29/08",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1442,11 +1433,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72812_9189eb4f_20260828.png?v=9189eb4f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69653_f354115b_20260828.png?v=f354115b",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-1c725741fa",
           "name": "Indonesia vs Iran | 14:00 28/08",
