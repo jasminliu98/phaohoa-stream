@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-67c8325eb3",
-          "name": "Shenzhen Xinpengcheng vs Shanghai Port | 19:00 28/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-67c8325eb3",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-67c8325eb3",
-                  "name": "Shenzhen Xinpengcheng vs Shanghai Port",
-                  "streams": [
-                    {
-                      "id": "st-67c8325eb3",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Super League",
-            "team_a": "Shenzhen Xinpengcheng",
-            "team_b": "Shanghai Port",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_2241.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2256.jpg",
-            "time": "19:00",
-            "date": "28/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69166_264f3b65_20260828.png?v=264f3b65",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-c983f18ead",
           "name": "Al Ahli Doha vs Lusail | 21:15 28/08",
@@ -1434,6 +1355,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70302_4405b9fb_20260828.png?v=4405b9fb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-35d5a39985",
+          "name": "Coventry vs Hull City | 21:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35d5a39985",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-35d5a39985",
+                  "name": "Coventry vs Hull City",
+                  "streams": [
+                    {
+                      "id": "st-35d5a39985",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Coventry",
+            "team_b": "Hull City",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3094.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3119.jpg",
+            "time": "21:00",
+            "date": "29/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70303_fee751df_20260828.png?v=fee751df",
             "width": 1600,
             "height": 1200
           }
