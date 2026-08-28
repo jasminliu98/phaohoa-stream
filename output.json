@@ -884,49 +884,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-44a56e7bb9",
-          "name": "Ba Lan vs Slovenia | 01:30 29/08",
+          "id": "ph-d728b054b6",
+          "name": "Dortmund vs Hamburger SV | 23:30 29/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-44a56e7bb9",
+              "id": "src-d728b054b6",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-44a56e7bb9",
-                  "name": "Ba Lan vs Slovenia",
+                  "id": "ct-d728b054b6",
+                  "name": "Dortmund vs Hamburger SV",
                   "streams": [
                     {
-                      "id": "st-44a56e7bb9",
+                      "id": "st-d728b054b6",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -950,17 +941,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Hubert Wagner Memorial",
-            "team_a": "Ba Lan",
-            "team_b": "Slovenia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_oeLkAjM.jpg",
-            "time": "01:30",
+            "league": "Bundesliga",
+            "team_a": "Dortmund",
+            "team_b": "Hamburger SV",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_92.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3912.jpg",
+            "time": "23:30",
             "date": "29/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -968,11 +959,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73056_1c04f615_20260829.png?v=1c04f615",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70778_9b085dc8_20260829.png?v=9b085dc8",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-f1073ececc",
           "name": "Italy vs Cuba | 13:00 29/08",
