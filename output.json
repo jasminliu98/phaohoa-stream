@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-73793822d8",
-          "name": "Fiorentina vs Frosinone | 23:30 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-73793822d8",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-73793822d8",
-                  "name": "Fiorentina vs Frosinone",
-                  "streams": [
-                    {
-                      "id": "st-73793822d8",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Fiorentina",
-            "team_b": "Frosinone",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_4974.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5000_eIuatyP.jpg",
-            "time": "23:30",
-            "date": "29/08",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70774_b6bb40bf_20260830.png?v=b6bb40bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-d728b054b6",
-          "name": "Dortmund vs Hamburger SV | 23:30 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d728b054b6",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d728b054b6",
-                  "name": "Dortmund vs Hamburger SV",
-                  "streams": [
-                    {
-                      "id": "st-d728b054b6",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Dortmund",
-            "team_b": "Hamburger SV",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_92.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3912.jpg",
-            "time": "23:30",
-            "date": "29/08",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70778_9b085dc8_20260830.png?v=9b085dc8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-e767493bb0",
           "name": "Real Sociedad vs Espanyol | 00:00 30/08",
@@ -340,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -396,9 +238,9 @@
             "time": "01:45",
             "date": "30/08",
             "blv": "Pháo Thủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1516,6 +1358,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-5212e2d543",
+          "name": "Dep. La Coruna vs Valencia | 00:30 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5212e2d543",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-5212e2d543",
+                  "name": "Dep. La Coruna vs Valencia",
+                  "streams": [
+                    {
+                      "id": "st-5212e2d543",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Dep. La Coruna",
+            "team_b": "Valencia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7200.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7272.jpg",
+            "time": "00:30",
+            "date": "31/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71893_43c2b5b5_20260830.png?v=43c2b5b5",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -1917,6 +1838,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74949_8b38f7a7_20260830.png?v=8b38f7a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f26c7b6964",
+          "name": "Serbia vs Croatia | 00:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f26c7b6964",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f26c7b6964",
+                  "name": "Serbia vs Croatia",
+                  "streams": [
+                    {
+                      "id": "st-f26c7b6964",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Serbia",
+            "team_b": "Croatia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_cIbmzlW.jpg",
+            "time": "00:00",
+            "date": "31/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74950_f6950e6d_20260830.png?v=f6950e6d",
             "width": 1600,
             "height": 1200
           }
