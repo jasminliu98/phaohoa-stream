@@ -884,19 +884,10 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-f1073ececc",
-          "name": "Italy vs Cuba | 13:00 29/08",
+          "id": "ph-26a92a1ebb",
+          "name": "Tottenham vs Newcastle | 23:30 29/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -910,23 +901,23 @@
           ],
           "sources": [
             {
-              "id": "src-f1073ececc",
+              "id": "src-26a92a1ebb",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-f1073ececc",
-                  "name": "Italy vs Cuba",
+                  "id": "ct-26a92a1ebb",
+                  "name": "Tottenham vs Newcastle",
                   "streams": [
                     {
-                      "id": "st-f1073ececc",
+                      "id": "st-26a92a1ebb",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Lửa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -950,16 +941,16 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Italy",
-            "team_b": "Cuba",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Cuba.svg.webp",
-            "time": "13:00",
+            "league": "Premier League",
+            "team_a": "Tottenham",
+            "team_b": "Newcastle",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_164_JyQ7jiO.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3100.jpg",
+            "time": "23:30",
             "date": "29/08",
-            "blv": "Chim Nhỏ",
+            "blv": "Người Lửa",
             "is_live": false,
-            "cate_type": "bong-chuyen",
+            "cate_type": "football",
             "status": "scheduled",
             "home_score": 0,
             "away_score": 0
@@ -968,11 +959,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73336_0002d205_20260829.png?v=0002d205",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70779_a30ac3f3_20260829.png?v=a30ac3f3",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-30c0ebdb79",
           "name": "Nhật Bản vs Thái Lan | 16:15 29/08",
