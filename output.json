@@ -726,243 +726,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "ph-73793822d8",
-          "name": "Fiorentina vs Frosinone | 23:30 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-73793822d8",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-73793822d8",
-                  "name": "Fiorentina vs Frosinone",
-                  "streams": [
-                    {
-                      "id": "st-73793822d8",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Fiorentina",
-            "team_b": "Frosinone",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_4974.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5000_eIuatyP.jpg",
-            "time": "23:30",
-            "date": "29/08",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70774_b6bb40bf_20260829.png?v=b6bb40bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-d728b054b6",
-          "name": "Dortmund vs Hamburger SV | 23:30 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d728b054b6",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-d728b054b6",
-                  "name": "Dortmund vs Hamburger SV",
-                  "streams": [
-                    {
-                      "id": "st-d728b054b6",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Dortmund",
-            "team_b": "Hamburger SV",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_92.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3912.jpg",
-            "time": "23:30",
-            "date": "29/08",
-            "blv": "Kevin",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70778_9b085dc8_20260829.png?v=9b085dc8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-26a92a1ebb",
-          "name": "Tottenham vs Newcastle | 23:30 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26a92a1ebb",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-26a92a1ebb",
-                  "name": "Tottenham vs Newcastle",
-                  "streams": [
-                    {
-                      "id": "st-26a92a1ebb",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Lửa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Tottenham",
-            "team_b": "Newcastle",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_164_JyQ7jiO.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3100.jpg",
-            "time": "23:30",
-            "date": "29/08",
-            "blv": "Người Lửa",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70779_a30ac3f3_20260829.png?v=a30ac3f3",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -1048,6 +811,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73057_9b5bfb23_20260829.png?v=9b5bfb23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-ba3e3223a0",
+          "name": "Trung Quốc vs Iran | 19:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba3e3223a0",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-ba3e3223a0",
+                  "name": "Trung Quốc vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-ba3e3223a0",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Trung Quốc",
+            "team_b": "Iran",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_xjljaQl.jpg",
+            "time": "19:00",
+            "date": "29/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74813_38cb0279_20260829.png?v=38cb0279",
             "width": 1600,
             "height": 1200
           }
