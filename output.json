@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 2
           },
           "image": {
@@ -161,8 +161,8 @@
             "blv": "Tiểu Mây",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
-            "home_score": 0,
+            "status": "live",
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
