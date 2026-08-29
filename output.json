@@ -17,6 +17,559 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "ph-b6e37fd3a7",
+          "name": "Liverpool vs Nottingham | 18:30 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b6e37fd3a7",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b6e37fd3a7",
+                  "name": "Liverpool vs Nottingham",
+                  "streams": [
+                    {
+                      "id": "st-b6e37fd3a7",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Nottingham",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/nGfV05dipbAc7zzojivKew_96x96_Gvkafg4.png",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3089.jpg",
+            "time": "18:30",
+            "date": "29/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/69916_47176883_20260829.png?v=47176883",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-b2914b52f7",
+          "name": "Elversberg vs Bayer Leverkusen | 20:30 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b2914b52f7",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b2914b52f7",
+                  "name": "Elversberg vs Bayer Leverkusen",
+                  "streams": [
+                    {
+                      "id": "st-b2914b52f7",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Elversberg",
+            "team_b": "Bayer Leverkusen",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3937.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_143.jpg",
+            "time": "20:30",
+            "date": "29/08",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70147_dcbd8ac7_20260829.png?v=dcbd8ac7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-65c4e5ec99",
+          "name": "Union Berlin vs Eintracht Frankfurt | 20:30 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-65c4e5ec99",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-65c4e5ec99",
+                  "name": "Union Berlin vs Eintracht Frankfurt",
+                  "streams": [
+                    {
+                      "id": "st-65c4e5ec99",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Union Berlin",
+            "team_b": "Eintracht Frankfurt",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3936.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3945.jpg",
+            "time": "20:30",
+            "date": "29/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70151_38ddc759_20260829.png?v=38ddc759",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-dba03fe009",
+          "name": "Bournemouth vs Everton | 21:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dba03fe009",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-dba03fe009",
+                  "name": "Bournemouth vs Everton",
+                  "streams": [
+                    {
+                      "id": "st-dba03fe009",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Lửa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Bournemouth",
+            "team_b": "Everton",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3071.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Everton_FC_logo.svg.webp",
+            "time": "21:00",
+            "date": "29/08",
+            "blv": "Người Lửa",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70302_4405b9fb_20260829.png?v=4405b9fb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-35d5a39985",
+          "name": "Coventry vs Hull City | 21:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35d5a39985",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-35d5a39985",
+                  "name": "Coventry vs Hull City",
+                  "streams": [
+                    {
+                      "id": "st-35d5a39985",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Coventry",
+            "team_b": "Hull City",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3094.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3119.jpg",
+            "time": "21:00",
+            "date": "29/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70303_fee751df_20260829.png?v=fee751df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2f606dcc66",
+          "name": "Levante vs Real Betis | 22:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f606dcc66",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2f606dcc66",
+                  "name": "Levante vs Real Betis",
+                  "streams": [
+                    {
+                      "id": "st-2f606dcc66",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Real Betis",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7259.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7261.jpg",
+            "time": "22:00",
+            "date": "29/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70554_9f218f43_20260829.png?v=9f218f43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-89abb59855",
+          "name": "Strasbourg vs Lens | 22:15 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-89abb59855",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-89abb59855",
+                  "name": "Strasbourg vs Lens",
+                  "streams": [
+                    {
+                      "id": "st-89abb59855",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Strasbourg",
+            "team_b": "Lens",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Racing_Club_de_Strasbourg_logo.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3821.jpg",
+            "time": "22:15",
+            "date": "29/08",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70635_b28455d8_20260829.png?v=b28455d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-73793822d8",
           "name": "Fiorentina vs Frosinone | 23:30 29/08",
           "type": "single",
@@ -91,6 +644,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70774_b6bb40bf_20260829.png?v=b6bb40bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-d728b054b6",
+          "name": "Dortmund vs Hamburger SV | 23:30 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d728b054b6",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-d728b054b6",
+                  "name": "Dortmund vs Hamburger SV",
+                  "streams": [
+                    {
+                      "id": "st-d728b054b6",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Dortmund",
+            "team_b": "Hamburger SV",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_92.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3912.jpg",
+            "time": "23:30",
+            "date": "29/08",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70778_9b085dc8_20260829.png?v=9b085dc8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-26a92a1ebb",
+          "name": "Tottenham vs Newcastle | 23:30 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-26a92a1ebb",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-26a92a1ebb",
+                  "name": "Tottenham vs Newcastle",
+                  "streams": [
+                    {
+                      "id": "st-26a92a1ebb",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Lửa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Tottenham",
+            "team_b": "Newcastle",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_164_JyQ7jiO.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3100.jpg",
+            "time": "23:30",
+            "date": "29/08",
+            "blv": "Người Lửa",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70779_a30ac3f3_20260829.png?v=a30ac3f3",
             "width": 1600,
             "height": 1200
           }
@@ -1434,6 +2145,173 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71706_c42c011b_20260829.png?v=c42c011b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "ph-ba3e3223a0",
+          "name": "Trung Quốc vs Iran | 19:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba3e3223a0",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-ba3e3223a0",
+                  "name": "Trung Quốc vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-ba3e3223a0",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Trung Quốc",
+            "team_b": "Iran",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_xjljaQl.jpg",
+            "time": "19:00",
+            "date": "29/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74813_38cb0279_20260829.png?v=38cb0279",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-fa8f585bed",
+          "name": "Ba Lan vs Mỹ | 22:00 29/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa8f585bed",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-fa8f585bed",
+                  "name": "Ba Lan vs Mỹ",
+                  "streams": [
+                    {
+                      "id": "st-fa8f585bed",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hubert Wagner Memorial",
+            "team_a": "Ba Lan",
+            "team_b": "Mỹ",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_tj4Ymih.jpg",
+            "time": "22:00",
+            "date": "29/08",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73334_b2630a1d_20260829.png?v=b2630a1d",
             "width": 1600,
             "height": 1200
           }
