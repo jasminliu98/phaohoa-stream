@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-65c4e5ec99",
-          "name": "Union Berlin vs Eintracht Frankfurt | 20:30 29/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-65c4e5ec99",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-65c4e5ec99",
-                  "name": "Union Berlin vs Eintracht Frankfurt",
-                  "streams": [
-                    {
-                      "id": "st-65c4e5ec99",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Union Berlin",
-            "team_b": "Eintracht Frankfurt",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3936.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3945.jpg",
-            "time": "20:30",
-            "date": "29/08",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/70151_38ddc759_20260829.png?v=38ddc759",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-dba03fe009",
           "name": "Bournemouth vs Everton | 21:00 29/08",
           "type": "single",
@@ -419,10 +340,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -475,9 +396,9 @@
             "time": "23:30",
             "date": "29/08",
             "blv": "Pháo Thủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1829,6 +1750,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/71631_7e2b8b4b_20260829.png?v=7e2b8b4b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-22dcf0f4f3",
+          "name": "Manchester United vs Ipswich | 22:30 30/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22dcf0f4f3",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-22dcf0f4f3",
+                  "name": "Manchester United vs Ipswich",
+                  "streams": [
+                    {
+                      "id": "st-22dcf0f4f3",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Manchester United",
+            "team_b": "Ipswich",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_102.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3121.jpg",
+            "time": "22:30",
+            "date": "30/08",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73337_7e2b8b4b_20260829.png?v=7e2b8b4b",
             "width": 1600,
             "height": 1200
           }
