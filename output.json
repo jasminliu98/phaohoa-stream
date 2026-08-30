@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 3,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -1211,8 +1211,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-7d1facc95d",
-          "name": "Slovenia vs Mỹ | 19:00 30/08",
+          "id": "ph-add2a1ada2",
+          "name": "Pháp vs Hy Lạp | 21:00 30/08",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1222,85 +1222,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d1facc95d",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-7d1facc95d",
-                  "name": "Slovenia vs Mỹ",
-                  "streams": [
-                    {
-                      "id": "st-7d1facc95d",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hubert Wagner Memorial",
-            "team_a": "Slovenia",
-            "team_b": "Mỹ",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_oeLkAjM.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_tj4Ymih.jpg",
-            "time": "19:00",
-            "date": "30/08",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74947_3a4016eb_20260830.png?v=3a4016eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-add2a1ada2",
-          "name": "Pháp vs Hy Lạp | 21:00 30/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1353,9 +1274,9 @@
             "time": "21:00",
             "date": "30/08",
             "blv": "Chim Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bong-chuyen",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
