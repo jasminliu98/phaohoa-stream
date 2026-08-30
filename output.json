@@ -162,7 +162,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 4,
+            "home_score": 5,
             "away_score": 1
           },
           "image": {
@@ -241,7 +241,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 4,
+            "home_score": 5,
             "away_score": 1
           },
           "image": {
@@ -1039,6 +1039,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76197_a6495b10_20260831.png?v=a6495b10",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-bfb3162f43",
+          "name": "Thái Lan U20 vs United Arab Emirates U20 | 19:30 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bfb3162f43",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-bfb3162f43",
+                  "name": "Thái Lan U20 vs United Arab Emirates U20",
+                  "streams": [
+                    {
+                      "id": "st-bfb3162f43",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U20 Asian Cup",
+            "team_a": "Thái Lan U20",
+            "team_b": "United Arab Emirates U20",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Thailand.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_18083.jpg",
+            "time": "19:30",
+            "date": "31/08",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76198_4b66bead_20260831.png?v=4b66bead",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-2ebd935fb1",
+          "name": "Saudi Arabia U20 vs Hong Kong U20 | 23:00 31/08",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2ebd935fb1",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2ebd935fb1",
+                  "name": "Saudi Arabia U20 vs Hong Kong U20",
+                  "streams": [
+                    {
+                      "id": "st-2ebd935fb1",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U20 Asian Cup",
+            "team_a": "Saudi Arabia U20",
+            "team_b": "Hong Kong U20",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_9030.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Hong_Kong.svg.webp",
+            "time": "23:00",
+            "date": "31/08",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76199_f1e979fa_20260831.png?v=f1e979fa",
             "width": 1600,
             "height": 1200
           }
