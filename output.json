@@ -333,85 +333,6 @@
           }
         },
         {
-          "id": "ph-4184a24a5a",
-          "name": "Aston Villa vs Arsenal | 02:00 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4184a24a5a",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-4184a24a5a",
-                  "name": "Aston Villa vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-4184a24a5a",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Lửa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Aston Villa",
-            "team_b": "Arsenal",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3088_UHAISAx.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_141.jpg",
-            "time": "02:00",
-            "date": "01/09",
-            "blv": "Người Lửa",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72307_ecbe154f_20260901.png?v=ecbe154f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-26d5b910ae",
           "name": "Barcelona vs Rayo Vallecano | 02:30 01/09",
           "type": "single",
@@ -1750,6 +1671,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72566_d9e16e92_20260901.png?v=d9e16e92",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-908855da11",
+          "name": "Yunnan Yukun vs Chongqing Tonglianglong | 19:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-908855da11",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-908855da11",
+                  "name": "Yunnan Yukun vs Chongqing Tonglianglong",
+                  "streams": [
+                    {
+                      "id": "st-908855da11",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Yunnan Yukun",
+            "team_b": "Chongqing Tonglianglong",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_31511.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_31512.jpg",
+            "time": "19:00",
+            "date": "02/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72576_e008600a_20260901.png?v=e008600a",
             "width": 1600,
             "height": 1200
           }
