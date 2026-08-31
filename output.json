@@ -161,7 +161,7 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 2,
             "away_score": 1
           },
@@ -1838,6 +1838,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76492_377bd6bb_20260901.png?v=377bd6bb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-76d11e4426",
+          "name": "Italy vs Thuỵ Điển | 20:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76d11e4426",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-76d11e4426",
+                  "name": "Italy vs Thuỵ Điển",
+                  "streams": [
+                    {
+                      "id": "st-76d11e4426",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Italy",
+            "team_b": "Thuỵ Điển",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Sweden.svg.webp",
+            "time": "20:00",
+            "date": "02/09",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76543_93726a8a_20260901.png?v=93726a8a",
             "width": 1600,
             "height": 1200
           }
