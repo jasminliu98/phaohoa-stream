@@ -1437,49 +1437,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-62b03cb67f",
-          "name": "Hà Lan vs Slovenia | 20:00 31/08",
+          "id": "ph-897164c9a6",
+          "name": "HEBC Hamburg vs Dortmund | 01:45 02/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-62b03cb67f",
+              "id": "src-897164c9a6",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-62b03cb67f",
-                  "name": "Hà Lan vs Slovenia",
+                  "id": "ct-897164c9a6",
+                  "name": "HEBC Hamburg vs Dortmund",
                   "streams": [
                     {
-                      "id": "st-62b03cb67f",
+                      "id": "st-897164c9a6",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1503,17 +1494,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Hà Lan",
-            "team_b": "Slovenia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_kMG9h3O.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_oeLkAjM.jpg",
-            "time": "20:00",
-            "date": "31/08",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "DFB Pokal",
+            "team_a": "HEBC Hamburg",
+            "team_b": "Dortmund",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_4063.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_92.jpg",
+            "time": "01:45",
+            "date": "02/09",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1521,11 +1512,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76185_b4ea4d31_20260831.png?v=b4ea4d31",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72490_9f99eca1_20260831.png?v=9f99eca1",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-764a77c4da",
           "name": "Ba Lan vs Bồ Đào Nha | 23:00 31/08",
