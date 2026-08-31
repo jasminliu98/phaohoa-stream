@@ -1358,12 +1358,91 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-2d671d1cec",
+          "name": "Al Hilal vs Al Ahli SC | 01:00 02/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d671d1cec",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2d671d1cec",
+                  "name": "Al Hilal vs Al Ahli SC",
+                  "streams": [
+                    {
+                      "id": "st-2d671d1cec",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Lưu Bị",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Hilal",
+            "team_b": "Al Ahli SC",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_366.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_359.jpg",
+            "time": "01:00",
+            "date": "02/09",
+            "blv": "Lưu Bị",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72463_9fcd7f43_20260831.png?v=9fcd7f43",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1443,85 +1522,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76185_b4ea4d31_20260831.png?v=b4ea4d31",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-78ec463582",
-          "name": "Italy vs Bulgaria | 21:00 31/08",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-78ec463582",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-78ec463582",
-                  "name": "Italy vs Bulgaria",
-                  "streams": [
-                    {
-                      "id": "st-78ec463582",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Italy",
-            "team_b": "Bulgaria",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Bulgaria.svg.webp",
-            "time": "21:00",
-            "date": "31/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76186_1db75729_20260831.png?v=1db75729",
             "width": 1600,
             "height": 1200
           }
