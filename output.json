@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -82,7 +82,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -254,6 +254,85 @@
           }
         },
         {
+          "id": "ph-2d36217f98",
+          "name": "Aston Villa vs Arsenal | 02:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d36217f98",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-2d36217f98",
+                  "name": "Aston Villa vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-2d36217f98",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Lưu Bị",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Aston Villa",
+            "team_b": "Arsenal",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3088_UHAISAx.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_141.jpg",
+            "time": "02:00",
+            "date": "01/09",
+            "blv": "Lưu Bị",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76200_ecbe154f_20260901.png?v=ecbe154f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-4184a24a5a",
           "name": "Aston Villa vs Arsenal | 02:00 01/09",
           "type": "single",
@@ -328,85 +407,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72307_ecbe154f_20260901.png?v=ecbe154f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-2d36217f98",
-          "name": "Aston Villa vs Arsenal | 02:00 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2d36217f98",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-2d36217f98",
-                  "name": "Aston Villa vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-2d36217f98",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "Lưu Bị",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Aston Villa",
-            "team_b": "Arsenal",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3088_UHAISAx.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_141.jpg",
-            "time": "02:00",
-            "date": "01/09",
-            "blv": "Lưu Bị",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76200_ecbe154f_20260901.png?v=ecbe154f",
             "width": 1600,
             "height": 1200
           }
