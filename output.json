@@ -628,7 +628,7 @@
             "league": "FA Cup",
             "team_a": "Damansara",
             "team_b": "Johor DT",
-            "logo_a": "",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/UM-Damansara_United.png",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_386.jpg",
             "time": "16:00",
             "date": "01/09",
@@ -643,7 +643,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73299_054a9759_20260901.png?v=054a9759",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73299_76633248_20260901.png?v=76633248",
             "width": 1600,
             "height": 1200
           }
