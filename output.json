@@ -1516,49 +1516,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-764a77c4da",
-          "name": "Ba Lan vs Bồ Đào Nha | 23:00 31/08",
+          "id": "ph-60515ff1fc",
+          "name": "Torino vs Monza | 02:00 02/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-764a77c4da",
+              "id": "src-60515ff1fc",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-764a77c4da",
-                  "name": "Ba Lan vs Bồ Đào Nha",
+                  "id": "ct-60515ff1fc",
+                  "name": "Torino vs Monza",
                   "streams": [
                     {
-                      "id": "st-764a77c4da",
+                      "id": "st-60515ff1fc",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1582,17 +1573,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Ba Lan",
-            "team_b": "Bồ Đào Nha",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_d8ChyRq.jpg",
-            "time": "23:00",
-            "date": "31/08",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Coppa Italia",
+            "team_a": "Torino",
+            "team_b": "Monza",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_4973_5ELZ9aJ.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_4990.jpg",
+            "time": "02:00",
+            "date": "02/09",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1600,11 +1591,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76187_6244ba1a_20260901.png?v=6244ba1a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72523_022cad17_20260901.png?v=022cad17",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-c4d4b90929",
           "name": "Cộng Hoà Séc vs Thuỵ Điển | 00:00 01/09",
