@@ -1042,6 +1042,243 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-368ab5c058",
+          "name": "Damansara vs Johor DT | 16:00 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-368ab5c058",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-368ab5c058",
+                  "name": "Damansara vs Johor DT",
+                  "streams": [
+                    {
+                      "id": "st-368ab5c058",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Damansara",
+            "team_b": "Johor DT",
+            "logo_a": "",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_386.jpg",
+            "time": "16:00",
+            "date": "01/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73299_054a9759_20260831.png?v=054a9759",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-7b4184899f",
+          "name": "Dalian Yingbo vs Shanghai Shenhua | 18:35 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b4184899f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-7b4184899f",
+                  "name": "Dalian Yingbo vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-7b4184899f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Dalian Yingbo",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_31510.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_381.jpg",
+            "time": "18:35",
+            "date": "01/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72345_20dda1b6_20260831.png?v=20dda1b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1084a3edba",
+          "name": "Shandong Taishan vs Shanghai Port | 18:35 01/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1084a3edba",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1084a3edba",
+                  "name": "Shandong Taishan vs Shanghai Port",
+                  "streams": [
+                    {
+                      "id": "st-1084a3edba",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup",
+            "team_a": "Shandong Taishan",
+            "team_b": "Shanghai Port",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_2251.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2256.jpg",
+            "time": "18:35",
+            "date": "01/09",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72346_4ad13ab9_20260831.png?v=4ad13ab9",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
