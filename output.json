@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -182,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -238,9 +238,9 @@
             "time": "23:00",
             "date": "01/09",
             "blv": "Tày",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1595,49 +1595,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-56ffce673e",
-          "name": "Bỉ vs Đức | 20:00 01/09",
+          "id": "ph-d1310788b0",
+          "name": "Celtic vs Aberdeen | 01:45 03/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-56ffce673e",
+              "id": "src-d1310788b0",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-56ffce673e",
-                  "name": "Bỉ vs Đức",
+                  "id": "ct-d1310788b0",
+                  "name": "Celtic vs Aberdeen",
                   "streams": [
                     {
-                      "id": "st-56ffce673e",
+                      "id": "st-d1310788b0",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1661,17 +1652,17 @@
             }
           ],
           "org_metadata": {
-            "league": "CEV Cup",
-            "team_a": "Bỉ",
-            "team_b": "Đức",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_A336z2d.jpg",
-            "time": "20:00",
-            "date": "01/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Premiership",
+            "team_a": "Celtic",
+            "team_b": "Aberdeen",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_127.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_237.jpg",
+            "time": "01:45",
+            "date": "03/09",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1679,11 +1670,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76471_01b1db14_20260901.png?v=01b1db14",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72901_99a65409_20260901.png?v=99a65409",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-d0e3dc7e1e",
           "name": "Thổ Nhĩ Kì vs Azerbaijan | 23:00 01/09",
