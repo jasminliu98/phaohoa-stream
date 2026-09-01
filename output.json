@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-7b4184899f",
-          "name": "Dalian Yingbo vs Shanghai Shenhua | 18:35 01/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7b4184899f",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-7b4184899f",
-                  "name": "Dalian Yingbo vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-7b4184899f",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup",
-            "team_a": "Dalian Yingbo",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_31510.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_381.jpg",
-            "time": "18:35",
-            "date": "01/09",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72345_20dda1b6_20260901.png?v=20dda1b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-918d060df1",
           "name": "Akron Togliatti vs Lokomotiv Moscow | 20:15 01/09",
           "type": "single",
@@ -182,10 +103,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -238,9 +159,9 @@
             "time": "21:00",
             "date": "01/09",
             "blv": "Lưu Bị",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1592,6 +1513,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72892_12bbe9e0_20260901.png?v=12bbe9e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-b170835117",
+          "name": "St. Truiden vs Royale Union SG | 01:30 03/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b170835117",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b170835117",
+                  "name": "St. Truiden vs Royale Union SG",
+                  "streams": [
+                    {
+                      "id": "st-b170835117",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First Division A",
+            "team_a": "St. Truiden",
+            "team_b": "Royale Union SG",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_1368.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_1373.jpg",
+            "time": "01:30",
+            "date": "03/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72896_f73fe4e4_20260901.png?v=f73fe4e4",
             "width": 1600,
             "height": 1200
           }
