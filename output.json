@@ -161,7 +161,7 @@
             "blv": "Lưu Bị",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 2,
             "away_score": 1
           },
