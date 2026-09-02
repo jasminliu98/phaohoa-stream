@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-4b7f7fc48c",
-          "name": "Zenit vs Dynamo Makhachkala | 22:30 02/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b7f7fc48c",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-4b7f7fc48c",
-                  "name": "Zenit vs Dynamo Makhachkala",
-                  "streams": [
-                    {
-                      "id": "st-4b7f7fc48c",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cup",
-            "team_a": "Zenit",
-            "team_b": "Dynamo Makhachkala",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_95.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6210.jpg",
-            "time": "22:30",
-            "date": "02/09",
-            "blv": "Tiểu Mây",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72662_acd772c3_20260903.png?v=acd772c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-581e9eed69",
           "name": "Udinese vs Venezia | 23:00 02/09",
           "type": "single",
@@ -182,10 +103,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -238,9 +159,9 @@
             "time": "01:00",
             "date": "03/09",
             "blv": "Tiểu Mây",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1671,6 +1592,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73072_0c52daf5_20260903.png?v=0c52daf5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-c34ffdcd5f",
+          "name": "Toulouse vs Lille | 01:45 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c34ffdcd5f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-c34ffdcd5f",
+                  "name": "Toulouse vs Lille",
+                  "streams": [
+                    {
+                      "id": "st-c34ffdcd5f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Toulouse",
+            "team_b": "Lille",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3794.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_160.jpg",
+            "time": "01:45",
+            "date": "04/09",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73086_642c4bc4_20260903.png?v=642c4bc4",
             "width": 1600,
             "height": 1200
           }
