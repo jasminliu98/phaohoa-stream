@@ -1686,7 +1686,7 @@
       "channels": [
         {
           "id": "ph-76d11e4426",
-          "name": "Serbia vs Hy Lạp | 20:00 02/09",
+          "name": "Serbia vs Hy Lạp | 21:00 02/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1745,7 +1745,7 @@
             "team_b": "Hy Lạp",
             "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Greece.svg.webp",
-            "time": "20:00",
+            "time": "21:00",
             "date": "02/09",
             "blv": "KaKa",
             "is_live": true,
