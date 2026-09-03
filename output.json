@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,85 +96,6 @@
           }
         },
         {
-          "id": "ph-ed27b7105d",
-          "name": "India U20 vs Uzbekistan U20 | 21:00 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed27b7105d",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-ed27b7105d",
-                  "name": "India U20 vs Uzbekistan U20",
-                  "streams": [
-                    {
-                      "id": "st-ed27b7105d",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U20 Asian Cup",
-            "team_a": "India U20",
-            "team_b": "Uzbekistan U20",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_37999.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_18085.jpg",
-            "time": "21:00",
-            "date": "03/09",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 4
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76510_84aa9ea3_20260903.png?v=84aa9ea3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-7d162bc88c",
           "name": "Al Fayha vs Al Kholood | 22:55 03/09",
           "type": "single",
@@ -241,7 +162,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -1592,6 +1513,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73388_82c09b63_20260903.png?v=82c09b63",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-3ced1f0723",
+          "name": "Al Ahli SC vs Al Riyadh | 01:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3ced1f0723",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-3ced1f0723",
+                  "name": "Al Ahli SC vs Al Riyadh",
+                  "streams": [
+                    {
+                      "id": "st-3ced1f0723",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Ahli SC",
+            "team_b": "Al Riyadh",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_359.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/al-riyadh-logo-footylogos-320.webp",
+            "time": "01:00",
+            "date": "05/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73473_74e08f17_20260903.png?v=74e08f17",
             "width": 1600,
             "height": 1200
           }
