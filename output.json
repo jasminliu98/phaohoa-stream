@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-4ec89e0721",
-          "name": "Turkmenistan U20 vs Thailand U20 | 19:30 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4ec89e0721",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-4ec89e0721",
-                  "name": "Turkmenistan U20 vs Thailand U20",
-                  "streams": [
-                    {
-                      "id": "st-4ec89e0721",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U20 Asian Cup",
-            "team_a": "Turkmenistan U20",
-            "team_b": "Thailand U20",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_37971.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_37974.jpg",
-            "time": "19:30",
-            "date": "03/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76508_cb7d8c35_20260903.png?v=cb7d8c35",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-6ea947fde5",
           "name": "Al Ahli Doha vs Qatar SC | 21:00 03/09",
@@ -1513,6 +1434,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73273_fc2e5ea7_20260903.png?v=fc2e5ea7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-ddf5622672",
+          "name": "Arminia Bielefeld vs St. Pauli | 23:30 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ddf5622672",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-ddf5622672",
+                  "name": "Arminia Bielefeld vs St. Pauli",
+                  "streams": [
+                    {
+                      "id": "st-ddf5622672",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "Arminia Bielefeld",
+            "team_b": "St. Pauli",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_4269.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3921.jpg",
+            "time": "23:30",
+            "date": "04/09",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73286_e9ee0515_20260903.png?v=e9ee0515",
             "width": 1600,
             "height": 1200
           }
