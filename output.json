@@ -1339,7 +1339,7 @@
             "league": "Thai League 1",
             "team_a": "Pattani",
             "team_b": "Pathum United",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_19026.jpg",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Pattani_FC_Logo.png",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_418.jpg",
             "time": "19:00",
             "date": "04/09",
@@ -1354,7 +1354,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73125_1db3832f_20260903.png?v=1db3832f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73125_5cbac167_20260903.png?v=5cbac167",
             "width": 1600,
             "height": 1200
           }
@@ -1497,7 +1497,7 @@
             "league": "Super League",
             "team_a": "Kelantan Red Warrior",
             "team_b": "Kuala Lumpur City",
-            "logo_a": "",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Kelantan_F.C._logo.png",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_5312.jpg",
             "time": "20:00",
             "date": "04/09",
@@ -1512,7 +1512,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73170_fc71ab9c_20260903.png?v=fc71ab9c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73170_6aec3efa_20260903.png?v=6aec3efa",
             "width": 1600,
             "height": 1200
           }
