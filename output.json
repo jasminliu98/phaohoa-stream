@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-c3d3ae4607",
-          "name": "Al Diriyah vs Al Qadsiah | 01:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c3d3ae4607",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-c3d3ae4607",
-                  "name": "Al Diriyah vs Al Qadsiah",
-                  "streams": [
-                    {
-                      "id": "st-c3d3ae4607",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Pro League",
-            "team_a": "Al Diriyah",
-            "team_b": "Al Qadsiah",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/243050_imgbank_1784643564.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/al-qadsiah-logo-footylogos-320.webp",
-            "time": "01:00",
-            "date": "04/09",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73072_0c52daf5_20260904.png?v=0c52daf5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-c34ffdcd5f",
           "name": "Toulouse vs Lille | 01:45 04/09",
@@ -319,7 +240,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 1
           },
@@ -1917,6 +1838,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/77366_937645b9_20260904.png?v=937645b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-286128ebe2",
+          "name": "Qatar vs Thái Lan | 15:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-286128ebe2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-286128ebe2",
+                  "name": "Qatar vs Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-286128ebe2",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "Qatar",
+            "team_b": "Thái Lan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_TkTkw3i.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_Q9mUTFM.jpg",
+            "time": "15:00",
+            "date": "05/09",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/77367_00dc2a5f_20260904.png?v=00dc2a5f",
             "width": 1600,
             "height": 1200
           }
