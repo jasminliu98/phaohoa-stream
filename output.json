@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 3
+            "away_score": 4
           },
           "image": {
             "padding": 1,
@@ -240,7 +240,7 @@
             "blv": "Tày",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -261,10 +261,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -317,9 +317,9 @@
             "time": "21:00",
             "date": "03/09",
             "blv": "Văn Minh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1633,11 +1633,11 @@
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1668,7 +1668,7 @@
             "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
             "time": "23:00",
             "date": "03/09",
-            "blv": "KaKa",
+            "blv": "Tày",
             "is_live": false,
             "cate_type": "bong-chuyen",
             "status": "scheduled",
