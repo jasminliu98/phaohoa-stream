@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -163,7 +163,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 3
+            "away_score": 4
           },
           "image": {
             "padding": 1,
