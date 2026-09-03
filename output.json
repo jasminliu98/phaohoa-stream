@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -103,10 +103,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -159,9 +159,9 @@
             "time": "19:00",
             "date": "03/09",
             "blv": "Lưu Bị",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1203,7 +1203,7 @@
         },
         {
           "id": "ph-f0fe0143a3",
-          "name": "Bình Phước vs Viettel | 18:00 04/09",
+          "name": "Đồng Nai vs Viettel | 18:00 04/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1222,7 +1222,7 @@
               "contents": [
                 {
                   "id": "ct-f0fe0143a3",
-                  "name": "Bình Phước vs Viettel",
+                  "name": "Đồng Nai vs Viettel",
                   "streams": [
                     {
                       "id": "st-f0fe0143a3",
@@ -1258,9 +1258,9 @@
           ],
           "org_metadata": {
             "league": "V.League 1",
-            "team_a": "Bình Phước",
+            "team_a": "Đồng Nai",
             "team_b": "Viettel",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_8049.jpg",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Trường_Tươi_Đồng_Nai_FC.png",
             "logo_b": "https://phaohoa1.live/media/teams/logos/logo-clb-bong-da-viettel-1024x1024.webp",
             "time": "18:00",
             "date": "04/09",
@@ -1275,7 +1275,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73121_7146acde_20260903.png?v=7146acde",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73121_aadd1266_20260903.png?v=aadd1266",
             "width": 1600,
             "height": 1200
           }
@@ -1497,7 +1497,7 @@
             "league": "Super League",
             "team_a": "Kelantan Red Warrior",
             "team_b": "Kuala Lumpur City",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Kelantan_F.C._logo.png",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Kelantan_Red_Warrior_FC.png",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_5312.jpg",
             "time": "20:00",
             "date": "04/09",
@@ -1512,7 +1512,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73170_6aec3efa_20260903.png?v=6aec3efa",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73170_66944214_20260903.png?v=66944214",
             "width": 1600,
             "height": 1200
           }
