@@ -1516,49 +1516,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-a8cf86b7e9",
-          "name": "Ba Lan vs Hà Lan | 20:00 03/09",
+          "id": "ph-9717e3b516",
+          "name": "Lyon vs Auxerre | 00:00 05/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-a8cf86b7e9",
+              "id": "src-9717e3b516",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-a8cf86b7e9",
-                  "name": "Ba Lan vs Hà Lan",
+                  "id": "ct-9717e3b516",
+                  "name": "Lyon vs Auxerre",
                   "streams": [
                     {
-                      "id": "st-a8cf86b7e9",
+                      "id": "st-9717e3b516",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1582,17 +1573,17 @@
             }
           ],
           "org_metadata": {
-            "league": "CEV Cup",
-            "team_a": "Ba Lan",
-            "team_b": "Hà Lan",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_kMG9h3O.jpg",
-            "time": "20:00",
-            "date": "03/09",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Auxerre",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3815.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3797.jpg",
+            "time": "00:00",
+            "date": "05/09",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1600,11 +1591,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76713_d6ff04ea_20260903.png?v=d6ff04ea",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73388_82c09b63_20260903.png?v=82c09b63",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-9742f37f8f",
           "name": "Đức vs Thổ Nhĩ Kì | 23:00 03/09",
