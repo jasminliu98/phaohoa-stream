@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-6ea947fde5",
-          "name": "Al Ahli Doha vs Qatar SC | 21:00 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6ea947fde5",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-6ea947fde5",
-                  "name": "Al Ahli Doha vs Qatar SC",
-                  "streams": [
-                    {
-                      "id": "st-6ea947fde5",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Stars League",
-            "team_a": "Al Ahli Doha",
-            "team_b": "Qatar SC",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6058.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6057.jpg",
-            "time": "21:00",
-            "date": "03/09",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/72991_8c84430d_20260903.png?v=8c84430d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-7d162bc88c",
           "name": "Al Fayha vs Al Kholood | 22:55 03/09",
           "type": "single",
@@ -261,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -317,9 +238,9 @@
             "time": "23:30",
             "date": "03/09",
             "blv": "Văn Minh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1592,6 +1513,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73473_74e08f17_20260903.png?v=74e08f17",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-166140a231",
+          "name": "Al Shabab vs Al Hilal | 01:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-166140a231",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-166140a231",
+                  "name": "Al Shabab vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-166140a231",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Shabab",
+            "team_b": "Al Hilal",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6327.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_366.jpg",
+            "time": "01:00",
+            "date": "05/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73474_3e15d584_20260903.png?v=3e15d584",
             "width": 1600,
             "height": 1200
           }
