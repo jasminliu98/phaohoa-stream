@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-186ec17520",
-          "name": "Oman U20 vs Saudi Arabia U20 | 23:00 03/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-186ec17520",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-186ec17520",
-                  "name": "Oman U20 vs Saudi Arabia U20",
-                  "streams": [
-                    {
-                      "id": "st-186ec17520",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U20 Asian Cup",
-            "team_a": "Oman U20",
-            "team_b": "Saudi Arabia U20",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_26085.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_9030.jpg",
-            "time": "23:00",
-            "date": "03/09",
-            "blv": "Tiểu Mây",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76513_b21e7eac_20260904.png?v=b21e7eac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-ff49277423",
           "name": "Neom SC vs Al Khaleej | 23:30 03/09",
           "type": "single",
@@ -175,6 +96,85 @@
           }
         },
         {
+          "id": "ph-4d76e86ca2",
+          "name": "FC Copenhagen vs Nordsjaelland | 01:00 04/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d76e86ca2",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-4d76e86ca2",
+                  "name": "FC Copenhagen vs Nordsjaelland",
+                  "streams": [
+                    {
+                      "id": "st-4d76e86ca2",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Superliga",
+            "team_a": "FC Copenhagen",
+            "team_b": "Nordsjaelland",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_175.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2649.jpg",
+            "time": "01:00",
+            "date": "04/09",
+            "blv": "Tiểu Mây",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73071_6de37b23_20260904.png?v=6de37b23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "ph-c3d3ae4607",
           "name": "Al Diriyah vs Al Qadsiah | 01:00 04/09",
           "type": "single",
@@ -249,85 +249,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73072_0c52daf5_20260904.png?v=0c52daf5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-4d76e86ca2",
-          "name": "FC Copenhagen vs Nordsjaelland | 01:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d76e86ca2",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-4d76e86ca2",
-                  "name": "FC Copenhagen vs Nordsjaelland",
-                  "streams": [
-                    {
-                      "id": "st-4d76e86ca2",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Superliga",
-            "team_a": "FC Copenhagen",
-            "team_b": "Nordsjaelland",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_175.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_2649.jpg",
-            "time": "01:00",
-            "date": "04/09",
-            "blv": "Tiểu Mây",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73071_6de37b23_20260904.png?v=6de37b23",
             "width": 1600,
             "height": 1200
           }
@@ -1592,6 +1513,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73538_9f494626_20260904.png?v=9f494626",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-e1501a4fe3",
+          "name": "Ipswich vs Liverpool | 02:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e1501a4fe3",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-e1501a4fe3",
+                  "name": "Ipswich vs Liverpool",
+                  "streams": [
+                    {
+                      "id": "st-e1501a4fe3",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Ipswich",
+            "team_b": "Liverpool",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3121.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/nGfV05dipbAc7zzojivKew_96x96_Gvkafg4.png",
+            "time": "02:00",
+            "date": "05/09",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73539_038ecf39_20260904.png?v=038ecf39",
             "width": 1600,
             "height": 1200
           }
