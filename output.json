@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-816751b23d",
-          "name": "Real Sociedad vs Celta Vigo | 02:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-816751b23d",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-816751b23d",
-                  "name": "Real Sociedad vs Celta Vigo",
-                  "streams": [
-                    {
-                      "id": "st-816751b23d",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "Lưu Bị",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "Celta Vigo",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_153.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7290.jpg",
-            "time": "02:00",
-            "date": "04/09",
-            "blv": "Lưu Bị",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73089_b95a1e53_20260904.png?v=b95a1e53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-6adedd9223",
-          "name": "Cagliari vs Verona | 02:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6adedd9223",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-6adedd9223",
-                  "name": "Cagliari vs Verona",
-                  "streams": [
-                    {
-                      "id": "st-6adedd9223",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Coppa Italia",
-            "team_a": "Cagliari",
-            "team_b": "Verona",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_4981.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Hellas_Verona_FC_logo_2020.svg.webp",
-            "time": "02:00",
-            "date": "04/09",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73091_53f74e08_20260904.png?v=53f74e08",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-d8a2d3913b",
           "name": "Ch. Odesa vs Livyi Bereg | 17:00 04/09",
@@ -1434,6 +1276,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73670_fdc8d1f1_20260904.png?v=fdc8d1f1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-8a0790a10f",
+          "name": "Avispa Fukuoka vs Mito | 17:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a0790a10f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-8a0790a10f",
+                  "name": "Avispa Fukuoka vs Mito",
+                  "streams": [
+                    {
+                      "id": "st-8a0790a10f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Lưu Bị",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Avispa Fukuoka",
+            "team_b": "Mito",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5048.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5081.jpg",
+            "time": "17:00",
+            "date": "05/09",
+            "blv": "Lưu Bị",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73703_42a0f476_20260904.png?v=42a0f476",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-7d5fe9a609",
+          "name": "Hải Phòng vs Phù Đổng Ninh Bình | 18:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7d5fe9a609",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-7d5fe9a609",
+                  "name": "Hải Phòng vs Phù Đổng Ninh Bình",
+                  "streams": [
+                    {
+                      "id": "st-7d5fe9a609",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hải Phòng",
+            "team_b": "Phù Đổng Ninh Bình",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/logo-clb-bong-da-hai-phong.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/cbf7b130-4dbf-4706-9892-8249bb65a183.png",
+            "time": "18:00",
+            "date": "05/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73786_89703025_20260904.png?v=89703025",
             "width": 1600,
             "height": 1200
           }
