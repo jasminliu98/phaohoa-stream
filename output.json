@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-b5eba9df9d",
-          "name": "Abha vs Al Ettifaq | 23:00 04/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b5eba9df9d",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-b5eba9df9d",
-                  "name": "Abha vs Al Ettifaq",
-                  "streams": [
-                    {
-                      "id": "st-b5eba9df9d",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Pro League",
-            "team_a": "Abha",
-            "team_b": "Al Ettifaq",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/Abha_Club_Logo.svg.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/19c61b1ae0b964b7a8a79d3bf3648a69.png",
-            "time": "23:00",
-            "date": "04/09",
-            "blv": "Kevin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73273_fc2e5ea7_20260905.png?v=fc2e5ea7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-ddf5622672",
           "name": "Arminia Bielefeld vs St. Pauli | 23:30 04/09",
@@ -1592,6 +1513,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74319_021f6daa_20260905.png?v=021f6daa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-d9c205c3d0",
+          "name": "Nottingham vs Tottenham | 21:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d9c205c3d0",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-d9c205c3d0",
+                  "name": "Nottingham vs Tottenham",
+                  "streams": [
+                    {
+                      "id": "st-d9c205c3d0",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Lưu Bị",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Nottingham",
+            "team_b": "Tottenham",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3089.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_164_JyQ7jiO.jpg",
+            "time": "21:00",
+            "date": "05/09",
+            "blv": "Lưu Bị",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74320_2462e276_20260905.png?v=2462e276",
             "width": 1600,
             "height": 1200
           }
