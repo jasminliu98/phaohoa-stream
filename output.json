@@ -11,406 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-7d5fe9a609",
-          "name": "Hải Phòng vs Phù Đổng Ninh Bình | 18:00 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7d5fe9a609",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-7d5fe9a609",
-                  "name": "Hải Phòng vs Phù Đổng Ninh Bình",
-                  "streams": [
-                    {
-                      "id": "st-7d5fe9a609",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hải Phòng",
-            "team_b": "Phù Đổng Ninh Bình",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/logo-clb-bong-da-hai-phong.webp",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/cbf7b130-4dbf-4706-9892-8249bb65a183.png",
-            "time": "18:00",
-            "date": "05/09",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 4
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73786_89703025_20260905.png?v=89703025",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-9191e0c0fc",
-          "name": "Công An HCM vs Hà Nội FC | 18:00 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9191e0c0fc",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-9191e0c0fc",
-                  "name": "Công An HCM vs Hà Nội FC",
-                  "streams": [
-                    {
-                      "id": "st-9191e0c0fc",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Công An HCM",
-            "team_b": "Hà Nội FC",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/bb501c60-6694-4ae5-a3d2-5e0529827021.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/HN_FC_Logo.svg.webp",
-            "time": "18:00",
-            "date": "05/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73787_f2fc1da8_20260905.png?v=f2fc1da8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-26d9795309",
-          "name": "Newcastle vs Bournemouth | 18:30 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-26d9795309",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-26d9795309",
-                  "name": "Newcastle vs Bournemouth",
-                  "streams": [
-                    {
-                      "id": "st-26d9795309",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Newcastle",
-            "team_b": "Bournemouth",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3100.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3071.jpg",
-            "time": "18:30",
-            "date": "05/09",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73804_4dc9681b_20260905.png?v=4dc9681b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-61437ee352",
-          "name": "Công An Hà Nội vs Hồng Lĩnh Hà Tĩnh | 19:15 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61437ee352",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-61437ee352",
-                  "name": "Công An Hà Nội vs Hồng Lĩnh Hà Tĩnh",
-                  "streams": [
-                    {
-                      "id": "st-61437ee352",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Công An Hà Nội",
-            "team_b": "Hồng Lĩnh Hà Tĩnh",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/dde2897a-7204-4f4b-a5e7-cbd526e8e9a2.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/logo-clb-hong-linh-ha-tinh-1-930x1024.png",
-            "time": "19:15",
-            "date": "05/09",
-            "blv": "Tiểu Mây",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73931_243d0b5f_20260905.png?v=243d0b5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-f7965e2227",
-          "name": "Hoffenheim vs Dortmund | 20:30 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f7965e2227",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-f7965e2227",
-                  "name": "Hoffenheim vs Dortmund",
-                  "streams": [
-                    {
-                      "id": "st-f7965e2227",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Hoffenheim",
-            "team_b": "Dortmund",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_170.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_92.jpg",
-            "time": "20:30",
-            "date": "05/09",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74117_a3178ae4_20260905.png?v=a3178ae4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-a058ba42db",
           "name": "Brentford vs Sunderland | 21:00 05/09",
@@ -1753,49 +1358,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-601d01376c",
-          "name": "Thổ Nhĩ Kì vs Serbia | 20:00 05/09",
+          "id": "ph-1e3b810836",
+          "name": "Inter Miami vs Atlanta Utd | 06:30 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-601d01376c",
+              "id": "src-1e3b810836",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-601d01376c",
-                  "name": "Thổ Nhĩ Kì vs Serbia",
+                  "id": "ct-1e3b810836",
+                  "name": "Inter Miami vs Atlanta Utd",
                   "streams": [
                     {
-                      "id": "st-601d01376c",
+                      "id": "st-1e3b810836",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1819,17 +1415,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Thổ Nhĩ Kì",
-            "team_b": "Serbia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
-            "time": "20:00",
-            "date": "05/09",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "MLS",
+            "team_a": "Inter Miami",
+            "team_b": "Atlanta Utd",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/INTER-90-x-90-1024x1024.png",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_299.jpg",
+            "time": "06:30",
+            "date": "06/09",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1837,11 +1433,1600 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/77606_85da06c8_20260905.png?v=85da06c8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75196_cf1974a1_20260905.png?v=cf1974a1",
             "width": 1600,
             "height": 1200
           }
         },
+        {
+          "id": "ph-b0facf2d75",
+          "name": "Japan U20 vs Yemen U20 | 16:00 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0facf2d75",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b0facf2d75",
+                  "name": "Japan U20 vs Yemen U20",
+                  "streams": [
+                    {
+                      "id": "st-b0facf2d75",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U20 Asian Cup",
+            "team_a": "Japan U20",
+            "team_b": "Yemen U20",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Japan.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_26088.jpg",
+            "time": "16:00",
+            "date": "06/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76522_03533d5d_20260905.png?v=03533d5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-171de23c98",
+          "name": "Alaves vs Osasuna | 23:30 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-171de23c98",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-171de23c98",
+                  "name": "Alaves vs Osasuna",
+                  "streams": [
+                    {
+                      "id": "st-171de23c98",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Alaves",
+            "team_b": "Osasuna",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Deportivo_Alaves_logo_2020.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7269.jpg",
+            "time": "23:30",
+            "date": "06/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76087_97d275b7_20260905.png?v=97d275b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-82525596fb",
+          "name": "Malaga vs Levante | 23:30 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-82525596fb",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-82525596fb",
+                  "name": "Malaga vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-82525596fb",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Malaga",
+            "team_b": "Levante",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7267.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7259.jpg",
+            "time": "23:30",
+            "date": "06/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76088_30672969_20260905.png?v=30672969",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-caa9c58b2e",
+          "name": "Vitoria Guimaraes vs Casa Pia | 00:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-caa9c58b2e",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-caa9c58b2e",
+                  "name": "Vitoria Guimaraes vs Casa Pia",
+                  "streams": [
+                    {
+                      "id": "st-caa9c58b2e",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Vitoria Guimaraes",
+            "team_b": "Casa Pia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6005.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6018.jpg",
+            "time": "00:00",
+            "date": "07/09",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76226_8fb08902_20260905.png?v=8fb08902",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-864aa34a04",
+          "name": "Juventus vs AC Milan | 01:45 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-864aa34a04",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-864aa34a04",
+                  "name": "Juventus vs AC Milan",
+                  "streams": [
+                    {
+                      "id": "st-864aa34a04",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Lưu Bị",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Juventus",
+            "team_b": "AC Milan",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_96.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_159.jpg",
+            "time": "01:45",
+            "date": "07/09",
+            "blv": "Lưu Bị",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76300_d216b778_20260905.png?v=d216b778",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-267826b218",
+          "name": "Marseille vs Paris FC | 01:45 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-267826b218",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-267826b218",
+                  "name": "Marseille vs Paris FC",
+                  "streams": [
+                    {
+                      "id": "st-267826b218",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Marseille",
+            "team_b": "Paris FC",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_83.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3796.jpg",
+            "time": "01:45",
+            "date": "07/09",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76301_123a0596_20260905.png?v=123a0596",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-6fd7776d41",
+          "name": "Espanyol vs Sevilla | 02:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6fd7776d41",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-6fd7776d41",
+                  "name": "Espanyol vs Sevilla",
+                  "streams": [
+                    {
+                      "id": "st-6fd7776d41",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Espanyol",
+            "team_b": "Sevilla",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7268.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_89.jpg",
+            "time": "02:00",
+            "date": "07/09",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76310_476b7ebd_20260905.png?v=476b7ebd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-11d76a7099",
+          "name": "Gil Vicente vs Academico Viseu | 02:30 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-11d76a7099",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-11d76a7099",
+                  "name": "Gil Vicente vs Academico Viseu",
+                  "streams": [
+                    {
+                      "id": "st-11d76a7099",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Gil Vicente",
+            "team_b": "Academico Viseu",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5996.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6001.jpg",
+            "time": "02:30",
+            "date": "07/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76327_a8995fd0_20260905.png?v=a8995fd0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-7c38a31809",
+          "name": "Cruz Azul vs Santos Laguna | 09:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7c38a31809",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-7c38a31809",
+                  "name": "Cruz Azul vs Santos Laguna",
+                  "streams": [
+                    {
+                      "id": "st-7c38a31809",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Lưu Bị",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Cruz Azul",
+            "team_b": "Santos Laguna",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_301.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_272.jpg",
+            "time": "09:00",
+            "date": "07/09",
+            "blv": "Lưu Bị",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76412_0289d7e1_20260905.png?v=0289d7e1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-d59cc073b6",
+          "name": "North Korea U20 W vs Portugal U20 W | 20:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d59cc073b6",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-d59cc073b6",
+                  "name": "North Korea U20 W vs Portugal U20 W",
+                  "streams": [
+                    {
+                      "id": "st-d59cc073b6",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U20 Women's World Cup",
+            "team_a": "North Korea U20 W",
+            "team_b": "Portugal U20 W",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_34800.jpg",
+            "logo_b": "",
+            "time": "20:00",
+            "date": "07/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76703_30acd61f_20260905.png?v=30acd61f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-35d83e1aca",
+          "name": "FC Voluntari vs FC Arges | 21:30 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35d83e1aca",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-35d83e1aca",
+                  "name": "FC Voluntari vs FC Arges",
+                  "streams": [
+                    {
+                      "id": "st-35d83e1aca",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga I",
+            "team_a": "FC Voluntari",
+            "team_b": "FC Arges",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6195.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6190.jpg",
+            "time": "21:30",
+            "date": "07/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76430_c69dba6c_20260905.png?v=c69dba6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-4820a3ee92",
+          "name": "Al Khaleej vs Al Riyadh | 22:30 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4820a3ee92",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-4820a3ee92",
+                  "name": "Al Khaleej vs Al Riyadh",
+                  "streams": [
+                    {
+                      "id": "st-4820a3ee92",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Khaleej",
+            "team_b": "Al Riyadh",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Al-Khaleej_FC_Logo.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/al-riyadh-logo-footylogos-320.webp",
+            "time": "22:30",
+            "date": "07/09",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76446_2673e65a_20260905.png?v=2673e65a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-3f525057ae",
+          "name": "Al Adalah vs Al Saqer | 22:30 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f525057ae",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-3f525057ae",
+                  "name": "Al Adalah vs Al Saqer",
+                  "streams": [
+                    {
+                      "id": "st-3f525057ae",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Division 1",
+            "team_a": "Al Adalah",
+            "team_b": "Al Saqer",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_6314.jpg",
+            "logo_b": "",
+            "time": "22:30",
+            "date": "07/09",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76447_03bef84f_20260905.png?v=03bef84f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-a8193f71ef",
+          "name": "Cagliari vs Lecce | 23:30 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8193f71ef",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a8193f71ef",
+                  "name": "Cagliari vs Lecce",
+                  "streams": [
+                    {
+                      "id": "st-a8193f71ef",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Cagliari",
+            "team_b": "Lecce",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_4981.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5010.jpg",
+            "time": "23:30",
+            "date": "07/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76468_ad8b4449_20260905.png?v=ad8b4449",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-5fdf887dbd",
+          "name": "Rizespor vs Alanyaspor | 00:00 08/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5fdf887dbd",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-5fdf887dbd",
+                  "name": "Rizespor vs Alanyaspor",
+                  "streams": [
+                    {
+                      "id": "st-5fdf887dbd",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Süper Lig",
+            "team_a": "Rizespor",
+            "team_b": "Alanyaspor",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7685.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7697.jpg",
+            "time": "00:00",
+            "date": "08/09",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76558_2ee239d5_20260905.png?v=2ee239d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-a1683f10d7",
+          "name": "Getafe vs Celta Vigo | 00:00 08/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1683f10d7",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-a1683f10d7",
+                  "name": "Getafe vs Celta Vigo",
+                  "streams": [
+                    {
+                      "id": "st-a1683f10d7",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Getafe",
+            "team_b": "Celta Vigo",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7288.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7290.jpg",
+            "time": "00:00",
+            "date": "08/09",
+            "blv": "Kevin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76561_1479abb2_20260905.png?v=1479abb2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-181fac1c8b",
+          "name": "Al Hilal vs Neom SC | 01:00 08/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-181fac1c8b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-181fac1c8b",
+                  "name": "Al Hilal vs Neom SC",
+                  "streams": [
+                    {
+                      "id": "st-181fac1c8b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Hilal",
+            "team_b": "Neom SC",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_366.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_18904.jpg",
+            "time": "01:00",
+            "date": "08/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76582_db660524_20260905.png?v=db660524",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-9b9325629b",
+          "name": "Udinese vs Lazio | 01:45 08/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b9325629b",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-9b9325629b",
+                  "name": "Udinese vs Lazio",
+                  "streams": [
+                    {
+                      "id": "st-9b9325629b",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "Lưu Bị",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Udinese",
+            "team_b": "Lazio",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_4984.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_93.jpg",
+            "time": "01:45",
+            "date": "08/09",
+            "blv": "Lưu Bị",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76592_d2478dc1_20260905.png?v=d2478dc1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f791a3a538",
+          "name": "Estoril vs Arouca | 02:15 08/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f791a3a538",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f791a3a538",
+                  "name": "Estoril vs Arouca",
+                  "streams": [
+                    {
+                      "id": "st-f791a3a538",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Estoril",
+            "team_b": "Arouca",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_5994.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6009.jpg",
+            "time": "02:15",
+            "date": "08/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76603_769f43b9_20260905.png?v=769f43b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-1f614f683f",
+          "name": "Elche vs Real Sociedad | 02:30 08/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1f614f683f",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-1f614f683f",
+                  "name": "Elche vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-1f614f683f",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Elche",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7274.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_153.jpg",
+            "time": "02:30",
+            "date": "08/09",
+            "blv": "Chim Nhỏ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76604_fdcb46dd_20260905.png?v=fdcb46dd",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-fda4a54957",
           "name": "Ba Lan vs Italy | 23:00 05/09",
