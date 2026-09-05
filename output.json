@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-a0368cd40d",
-          "name": "Fenerbahce vs Besiktas | 00:00 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0368cd40d",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-a0368cd40d",
-                  "name": "Fenerbahce vs Besiktas",
-                  "streams": [
-                    {
-                      "id": "st-a0368cd40d",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Süper Lig",
-            "team_a": "Fenerbahce",
-            "team_b": "Besiktas",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7694.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_187.jpg",
-            "time": "00:00",
-            "date": "06/09",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74972_c0af9421_20260906.png?v=c0af9421",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-a745ce8925",
           "name": "Al Ittihad vs Al Nassr | 01:00 06/09",
@@ -321,7 +242,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -1917,6 +1838,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/79200_f33449a1_20260906.png?v=f33449a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-8bd70f8995",
+          "name": "Italy vs Thổ Nhĩ Kì | 23:00 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8bd70f8995",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-8bd70f8995",
+                  "name": "Italy vs Thổ Nhĩ Kì",
+                  "streams": [
+                    {
+                      "id": "st-8bd70f8995",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CEV Cup",
+            "team_a": "Italy",
+            "team_b": "Thổ Nhĩ Kì",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_p55YJlm.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
+            "time": "23:00",
+            "date": "06/09",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/79201_6051ef4d_20260906.png?v=6051ef4d",
             "width": 1600,
             "height": 1200
           }
