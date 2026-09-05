@@ -1595,85 +1595,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "ph-cf62eec428",
-          "name": "Valencia vs Barcelona | 21:15 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cf62eec428",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-cf62eec428",
-                  "name": "Valencia vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-cf62eec428",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Valencia",
-            "team_b": "Barcelona",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7272.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_97.jpg",
-            "time": "21:15",
-            "date": "06/09",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75826_3aca2f95_20260906.png?v=3aca2f95",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -1712,11 +1633,11 @@
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1747,7 +1668,7 @@
             "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_India.svg.webp",
             "time": "08:00",
             "date": "06/09",
-            "blv": "KaKa",
+            "blv": "Tày",
             "is_live": false,
             "cate_type": "bong-chuyen",
             "status": "scheduled",
@@ -1917,6 +1838,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/79187_df6d847a_20260906.png?v=df6d847a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-39343aba22",
+          "name": "Ba Lan vs Serbia | 20:00 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-39343aba22",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-39343aba22",
+                  "name": "Ba Lan vs Serbia",
+                  "streams": [
+                    {
+                      "id": "st-39343aba22",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CEV Cup",
+            "team_a": "Ba Lan",
+            "team_b": "Serbia",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_uiH5uS2.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
+            "time": "20:00",
+            "date": "06/09",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/79200_f33449a1_20260906.png?v=f33449a1",
             "width": 1600,
             "height": 1200
           }
