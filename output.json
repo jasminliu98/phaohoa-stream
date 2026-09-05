@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-7aa869abab",
-          "name": "AS Roma vs Atalanta | 01:45 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7aa869abab",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-7aa869abab",
-                  "name": "AS Roma vs Atalanta",
-                  "streams": [
-                    {
-                      "id": "st-7aa869abab",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "Lưu Bị",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "AS Roma",
-            "team_b": "Atalanta",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_139.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_85.jpg",
-            "time": "01:45",
-            "date": "06/09",
-            "blv": "Lưu Bị",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75107_5f75afbb_20260906.png?v=5f75afbb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-87c37e1d70",
           "name": "Nice vs Le Mans | 01:45 06/09",
@@ -241,7 +162,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -1513,6 +1434,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76087_97d275b7_20260906.png?v=97d275b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-82525596fb",
+          "name": "Malaga vs Levante | 23:30 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-82525596fb",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-82525596fb",
+                  "name": "Malaga vs Levante",
+                  "streams": [
+                    {
+                      "id": "st-82525596fb",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Malaga",
+            "team_b": "Levante",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_7267.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_7259.jpg",
+            "time": "23:30",
+            "date": "06/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76088_30672969_20260906.png?v=30672969",
             "width": 1600,
             "height": 1200
           }
