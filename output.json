@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -240,7 +240,7 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 1
           },
@@ -398,7 +398,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
             "away_score": 0
           },
@@ -477,7 +477,7 @@
             "blv": "Lưu Bị",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -1753,49 +1753,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "ph-601d01376c",
-          "name": "Thổ Nhĩ Kì vs Serbia | 20:00 05/09",
+          "id": "ph-c7f7887d16",
+          "name": "Nam Định vs Hoàng Anh Gia Lai | 18:00 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-601d01376c",
+              "id": "src-c7f7887d16",
               "name": "PhaohoaTV",
               "contents": [
                 {
-                  "id": "ct-601d01376c",
-                  "name": "Thổ Nhĩ Kì vs Serbia",
+                  "id": "ct-c7f7887d16",
+                  "name": "Nam Định vs Hoàng Anh Gia Lai",
                   "streams": [
                     {
-                      "id": "st-601d01376c",
+                      "id": "st-c7f7887d16",
                       "name": "PhaohoaTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-95e438c878",
+                          "name": "Lưu Bị",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1819,17 +1810,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Thổ Nhĩ Kì",
-            "team_b": "Serbia",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/OIP_YsFHEHv.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_OI6UvXR.jpg",
-            "time": "20:00",
-            "date": "05/09",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "bong-chuyen",
-            "status": "live",
+            "league": "V.League 1",
+            "team_a": "Nam Định",
+            "team_b": "Hoàng Anh Gia Lai",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Logo_CLB_TXNĐ_3_sao.png",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Hoàng_Anh_Gia_Lai_FC.png",
+            "time": "18:00",
+            "date": "06/09",
+            "blv": "Lưu Bị",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1837,11 +1828,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/77606_85da06c8_20260905.png?v=85da06c8",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75422_b92afc24_20260905.png?v=b92afc24",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_bong-chuyen",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "ph-fda4a54957",
           "name": "Ba Lan vs Italy | 23:00 05/09",
