@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "ph-9191e0c0fc",
-          "name": "Công An HCM vs Hà Nội FC | 18:00 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9191e0c0fc",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-9191e0c0fc",
-                  "name": "Công An HCM vs Hà Nội FC",
-                  "streams": [
-                    {
-                      "id": "st-9191e0c0fc",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Công An HCM",
-            "team_b": "Hà Nội FC",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/bb501c60-6694-4ae5-a3d2-5e0529827021.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/HN_FC_Logo.svg.webp",
-            "time": "18:00",
-            "date": "05/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73787_f2fc1da8_20260905.png?v=f2fc1da8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-26d9795309",
           "name": "Newcastle vs Bournemouth | 18:30 05/09",
           "type": "single",
@@ -240,7 +161,7 @@
             "blv": "Tiểu Mây",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 1,
             "away_score": 0
           },
@@ -328,6 +249,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74117_a3178ae4_20260905.png?v=a3178ae4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-ca0081d662",
+          "name": "Fulham vs Crystal Palace | 21:00 05/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca0081d662",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-ca0081d662",
+                  "name": "Fulham vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-ca0081d662",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Fulham",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3085.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3429.jpg",
+            "time": "21:00",
+            "date": "05/09",
+            "blv": "Tày",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74318_41a103a6_20260905.png?v=41a103a6",
             "width": 1600,
             "height": 1200
           }
@@ -486,85 +486,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74317_af84062f_20260905.png?v=af84062f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "ph-ca0081d662",
-          "name": "Fulham vs Crystal Palace | 21:00 05/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ca0081d662",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-ca0081d662",
-                  "name": "Fulham vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-ca0081d662",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Fulham",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3085.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_3429.jpg",
-            "time": "21:00",
-            "date": "05/09",
-            "blv": "Tày",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74318_41a103a6_20260905.png?v=41a103a6",
             "width": 1600,
             "height": 1200
           }
@@ -1750,6 +1671,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75196_cf1974a1_20260905.png?v=cf1974a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-b0facf2d75",
+          "name": "Japan U20 vs Yemen U20 | 16:00 06/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b0facf2d75",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-b0facf2d75",
+                  "name": "Japan U20 vs Yemen U20",
+                  "streams": [
+                    {
+                      "id": "st-b0facf2d75",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U20 Asian Cup",
+            "team_a": "Japan U20",
+            "team_b": "Yemen U20",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_Japan.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_26088.jpg",
+            "time": "16:00",
+            "date": "06/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76522_03533d5d_20260905.png?v=03533d5d",
             "width": 1600,
             "height": 1200
           }
