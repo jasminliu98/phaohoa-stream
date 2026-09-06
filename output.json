@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "ph-dd5ae85670",
-          "name": "Parma vs Monza | 13:00 06/09",
+          "name": "Parma vs Monza | 20:00 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -77,7 +77,7 @@
             "team_b": "Monza",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_4978.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_4990.jpg",
-            "time": "13:00",
+            "time": "20:00",
             "date": "06/09",
             "blv": "Tiểu Mây",
             "is_live": true,
@@ -97,7 +97,7 @@
         },
         {
           "id": "ph-3fe5168971",
-          "name": "Troyes vs Strasbourg | 13:00 06/09",
+          "name": "Troyes vs Strasbourg | 20:00 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -156,14 +156,14 @@
             "team_b": "Strasbourg",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_3792.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/Racing_Club_de_Strasbourg_logo.svg.webp",
-            "time": "13:00",
+            "time": "20:00",
             "date": "06/09",
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
             "home_score": 1,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -176,7 +176,7 @@
         },
         {
           "id": "ph-fc75f68ffe",
-          "name": "Everton vs Manchester United | 13:00 06/09",
+          "name": "Everton vs Manchester United | 20:00 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -235,7 +235,7 @@
             "team_b": "Manchester United",
             "logo_a": "https://phaohoa1.live/media/teams/logos/Everton_FC_logo.svg.webp",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_102.jpg",
-            "time": "13:00",
+            "time": "20:00",
             "date": "06/09",
             "blv": "Tày",
             "is_live": true,
@@ -255,7 +255,7 @@
         },
         {
           "id": "ph-f2f619fb9b",
-          "name": "Hamburger SV vs Mainz | 13:30 06/09",
+          "name": "Hamburger SV vs Mainz | 20:30 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -314,12 +314,12 @@
             "team_b": "Mainz",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_3912.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_3939.jpg",
-            "time": "13:30",
+            "time": "20:30",
             "date": "06/09",
             "blv": "Văn Minh",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 2
           },
