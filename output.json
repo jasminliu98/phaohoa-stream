@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "ph-cae39754f8",
-          "name": "Iran U20 vs Vietnam U20 | 12:00 06/09",
+          "name": "Iran U20 vs Vietnam U20 | 19:00 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -77,13 +77,13 @@
             "team_b": "Vietnam U20",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_18095.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_18096.jpg",
-            "time": "12:00",
+            "time": "19:00",
             "date": "06/09",
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
-            "home_score": 0,
+            "status": "live",
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -97,7 +97,7 @@
         },
         {
           "id": "ph-dd5ae85670",
-          "name": "Parma vs Monza | 13:00 06/09",
+          "name": "Parma vs Monza | 20:00 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -156,7 +156,7 @@
             "team_b": "Monza",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_4978.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_4990.jpg",
-            "time": "13:00",
+            "time": "20:00",
             "date": "06/09",
             "blv": "Tiểu Mây",
             "is_live": true,
@@ -176,7 +176,7 @@
         },
         {
           "id": "ph-3fe5168971",
-          "name": "Troyes vs Strasbourg | 13:00 06/09",
+          "name": "Troyes vs Strasbourg | 20:00 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -235,13 +235,13 @@
             "team_b": "Strasbourg",
             "logo_a": "https://phaohoa1.live/media/teams/logos/team_3792.jpg",
             "logo_b": "https://phaohoa1.live/media/teams/logos/Racing_Club_de_Strasbourg_logo.svg.webp",
-            "time": "13:00",
+            "time": "20:00",
             "date": "06/09",
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -255,7 +255,7 @@
         },
         {
           "id": "ph-fc75f68ffe",
-          "name": "Everton vs Manchester United | 13:00 06/09",
+          "name": "Everton vs Manchester United | 20:00 06/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -314,7 +314,7 @@
             "team_b": "Manchester United",
             "logo_a": "https://phaohoa1.live/media/teams/logos/Everton_FC_logo.svg.webp",
             "logo_b": "https://phaohoa1.live/media/teams/logos/team_102.jpg",
-            "time": "13:00",
+            "time": "20:00",
             "date": "06/09",
             "blv": "Tày",
             "is_live": true,
