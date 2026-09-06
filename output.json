@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "ph-6e502c8d28",
-          "name": "Vissel Kobe vs V-Varen Nagasaki | 17:00 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e502c8d28",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-6e502c8d28",
-                  "name": "Vissel Kobe vs V-Varen Nagasaki",
-                  "streams": [
-                    {
-                      "id": "st-6e502c8d28",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Vissel Kobe",
-            "team_b": "V-Varen Nagasaki",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_383.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/team_5089.jpg",
-            "time": "17:00",
-            "date": "06/09",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75349_2a881ca2_20260906.png?v=2a881ca2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "ph-c7f7887d16",
           "name": "Nam Định vs Hoàng Anh Gia Lai | 18:00 06/09",
@@ -161,7 +82,7 @@
             "blv": "Lưu Bị",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 3,
             "away_score": 0
           },
@@ -1917,6 +1838,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/79191_b8092517_20260906.png?v=b8092517",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-f9dad9315d",
+          "name": "New Zealand vs Trung Quốc | 11:30 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9dad9315d",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-f9dad9315d",
+                  "name": "New Zealand vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-f9dad9315d",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Á",
+            "team_a": "New Zealand",
+            "team_b": "Trung Quốc",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/Flag_of_New_Zealand.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "time": "11:30",
+            "date": "07/09",
+            "blv": "KaKa",
+            "is_live": false,
+            "cate_type": "bong-chuyen",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/79188_f6c34f72_20260906.png?v=f6c34f72",
             "width": 1600,
             "height": 1200
           }
