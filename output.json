@@ -96,85 +96,6 @@
           }
         },
         {
-          "id": "ph-4a3e0ce538",
-          "name": "Sông Lam Nghệ An vs Bắc Ninh | 18:00 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a3e0ce538",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-4a3e0ce538",
-                  "name": "Sông Lam Nghệ An vs Bắc Ninh",
-                  "streams": [
-                    {
-                      "id": "st-4a3e0ce538",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Sông Lam Nghệ An",
-            "team_b": "Bắc Ninh",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/1165.png",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/b27fe471-c6fd-400d-8ca2-0ac3ad2e28a8.png",
-            "time": "18:00",
-            "date": "06/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75423_c92ac544_20260906.png?v=c92ac544",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-cae39754f8",
           "name": "Iran U20 vs Vietnam U20 | 19:00 06/09",
           "type": "single",
@@ -333,85 +254,6 @@
           }
         },
         {
-          "id": "ph-3fe5168971",
-          "name": "Troyes vs Strasbourg | 20:00 06/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3fe5168971",
-              "name": "PhaohoaTV",
-              "contents": [
-                {
-                  "id": "ct-3fe5168971",
-                  "name": "Troyes vs Strasbourg",
-                  "streams": [
-                    {
-                      "id": "st-3fe5168971",
-                      "name": "PhaohoaTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phaohoa1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://phaohoa1.live"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Troyes",
-            "team_b": "Strasbourg",
-            "logo_a": "https://phaohoa1.live/media/teams/logos/team_3792.jpg",
-            "logo_b": "https://phaohoa1.live/media/teams/logos/Racing_Club_de_Strasbourg_logo.svg.webp",
-            "time": "20:00",
-            "date": "06/09",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/75574_13c3f575_20260906.png?v=13c3f575",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "ph-fc75f68ffe",
           "name": "Everton vs Manchester United | 20:00 06/09",
           "type": "single",
@@ -419,10 +261,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -475,9 +317,9 @@
             "time": "20:00",
             "date": "06/09",
             "blv": "Tày",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1516,12 +1358,170 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "ph-d59cc073b6",
+          "name": "North Korea U20 W vs Portugal U20 W | 20:00 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d59cc073b6",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-d59cc073b6",
+                  "name": "North Korea U20 W vs Portugal U20 W",
+                  "streams": [
+                    {
+                      "id": "st-d59cc073b6",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U20 Women's World Cup",
+            "team_a": "North Korea U20 W",
+            "team_b": "Portugal U20 W",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/team_34800.jpg",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/Flag_of_Portugal_official_DxQppC9.svg.webp",
+            "time": "20:00",
+            "date": "07/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76703_276ccd15_20260906.png?v=276ccd15",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "ph-35d83e1aca",
+          "name": "FC Voluntari vs FC Arges | 21:30 07/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35d83e1aca",
+              "name": "PhaohoaTV",
+              "contents": [
+                {
+                  "id": "ct-35d83e1aca",
+                  "name": "FC Voluntari vs FC Arges",
+                  "streams": [
+                    {
+                      "id": "st-35d83e1aca",
+                      "name": "PhaohoaTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phaohoa1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://phaohoa1.live"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga I",
+            "team_a": "FC Voluntari",
+            "team_b": "FC Arges",
+            "logo_a": "https://phaohoa1.live/media/teams/logos/FC_Voluntari.svg.webp",
+            "logo_b": "https://phaohoa1.live/media/teams/logos/team_6190.jpg",
+            "time": "21:30",
+            "date": "07/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/76430_b3d732d6_20260906.png?v=b3d732d6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_bong-chuyen",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1613,10 +1613,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1669,9 +1669,9 @@
             "time": "23:00",
             "date": "06/09",
             "blv": "KaKa",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "bong-chuyen",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
