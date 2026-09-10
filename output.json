@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-710e67faa2",
+          "id": "xc-438664c661",
           "name": "Slavia Praha vs Lens | 02:00 11/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-710e67faa2",
+              "id": "src-438664c661",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-710e67faa2",
+                  "id": "ct-438664c661",
                   "name": "Slavia Praha vs Lens",
                   "streams": [
                     {
-                      "id": "st-710e67faa2",
+                      "id": "st-438664c661",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-aa8c116d94",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-41b53a6d96",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://xoiche.tv/ph/live/phaohoa4/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,10 +79,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/116.png",
             "time": "02:00",
             "date": "11/09",
-            "blv": "Pháo Thủ",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 2,
             "away_score": 3
           },
@@ -90,13 +90,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9f99cb6b-6ff3-4c4f-adb0-ea95926bfc94_791f5d92_20260911.png?v=791f5d92",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/slavia-praha-v-lens-1635729_791f5d92_20260911.png?v=791f5d92",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-1ac5a365c1",
+          "id": "xc-9692ddea35",
           "name": "Como vs RB Leipzig | 02:00 11/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -111,23 +111,23 @@
           ],
           "sources": [
             {
-              "id": "src-1ac5a365c1",
+              "id": "src-9692ddea35",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-1ac5a365c1",
+                  "id": "ct-9692ddea35",
                   "name": "Como vs RB Leipzig",
                   "streams": [
                     {
-                      "id": "st-1ac5a365c1",
+                      "id": "st-9692ddea35",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-63a7874c57",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-4e1d4c74bc",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://xoiche.tv/ph/live/phaohoa5/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -158,10 +158,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/173.png",
             "time": "02:00",
             "date": "11/09",
-            "blv": "Chim Nhỏ",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 4,
             "away_score": 1
           },
@@ -169,13 +169,13 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/dd3d60d1-e009-4734-b51c-16a91a28cf1f_24ba95de_20260911.png?v=24ba95de",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/como-v-rb-leipzig-1635648_24ba95de_20260911.png?v=24ba95de",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-23c1e5ba43",
+          "id": "xc-d90ce751c5",
           "name": "Bayern München vs Bodo/Glimt | 02:00 11/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -190,23 +190,23 @@
           ],
           "sources": [
             {
-              "id": "src-23c1e5ba43",
+              "id": "src-d90ce751c5",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-23c1e5ba43",
+                  "id": "ct-d90ce751c5",
                   "name": "Bayern München vs Bodo/Glimt",
                   "streams": [
                     {
-                      "id": "st-23c1e5ba43",
+                      "id": "st-d90ce751c5",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-442504e02d",
-                          "name": "Lưu Bị",
+                          "id": "lnk-3c17373fb0",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://xoiche.tv/ph/live/phaohoa7/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -237,10 +237,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/327.png",
             "time": "02:00",
             "date": "11/09",
-            "blv": "Lưu Bị",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 5,
             "away_score": 0
           },
@@ -248,7 +248,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f9ab227b-f7a5-41ff-b774-44c0063b5be7_567e7bfe_20260911.png?v=567e7bfe",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/bayern-munchen-v-bodo-glimt-1635632_567e7bfe_20260911.png?v=567e7bfe",
             "width": 1600,
             "height": 1200
           }
@@ -281,52 +281,10 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-3e2fe76a97",
-                          "name": "Kevin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-484b0173f4",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.tv/ph/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
                           "id": "lnk-c9899e337f",
                           "name": "Dái Tai",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://xoiche.tv/ph/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
                           "request_headers": [
                             {
@@ -358,7 +316,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/13976.png",
             "time": "02:00",
             "date": "11/09",
-            "blv": "Kevin, Tày, Dái Tai",
+            "blv": "Dái Tai",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
