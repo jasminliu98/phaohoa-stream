@@ -4,17 +4,20 @@ import hashlib
 import re
 import time
 import os
+import html as htmllib
+from collections import Counter
 from datetime import datetime, timezone, timedelta
+from urllib.parse import unquote
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 
 # ─────────────────────────────────────────────────────────────────────────────
-# CONFIG
+# CONFIG  — Phaohoa1.live -> xoiche.tv (Next.js, khong con __NUXT_DATA__)
 # ─────────────────────────────────────────────────────────────────────────────
 
 VN_TZ = timezone(timedelta(hours=7))
 
-BASE_URL = "https://xoiche.tv/"
+BASE_URL = "https://xoiche.tv"
 API_BASE = f"{BASE_URL}/api"
 
 HEADERS = {
@@ -25,60 +28,155 @@ HEADERS = {
     "Accept-Language": "vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5",
 }
 
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+
 THUMBS_DIR    = "thumbs"
 REPO_RAW      = os.environ.get("REPO_RAW", "")
-THUMB_VERSION = "v2"
+THUMB_VERSION = "v3"
 
-CATE_MAP = {
-    "football":    "⚽ Bóng Đá",
-    "bong-ro":     "🏀 Bóng Rổ",
-    "tennis":      "🎾 Tennis",
-    "bong-chuyen": "🏐 Bóng Chuyền",
-    "esports":     "🎮 Esport",
-    "cau-long":    "🏸 Cầu Lông",
-    "boxing":      "🥊 Võ Thuật",
-    "billiards":   "🎱 Billiards",
-    "bong-ban":    "🏓 Bóng Bàn",
+PAST_HOURS     = 6     # giu tran da bat dau <= 6h
+UPCOMING_HOURS = 36    # giu tran sap dau trong 36h (sua 24 neu muon)
+
+UUID_RE = re.compile(r'[0-9a-fA-F]{8}-(?:[0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}')
+
+FINISHED_STATUSES = {"finished", "completed", "complete", "ended", "ft", "full_time",
+                     "fulltime", "cancelled", "canceled", "postponed", "abandoned"}
+LIVE_STATUSES = {"live", "in_progress", "inprogress", "playing", "half_time",
+                 "halftime", "half-time", "ht", "1h", "2h"}
+
+SPORT_ALIASES = {
+    "football": "football", "soccer": "football", "bong-da": "football",
+    "bong da": "football", "bongda": "football", "bóng đá": "football",
+    "volleyball": "volleyball", "bong-chuyen": "volleyball", "bong chuyen": "volleyball",
+    "bongchuyen": "volleyball", "bóng chuyền": "volleyball", "voleibol": "volleyball",
+    "basketball": "bong-ro", "bong-ro": "bong-ro", "bong ro": "bong-ro",
+    "bongro": "bong-ro", "bóng rổ": "bong-ro",
+    "tennis": "tennis",
+    "esports": "esports", "esport": "esports", "e-sports": "esports",
+    "badminton": "cau-long", "cau-long": "cau-long", "cau long": "cau-long",
+    "caulong": "cau-long", "cầu lông": "cau-long",
+    "boxing": "boxing", "mma": "boxing", "vo-thuat": "boxing",
+    "vo thuat": "boxing", "võ thuật": "boxing",
+    "billiards": "billiards", "billiard": "billiards", "bi-a": "billiards",
+    "bi a": "billiards", "pool": "billiards", "snooker": "billiards",
+    "table-tennis": "bong-ban", "bong-ban": "bong-ban", "bong ban": "bong-ban",
+    "tabletennis": "bong-ban", "bóng bàn": "bong-ban",
 }
-CATE_ORDER = ["football", "bong-ro", "tennis", "bong-chuyen", "esports",
-              "cau-long", "boxing", "billiards", "bong-ban"]
+CATE_MAP = {
+    "football":   "⚽ Bóng Đá",
+    "volleyball": "🏐 Bóng Chuyền",
+    "bong-ro":    "🏀 Bóng Rổ",
+    "tennis":     "🎾 Tennis",
+    "esports":    "🎮 Esport",
+    "cau-long":   "🏸 Cầu Lông",
+    "boxing":     "🥊 Võ Thuật",
+    "billiards":  "🎱 Billiards",
+    "bong-ban":   "🏓 Bóng Bàn",
+}
+CATE_ORDER = list(CATE_MAP.keys())
+
+_PAGE_CACHE = {}
 
 # ─────────────────────────────────────────────────────────────────────────────
 # HELPERS
 # ─────────────────────────────────────────────────────────────────────────────
 
-def now_vn() -> datetime:
+def now_vn():
     return datetime.now(tz=VN_TZ)
 
 def make_id(text, prefix):
-    return f"{prefix}-{hashlib.md5(text.encode()).hexdigest()[:10]}"
+    return f"{prefix}-{hashlib.md5(str(text).encode()).hexdigest()[:10]}"
 
 def full_url(path):
     if not path: return ""
     if path.startswith("http"): return path
-    return f"{BASE_URL}{path}"
+    if path.startswith("//"): return "https:" + path
+    if path.startswith("/"): return f"{BASE_URL}{path}"
+    return f"{BASE_URL}/{path}"
+
+def http_get(url, timeout=15, as_json=False):
+    try:
+        res = SESSION.get(url, timeout=timeout)
+        if res.status_code != 200:
+            return None
+        if as_json:
+            try: return res.json()
+            except Exception: return None
+        return res.text
+    except Exception:
+        return None
+
+def get_page(path):
+    if path not in _PAGE_CACHE:
+        url = path if path.startswith("http") else f"{BASE_URL}{path}"
+        _PAGE_CACHE[path] = http_get(url, timeout=25)
+    return _PAGE_CACHE[path]
 
 def fetch_image(url):
+    if not url: return None
     try:
-        res = requests.get(url, headers=HEADERS, timeout=8)
+        res = SESSION.get(url, timeout=8)
         res.raise_for_status()
         return Image.open(BytesIO(res.content)).convert("RGBA")
     except Exception:
         return None
 
+def norm_sport(s):
+    s = (s or "").strip().lower()
+    if not s: return "football"
+    if s in SPORT_ALIASES: return SPORT_ALIASES[s]
+    for alias, canon in SPORT_ALIASES.items():
+        if alias in s: return canon
+    return "other"
+
 def parse_start_time(s):
-    if not s: return None
+    if not isinstance(s, str) or not s.strip(): return None
+    s = s.strip()
+    if s.endswith("Z"): s = s[:-1] + "+00:00"
     try:
         dt = datetime.fromisoformat(s)
         return dt if dt.tzinfo else dt.replace(tzinfo=VN_TZ)
     except Exception:
-        return None
+        pass
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(s, fmt).replace(tzinfo=VN_TZ)
+        except Exception:
+            continue
+    return None
+
+def to_vn(dt):
+    if dt is None: return None
+    if dt.tzinfo is None: return dt.replace(tzinfo=VN_TZ)
+    return dt.astimezone(VN_TZ)
 
 def format_time_hhmm(dt):
+    dt = to_vn(dt)
     return dt.strftime("%H:%M") if dt else ""
 
 def format_date_ddmm(dt):
+    dt = to_vn(dt)
     return dt.strftime("%d/%m") if dt else ""
+
+def parse_when(txt):
+    """'02:00 - 11/09' (hien thi tren card) -> datetime VN"""
+    m = re.search(r'(\d{1,2}):(\d{2})\s*[-–—]\s*(\d{1,2})/(\d{1,2})', txt or "")
+    if not m: return None
+    hh, mm, dd, mo = (int(g) for g in m.groups())
+    now = now_vn()
+    for yr in (now.year, now.year + 1):
+        try:
+            dt = datetime(yr, mo, dd, hh, mm, tzinfo=VN_TZ)
+        except ValueError:
+            continue
+        if dt >= now - timedelta(days=45):
+            return dt
+    return None
+
+def time_sort_val(dt):
+    dt = to_vn(dt)
+    return dt.timestamp() if dt else float("inf")
 
 def get_stream_type(url):
     if not url: return "hls"
@@ -88,126 +186,705 @@ def get_stream_type(url):
     if c.endswith(".mp4"): return "mp4"
     return "hls"
 
-def is_within_24h(start_time_str, is_live=False):
-    if is_live: return True
-    dt = parse_start_time(start_time_str)
-    if dt is None: return True
-    now = now_vn()
-    return (now - timedelta(hours=6)) <= dt <= (now + timedelta(hours=24))
+STREAM_EXTS = (".m3u8", ".flv", ".mpd", ".mp4", ".ts")
+STREAM_PATH_HINTS = ("/live/", "/ph/", "/stream", "/hls", "/playback")
 
-def parse_time_sort(start_time_str):
-    dt = parse_start_time(start_time_str)
-    if dt:
-        return dt.month * 10_000_000 + dt.day * 10_000 + dt.hour * 100 + dt.minute
-    return 999_999_999
+def is_stream_url(u):
+    if not isinstance(u, str) or len(u) < 8: return False
+    if not (u.startswith("http") or u.startswith("/")): return False
+    low = u.lower().split("?")[0]
+    if any(low.endswith(e) for e in STREAM_EXTS): return True
+    if any(h in low for h in STREAM_PATH_HINTS): return True
+    if ".m3u8" in u.lower() or ".flv" in u.lower(): return True
+    return False
 
 # ─────────────────────────────────────────────────────────────────────────────
-# DATA EXTRACTOR
+# TIM & TRICH XUAT MATCH (phong thu nhieu dinh dang API)
 # ─────────────────────────────────────────────────────────────────────────────
 
-def find_matches_in_data(data):
-    matches = []
+def is_match_dict(d):
+    if not isinstance(d, dict): return False
+    has_id = False
+    for k in ("slug", "uuid", "fixture", "fixture_id", "match_id", "matchId", "id"):
+        v = d.get(k)
+        if isinstance(v, (str, int)) and str(v).strip():
+            has_id = True
+            break
+    if not has_id: return False
+    for k in ("home_team_name", "away_team_name", "homeTeam", "awayTeam",
+              "home_team", "away_team", "team_a", "team_b", "teams"):
+        v = d.get(k)
+        if isinstance(v, str) and v.strip(): return True
+        if isinstance(v, dict): return True
+        if isinstance(v, list) and v: return True
+    return False
+
+def find_match_dicts(data, out=None):
+    if out is None: out = []
     if isinstance(data, list):
-        for item in data:
-            matches.extend(find_matches_in_data(item))
+        for x in data: find_match_dicts(x, out)
     elif isinstance(data, dict):
-        if "slug" in data and ("home_team_name" in data or "home_team" in data):
-            matches.append(data)
+        if is_match_dict(data):
+            out.append(data)
         else:
             for v in data.values():
-                matches.extend(find_matches_in_data(v))
-    return matches
+                find_match_dicts(v, out)
+    return out
+
+def normalize_match(item):
+    if not isinstance(item, dict): return None
+
+    def s(*keys):
+        for k in keys:
+            v = item.get(k)
+            if isinstance(v, str) and v.strip():
+                return v.strip()
+        return ""
+
+    status = s("status", "state", "phase", "match_status").lower()
+    if status in FINISHED_STATUSES: return None
+
+    # ---- id / uuid / slug ----
+    match_id = ""
+    for k in ("id", "uuid", "match_id", "matchId", "fixture", "fixture_id"):
+        v = item.get(k)
+        if isinstance(v, str) and v.strip(): match_id = v.strip(); break
+        if isinstance(v, int): match_id = str(v); break
+
+    uuid = ""
+    for k in ("uuid", "id", "fixture", "fixture_id", "match_uuid"):
+        v = item.get(k)
+        if isinstance(v, str) and UUID_RE.fullmatch(v.strip()):
+            uuid = v.strip(); break
+
+    slug = s("slug", "match_slug")
+    if not slug:
+        u = s("url", "link", "match_url")
+        if "/tran-dau/" in u:
+            slug = u.split("/tran-dau/", 1)[1].split("?", 1)[0].strip("/")
+    if not slug: slug = match_id
+    if not match_id: match_id = slug
+
+    # ---- doi ----
+    def team_name(side):
+        for k in (f"{side}_team_name", f"{side}Name", f"{side}_name", f"{side}TeamName"):
+            v = item.get(k)
+            if isinstance(v, str) and v.strip(): return htmllib.unescape(v.strip())
+        for k in (f"{side}_team", f"{side}Team"):
+            v = item.get(k)
+            if isinstance(v, str) and v.strip(): return htmllib.unescape(v.strip())
+            if isinstance(v, dict):
+                for nk in ("name", "title", "team_name", "full_name"):
+                    nv = v.get(nk)
+                    if isinstance(nv, str) and nv.strip(): return htmllib.unescape(nv.strip())
+        tdict = item.get("teams")
+        if isinstance(tdict, dict):
+            v = tdict.get(side) or tdict.get(f"{side}_team")
+            if isinstance(v, str) and v.strip(): return htmllib.unescape(v.strip())
+            if isinstance(v, dict):
+                for nk in ("name", "title", "team_name"):
+                    nv = v.get(nk)
+                    if isinstance(nv, str) and nv.strip(): return htmllib.unescape(nv.strip())
+        return ""
+
+    def team_logo(side):
+        for k in (f"{side}_team_logo", f"{side}TeamLogo", f"{side}_logo",
+                  f"{side}_team_crest", f"{side}TeamCrest", f"{side}_team_image"):
+            v = item.get(k)
+            if isinstance(v, str) and v.strip(): return v.strip()
+        for k in (f"{side}_team", f"{side}Team"):
+            v = item.get(k)
+            if isinstance(v, dict):
+                for lk in ("logo", "logo_url", "crest", "image", "badge"):
+                    lv = v.get(lk)
+                    if isinstance(lv, str) and lv.strip(): return lv.strip()
+        tdict = item.get("teams")
+        if isinstance(tdict, dict):
+            v = tdict.get(side) or tdict.get(f"{side}_team")
+            if isinstance(v, dict):
+                for lk in ("logo", "logo_url", "crest", "image"):
+                    lv = v.get(lk)
+                    if isinstance(lv, str) and lv.strip(): return lv.strip()
+        return ""
+
+    home, away = team_name("home"), team_name("away")
+    if not (home and away):
+        nm = s("name", "match_name", "title")
+        if " gặp " in nm:
+            a, b = nm.split(" gặp ", 1)
+            home = home or htmllib.unescape(a.strip())
+            away = away or htmllib.unescape(b.strip())
+    if not (home and away): return None
+    if not match_id: match_id = make_id(f"{home}-vs-{away}", "m")
+
+    # ---- thoi gian ----
+    start_dt = None
+    for k in ("start_time", "startTime", "startDate", "start_at", "starts_at", "kickoff", "kick_off"):
+        v = item.get(k)
+        if isinstance(v, str) and v.strip():
+            start_dt = parse_start_time(v)
+            if start_dt: break
+    if start_dt is None:
+        w = s("when", "card_when")
+        if w: start_dt = parse_when(w)
+    start_dt = to_vn(start_dt) if start_dt else None
+
+    # ---- live ----
+    is_live = status in LIVE_STATUSES
+    if "EventInProgress" in s("eventStatus", "event_status"): is_live = True
+    if item.get("is_live") is True or item.get("live") is True: is_live = True
+    if not status: status = "live" if is_live else "scheduled"
+
+    # ---- mon / giai ----
+    sport_raw = s("sport_slug", "sport", "sport_name", "category_slug", "category")
+    if not sport_raw and isinstance(item.get("sport"), dict):
+        for k in ("slug", "name", "key", "title"):
+            v = item["sport"].get(k)
+            if isinstance(v, str) and v.strip(): sport_raw = v.strip(); break
+    cate = norm_sport(sport_raw)
+
+    league = s("tournament_name", "league_name", "leagueName", "league", "competition")
+    for k in ("tournament", "league_obj", "competition_obj"):
+        v = item.get(k)
+        if isinstance(v, dict):
+            ln = v.get("name") or v.get("title")
+            if isinstance(ln, str) and ln.strip():
+                league = league or ln.strip(); break
+    league = htmllib.unescape(league) if league else ""
+
+    # ---- ty so ----
+    def num(*keys):
+        for k in keys:
+            v = item.get(k)
+            if isinstance(v, bool): continue
+            if isinstance(v, int): return v
+            if isinstance(v, str) and v.strip().isdigit(): return int(v.strip())
+        return 0
+    home_score = num("home_score", "score_home", "homeScore")
+    away_score = num("away_score", "score_away", "awayScore")
+
+    # ---- BLV ----
+    commentators = []
+    cands = item.get("commentators")
+    if not cands: cands = item.get("rooms")
+    if isinstance(cands, dict): cands = list(cands.values())
+    if isinstance(cands, list):
+        for c in cands:
+            if isinstance(c, dict):
+                nm = ""
+                for k in ("name", "commentator_name", "blv_name", "display_name", "title"):
+                    v = c.get(k)
+                    if isinstance(v, dict): v = v.get("name")
+                    if isinstance(v, str) and v.strip(): nm = v.strip(); break
+                room = ""
+                for k in ("room", "room_id", "room_uuid", "uuid", "id"):
+                    v = c.get(k)
+                    if isinstance(v, str) and v.strip(): room = v.strip(); break
+                if nm or room:
+                    commentators.append({"id": room or nm, "name": nm or "BLV", "room": room})
+            elif isinstance(c, str) and c.strip():
+                commentators.append({"id": c.strip(), "name": c.strip(), "room": ""})
+
+    return {
+        "match_id": match_id,
+        "uuid": uuid,
+        "slug": slug,
+        "cate_type": cate,
+        "name": f"{home} vs {away}",
+        "team_a": home, "team_b": away,
+        "logo_a": full_url(team_logo("home")),
+        "logo_b": full_url(team_logo("away")),
+        "league": league,
+        "start_dt": start_dt,
+        "time": format_time_hhmm(start_dt),
+        "date": format_date_ddmm(start_dt),
+        "time_sort": time_sort_val(start_dt),
+        "is_live": is_live,
+        "status": status,
+        "home_score": home_score,
+        "away_score": away_score,
+        "commentators": commentators,
+    }
 
 # ─────────────────────────────────────────────────────────────────────────────
-# NUXT DATA PARSER
+# TRICH XUAT LINK STREAM (phong thu nhieu dinh danh)
 # ─────────────────────────────────────────────────────────────────────────────
 
-def parse_nuxt_data(html_text):
-    m = re.search(r'<script[^>]*id="__NUXT_DATA__"[^>]*>(.*?)</script>', html_text, re.DOTALL)
-    if not m: return None
-    try: raw = json.loads(m.group(1))
-    except: return None
+def extract_streams(data, room_names=None):
+    """Tim moi URL co dang stream (.m3u8/.flv//live/...) trong JSON bat ky,
+    gan nhan BLV neu co. room_names: {room_uuid: ten_blv}"""
+    room_names = room_names or {}
+    out = {}
 
-    REACTIVE = {"ShallowReactive", "Reactive", "ShallowRef", "Ref"}
+    def add(name, url):
+        u = full_url(url)
+        key = (name or "").strip() or "Server"
+        out.setdefault(key, [])
+        if u not in out[key]: out[key].append(u)
 
-    def resolve(idx, depth=0):
-        if depth > 30: return None
-        if not isinstance(idx, int) or idx < 0 or idx >= len(raw): return idx
-        item = raw[idx]
-        if isinstance(item, (str, bool, int, float)): return item
-        if item is None: return None
-        if isinstance(item, list):
-            if len(item) >= 1 and isinstance(item[0], str) and item[0] in REACTIVE:
-                return resolve(item[1], depth + 1) if len(item) >= 2 else None
-            if len(item) == 1 and isinstance(item[0], str) and item[0] == "Set":
-                return []
-            out = []
-            for x in item:
-                if isinstance(x, bool): out.append(x)
-                elif isinstance(x, int): out.append(resolve(x, depth + 1))
-                elif isinstance(x, (str, float)) or x is None: out.append(x)
-            return out
-        if isinstance(item, dict):
-            out = {}
-            for k, v in item.items():
-                if isinstance(v, bool): out[k] = v
-                elif isinstance(v, int): out[k] = resolve(v, depth + 1)
-                elif isinstance(v, list) and len(v) == 2 and isinstance(v[0], str) and v[0] in REACTIVE:
-                    out[k] = resolve(v[1], depth + 1)
-                else: out[k] = v
-            return out
-        return item
+    def label_of(d):
+        if any(k in d for k in ("home_team_name", "away_team_name", "homeTeam",
+                                "awayTeam", "home_team", "away_team")):
+            return None
+        for k in ("name", "commentator", "commentator_name", "blv", "label",
+                  "title", "server", "server_name", "quality", "room_name"):
+            v = d.get(k)
+            if isinstance(v, dict): v = v.get("name") or v.get("title")
+            if isinstance(v, str) and v.strip() and not v.strip().startswith(("http", "/")):
+                return v.strip()
+        for k in ("room", "room_id", "room_uuid", "uuid"):
+            v = d.get(k)
+            if isinstance(v, str) and v.strip():
+                if v.strip() in room_names: return room_names[v.strip()]
+                return f"Room {v.strip()[:8]}"
+        return None
 
-    try: return resolve(0)
-    except: return None
-
-# ─────────────────────────────────────────────────────────────────────────────
-# FETCH SOURCES
-# ─────────────────────────────────────────────────────────────────────────────
-
-def fetch_matches_from_html(page_url):
+    def walk(obj, name=None):
+        if isinstance(obj, str):
+            if is_stream_url(obj): add(name, obj)
+        elif isinstance(obj, list):
+            for x in obj: walk(x, name)
+        elif isinstance(obj, dict):
+            cur = label_of(obj) or name
+            for k, v in obj.items():
+                if isinstance(v, str) and is_stream_url(v):
+                    add(cur or room_names.get(k), v)
+                elif isinstance(v, (list, dict)):
+                    walk(v, cur)
     try:
-        res = requests.get(page_url, headers=HEADERS, timeout=30)
-        if res.status_code != 200: return []
-        if "id=\"__NUXT_DATA__\"" not in res.text: return []
-        nuxt = parse_nuxt_data(res.text)
-        matches = find_matches_in_data(nuxt) if nuxt else []
-        print(f"  + HTML {page_url} : {len(matches)} tran")
-        return matches
-    except Exception as e:
-        print(f"  ! Loi HTML {page_url}: {e}")
-        return []
+        walk(data)
+    except Exception:
+        pass
+    return out
 
-def fetch_matches_from_api():
+def extract_inline_streams(item, room_names=None):
+    """Link stream nam ngay trong item cua API list (kieu cu phaohoa)"""
+    out = {}
+    cands = item.get("commentators")
+    if isinstance(cands, list):
+        for c in cands:
+            if not isinstance(c, dict): continue
+            nm = ""
+            for k in ("name", "commentator_name", "blv_name"):
+                v = c.get(k)
+                if isinstance(v, str) and v.strip(): nm = v.strip(); break
+            urls = []
+            for k in ("stream_url", "backup_stream_url", "flv_stream_url",
+                      "hls_url", "url", "src", "file", "playback_url"):
+                v = c.get(k)
+                if isinstance(v, str) and is_stream_url(v):
+                    u = full_url(v)
+                    if u not in urls: urls.append(u)
+            if nm and urls:
+                out.setdefault(nm, [])
+                for u in urls:
+                    if u not in out[nm]: out[nm].append(u)
+    for key in ("sources", "streams"):
+        sub = item.get(key)
+        if sub:
+            for k, v in extract_streams(sub, room_names).items():
+                out.setdefault(k, [])
+                for u in v:
+                    if u not in out[k]: out[k].append(u)
+    for k in ("primary_stream_url", "main_stream_url", "stream_url", "hls_url", "flv_url"):
+        v = item.get(k)
+        if isinstance(v, str) and is_stream_url(v):
+            out.setdefault("Server", [])
+            u = full_url(v)
+            if u not in out["Server"]: out["Server"].append(u)
+    return out
+
+def try_sources_endpoint(mid_val, rooms=()):
+    """GET /api/matches/{id}/sources — endpoint moi cua xoiche.tv"""
+    base = f"{API_BASE}/matches/{mid_val}/sources"
+    data = http_get(base, timeout=12, as_json=True)
+    if data is None:
+        data = http_get(base + "/", timeout=12, as_json=True)
+    if data is None:
+        return None
+    results = extract_streams(data)
+    if results:
+        return results
+    for r in list(rooms)[:6]:        # thu theo tung room BLV neu goi plain rong
+        data2 = http_get(f"{base}?room={r}", timeout=12, as_json=True)
+        if data2 is None: continue
+        for k, v in extract_streams(data2).items():
+            results.setdefault(k, [])
+            for u in v:
+                if u not in results[k]: results[k].append(u)
+    return results or None
+
+def try_detail_endpoint(mid_val):
+    for path in (f"{API_BASE}/matches/{mid_val}/", f"{API_BASE}/matches/{mid_val}"):
+        data = http_get(path, timeout=12, as_json=True)
+        if data is None: continue
+        s = extract_streams(data)
+        if s: return s
+    return None
+
+def find_uuid_from_page(slug):
+    txt = get_page(f"/tran-dau/{slug}")
+    if not txt: return None
+    for pat in (r'/api/matches/([0-9a-fA-F-]{36})',
+                r'fixture=([0-9a-fA-F-]{36})',
+                r'"(?:id|uuid|fixture)"\s*:\s*"([0-9a-fA-F-]{36})"'):
+        m = re.search(pat, txt)
+        if m: return m.group(1)
+    uuids = UUID_RE.findall(txt)
+    if uuids:
+        return Counter(uuids).most_common(1)[0][0]
+    return None
+
+def find_streams_in_match_page(slug):
+    txt = get_page(f"/tran-dau/{slug}")
+    if not txt: return {}
+    flat = txt.replace("\\/", "/").replace("&amp;", "&")
+    urls = re.findall(r'(?:https?://[^\s"\'<>\\]+|/[^\s"\'<>\\]+)\.(?:m3u8|flv|mpd)(?:\?[^\s"\'<>\\]*)?', flat)
+    out = {}
+    for u in urls:
+        fu = full_url(u)
+        out.setdefault("Server", [])
+        if fu not in out["Server"]: out["Server"].append(fu)
+    return out
+
+def get_streams_for_match(md):
+    streams = {}
+    def absorb(more):
+        for k, urls in (more or {}).items():
+            streams.setdefault(k, [])
+            for u in urls:
+                if u not in streams[k]: streams[k].append(u)
+
+    absorb(md.get("inline_streams"))
+    if streams and any(k != "Server" for k in streams):
+        return streams                     # da co du link BLV tu list API
+
+    rooms = [c.get("room") for c in (md.get("commentators") or []) if c.get("room")]
+
+    cands = []
+    for x in (md.get("uuid"), md.get("slug")):
+        if x and x not in cands: cands.append(x)
+    tm = re.search(r'-(\d{4,})$', md.get("slug") or "")
+    if tm and tm.group(1) not in cands: cands.append(tm.group(1))
+
+    for x in cands:
+        got = try_sources_endpoint(x, rooms)
+        if got: absorb(got); break
+    if not streams:
+        for x in cands:
+            got = try_detail_endpoint(x)
+            if got: absorb(got); break
+
+    if not streams and md.get("slug"):
+        uuid = md.get("uuid") or find_uuid_from_page(md["slug"])
+        if uuid and uuid not in cands:
+            absorb(try_sources_endpoint(uuid, rooms))
+        if not streams:
+            absorb(find_streams_in_match_page(md["slug"]))
+    return streams
+
+# ─────────────────────────────────────────────────────────────────────────────
+# LAY DU LIEU: API BACKEND (uu tien) + HTML (JSON-LD + match card)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def fetch_raw_matches_from_api():
     today = now_vn().strftime("%Y-%m-%d")
     tomorrow = (now_vn() + timedelta(days=1)).strftime("%Y-%m-%d")
     urls = [
+        f"{API_BASE}/matches",
+        f"{API_BASE}/matches/",
+        f"{API_BASE}/matches/?limit=200",
         f"{API_BASE}/matches/?status=scheduled,live,half_time&ordering=-start_time",
+        f"{API_BASE}/matches/?status=live,scheduled&limit=200",
         f"{API_BASE}/matches/?date={today}&ordering=-start_time",
         f"{API_BASE}/matches/?date={tomorrow}&ordering=-start_time",
-        f"{API_BASE}/matches/?status=scheduled,live,half_time",
-        f"{API_BASE}/matches/?status=scheduled",
+        f"{API_BASE}/matches/live",
+        f"{API_BASE}/chrome-demand",
     ]
-    all_m = []
+    items = []
     for url in urls:
-        try:
-            res = requests.get(url, headers=HEADERS, timeout=15)
-            if res.status_code == 200:
-                data = res.json()
-                m = find_matches_in_data(data)
-                if m: all_m.extend(m)
-        except Exception: pass
-    valid_m = [m for m in all_m if m.get("status") != "finished"]
-    if valid_m: print(f"  + API backend: {len(valid_m)} tran")
-    return valid_m
+        data = http_get(url, timeout=15, as_json=True)
+        if data is None: continue
+        found = find_match_dicts(data)
+        hops = 0
+        while (isinstance(data, dict) and isinstance(data.get("next"), str)
+               and data["next"].startswith("http") and hops < 4):
+            nxt = http_get(data["next"], timeout=15, as_json=True)
+            if nxt is None: break
+            data = nxt
+            found.extend(find_match_dicts(data))
+            hops += 1
+        if found:
+            print(f"  + {url} -> {len(found)} muc")
+            if not items and os.environ.get("DEBUG"):
+                with open("debug_api.json", "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2, default=str)
+            items.extend(found)
+        else:
+            preview = json.dumps(data, ensure_ascii=False, default=str)[:160]
+            print(f"  - {url} -> 0 muc ({preview})")
+    if items:
+        print(f"  * API keys mau: {sorted(str(k) for k in items[0].keys())[:18]}")
+    return items
 
-def fetch_match_detail(slug):
-    try:
-        res = requests.get(f"{API_BASE}/matches/{slug}/", headers=HEADERS, timeout=10)
-        if res.status_code == 200:
-            return res.json()
-    except Exception: pass
-    return None
+def _collect_sport_events(data, out):
+    if isinstance(data, list):
+        for x in data: _collect_sport_events(x, out)
+    elif isinstance(data, dict):
+        if data.get("@type") == "SportsEvent":
+            out.append(data)
+        else:
+            for v in data.values(): _collect_sport_events(v, out)
+
+def parse_jsonld_events(html_text):
+    """Trang moi (Next.js) khong con NUXT_DATA, nhung co JSON-LD SportsEvent"""
+    events = []
+    for m in re.finditer(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', html_text, re.DOTALL):
+        try:
+            data = json.loads(m.group(1))
+        except Exception:
+            continue
+        _collect_sport_events(data, events)
+    out = []
+    for ev in events:
+        if not isinstance(ev, dict): continue
+        url = ev.get("url") or ""
+        if "/tran-dau/" not in url: continue
+        slug = url.split("/tran-dau/", 1)[1].split("?", 1)[0].strip("/")
+        home = away = ""
+        ht, at = ev.get("homeTeam"), ev.get("awayTeam")
+        if isinstance(ht, dict): home = (ht.get("name") or "").strip()
+        if isinstance(at, dict): away = (at.get("name") or "").strip()
+        name = ev.get("name") or ""
+        if (not home or not away) and " gặp " in name:
+            a, b = name.split(" gặp ", 1)
+            home = home or a.strip(); away = away or b.strip()
+        if not (home and away): continue
+        out.append({
+            "slug": slug,
+            "name": name,
+            "home": htmllib.unescape(home),
+            "away": htmllib.unescape(away),
+            "start": ev.get("startDate") or "",
+            "live": "EventInProgress" in (ev.get("eventStatus") or ""),
+            "sport": ev.get("sport") or "",
+        })
+    return out
+
+def decode_next_img(src):
+    """Logo qua proxy /_next/image?url=ENCODED -> tra URL goc"""
+    if not src: return ""
+    if "/_next/image" in src:
+        m = re.search(r'[?&]url=([^&]+)', src)
+        if m: return unquote(m.group(1))
+    if src.startswith("http"): return src
+    if src.startswith("/"): return BASE_URL + src
+    return src
+
+def parse_match_cards(html_text):
+    """Doc the tran matchCard_*: logo, giai, BLV + room, ty so, fixture uuid"""
+    cards = {}
+    for m in re.finditer(r'<article\b([^>]*)>(.*?)</article>', html_text, re.DOTALL):
+        attrs, blk = m.group(1), m.group(2)
+        if "matchCard_card" not in attrs: continue
+        sm = re.search(r'href="/tran-dau/([^"?/#]+)', blk)
+        if not sm: continue
+        slug = sm.group(1)
+        card = cards.setdefault(slug, {})
+
+        if 'data-phase="live"' in attrs:
+            card["live"] = True
+
+        sp = re.search(r'data-sport="([^"]+)"', blk)
+        if sp: card["sport"] = sp.group(1)
+
+        for side in ("home", "away"):
+            nm = re.search(rf'data-side="{side}"[^>]*>.*?<strong>(.*?)</strong>', blk, re.DOTALL)
+            if nm: card[side] = htmllib.unescape(nm.group(1)).strip()
+            lg = re.search(rf'data-side="{side}"[^>]*>.*?<img[^>]+src="([^"]+)"', blk, re.DOTALL)
+            if lg: card[f"logo_{side}"] = decode_next_img(lg.group(1))
+
+        lm = re.search(r'matchCard_league__\w*"[^>]*>', blk)
+        if lm:
+            seg = blk[lm.end():]
+            cut = seg.find("matchCard_board")
+            if cut > 0: seg = seg[:cut]
+            lsm = re.search(r'<span>([^<]{2,80})</span>', seg)
+            if lsm: card["league"] = htmllib.unescape(lsm.group(1)).strip()
+
+        pd = re.search(r'matchCard_period__\w*"[^>]*>([^<]+)<', blk)
+        if pd:
+            card["period"] = htmllib.unescape(pd.group(1)).strip()
+            if card["period"] in ("Đang diễn ra", "Hiệp 1", "Hiệp 2", "Nghỉ", "Nghỉ giữa hiệp"):
+                card["live"] = True
+
+        wh = re.search(r'matchCard_when__\w*"[^>]*>([^<]+)<', blk)
+        if wh: card["when"] = wh.group(1).strip()
+
+        sc = re.search(r'matchCard_score__\w*[^>]*>([^<]+)<', blk)
+        if sc:
+            scm = re.search(r'(\d+)\s*[–\-—]\s*(\d+)', sc.group(1))
+            if scm:
+                card["home_score"] = int(scm.group(1))
+                card["away_score"] = int(scm.group(2))
+
+        fx = re.search(r'fixture=([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12})', blk)
+        if fx: card["fixture"] = fx.group(1)
+
+        card.setdefault("commentators", [])
+        for cm in re.finditer(r'matchCard_chip__\w+"[^>]*href="([^"]*)"[^>]*>.*?<span>([^<]+)</span>', blk, re.DOTALL):
+            href, cname = cm.group(1), htmllib.unescape(cm.group(2)).strip()
+            if not cname: continue
+            rm = re.search(r'room=([0-9a-fA-F-]{36})', href)
+            room = rm.group(1) if rm else ""
+            if not any(c["name"] == cname for c in card["commentators"]):
+                card["commentators"].append({"id": room or cname, "name": cname, "room": room})
+    return cards
+
+def merge_event_card(ev, card):
+    ev = ev or {}
+    card = card or {}
+    live = bool(ev.get("live") or card.get("live"))
+    start = ev.get("start") or ""
+    if not start and card.get("when"):
+        dt = parse_when(card["when"])
+        if dt: start = dt.isoformat()
+    return {
+        "slug": ev.get("slug") or card.get("slug") or "",
+        "name": ev.get("name") or "",
+        "home_team_name": ev.get("home") or card.get("home") or "",
+        "away_team_name": ev.get("away") or card.get("away") or "",
+        "home_team_logo": card.get("logo_home", ""),
+        "away_team_logo": card.get("logo_away", ""),
+        "tournament_name": card.get("league", ""),
+        "sport": ev.get("sport") or card.get("sport") or "",
+        "start_time": start,
+        "eventStatus": "https://schema.org/EventInProgress" if live else "",
+        "status": "live" if live else "scheduled",
+        "fixture": card.get("fixture", ""),
+        "commentators": card.get("commentators", []),
+        "home_score": card.get("home_score", 0),
+        "away_score": card.get("away_score", 0),
+        "when": card.get("when", ""),
+    }
+
+def fetch_raw_matches_from_html():
+    events, cards = {}, {}
+    for path in ("/", "/lich-thi-dau"):
+        txt = get_page(path)
+        if not txt:
+            print(f"  - HTML {path}: khong lay duoc")
+            continue
+        if "matchCard_card" not in txt and "application/ld+json" not in txt:
+            print(f"  ! HTML {path} khong co du lieu tran (co the bi Cloudflare chan)")
+            continue
+        evs = parse_jsonld_events(txt)
+        cds = parse_match_cards(txt)
+        print(f"  + HTML {path}: {len(evs)} JSON-LD, {len(cds)} the tran")
+        for ev in evs:
+            if ev["slug"] not in events: events[ev["slug"]] = ev
+        for slug, c in cds.items():
+            if slug not in cards: cards[slug] = c
+    raw = []
+    for slug, ev in events.items():
+        raw.append(merge_event_card(ev, cards.get(slug)))
+    for slug, card in cards.items():
+        if slug not in events:
+            raw.append(merge_event_card({}, card))
+    return raw
+
+# ─────────────────────────────────────────────────────────────────────────────
+# GOM TRAN + LAY LINK
+# ─────────────────────────────────────────────────────────────────────────────
+
+def merge_match(a, b):
+    for k in ("uuid", "slug", "league", "logo_a", "logo_b"):
+        if not a.get(k) and b.get(k): a[k] = b[k]
+    if not a.get("team_a") and b.get("team_a"): a["team_a"] = b["team_a"]
+    if not a.get("team_b") and b.get("team_b"): a["team_b"] = b["team_b"]
+    if a.get("team_a") and a.get("team_b"):
+        a["name"] = f"{a['team_a']} vs {a['team_b']}"
+    if b.get("is_live") and not a.get("is_live"):
+        a["is_live"] = True
+        a["status"] = b.get("status") or a.get("status")
+    if not a.get("start_dt") and b.get("start_dt"):
+        a["start_dt"] = b["start_dt"]
+        a["time"] = b["time"]; a["date"] = b["date"]; a["time_sort"] = b["time_sort"]
+    if not a.get("home_score") and b.get("home_score"): a["home_score"] = b["home_score"]
+    if not a.get("away_score") and b.get("away_score"): a["away_score"] = b["away_score"]
+    if a.get("cate_type") == "other" and b.get("cate_type") not in ("", "other"):
+        a["cate_type"] = b["cate_type"]
+    for c in b.get("commentators") or []:
+        if not any(x.get("id") == c.get("id") or x.get("name") == c.get("name")
+                   for x in a.setdefault("commentators", [])):
+            a["commentators"].append(c)
+    for k, urls in (b.get("inline_streams") or {}).items():
+        a.setdefault("inline_streams", {}).setdefault(k, [])
+        for u in urls:
+            if u not in a["inline_streams"][k]: a["inline_streams"][k].append(u)
+
+def get_grouped_matches():
+    raw_items = []
+
+    print("1) Lay danh sach tran tu API backend...")
+    raw_items.extend(fetch_raw_matches_from_api())
+
+    print("2) Lay danh sach tran tu HTML (JSON-LD + the tran)...")
+    raw_items.extend(fetch_raw_matches_from_html())
+
+    print(f"   -> Tong muc goc: {len(raw_items)}")
+    if not raw_items: return {}
+
+    grouped, by_slug, by_uuid = {}, {}, {}
+    for item in raw_items:
+        try:
+            nm = normalize_match(item)
+        except Exception:
+            continue
+        if not nm: continue
+
+        room_names = {c["room"]: c["name"] for c in nm["commentators"] if c.get("room")}
+        inline = extract_inline_streams(item, room_names)
+        if inline: nm["inline_streams"] = inline
+
+        entry = None
+        if nm["uuid"] and nm["uuid"] in by_uuid:
+            entry = by_uuid[nm["uuid"]]
+        elif nm["slug"] and nm["slug"] in by_slug:
+            entry = by_slug[nm["slug"]]
+        elif nm["match_id"] and nm["match_id"] in grouped:
+            entry = grouped[nm["match_id"]]
+        if entry is None:
+            grouped[nm["match_id"]] = nm
+            if nm["slug"]: by_slug[nm["slug"]] = nm
+            if nm["uuid"]: by_uuid[nm["uuid"]] = nm
+        else:
+            merge_match(entry, nm)
+
+    print(f"   -> Sau khi gop/dedup: {len(grouped)} tran")
+
+    now = now_vn()
+    kept, dropped = {}, 0
+    for key, md in grouped.items():
+        if md["is_live"] or md["start_dt"] is None:
+            kept[key] = md
+        elif (now - timedelta(hours=PAST_HOURS)) <= md["start_dt"] <= (now + timedelta(hours=UPCOMING_HOURS)):
+            kept[key] = md
+        else:
+            dropped += 1
+    if dropped:
+        print(f"   -> Bo {dropped} tran ngoai cua so (-{PAST_HOURS}h / +{UPCOMING_HOURS}h)")
+    grouped = kept
+
+    total = len(grouped)
+    for i, (key, md) in enumerate(grouped.items(), 1):
+        md["blvs_dict"] = get_streams_for_match(md)
+        n_link = sum(len(v) for v in md["blvs_dict"].values())
+        blvs = ", ".join(list(md["blvs_dict"])[:4]) or "khong co link"
+        print(f"   [{i}/{total}] {md['name']}: {n_link} link ({blvs})")
+        time.sleep(0.12)
+
+    return {k: v for k, v in grouped.items() if v["blvs_dict"]}
 
 # ─────────────────────────────────────────────────────────────────────────────
 # THUMBNAIL
@@ -233,7 +910,7 @@ def make_thumbnail(match, match_id_safe):
 
     draw.rectangle([(0, 0), (W, HEADER_H)], fill=(13, 20, 40))
     draw.rectangle([(0, H - FOOTER_H), (W, H)], fill=(13, 20, 40))
-    ACCENT = (220, 30, 40)
+    ACCENT = (0, 168, 107)   # xanh la — brand XoiChe
     draw.rectangle([(0, HEADER_H), (W, HEADER_H + 5)], fill=ACCENT)
     draw.rectangle([(0, H - FOOTER_H - 5), (W, H - FOOTER_H)], fill=ACCENT)
 
@@ -242,8 +919,9 @@ def make_thumbnail(match, match_id_safe):
         font_vs = ImageFont.truetype(FONT_BOLD, 160)
         font_time = ImageFont.truetype(FONT_BOLD, 100)
         font_team = ImageFont.truetype(FONT_BOLD, 58)
+        font_footer = ImageFont.truetype(FONT_BOLD, 50)
     except Exception:
-        font_vs = font_time = font_team = ImageFont.load_default()
+        font_vs = font_time = font_team = font_footer = ImageFont.load_default()
 
     content_top = HEADER_H + 5
     content_bot = H - FOOTER_H - 5
@@ -253,9 +931,8 @@ def make_thumbnail(match, match_id_safe):
     total_h = logo_size + gap_ln + name_h + gap_nt + time_h
     block_top = content_top + (content_h - total_h) // 2
     logo_y = block_top
-    name_block_y = logo_y + logo_size + gap_ln
-    name_center = name_block_y + name_h // 2
-    time_y = name_block_y + name_h + gap_nt + time_h // 2
+    name_center = logo_y + logo_size + gap_ln + name_h // 2
+    time_y = logo_y + logo_size + gap_ln + name_h + gap_nt + time_h // 2
 
     def draw_team_name(text, cx):
         max_w = W // 2 - 60
@@ -275,8 +952,7 @@ def make_thumbnail(match, match_id_safe):
             if img:
                 try:
                     r = img.resize((logo_size, logo_size), Image.LANCZOS)
-                    x = cx - logo_size // 2
-                    bg.paste(r, (x, logo_y), r)
+                    bg.paste(r, (cx - logo_size // 2, logo_y), r)
                 except Exception: pass
 
     draw.text((W // 2, logo_y + logo_size // 2), "VS", fill=ACCENT, font=font_vs, anchor="mm")
@@ -297,16 +973,18 @@ def make_thumbnail(match, match_id_safe):
         draw.text((W // 2 + 4, time_y + 4), td, fill=ACCENT, font=f_t, anchor="mm")
         draw.text((W // 2, time_y), td, fill=(15, 15, 15), font=f_t, anchor="mm")
 
-    if match.get("league"):
-        lt = match["league"].upper()
-        fs = 62
-        f = None
-        while fs >= 28:
-            try: f = ImageFont.truetype(FONT_BOLD, fs)
-            except Exception: f = ImageFont.load_default()
-            if draw.textbbox((0, 0), lt, font=f)[2] <= W - 60: break
-            fs -= 3
-        draw.text((W // 2, HEADER_H // 2), lt, fill=(255, 255, 255), font=f, anchor="mm")
+    header_txt = (match.get("league") or "XÔI CHÈ TV").upper()
+    fs = 62
+    f = None
+    while fs >= 28:
+        try: f = ImageFont.truetype(FONT_BOLD, fs)
+        except Exception: f = ImageFont.load_default()
+        if draw.textbbox((0, 0), header_txt, font=f)[2] <= W - 60: break
+        fs -= 3
+    draw.text((W // 2, HEADER_H // 2), header_txt, fill=(255, 255, 255), font=f, anchor="mm")
+
+    draw.text((W // 2, H - FOOTER_H // 2), "xoiche.tv", fill=(255, 255, 255),
+              font=font_footer, anchor="mm")
 
     draw.rectangle([(0, 0), (W - 1, H - 1)], outline=(180, 180, 180), width=3)
     bg.save(out_path, "PNG", optimize=True)
@@ -325,144 +1003,15 @@ def cleanup_old_thumbs(days=3):
             except Exception: pass
 
 # ─────────────────────────────────────────────────────────────────────────────
-# GROUP MATCHES (LOGIC GỘP LINK CHỐNG TRÙNG LẠI NHƯ GIOVANG)
-# ─────────────────────────────────────────────────────────────────────────────
-
-def get_grouped_matches():
-    all_matches = []
-    
-    # 1. Lấy từ HTML
-    html_pages = [
-        f"{BASE_URL}/",
-        f"{BASE_URL}/lich-truc-tiep",
-        f"{BASE_URL}/ty-so"
-    ]
-    for url in html_pages:
-        m = fetch_matches_from_html(url)
-        if m: all_matches.extend(m)
-            
-    # 2. Nếu HTML không có, gọi API backend
-    if not all_matches:
-        print("  -> HTML khong co tran, chuyen sang goi API backend...")
-        api_m = fetch_matches_from_api()
-        if api_m: all_matches.extend(api_m)
-
-    print(f"  Tong tran goc (raw): {len(all_matches)}")
-    if not all_matches: return {}
-
-    # Lọc bỏ match finished hoặc thiếu ID ngay từ đầu
-    valid_matches = [m for m in all_matches if m.get("id") and m.get("status") != "finished"]
-
-    grouped = {}
-    
-    # 3. GOM DỮ LIỆU CƠ BẢN & COMMENTATORS TỪ NHIỀU NGUỒN
-    for item in valid_matches:
-        match_id = str(item.get("id", ""))
-        slug = item.get("slug", "")
-        status = item.get("status", "")
-        is_live = status in ("live", "half_time")
-        
-        if match_id not in grouped:
-            sport_slug = item.get("sport_slug", "football")
-            if sport_slug not in CATE_MAP: sport_slug = "football"
-                
-            team_a = (item.get("home_team_name") or "").strip()
-            team_b = (item.get("away_team_name") or "").strip()
-            if not team_a or not team_b: continue
-            
-            start_str = item.get("start_time", "")
-            start_dt = parse_start_time(start_str)
-            
-            grouped[match_id] = {
-                "match_id": match_id,
-                "slug": slug,
-                "cate_type": sport_slug,
-                "name": f"{team_a} vs {team_b}",
-                "time": format_time_hhmm(start_dt),
-                "date": format_date_ddmm(start_dt),
-                "time_sort": parse_time_sort(start_str),
-                "team_a": team_a,
-                "team_b": team_b,
-                "logo_a": full_url(item.get("home_team_logo", "")),
-                "logo_b": full_url(item.get("away_team_logo", "")),
-                "league": item.get("tournament_name", ""),
-                "is_live": is_live,
-                "status": status,
-                "home_score": item.get("home_score", 0),
-                "away_score": item.get("away_score", 0),
-                "primary_stream_url": item.get("primary_stream_url", ""),
-                "_merged_commentators": []
-            }
-        else:
-            if is_live:
-                grouped[match_id]["is_live"] = True
-                grouped[match_id]["status"] = status
-            if not grouped[match_id].get("primary_stream_url") and item.get("primary_stream_url"):
-                grouped[match_id]["primary_stream_url"] = item.get("primary_stream_url")
-
-        current_commentators = grouped[match_id]["_merged_commentators"]
-        for c in (item.get("commentators") or []):
-            if isinstance(c, dict):
-                c_id = c.get("id") or c.get("slug") or c.get("name")
-                if c_id and not any(ec.get("id") == c_id or ec.get("slug") == c_id for ec in current_commentators):
-                    current_commentators.append(c)
-
-    # 4. LẤY LINK STREAM CHI TIẾT & GỘP VÀO blvs_dict
-    for match_id, match_data in grouped.items():
-        slug = match_data.get("slug")
-        if not match_data["_merged_commentators"] and slug:
-            detail = fetch_match_detail(slug)
-            if detail:
-                for c in (detail.get("commentators") or []):
-                    if isinstance(c, dict):
-                        c_id = c.get("id") or c.get("slug") or c.get("name")
-                        if c_id and not any(ec.get("id") == c_id or ec.get("slug") == c_id for ec in match_data["_merged_commentators"]):
-                            match_data["_merged_commentators"].append(c)
-
-        blvs_dict = {}
-        for c in match_data["_merged_commentators"]:
-            cname = c.get("name") or "BLV"
-            urls = []
-            for k in ("stream_url", "backup_stream_url", "flv_stream_url"):
-                v = c.get(k, "")
-                if v and isinstance(v, str) and v.startswith("http"):
-                    if v not in urls: urls.append(v)
-            if urls:
-                blvs_dict.setdefault(cname, [])
-                for u in urls:
-                    if u not in blvs_dict[cname]:
-                        blvs_dict[cname].append(u)
-
-        primary = match_data.get("primary_stream_url", "")
-        if primary and isinstance(primary, str) and primary.startswith("http"):
-            blvs_dict.setdefault("Server", [])
-            if primary not in blvs_dict["Server"]:
-                blvs_dict["Server"].append(primary)
-
-        match_data["blvs_dict"] = blvs_dict
-        match_data.pop("_merged_commentators", None)
-
-    # 5. LỌC CUỐI CÙNG: Chỉ giữ lại những trận có link stream và trong 24h
-    final_grouped = {}
-    for mid, mdata in grouped.items():
-        if not mdata["blvs_dict"]: continue
-        if not mdata["is_live"] and not is_within_24h(""): 
-            pass # is_within_24h sẽ tự check start_time 
-        final_grouped[mid] = mdata
-
-    return final_grouped
-
-# ─────────────────────────────────────────────────────────────────────────────
 # BUILD CHANNEL JSON
 # ─────────────────────────────────────────────────────────────────────────────
 
 def build_channel(match, match_id_safe, thumb_url=""):
-    uid = make_id(match_id_safe, "ph")
+    uid = make_id(match_id_safe, "xc")
     src_id = make_id(match_id_safe, "src")
     ct_id = make_id(match_id_safe, "ct")
     st_id = make_id(match_id_safe, "st")
 
-    # NẾM TẤT CẢ LINK VÀO 1 MẢNG stream_links
     stream_links = []
     for blv_name, urls in match["blvs_dict"].items():
         for idx, s_url in enumerate(urls):
@@ -485,7 +1034,6 @@ def build_channel(match, match_id_safe, thumb_url=""):
     t, d = match.get("time", ""), match.get("date", "")
     display = f"{match['name']} | {t} {d}" if t and d else (f"{match['name']} | {t}" if t else match["name"])
 
-    # 1 CHANNEL = 1 THUMBNAIL = 1 STREAM CHỨA NHIỀU LINK
     channel = {
         "id": uid,
         "name": display,
@@ -495,11 +1043,11 @@ def build_channel(match, match_id_safe, thumb_url=""):
         "labels": [{"text": label_text, "position": "top-left", "color": "#00000080", "text_color": label_color}],
         "sources": [{
             "id": src_id,
-            "name": "PhaohoaTV",
+            "name": "XoiChe TV",
             "contents": [{
                 "id": ct_id,
                 "name": match["name"],
-                "streams": [{"id": st_id, "name": "PhaohoaTV", "stream_links": stream_links}],
+                "streams": [{"id": st_id, "name": "XoiChe TV", "stream_links": stream_links}],
             }],
         }],
         "org_metadata": {
@@ -533,19 +1081,19 @@ def main():
     os.makedirs(THUMBS_DIR, exist_ok=True)
     cleanup_old_thumbs(days=3)
     print(f"Gio VN: {now_vn().strftime('%H:%M %d/%m/%Y')}")
-    print("Lay tran dau tu PhaohoaTV...")
+    print("Lay tran dau tu XoiChe TV (xoiche.tv — domain moi cua Phaohoa)...")
 
     grouped = get_grouped_matches()
     matches = list(grouped.values())
     matches.sort(key=lambda m: (0 if m["is_live"] else 1, m["time_sort"]))
 
     live_cnt = sum(1 for m in matches if m["is_live"])
-    print(f"Tong: {len(matches)} | LIVE: {live_cnt} | Sap: {len(matches) - live_cnt}\n")
+    print(f"\nTong: {len(matches)} | LIVE: {live_cnt} | Sap: {len(matches) - live_cnt}\n")
 
     cate_channels = {c: [] for c in CATE_ORDER}
 
     for i, m in enumerate(matches):
-        safe_id = m["match_id"].replace(":", "-").replace("/", "-")
+        safe_id = re.sub(r'[^A-Za-z0-9_-]', '-', str(m["match_id"]))
         tag = "LIVE" if m["is_live"] else "SAP"
         blv = ", ".join(m["blvs_dict"].keys()) if m["blvs_dict"] else "Khong co link"
         print(f"[{tag} {i+1}/{len(matches)}] {m['name']} ({m['time']} {m['date']}) | BLV: {blv}")
@@ -556,9 +1104,8 @@ def main():
         thumb_url = f"{REPO_RAW}/{thumb_path}?v={lh}" if REPO_RAW else ""
 
         ch = build_channel(m, safe_id, thumb_url)
-        ct = m["cate_type"]
-        cate_channels.setdefault(ct, []).append(ch)
-        time.sleep(0.15)
+        cate_channels.setdefault(m["cate_type"], []).append(ch)
+        time.sleep(0.1)
 
     groups = []
     for ct in CATE_ORDER:
@@ -581,12 +1128,12 @@ def main():
             })
 
     output = {
-        "id": "phaohoa",
+        "id": "xoiche",   # doi tu "phaohoa" — doi lai "phaohoa" neu app dang truy van id cu
         "url": BASE_URL,
-        "name": "PhaohoaTV",
-        "color": "#dc1e28",
+        "name": "Xôi Chè TV",
+        "color": "#00a86b",
         "grid_number": 3,
-        "image": {"type": "cover", "url": f"{BASE_URL}/images/logo.png"},
+        "image": {"type": "cover", "url": f"{BASE_URL}/brand/hero.webp"},
         "groups": groups,
     }
 
