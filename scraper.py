@@ -14,7 +14,7 @@ from io import BytesIO
 
 VN_TZ = timezone(timedelta(hours=7))
 
-BASE_URL = "https://phaohoa1.live"
+BASE_URL = "https://xoiche.tv/"
 API_BASE = f"{BASE_URL}/api"
 
 HEADERS = {
