@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-af2da89564",
-          "name": "Panathinaikos vs Kifisia | 01:15 11/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-af2da89564",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-af2da89564",
-                  "name": "Panathinaikos vs Kifisia",
-                  "streams": [
-                    {
-                      "id": "st-af2da89564",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6d547ef355",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Super League 1",
-            "team_a": "Panathinaikos",
-            "team_b": "Kifisia",
-            "logo_a": "https://media.api-sports.io/football/teams/617.png",
-            "logo_b": "https://media.api-sports.io/football/teams/5050.png",
-            "time": "01:15",
-            "date": "11/09",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/b92c298a-1364-4104-9a98-291a6f1d740a_bc1cf111_20260911.png?v=bc1cf111",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-710e67faa2",
           "name": "Slavia Praha vs Lens | 02:00 11/09",
@@ -362,7 +283,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 3,
+            "home_score": 4,
             "away_score": 0
           },
           "image": {
