@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c9899e337f",
-                          "name": "Dái Tai",
+                          "id": "lnk-c3c3e67876",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "url": "https://xoiche.tv/ph/live/phaohoa1/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,10 +79,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/13976.png",
             "time": "02:00",
             "date": "11/09",
-            "blv": "Dái Tai",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "2h",
             "home_score": 4,
             "away_score": 0
           },
@@ -91,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f6e83419-db88-4194-b630-88b522f1df39_3944aece_20260911.png?v=3944aece",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-710e67faa2",
+          "name": "Slavia Praha vs Lens",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-710e67faa2",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-710e67faa2",
+                  "name": "Slavia Praha vs Lens",
+                  "streams": [
+                    {
+                      "id": "st-710e67faa2",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41b53a6d96",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa4/index.m3u8?expire=1815505159",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Slavia Praha",
+            "team_b": "Lens",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
+            "blv": "Server",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "2h",
+            "home_score": 2,
+            "away_score": 3
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9f99cb6b-6ff3-4c4f-adb0-ea95926bfc94_43a03299_20260911.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
