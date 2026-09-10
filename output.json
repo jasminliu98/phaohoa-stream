@@ -162,7 +162,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -241,93 +241,14 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 2,
-            "away_score": 0
+            "home_score": 3,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/dd3d60d1-e009-4734-b51c-16a91a28cf1f_24ba95de_20260911.png?v=24ba95de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-23c1e5ba43",
-          "name": "Bayern München vs Bodo/Glimt | 02:00 11/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23c1e5ba43",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-23c1e5ba43",
-                  "name": "Bayern München vs Bodo/Glimt",
-                  "streams": [
-                    {
-                      "id": "st-23c1e5ba43",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-442504e02d",
-                          "name": "Lưu Bị",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Bayern München",
-            "team_b": "Bodo/Glimt",
-            "logo_a": "https://media.api-sports.io/football/teams/157.png",
-            "logo_b": "https://media.api-sports.io/football/teams/327.png",
-            "time": "02:00",
-            "date": "11/09",
-            "blv": "Lưu Bị",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f9ab227b-f7a5-41ff-b774-44c0063b5be7_567e7bfe_20260911.png?v=567e7bfe",
             "width": 1600,
             "height": 1200
           }
@@ -440,7 +361,7 @@
             "blv": "Kevin, Tày, Dái Tai",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "2h",
             "home_score": 3,
             "away_score": 0
           },
@@ -449,6 +370,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f6e83419-db88-4194-b630-88b522f1df39_3944aece_20260911.png?v=3944aece",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-23c1e5ba43",
+          "name": "Bayern München vs Bodo/Glimt | 02:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23c1e5ba43",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-23c1e5ba43",
+                  "name": "Bayern München vs Bodo/Glimt",
+                  "streams": [
+                    {
+                      "id": "st-23c1e5ba43",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-442504e02d",
+                          "name": "Lưu Bị",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Bayern München",
+            "team_b": "Bodo/Glimt",
+            "logo_a": "https://media.api-sports.io/football/teams/157.png",
+            "logo_b": "https://media.api-sports.io/football/teams/327.png",
+            "time": "02:00",
+            "date": "11/09",
+            "blv": "Lưu Bị",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "2h",
+            "home_score": 2,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f9ab227b-f7a5-41ff-b774-44c0063b5be7_567e7bfe_20260911.png?v=567e7bfe",
             "width": 1600,
             "height": 1200
           }
