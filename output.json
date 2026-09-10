@@ -1,12 +1,547 @@
 {
-  "id": "phaohoa",
-  "url": "https://xoiche.tv/",
-  "name": "PhaohoaTV",
-  "color": "#dc1e28",
+  "id": "xoiche",
+  "url": "https://xoiche.tv",
+  "name": "Xôi Chè TV",
+  "color": "#00a86b",
   "grid_number": 3,
   "image": {
     "type": "cover",
-    "url": "https://xoiche.tv//images/logo.png"
+    "url": "https://xoiche.tv/brand/hero.webp"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_football",
+      "name": "⚽ Bóng Đá (5 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-af2da89564",
+          "name": "Panathinaikos vs Kifisia | 01:15 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af2da89564",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-af2da89564",
+                  "name": "Panathinaikos vs Kifisia",
+                  "streams": [
+                    {
+                      "id": "st-af2da89564",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6d547ef355",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League 1",
+            "team_a": "Panathinaikos",
+            "team_b": "Kifisia",
+            "logo_a": "https://media.api-sports.io/football/teams/617.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5050.png",
+            "time": "01:15",
+            "date": "11/09",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "2h",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/b92c298a-1364-4104-9a98-291a6f1d740a_bc1cf111_20260911.png?v=bc1cf111",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-710e67faa2",
+          "name": "Slavia Praha vs Lens | 02:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-710e67faa2",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-710e67faa2",
+                  "name": "Slavia Praha vs Lens",
+                  "streams": [
+                    {
+                      "id": "st-710e67faa2",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa8c116d94",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Slavia Praha",
+            "team_b": "Lens",
+            "logo_a": "https://media.api-sports.io/football/teams/560.png",
+            "logo_b": "https://media.api-sports.io/football/teams/116.png",
+            "time": "02:00",
+            "date": "11/09",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9f99cb6b-6ff3-4c4f-adb0-ea95926bfc94_791f5d92_20260911.png?v=791f5d92",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-1ac5a365c1",
+          "name": "Como vs RB Leipzig | 02:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ac5a365c1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1ac5a365c1",
+                  "name": "Como vs RB Leipzig",
+                  "streams": [
+                    {
+                      "id": "st-1ac5a365c1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63a7874c57",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Como",
+            "team_b": "RB Leipzig",
+            "logo_a": "https://media.api-sports.io/football/teams/895.png",
+            "logo_b": "https://media.api-sports.io/football/teams/173.png",
+            "time": "02:00",
+            "date": "11/09",
+            "blv": "Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/dd3d60d1-e009-4734-b51c-16a91a28cf1f_24ba95de_20260911.png?v=24ba95de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-764583bbf1",
+          "name": "Manchester United vs Sabah FA | 02:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-764583bbf1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-764583bbf1",
+                  "name": "Manchester United vs Sabah FA",
+                  "streams": [
+                    {
+                      "id": "st-764583bbf1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e2fe76a97",
+                          "name": "Kevin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-484b0173f4",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.tv/ph/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c9899e337f",
+                          "name": "Dái Tai",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.tv/ph/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Manchester United",
+            "team_b": "Sabah FA",
+            "logo_a": "https://media.api-sports.io/football/teams/33.png",
+            "logo_b": "https://media.api-sports.io/football/teams/13976.png",
+            "time": "02:00",
+            "date": "11/09",
+            "blv": "Kevin, Tày, Dái Tai",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f6e83419-db88-4194-b630-88b522f1df39_3944aece_20260911.png?v=3944aece",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-23c1e5ba43",
+          "name": "Bayern München vs Bodo/Glimt | 02:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23c1e5ba43",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-23c1e5ba43",
+                  "name": "Bayern München vs Bodo/Glimt",
+                  "streams": [
+                    {
+                      "id": "st-23c1e5ba43",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-442504e02d",
+                          "name": "Lưu Bị",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Bayern München",
+            "team_b": "Bodo/Glimt",
+            "logo_a": "https://media.api-sports.io/football/teams/157.png",
+            "logo_b": "https://media.api-sports.io/football/teams/327.png",
+            "time": "02:00",
+            "date": "11/09",
+            "blv": "Lưu Bị",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f9ab227b-f7a5-41ff-b774-44c0063b5be7_567e7bfe_20260911.png?v=567e7bfe",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-3829e15d1f",
+          "name": "Italy vs Thuỵ Điển | 02:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3829e15d1f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3829e15d1f",
+                  "name": "Italy vs Thuỵ Điển",
+                  "streams": [
+                    {
+                      "id": "st-3829e15d1f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0810fdd247",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Italy",
+            "team_b": "Thuỵ Điển",
+            "logo_a": "https://media.api-sports.io/football/teams/768.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5.png",
+            "time": "02:00",
+            "date": "11/09",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/b161db08-ee32-4061-8590-7fe42cf7b070_6c1bf51a_20260911.png?v=6c1bf51a",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
