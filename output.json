@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-f876676e45",
-          "name": "Garudayaksa vs Persik Kediri | 15:30 11/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f876676e45",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f876676e45",
-                  "name": "Garudayaksa vs Persik Kediri",
-                  "streams": [
-                    {
-                      "id": "st-f876676e45",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e39b77edb5",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga 1",
-            "team_a": "Garudayaksa",
-            "team_b": "Persik Kediri",
-            "logo_a": "https://media.api-sports.io/football/teams/26645.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4241.png",
-            "time": "15:30",
-            "date": "11/09",
-            "blv": "Tiểu Mây",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 0,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/94279d2d-945a-4609-be4c-d7d4c9a4bf35_e35194c3_20260911.png?v=e35194c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-75704d496f",
           "name": "Vissel Kobe vs Kashima | 17:00 11/09",
@@ -170,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c8c2a915-1d48-47ed-a65e-5593a03b8180_aa1c2d11_20260911.png?v=aa1c2d11",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f876676e45",
+          "name": "Garudayaksa vs Persik Kediri | 15:30 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f876676e45",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f876676e45",
+                  "name": "Garudayaksa vs Persik Kediri",
+                  "streams": [
+                    {
+                      "id": "st-f876676e45",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e39b77edb5",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://xoiche.tv/ph/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Garudayaksa",
+            "team_b": "Persik Kediri",
+            "logo_a": "https://media.api-sports.io/football/teams/26645.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4241.png",
+            "time": "15:30",
+            "date": "11/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 2
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/94279d2d-945a-4609-be4c-d7d4c9a4bf35_e35194c3_20260911.png?v=e35194c3",
             "width": 1600,
             "height": 1200
           }
