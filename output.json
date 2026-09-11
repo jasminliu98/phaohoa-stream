@@ -105,7 +105,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-306db1dd1e",
+          "id": "xc-a9d92c8b5e",
           "name": "Ukraine vs Bắc Macedonia | 20:00 11/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -120,23 +120,23 @@
           ],
           "sources": [
             {
-              "id": "src-306db1dd1e",
+              "id": "src-a9d92c8b5e",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-306db1dd1e",
+                  "id": "ct-a9d92c8b5e",
                   "name": "Ukraine vs Bắc Macedonia",
                   "streams": [
                     {
-                      "id": "st-306db1dd1e",
+                      "id": "st-a9d92c8b5e",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-b2c8b4685c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -167,7 +167,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/Flag_of_North_Macedonia.svg.webp",
             "time": "20:00",
             "date": "11/09",
-            "blv": "Tày",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -178,7 +178,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6d28f10d-c5d1-4eaf-b861-e5de73b9a559_2ac6cf97_20260911.png?v=2ac6cf97",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/ukraine-v-bac-macedonia-volleyball-ph-1720730970_2ac6cf97_20260911.png?v=2ac6cf97",
             "width": 1600,
             "height": 1200
           }
