@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -162,7 +162,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 3
           },
           "image": {
@@ -240,7 +240,7 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 1,
             "away_score": 1
           },
@@ -249,6 +249,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/81b13e36-430f-4519-ad19-bbbbde597bbf_5c18f6ec_20260912.png?v=5c18f6ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f435085d17",
+          "name": "Al Ahli SC vs Al Hazem | 01:00 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f435085d17",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f435085d17",
+                  "name": "Al Ahli SC vs Al Hazem",
+                  "streams": [
+                    {
+                      "id": "st-f435085d17",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Pro League",
+            "team_a": "Al Ahli SC",
+            "team_b": "Al Hazem",
+            "logo_a": "https://media.api-sports.io/football/teams/5580.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2945.png",
+            "time": "01:00",
+            "date": "12/09",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6765251f-0200-4d26-8425-ea3e06130443_443281c6_20260912.png?v=443281c6",
             "width": 1600,
             "height": 1200
           }
