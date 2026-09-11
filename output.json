@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-6d547ef355",
+                          "id": "lnk-cbc47e2fc7",
                           "name": "Văn Minh",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -123,11 +123,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-3e2fe76a97",
+                          "id": "lnk-b324cec71d",
                           "name": "Kevin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -173,6 +173,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-c5a2c6ba0b",
+          "name": "Da Nang vs Nam Dinh | 18:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5a2c6ba0b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c5a2c6ba0b",
+                  "name": "Da Nang vs Nam Dinh",
+                  "streams": [
+                    {
+                      "id": "st-c5a2c6ba0b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Da Nang",
+            "team_b": "Nam Dinh",
+            "logo_a": "https://media.api-sports.io/football/teams/3669.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3674.png",
+            "time": "18:00",
+            "date": "11/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6f1f7193-2736-4889-ae85-ca862d72d770_6be4ca3a_20260911.png?v=6be4ca3a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -211,11 +290,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-0810fdd247",
+                          "id": "lnk-5c0c4aafd8",
                           "name": "KaKa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
                           "request_headers": [
                             {
                               "key": "Referer",
