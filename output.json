@@ -178,7 +178,7 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -258,6 +258,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/eeee6d00-923a-4dad-afb6-f3bb2e815d23_4037e02d_20260911.png?v=4037e02d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f62ac058f6",
+          "name": "Bulgaria vs Bồ Đào Nha | 23:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f62ac058f6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f62ac058f6",
+                  "name": "Bulgaria vs Bồ Đào Nha",
+                  "streams": [
+                    {
+                      "id": "st-f62ac058f6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Bulgaria",
+            "team_b": "Bồ Đào Nha",
+            "logo_a": "https://media.api-sports.io/football/teams/1103.png",
+            "logo_b": "https://media.api-sports.io/football/teams/27.png",
+            "time": "23:00",
+            "date": "11/09",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/cecfe965-c85a-4dc3-851d-99ef429f12c5_06171af9_20260911.png?v=06171af9",
             "width": 1600,
             "height": 1200
           }
