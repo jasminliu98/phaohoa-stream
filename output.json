@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-3ef408f80e",
-          "name": "1. FC Nürnberg vs Hannover 96 | 23:30 11/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ef408f80e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3ef408f80e",
-                  "name": "1. FC Nürnberg vs Hannover 96",
-                  "streams": [
-                    {
-                      "id": "st-3ef408f80e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2. Bundesliga",
-            "team_a": "1. FC Nürnberg",
-            "team_b": "Hannover 96",
-            "logo_a": "https://media.api-sports.io/football/teams/171.png",
-            "logo_b": "https://media.api-sports.io/football/teams/166.png",
-            "time": "23:30",
-            "date": "11/09",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/81b13e36-430f-4519-ad19-bbbbde597bbf_5c18f6ec_20260912.png?v=5c18f6ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-f435085d17",
           "name": "Al Ahli SC vs Al Hazem | 01:00 12/09",
           "type": "single",
@@ -241,7 +162,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -261,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -317,9 +238,9 @@
             "time": "01:30",
             "date": "12/09",
             "blv": "Tày",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
