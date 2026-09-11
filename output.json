@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-75704d496f",
-          "name": "Vissel Kobe vs Kashima | 17:00 11/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-75704d496f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-75704d496f",
-                  "name": "Vissel Kobe vs Kashima",
-                  "streams": [
-                    {
-                      "id": "st-75704d496f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Vissel Kobe",
-            "team_b": "Kashima",
-            "logo_a": "https://media.api-sports.io/football/teams/289.png",
-            "logo_b": "https://media.api-sports.io/football/teams/290.png",
-            "time": "17:00",
-            "date": "11/09",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c8c2a915-1d48-47ed-a65e-5593a03b8180_aa1c2d11_20260911.png?v=aa1c2d11",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-0f577248bf",
           "name": "Phu Dong vs Thanh Hóa | 18:00 11/09",
@@ -161,7 +82,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 2,
             "away_score": 0
           },
@@ -240,7 +161,7 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 0,
             "away_score": 0
           },
@@ -249,6 +170,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6f1f7193-2736-4889-ae85-ca862d72d770_6be4ca3a_20260911.png?v=6be4ca3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-75704d496f",
+          "name": "Vissel Kobe vs Kashima | 17:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-75704d496f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-75704d496f",
+                  "name": "Vissel Kobe vs Kashima",
+                  "streams": [
+                    {
+                      "id": "st-75704d496f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dafd757f8b",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Vissel Kobe",
+            "team_b": "Kashima",
+            "logo_a": "https://media.api-sports.io/football/teams/289.png",
+            "logo_b": "https://media.api-sports.io/football/teams/290.png",
+            "time": "17:00",
+            "date": "11/09",
+            "blv": "Server",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 2,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c8c2a915-1d48-47ed-a65e-5593a03b8180_aa1c2d11_20260911.png?v=aa1c2d11",
             "width": 1600,
             "height": 1200
           }
@@ -263,7 +263,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-cf93497591",
+          "id": "xc-8c5a43ec1d",
           "name": "Nhật Bản vs Ấn Độ | 17:30 11/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -278,23 +278,23 @@
           ],
           "sources": [
             {
-              "id": "src-cf93497591",
+              "id": "src-8c5a43ec1d",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-cf93497591",
+                  "id": "ct-8c5a43ec1d",
                   "name": "Nhật Bản vs Ấn Độ",
                   "streams": [
                     {
-                      "id": "st-cf93497591",
+                      "id": "st-8c5a43ec1d",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-afc7424529",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -325,7 +325,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1537.png",
             "time": "17:30",
             "date": "11/09",
-            "blv": "KaKa",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -336,7 +336,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/eebd1ea0-868a-4a85-b688-502f7af0fab4_0aafe1ab_20260911.png?v=0aafe1ab",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/nhat-ban-v-an-do-volleyball-ph-1065927045_0aafe1ab_20260911.png?v=0aafe1ab",
             "width": 1600,
             "height": 1200
           }
