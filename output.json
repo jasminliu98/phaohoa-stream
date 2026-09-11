@@ -161,7 +161,7 @@
             "blv": "Kevin",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 0,
             "away_score": 2
           },
@@ -242,7 +242,7 @@
             "cate_type": "football",
             "status": "1h",
             "home_score": 1,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
