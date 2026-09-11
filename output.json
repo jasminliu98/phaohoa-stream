@@ -105,7 +105,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-7f39e04f02",
+          "id": "xc-34d55ad566",
           "name": "Iran vs Đài Loan | 13:30 11/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -120,23 +120,23 @@
           ],
           "sources": [
             {
-              "id": "src-7f39e04f02",
+              "id": "src-34d55ad566",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-7f39e04f02",
+                  "id": "ct-34d55ad566",
                   "name": "Iran vs Đài Loan",
                   "streams": [
                     {
-                      "id": "st-7f39e04f02",
+                      "id": "st-34d55ad566",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-484b0173f4",
-                          "name": "Tày",
+                          "id": "lnk-52154ca636",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://xoiche.tv/ph/live/phaohoa8/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -167,7 +167,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1557.png",
             "time": "13:30",
             "date": "11/09",
-            "blv": "Tày",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -178,7 +178,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/ee0f65c9-42f3-4ec1-98fd-afac024da1b0_6c38b906_20260911.png?v=6c38b906",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/iran-v-dai-loan-volleyball-ph-1610014409_6c38b906_20260911.png?v=6c38b906",
             "width": 1600,
             "height": 1200
           }
