@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-f435085d17",
+          "id": "xc-9a04b55def",
           "name": "Al Ahli SC vs Al Hazem | 01:00 12/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-f435085d17",
+              "id": "src-9a04b55def",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-f435085d17",
+                  "id": "ct-9a04b55def",
                   "name": "Al Ahli SC vs Al Hazem",
                   "streams": [
                     {
-                      "id": "st-f435085d17",
+                      "id": "st-9a04b55def",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-af5dee509c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/2945.png",
             "time": "01:00",
             "date": "12/09",
-            "blv": "Pháo Thủ",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6765251f-0200-4d26-8425-ea3e06130443_443281c6_20260912.png?v=443281c6",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/al-ahli-sc-v-al-hazem-ph-77743_443281c6_20260912.png?v=443281c6",
             "width": 1600,
             "height": 1200
           }
@@ -249,85 +249,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/89b509f8-6590-4534-baa0-acd6c9005c55_80bdaefe_20260912.png?v=80bdaefe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-3a7bd1602c",
-          "name": "AZ Alkmaar vs Willem II | 01:00 12/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a7bd1602c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3a7bd1602c",
-                  "name": "AZ Alkmaar vs Willem II",
-                  "streams": [
-                    {
-                      "id": "st-3a7bd1602c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dafd757f8b",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Eredivisie",
-            "team_a": "AZ Alkmaar",
-            "team_b": "Willem II",
-            "logo_a": "https://media.api-sports.io/football/teams/201.png",
-            "logo_b": "https://media.api-sports.io/football/teams/195.png",
-            "time": "01:00",
-            "date": "12/09",
-            "blv": "Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/7fd37498-d7cb-4fe5-a439-fac4423c739e_87e0a7b3_20260912.png?v=87e0a7b3",
             "width": 1600,
             "height": 1200
           }
