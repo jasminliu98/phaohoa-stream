@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-4f3d2fc410",
+          "id": "xc-f26160f251",
           "name": "Brazil vs Colombia | 06:00 11/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-4f3d2fc410",
+              "id": "src-f26160f251",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-4f3d2fc410",
+                  "id": "ct-f26160f251",
                   "name": "Brazil vs Colombia",
                   "streams": [
                     {
-                      "id": "st-4f3d2fc410",
+                      "id": "st-f26160f251",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-0810fdd247",
-                          "name": "KaKa",
+                          "id": "lnk-347b78b8cc",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://xoiche.tv/ph/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://xoiche.tv/ph/live/phaohoa6/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/download_xO5gmpQ.png",
             "time": "06:00",
             "date": "11/09",
-            "blv": "KaKa",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3b888711-1bd5-4617-af31-fbb84a1b24f9_8b75ed5b_20260911.png?v=8b75ed5b",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/brazil-v-colombia-volleyball-ph-1461326805_8b75ed5b_20260911.png?v=8b75ed5b",
             "width": 1600,
             "height": 1200
           }
