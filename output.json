@@ -99,7 +99,7 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -179,6 +179,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6d28f10d-c5d1-4eaf-b861-e5de73b9a559_2ac6cf97_20260911.png?v=2ac6cf97",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5410bc9679",
+          "name": "Đức vs Latvia | 21:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5410bc9679",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5410bc9679",
+                  "name": "Đức vs Latvia",
+                  "streams": [
+                    {
+                      "id": "st-5410bc9679",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Đức",
+            "team_b": "Latvia",
+            "logo_a": "https://media.api-sports.io/football/teams/20.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/Flag_of_Latvia.svg.webp",
+            "time": "21:00",
+            "date": "11/09",
+            "blv": "Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/eeee6d00-923a-4dad-afb6-f3bb2e815d23_4037e02d_20260911.png?v=4037e02d",
             "width": 1600,
             "height": 1200
           }
