@@ -173,6 +173,173 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-e8b9a0971b",
+          "name": "Johor Darul Takzim FC vs Negeri Sembilan | 20:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8b9a0971b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e8b9a0971b",
+                  "name": "Johor Darul Takzim FC vs Negeri Sembilan",
+                  "streams": [
+                    {
+                      "id": "st-e8b9a0971b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super League",
+            "team_a": "Johor Darul Takzim FC",
+            "team_b": "Negeri Sembilan",
+            "logo_a": "https://media.api-sports.io/football/teams/2523.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2502.png",
+            "time": "20:00",
+            "date": "11/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/0f9574bf-c12a-4367-a510-7cfb3c57dad8_3f95c090_20260911.png?v=3f95c090",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-306db1dd1e",
+          "name": "Ukraine vs Bắc Macedonia | 20:00 11/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-306db1dd1e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-306db1dd1e",
+                  "name": "Ukraine vs Bắc Macedonia",
+                  "streams": [
+                    {
+                      "id": "st-306db1dd1e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Ukraine",
+            "team_b": "Bắc Macedonia",
+            "logo_a": "https://khandai2.link/media/teams/logos/OIP_7oS7OkG.jpg",
+            "logo_b": "https://khandai2.link/media/teams/logos/Flag_of_North_Macedonia.svg.webp",
+            "time": "20:00",
+            "date": "11/09",
+            "blv": "Tày",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6d28f10d-c5d1-4eaf-b861-e5de73b9a559_2ac6cf97_20260911.png?v=2ac6cf97",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
