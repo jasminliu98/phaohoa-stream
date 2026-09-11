@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -170,6 +170,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6765251f-0200-4d26-8425-ea3e06130443_443281c6_20260912.png?v=443281c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3a7bd1602c",
+          "name": "AZ Alkmaar vs Willem II | 01:00 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a7bd1602c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3a7bd1602c",
+                  "name": "AZ Alkmaar vs Willem II",
+                  "streams": [
+                    {
+                      "id": "st-3a7bd1602c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eredivisie",
+            "team_a": "AZ Alkmaar",
+            "team_b": "Willem II",
+            "logo_a": "https://media.api-sports.io/football/teams/201.png",
+            "logo_b": "https://media.api-sports.io/football/teams/195.png",
+            "time": "01:00",
+            "date": "12/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/7fd37498-d7cb-4fe5-a439-fac4423c739e_87e0a7b3_20260912.png?v=87e0a7b3",
             "width": 1600,
             "height": 1200
           }
