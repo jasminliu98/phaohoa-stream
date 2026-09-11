@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -182,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -238,6 +238,85 @@
             "time": "01:00",
             "date": "12/09",
             "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/7fd37498-d7cb-4fe5-a439-fac4423c739e_87e0a7b3_20260912.png?v=87e0a7b3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-35ab8cdd41",
+          "name": "Union Berlin vs FC Schalke 04 | 01:30 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35ab8cdd41",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-35ab8cdd41",
+                  "name": "Union Berlin vs FC Schalke 04",
+                  "streams": [
+                    {
+                      "id": "st-35ab8cdd41",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Union Berlin",
+            "team_b": "FC Schalke 04",
+            "logo_a": "https://media.api-sports.io/football/teams/182.png",
+            "logo_b": "https://media.api-sports.io/football/teams/174.png",
+            "time": "01:30",
+            "date": "12/09",
+            "blv": "Tày",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
@@ -248,7 +327,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/7fd37498-d7cb-4fe5-a439-fac4423c739e_87e0a7b3_20260912.png?v=87e0a7b3",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3a36137a-5028-443c-a991-2a2652bc05f8_52957962_20260912.png?v=52957962",
             "width": 1600,
             "height": 1200
           }
