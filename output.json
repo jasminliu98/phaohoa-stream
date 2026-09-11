@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -103,10 +103,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -159,9 +159,9 @@
             "time": "22:45",
             "date": "11/09",
             "blv": "Kevin",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
@@ -184,7 +184,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-5410bc9679",
+          "id": "xc-e35dab3e48",
           "name": "Đức vs Latvia | 21:00 11/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -199,23 +199,23 @@
           ],
           "sources": [
             {
-              "id": "src-5410bc9679",
+              "id": "src-e35dab3e48",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-5410bc9679",
+                  "id": "ct-e35dab3e48",
                   "name": "Đức vs Latvia",
                   "streams": [
                     {
-                      "id": "st-5410bc9679",
+                      "id": "st-e35dab3e48",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-9d7fe92a7d",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -246,7 +246,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/Flag_of_Latvia.svg.webp",
             "time": "21:00",
             "date": "11/09",
-            "blv": "Chim Nhỏ",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -257,7 +257,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/eeee6d00-923a-4dad-afb6-f3bb2e815d23_4037e02d_20260911.png?v=4037e02d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/duc-v-latvia-volleyball-ph-1585114657_4037e02d_20260911.png?v=4037e02d",
             "width": 1600,
             "height": 1200
           }
