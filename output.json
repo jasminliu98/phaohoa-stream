@@ -96,6 +96,85 @@
           }
         },
         {
+          "id": "xc-6c56fc6dd5",
+          "name": "Aston Villa vs Nottingham Forest | 21:00 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c56fc6dd5",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6c56fc6dd5",
+                  "name": "Aston Villa vs Nottingham Forest",
+                  "streams": [
+                    {
+                      "id": "st-6c56fc6dd5",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Aston Villa",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://media.api-sports.io/football/teams/66.png",
+            "logo_b": "https://media.api-sports.io/football/teams/65.png",
+            "time": "21:00",
+            "date": "12/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/0f90c6b8-2171-44bc-b0a6-db1556ee59d7_4e866403_20260912.png?v=4e866403",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-fe1af5ace6",
           "name": "Chelsea vs Hull City | 21:00 12/09",
           "type": "single",
@@ -252,49 +331,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "xc-698c6342ff",
-          "name": "Đan Mạch vs Hà Lan | 19:00 12/09",
+          "id": "xc-b2a90b79dd",
+          "name": "Liverpool vs Fulham | 21:00 12/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-698c6342ff",
+              "id": "src-b2a90b79dd",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-698c6342ff",
-                  "name": "Đan Mạch vs Hà Lan",
+                  "id": "ct-b2a90b79dd",
+                  "name": "Liverpool vs Fulham",
                   "streams": [
                     {
-                      "id": "st-698c6342ff",
+                      "id": "st-b2a90b79dd",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-dafd757f8b",
-                          "name": "Server",
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Kiến",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159",
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -318,17 +388,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Đan Mạch",
-            "team_b": "Hà Lan",
-            "logo_a": "https://khandai2.link/media/teams/logos/pngtree-national-flag-of-danish-emblem-vector-png-image_9987224.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1118.png",
-            "time": "19:00",
+            "league": "Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Fulham",
+            "logo_a": "https://media.api-sports.io/football/teams/40.png",
+            "logo_b": "https://media.api-sports.io/football/teams/36.png",
+            "time": "21:00",
             "date": "12/09",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
+            "blv": "Người Kiến",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
             "home_score": 0,
             "away_score": 0
           },
@@ -336,11 +406,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/dan-mach-v-ha-lan-volleyball-ph-1179040288_61101030_20260912.png?v=61101030",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9a857603-be8d-4218-81d9-9f28254a2c8c_27577912_20260912.png?v=27577912",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "xc-6c13fb2153",
           "name": "Ba Lan vs Israel | 20:00 12/09",
@@ -416,6 +495,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e7f864db-e4e3-43e2-b0a8-2e4bca26f27c_ac49d367_20260912.png?v=ac49d367",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-81253755a1",
+          "name": "Pháp vs Thổ Nhĩ Kì | 21:00 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-81253755a1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-81253755a1",
+                  "name": "Pháp vs Thổ Nhĩ Kì",
+                  "streams": [
+                    {
+                      "id": "st-81253755a1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Pháp",
+            "team_b": "Thổ Nhĩ Kì",
+            "logo_a": "https://media.api-sports.io/football/teams/2.png",
+            "logo_b": "https://media.api-sports.io/football/teams/8227.png",
+            "time": "21:00",
+            "date": "12/09",
+            "blv": "Chim Nhỏ",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e5528db4-03e9-4b62-9157-38feab2a8c1d_9155bbce_20260912.png?v=9155bbce",
             "width": 1600,
             "height": 1200
           }
