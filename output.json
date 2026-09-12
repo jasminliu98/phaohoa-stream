@@ -240,7 +240,7 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 1
           },
@@ -249,6 +249,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/a51b711b-5a49-4750-9de7-5813b7078ac2_a3fb77cd_20260913.png?v=a3fb77cd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3865b77b22",
+          "name": "Al Khaleej Saihat vs Al-Nassr | 01:00 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3865b77b22",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3865b77b22",
+                  "name": "Al Khaleej Saihat vs Al-Nassr",
+                  "streams": [
+                    {
+                      "id": "st-3865b77b22",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Pro League",
+            "team_a": "Al Khaleej Saihat",
+            "team_b": "Al-Nassr",
+            "logo_a": "https://media.api-sports.io/football/teams/2928.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2939.png",
+            "time": "01:00",
+            "date": "13/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6d0fc162-f053-4cdf-963d-ea84380ccee2_728177d0_20260913.png?v=728177d0",
             "width": 1600,
             "height": 1200
           }
