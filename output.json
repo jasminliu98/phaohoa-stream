@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,85 +91,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/5cbfbfc9-4c0e-494b-83c7-ff76e66dbdd5_1df8cb28_20260913.png?v=1df8cb28",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-50bedf76a2",
-          "name": "Real Madrid vs Rayo Vallecano | 02:00 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-50bedf76a2",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-50bedf76a2",
-                  "name": "Real Madrid vs Rayo Vallecano",
-                  "streams": [
-                    {
-                      "id": "st-50bedf76a2",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2c8b4685c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Madrid",
-            "team_b": "Rayo Vallecano",
-            "logo_a": "https://media.api-sports.io/football/teams/541.png",
-            "logo_b": "https://media.api-sports.io/football/teams/728.png",
-            "time": "02:00",
-            "date": "13/09",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 4,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64843145-a5ff-46e9-8fe9-8f48edc18825_a51bdc0c_20260913.png?v=a51bdc0c",
             "width": 1600,
             "height": 1200
           }
