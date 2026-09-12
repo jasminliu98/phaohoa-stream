@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-65d422b20c",
-          "name": "Jeonbuk Motors vs FC Seoul | 14:30 12/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-65d422b20c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-65d422b20c",
-                  "name": "Jeonbuk Motors vs FC Seoul",
-                  "streams": [
-                    {
-                      "id": "st-65d422b20c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Jeonbuk Motors",
-            "team_b": "FC Seoul",
-            "logo_a": "https://media.api-sports.io/football/teams/2762.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2766.png",
-            "time": "14:30",
-            "date": "12/09",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/53ca4721-8549-4a14-ab1b-150a5d9995d6_4484d8d7_20260912.png?v=4484d8d7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-f666a5a44b",
           "name": "Mito Hollyhock vs Kawasaki Frontale | 16:00 12/09",
