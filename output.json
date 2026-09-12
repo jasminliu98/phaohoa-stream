@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 0,
-            "away_score": 5
+            "away_score": 6
           },
           "image": {
             "padding": 1,
@@ -163,7 +163,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 2
           },
           "image": {
             "padding": 1,
