@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-77551f52e9",
-          "name": "Tottenham vs Everton | 23:30 12/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-77551f52e9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-77551f52e9",
-                  "name": "Tottenham vs Everton",
-                  "streams": [
-                    {
-                      "id": "st-77551f52e9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Kiến",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Tottenham",
-            "team_b": "Everton",
-            "logo_a": "https://media.api-sports.io/football/teams/47.png",
-            "logo_b": "https://media.api-sports.io/football/teams/45.png",
-            "time": "23:30",
-            "date": "12/09",
-            "blv": "Người Kiến",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/47fff4a2-5d95-4835-a815-c717e35a4712_02922111_20260913.png?v=02922111",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-df4666531d",
           "name": "Casa Pia vs FC Porto | 00:00 13/09",
@@ -252,49 +173,40 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "xc-fb347fc76a",
-          "name": "Bulgaria vs Ukraine | 23:00 12/09",
+          "id": "xc-0b294d8957",
+          "name": "Atalanta vs Cagliari | 01:45 13/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-fb347fc76a",
+              "id": "src-0b294d8957",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-fb347fc76a",
-                  "name": "Bulgaria vs Ukraine",
+                  "id": "ct-0b294d8957",
+                  "name": "Atalanta vs Cagliari",
                   "streams": [
                     {
-                      "id": "st-fb347fc76a",
+                      "id": "st-0b294d8957",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Kiến",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -318,17 +230,17 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Bulgaria",
-            "team_b": "Ukraine",
-            "logo_a": "https://media.api-sports.io/football/teams/1103.png",
-            "logo_b": "https://khandai2.link/media/teams/logos/OIP_7oS7OkG.jpg",
-            "time": "23:00",
-            "date": "12/09",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
+            "league": "Serie A",
+            "team_a": "Atalanta",
+            "team_b": "Cagliari",
+            "logo_a": "https://media.api-sports.io/football/teams/499.png",
+            "logo_b": "https://media.api-sports.io/football/teams/490.png",
+            "time": "01:45",
+            "date": "13/09",
+            "blv": "Người Kiến",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
             "home_score": 0,
             "away_score": 0
           },
@@ -336,7 +248,165 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f9a11599-fb0b-4666-8f27-411fd41445c4_00f8fd97_20260913.png?v=00f8fd97",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/250ebad5-e504-49c4-af63-6579033beb5c_b9c8f61f_20260913.png?v=b9c8f61f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-23b3a2f02c",
+          "name": "Paris FC vs Lyon | 01:45 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23b3a2f02c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-23b3a2f02c",
+                  "name": "Paris FC vs Lyon",
+                  "streams": [
+                    {
+                      "id": "st-23b3a2f02c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Paris FC",
+            "team_b": "Lyon",
+            "logo_a": "https://media.api-sports.io/football/teams/114.png",
+            "logo_b": "https://media.api-sports.io/football/teams/80.png",
+            "time": "01:45",
+            "date": "13/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/afb334d0-1d88-448d-be31-2f3ffb34d4cb_a819b8c4_20260913.png?v=a819b8c4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-50bedf76a2",
+          "name": "Real Madrid vs Rayo Vallecano | 02:00 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-50bedf76a2",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-50bedf76a2",
+                  "name": "Real Madrid vs Rayo Vallecano",
+                  "streams": [
+                    {
+                      "id": "st-50bedf76a2",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Madrid",
+            "team_b": "Rayo Vallecano",
+            "logo_a": "https://media.api-sports.io/football/teams/541.png",
+            "logo_b": "https://media.api-sports.io/football/teams/728.png",
+            "time": "02:00",
+            "date": "13/09",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64843145-a5ff-46e9-8fe9-8f48edc18825_a51bdc0c_20260913.png?v=a51bdc0c",
             "width": 1600,
             "height": 1200
           }
