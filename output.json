@@ -163,7 +163,7 @@
             "cate_type": "football",
             "status": "1h",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -412,6 +412,85 @@
           }
         },
         {
+          "id": "xc-b61d9fc55d",
+          "name": "Sunderland vs Arsenal | 02:00 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b61d9fc55d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b61d9fc55d",
+                  "name": "Sunderland vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-b61d9fc55d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Sunderland",
+            "team_b": "Arsenal",
+            "logo_a": "https://media.api-sports.io/football/teams/746.png",
+            "logo_b": "https://media.api-sports.io/football/teams/42.png",
+            "time": "02:00",
+            "date": "13/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/5cbfbfc9-4c0e-494b-83c7-ff76e66dbdd5_1df8cb28_20260913.png?v=1df8cb28",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-50bedf76a2",
           "name": "Real Madrid vs Rayo Vallecano | 02:00 13/09",
           "type": "single",
@@ -486,6 +565,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/64843145-a5ff-46e9-8fe9-8f48edc18825_a51bdc0c_20260913.png?v=a51bdc0c",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-af5e98d573",
+          "name": "Hy Lạp vs Italy | 02:00 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-af5e98d573",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-af5e98d573",
+                  "name": "Hy Lạp vs Italy",
+                  "streams": [
+                    {
+                      "id": "st-af5e98d573",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Hy Lạp",
+            "team_b": "Italy",
+            "logo_a": "https://media.api-sports.io/football/teams/1117.png",
+            "logo_b": "https://media.api-sports.io/football/teams/768.png",
+            "time": "02:00",
+            "date": "13/09",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e7d7a46a-0e19-425b-bcc1-09094cad10ba_a35b216d_20260913.png?v=a35b216d",
             "width": 1600,
             "height": 1200
           }
