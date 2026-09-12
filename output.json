@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/2c8df4b2-4372-47a9-99da-c09b5793e816_8749dab3_20260912.png?v=8749dab3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8a3c5554ab",
+          "name": "Đan Mạch vs Hà Lan | 19:00 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a3c5554ab",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8a3c5554ab",
+                  "name": "Đan Mạch vs Hà Lan",
+                  "streams": [
+                    {
+                      "id": "st-8a3c5554ab",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Đan Mạch",
+            "team_b": "Hà Lan",
+            "logo_a": "https://khandai2.link/media/teams/logos/pngtree-national-flag-of-danish-emblem-vector-png-image_9987224.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1118.png",
+            "time": "19:00",
+            "date": "12/09",
+            "blv": "Văn Minh",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6939ad30-e3ea-434f-8525-62ef1b670cbd_61101030_20260912.png?v=61101030",
             "width": 1600,
             "height": 1200
           }
