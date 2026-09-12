@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 1,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -254,85 +254,6 @@
           }
         },
         {
-          "id": "xc-46364d7e1f",
-          "name": "Borussia Dortmund vs SC Paderborn 07 | 20:30 12/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-46364d7e1f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-46364d7e1f",
-                  "name": "Borussia Dortmund vs SC Paderborn 07",
-                  "streams": [
-                    {
-                      "id": "st-46364d7e1f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-edb60d88d9",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Borussia Dortmund",
-            "team_b": "SC Paderborn 07",
-            "logo_a": "https://media.api-sports.io/football/teams/165.png",
-            "logo_b": "https://media.api-sports.io/football/teams/185.png",
-            "time": "20:30",
-            "date": "12/09",
-            "blv": "Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/318fd9bc-de24-4aee-9058-17e29724fae8_2e508ac3_20260912.png?v=2e508ac3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-9bb5551fb6",
           "name": "Al Taawon vs Al-Hilal Saudi FC | 22:50 12/09",
           "type": "single",
@@ -421,7 +342,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-6c13fb2153",
+          "id": "xc-978bad1b36",
           "name": "Ba Lan vs Israel | 20:00 12/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -436,15 +357,94 @@
           ],
           "sources": [
             {
-              "id": "src-6c13fb2153",
+              "id": "src-978bad1b36",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-6c13fb2153",
+                  "id": "ct-978bad1b36",
                   "name": "Ba Lan vs Israel",
                   "streams": [
                     {
-                      "id": "st-6c13fb2153",
+                      "id": "st-978bad1b36",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc7424529",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Ba Lan",
+            "team_b": "Israel",
+            "logo_a": "https://media.api-sports.io/football/teams/24.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/download.jpg",
+            "time": "20:00",
+            "date": "12/09",
+            "blv": "Server",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/ba-lan-v-israel-volleyball-ph-1062899425_ac49d367_20260912.png?v=ac49d367",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-fb347fc76a",
+          "name": "Bulgaria vs Ukraine | 23:00 12/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb347fc76a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fb347fc76a",
+                  "name": "Bulgaria vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-fb347fc76a",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -477,11 +477,11 @@
           ],
           "org_metadata": {
             "league": "Vô Địch Châu Âu",
-            "team_a": "Ba Lan",
-            "team_b": "Israel",
-            "logo_a": "https://media.api-sports.io/football/teams/24.png",
-            "logo_b": "https://khandai2.link/media/teams/logos/download.jpg",
-            "time": "20:00",
+            "team_a": "Bulgaria",
+            "team_b": "Ukraine",
+            "logo_a": "https://media.api-sports.io/football/teams/1103.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/OIP_7oS7OkG.jpg",
+            "time": "23:00",
             "date": "12/09",
             "blv": "KaKa",
             "is_live": true,
@@ -494,86 +494,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e7f864db-e4e3-43e2-b0a8-2e4bca26f27c_ac49d367_20260912.png?v=ac49d367",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-017c7fef0c",
-          "name": "Pháp vs Thổ Nhĩ Kì | 21:00 12/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-017c7fef0c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-017c7fef0c",
-                  "name": "Pháp vs Thổ Nhĩ Kì",
-                  "streams": [
-                    {
-                      "id": "st-017c7fef0c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d7fe92a7d",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Pháp",
-            "team_b": "Thổ Nhĩ Kì",
-            "logo_a": "https://media.api-sports.io/football/teams/2.png",
-            "logo_b": "https://media.api-sports.io/football/teams/8227.png",
-            "time": "21:00",
-            "date": "12/09",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/phap-v-tho-nhi-ki-volleyball-ph-1367427728_9155bbce_20260912.png?v=9155bbce",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f9a11599-fb0b-4666-8f27-411fd41445c4_00f8fd97_20260912.png?v=00f8fd97",
             "width": 1600,
             "height": 1200
           }
