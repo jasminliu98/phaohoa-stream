@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-aacc714a63",
-          "name": "Lazio vs AC Milan | 23:00 12/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aacc714a63",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-aacc714a63",
-                  "name": "Lazio vs AC Milan",
-                  "streams": [
-                    {
-                      "id": "st-aacc714a63",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Lazio",
-            "team_b": "AC Milan",
-            "logo_a": "https://media.api-sports.io/football/teams/487.png",
-            "logo_b": "https://media.api-sports.io/football/teams/489.png",
-            "time": "23:00",
-            "date": "12/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9691a571-8dc4-4c5f-88fe-ce30154ea246_8596cbd6_20260913.png?v=8596cbd6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-77551f52e9",
           "name": "Tottenham vs Everton | 23:30 12/09",
           "type": "single",
@@ -261,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -317,9 +238,9 @@
             "time": "01:00",
             "date": "13/09",
             "blv": "Văn Minh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
