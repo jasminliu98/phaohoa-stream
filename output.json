@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-9b377a000e",
-          "name": "Getafe vs Deportivo La Coruna | 23:30 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b377a000e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9b377a000e",
-                  "name": "Getafe vs Deportivo La Coruna",
-                  "streams": [
-                    {
-                      "id": "st-9b377a000e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Getafe",
-            "team_b": "Deportivo La Coruna",
-            "logo_a": "https://media.api-sports.io/football/teams/546.png",
-            "logo_b": "https://media.api-sports.io/football/teams/544.png",
-            "time": "23:30",
-            "date": "13/09",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/701772a3-a4b9-49c6-bc5f-3642f3ff2427_3e7a2220_20260914.png?v=3e7a2220",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-14fd2c8582",
           "name": "Stade Brestois 29 vs Paris Saint Germain | 01:45 14/09",
@@ -249,6 +170,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/621ae10c-3609-4c24-aa4a-b10fa9fb29bf_cfc8b191_20260914.png?v=cfc8b191",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2d0aa8b1ef",
+          "name": "Real Sociedad vs Atletico Madrid | 02:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d0aa8b1ef",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2d0aa8b1ef",
+                  "name": "Real Sociedad vs Atletico Madrid",
+                  "streams": [
+                    {
+                      "id": "st-2d0aa8b1ef",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Kiến",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Sociedad",
+            "team_b": "Atletico Madrid",
+            "logo_a": "https://media.api-sports.io/football/teams/548.png",
+            "logo_b": "https://media.api-sports.io/football/teams/530.png",
+            "time": "02:00",
+            "date": "14/09",
+            "blv": "Người Kiến",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/92c38a5a-ace1-46a3-8331-47f33f7b7846_3d695814_20260914.png?v=3d695814",
             "width": 1600,
             "height": 1200
           }
