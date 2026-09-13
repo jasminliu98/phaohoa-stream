@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-54235a53bf",
-          "name": "Rangers vs Celtic | 18:00 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-54235a53bf",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-54235a53bf",
-                  "name": "Rangers vs Celtic",
-                  "streams": [
-                    {
-                      "id": "st-54235a53bf",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Cup",
-            "team_a": "Rangers",
-            "team_b": "Celtic",
-            "logo_a": "https://media.api-sports.io/football/teams/257.png",
-            "logo_b": "https://media.api-sports.io/football/teams/247.png",
-            "time": "18:00",
-            "date": "13/09",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/b6e4da7b-a6d1-4367-9edf-8e9fd926379c_88902297_20260913.png?v=88902297",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e3fcd90775",
-          "name": "Hồng Lĩnh Hà Tĩnh vs Bình Phước | 18:00 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e3fcd90775",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e3fcd90775",
-                  "name": "Hồng Lĩnh Hà Tĩnh vs Bình Phước",
-                  "streams": [
-                    {
-                      "id": "st-e3fcd90775",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2c8b4685c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hồng Lĩnh Hà Tĩnh",
-            "team_b": "Bình Phước",
-            "logo_a": "https://media.api-sports.io/football/teams/11134.png",
-            "logo_b": "https://media.api-sports.io/football/teams/9161.png",
-            "time": "18:00",
-            "date": "13/09",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e3cc5125-154f-441f-8d75-9ceb2dd07bd2_534095aa_20260913.png?v=534095aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-702a01fd6a",
           "name": "Celta Vigo vs Malaga | 19:00 13/09",
@@ -486,6 +328,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/a6491d5b-2963-4a88-b1ee-d449291d97d2_6d73107c_20260913.png?v=6d73107c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9e0cc978a4",
+          "name": "Rangers vs Celtic | 18:00 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9e0cc978a4",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9e0cc978a4",
+                  "name": "Rangers vs Celtic",
+                  "streams": [
+                    {
+                      "id": "st-9e0cc978a4",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d7fe92a7d",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Rangers",
+            "team_b": "Celtic",
+            "logo_a": "https://media.api-sports.io/football/teams/257.png",
+            "logo_b": "https://media.api-sports.io/football/teams/247.png",
+            "time": "18:00",
+            "date": "13/09",
+            "blv": "Server",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 3,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/rangers-v-celtic-1629023_88902297_20260913.png?v=88902297",
             "width": 1600,
             "height": 1200
           }
