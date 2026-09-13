@@ -162,8 +162,8 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 1,
-            "away_score": 1
+            "home_score": 2,
+            "away_score": 2
           },
           "image": {
             "padding": 1,
