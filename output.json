@@ -94,6 +94,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-211d97859a",
+          "name": "Hoang Anh Gia Lai vs Hai Phong | 17:00 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-211d97859a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-211d97859a",
+                  "name": "Hoang Anh Gia Lai vs Hai Phong",
+                  "streams": [
+                    {
+                      "id": "st-211d97859a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Hoang Anh Gia Lai",
+            "team_b": "Hai Phong",
+            "logo_a": "https://media.api-sports.io/football/teams/3673.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3671.png",
+            "time": "17:00",
+            "date": "13/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/7b7b4688-68d5-4d55-8326-11d986f00f93_dc7ff635_20260913.png?v=dc7ff635",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
