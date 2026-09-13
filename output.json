@@ -84,13 +84,92 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 1,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/701772a3-a4b9-49c6-bc5f-3642f3ff2427_3e7a2220_20260914.png?v=3e7a2220",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d232a18786",
+          "name": "Sassuolo vs Juventus | 01:45 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d232a18786",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d232a18786",
+                  "name": "Sassuolo vs Juventus",
+                  "streams": [
+                    {
+                      "id": "st-d232a18786",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Sassuolo",
+            "team_b": "Juventus",
+            "logo_a": "https://media.api-sports.io/football/teams/488.png",
+            "logo_b": "https://media.api-sports.io/football/teams/496.png",
+            "time": "01:45",
+            "date": "14/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/621ae10c-3609-4c24-aa4a-b10fa9fb29bf_cfc8b191_20260914.png?v=cfc8b191",
             "width": 1600,
             "height": 1200
           }
