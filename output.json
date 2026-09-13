@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 1,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
@@ -162,7 +162,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -240,7 +240,7 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 0
           },
@@ -319,7 +319,7 @@
             "blv": "Tày",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 0,
             "away_score": 0
           },
