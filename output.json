@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-211d97859a",
-          "name": "Hoang Anh Gia Lai vs Hai Phong | 17:00 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-211d97859a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-211d97859a",
-                  "name": "Hoang Anh Gia Lai vs Hai Phong",
-                  "streams": [
-                    {
-                      "id": "st-211d97859a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af5dee509c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Hoang Anh Gia Lai",
-            "team_b": "Hai Phong",
-            "logo_a": "https://media.api-sports.io/football/teams/3673.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3671.png",
-            "time": "17:00",
-            "date": "13/09",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/7b7b4688-68d5-4d55-8326-11d986f00f93_dc7ff635_20260913.png?v=dc7ff635",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-03a80d1fb1",
-          "name": "Excelsior vs Utrecht | 17:15 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03a80d1fb1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-03a80d1fb1",
-                  "name": "Excelsior vs Utrecht",
-                  "streams": [
-                    {
-                      "id": "st-03a80d1fb1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Eredivisie",
-            "team_a": "Excelsior",
-            "team_b": "Utrecht",
-            "logo_a": "https://media.api-sports.io/football/teams/196.png",
-            "logo_b": "https://media.api-sports.io/football/teams/207.png",
-            "time": "17:15",
-            "date": "13/09",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73b837cb-698d-45b3-a18e-264f5f744b8b_4f11f787_20260913.png?v=4f11f787",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-54235a53bf",
           "name": "Rangers vs Celtic | 18:00 13/09",
@@ -240,7 +82,7 @@
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 1,
             "away_score": 0
           },
@@ -319,8 +161,8 @@
             "blv": "Tày",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
-            "home_score": 0,
+            "status": "2h",
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -340,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -396,9 +238,9 @@
             "time": "19:00",
             "date": "13/09",
             "blv": "Pháo Thủ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
@@ -407,6 +249,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/2bd45d25-6a6b-41fd-b42d-781098d373bb_510cd4e3_20260913.png?v=510cd4e3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-03a80d1fb1",
+          "name": "Excelsior vs Utrecht | 17:15 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03a80d1fb1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-03a80d1fb1",
+                  "name": "Excelsior vs Utrecht",
+                  "streams": [
+                    {
+                      "id": "st-03a80d1fb1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cbc47e2fc7",
+                          "name": "Văn Minh",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eredivisie",
+            "team_a": "Excelsior",
+            "team_b": "Utrecht",
+            "logo_a": "https://media.api-sports.io/football/teams/196.png",
+            "logo_b": "https://media.api-sports.io/football/teams/207.png",
+            "time": "17:15",
+            "date": "13/09",
+            "blv": "Văn Minh",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 1,
+            "away_score": 2
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/73b837cb-698d-45b3-a18e-264f5f744b8b_4f11f787_20260913.png?v=4f11f787",
             "width": 1600,
             "height": 1200
           }
