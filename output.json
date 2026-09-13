@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/italy-v-slovakia-volleyball-ph-1202070933_3d23c0b9_20260914.png?v=3d23c0b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a02301d62c",
+          "name": "Bulgaria vs Israel | 23:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a02301d62c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a02301d62c",
+                  "name": "Bulgaria vs Israel",
+                  "streams": [
+                    {
+                      "id": "st-a02301d62c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Bulgaria",
+            "team_b": "Israel",
+            "logo_a": "https://media.api-sports.io/football/teams/1103.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/download.jpg",
+            "time": "23:00",
+            "date": "14/09",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e96f79ca-3338-49a1-87aa-e87d6009a626_1846cbc9_20260914.png?v=1846cbc9",
             "width": 1600,
             "height": 1200
           }
