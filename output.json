@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-14fd2c8582",
-          "name": "Stade Brestois 29 vs Paris Saint Germain | 01:45 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14fd2c8582",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-14fd2c8582",
-                  "name": "Stade Brestois 29 vs Paris Saint Germain",
-                  "streams": [
-                    {
-                      "id": "st-14fd2c8582",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-edb60d88d9",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Stade Brestois 29",
-            "team_b": "Paris Saint Germain",
-            "logo_a": "https://media.api-sports.io/football/teams/106.png",
-            "logo_b": "https://media.api-sports.io/football/teams/85.png",
-            "time": "01:45",
-            "date": "14/09",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/87cd2945-c207-4c1e-8c64-475014bff44e_fae6ec66_20260914.png?v=fae6ec66",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-2d0aa8b1ef",
           "name": "Real Sociedad vs Atletico Madrid | 02:00 14/09",
@@ -163,7 +84,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 0,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
