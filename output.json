@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-d841117a6c",
-          "name": "Lecce vs Monza | 20:00 13/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d841117a6c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d841117a6c",
-                  "name": "Lecce vs Monza",
-                  "streams": [
-                    {
-                      "id": "st-d841117a6c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Kiến",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Lecce",
-            "team_b": "Monza",
-            "logo_a": "https://media.api-sports.io/football/teams/867.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1579.png",
-            "time": "20:00",
-            "date": "13/09",
-            "blv": "Người Kiến",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/531797b4-ff5f-4b11-a19b-9588bd92a4af_863baf98_20260913.png?v=863baf98",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-6a07ae0e4c",
           "name": "RB Leipzig vs Hamburger SV | 20:30 13/09",
@@ -162,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 2,
+            "home_score": 5,
             "away_score": 0
           },
           "image": {
@@ -331,12 +252,170 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-eb5916abf9",
+          "name": "Manchester United vs Manchester City | 22:30 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eb5916abf9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-eb5916abf9",
+                  "name": "Manchester United vs Manchester City",
+                  "streams": [
+                    {
+                      "id": "st-eb5916abf9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Manchester United",
+            "team_b": "Manchester City",
+            "logo_a": "https://media.api-sports.io/football/teams/33.png",
+            "logo_b": "https://media.api-sports.io/football/teams/50.png",
+            "time": "22:30",
+            "date": "13/09",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/d25d70be-441e-4db5-968c-4ceb3c940b50_da83a178_20260913.png?v=da83a178",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-619d67f873",
+          "name": "SV Elversberg vs Bayern München | 22:30 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-619d67f873",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-619d67f873",
+                  "name": "SV Elversberg vs Bayern München",
+                  "streams": [
+                    {
+                      "id": "st-619d67f873",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "SV Elversberg",
+            "team_b": "Bayern München",
+            "logo_a": "https://media.api-sports.io/football/teams/1660.png",
+            "logo_b": "https://media.api-sports.io/football/teams/157.png",
+            "time": "22:30",
+            "date": "13/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1e5e63b8-a2c6-40d3-b893-81faebff40db_ebf21b09_20260913.png?v=ebf21b09",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -416,6 +495,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/67e50317-78e3-4425-9fbe-bd3c8fa5743f_917f69bc_20260913.png?v=917f69bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-163929243b",
+          "name": "Brazil vs Argentina | 22:30 13/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-163929243b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-163929243b",
+                  "name": "Brazil vs Argentina",
+                  "streams": [
+                    {
+                      "id": "st-163929243b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Nam Mỹ",
+            "team_a": "Brazil",
+            "team_b": "Argentina",
+            "logo_a": "https://media.api-sports.io/football/teams/6.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/OIP_0VJCyPn.jpg",
+            "time": "22:30",
+            "date": "13/09",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/b2b82c1b-a99d-4ba7-908b-7c2d0a334fd8_1550cb80_20260913.png?v=1550cb80",
             "width": 1600,
             "height": 1200
           }
