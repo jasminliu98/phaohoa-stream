@@ -342,7 +342,7 @@
           }
         },
         {
-          "id": "xc-35fa5122c8",
+          "id": "xc-4c4b2da5a4",
           "name": "Italy vs Slovakia | 02:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -357,23 +357,23 @@
           ],
           "sources": [
             {
-              "id": "src-35fa5122c8",
+              "id": "src-4c4b2da5a4",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-35fa5122c8",
+                  "id": "ct-4c4b2da5a4",
                   "name": "Italy vs Slovakia",
                   "streams": [
                     {
-                      "id": "st-35fa5122c8",
+                      "id": "st-4c4b2da5a4",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "KaKa",
+                          "id": "lnk-afc7424529",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -404,7 +404,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/OIP_VYjid2m.jpg",
             "time": "02:00",
             "date": "14/09",
-            "blv": "KaKa",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -415,7 +415,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/637d5852-e225-4633-bcb9-5bb701c0ef59_3d23c0b9_20260914.png?v=3d23c0b9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/italy-v-slovakia-volleyball-ph-1202070933_3d23c0b9_20260914.png?v=3d23c0b9",
             "width": 1600,
             "height": 1200
           }
