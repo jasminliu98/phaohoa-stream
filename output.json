@@ -44,11 +44,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Kiến",
+                          "id": "lnk-0c660f670a",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -72,14 +72,14 @@
             }
           ],
           "org_metadata": {
-            "league": "La Liga",
+            "league": "",
             "team_a": "Real Sociedad",
             "team_b": "Atletico Madrid",
-            "logo_a": "https://media.api-sports.io/football/teams/548.png",
-            "logo_b": "https://media.api-sports.io/football/teams/530.png",
+            "logo_a": "",
+            "logo_b": "",
             "time": "02:00",
             "date": "14/09",
-            "blv": "Người Kiến",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/92c38a5a-ace1-46a3-8331-47f33f7b7846_3d695814_20260914.png?v=3d695814",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/92c38a5a-ace1-46a3-8331-47f33f7b7846_43a03299_20260914.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
