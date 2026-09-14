@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,6 +96,85 @@
           }
         },
         {
+          "id": "xc-daea94eb61",
+          "name": "Shabab Al Ahli Dubai vs Tractor Sazi | 23:00 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-daea94eb61",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-daea94eb61",
+                  "name": "Shabab Al Ahli Dubai vs Tractor Sazi",
+                  "streams": [
+                    {
+                      "id": "st-daea94eb61",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Shabab Al Ahli Dubai",
+            "team_b": "Tractor Sazi",
+            "logo_a": "https://media.api-sports.io/football/teams/2870.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2737.png",
+            "time": "23:00",
+            "date": "14/09",
+            "blv": "Tày",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6004413f-c88f-4e3f-8e5f-6b9af2d824e3_576b5ab6_20260914.png?v=576b5ab6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-9da1732fa9",
           "name": "Al Shamal vs Al-Ittihad FC | 23:00 14/09",
           "type": "single",
@@ -103,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -159,9 +238,9 @@
             "time": "23:00",
             "date": "14/09",
             "blv": "Chim Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
