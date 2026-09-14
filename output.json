@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-62e80c9c61",
-          "name": "Neftchi vs Al Quwa Al Jawiya | 20:45 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-62e80c9c61",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-62e80c9c61",
-                  "name": "Neftchi vs Al Quwa Al Jawiya",
-                  "streams": [
-                    {
-                      "id": "st-62e80c9c61",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Neftchi",
-            "team_b": "Al Quwa Al Jawiya",
-            "logo_a": "https://media.api-sports.io/football/teams/4217.png",
-            "logo_b": "https://media.api-sports.io/football/teams/8009.png",
-            "time": "20:45",
-            "date": "14/09",
-            "blv": "Văn Minh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/badcda9c-08d3-48f6-9867-16c6eff78494_32c39d7f_20260914.png?v=32c39d7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-f33c936a6b",
           "name": "Shakhtar Donetsk vs Ch. Odesa | 22:00 14/09",
