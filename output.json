@@ -363,7 +363,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-a02301d62c",
+          "id": "xc-1228cd68c6",
           "name": "Bulgaria vs Israel | 23:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -378,23 +378,23 @@
           ],
           "sources": [
             {
-              "id": "src-a02301d62c",
+              "id": "src-1228cd68c6",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-a02301d62c",
+                  "id": "ct-1228cd68c6",
                   "name": "Bulgaria vs Israel",
                   "streams": [
                     {
-                      "id": "st-a02301d62c",
+                      "id": "st-1228cd68c6",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
+                          "id": "lnk-794a329024",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -425,7 +425,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/download.jpg",
             "time": "23:00",
             "date": "14/09",
-            "blv": "KaKa",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -436,7 +436,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e96f79ca-3338-49a1-87aa-e87d6009a626_1846cbc9_20260915.png?v=1846cbc9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/bulgaria-v-israel-volleyball-ph-1315283892_1846cbc9_20260915.png?v=1846cbc9",
             "width": 1600,
             "height": 1200
           }
