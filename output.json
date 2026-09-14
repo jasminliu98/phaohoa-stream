@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -96,38 +96,38 @@
           }
         },
         {
-          "id": "xc-6567f017d3",
-          "name": "Dynamo Kyiv vs Epitsentr Dunayivtsi | 19:30 14/09",
+          "id": "xc-f33c936a6b",
+          "name": "Shakhtar Donetsk vs Ch. Odesa | 22:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-6567f017d3",
+              "id": "src-f33c936a6b",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-6567f017d3",
-                  "name": "Dynamo Kyiv vs Epitsentr Dunayivtsi",
+                  "id": "ct-f33c936a6b",
+                  "name": "Shakhtar Donetsk vs Ch. Odesa",
                   "streams": [
                     {
-                      "id": "st-6567f017d3",
+                      "id": "st-f33c936a6b",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Kiến",
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -152,103 +152,15 @@
           ],
           "org_metadata": {
             "league": "Premier League",
-            "team_a": "Dynamo Kyiv",
-            "team_b": "Epitsentr Dunayivtsi",
-            "logo_a": "https://media.api-sports.io/football/teams/572.png",
-            "logo_b": "https://media.api-sports.io/football/teams/14434.png",
-            "time": "19:30",
+            "team_a": "Shakhtar Donetsk",
+            "team_b": "Ch. Odesa",
+            "logo_a": "https://khandai2.link/media/teams/logos/team_78.jpg",
+            "logo_b": "https://media.api-sports.io/football/teams/3615.png",
+            "time": "22:00",
             "date": "14/09",
-            "blv": "Người Kiến",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/277ee94c-34ab-4b1b-84fc-a802aef0b5f3_0639762e_20260914.png?v=0639762e",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "xc-edef91284b",
-          "name": "Ukraine vs Bồ Đào Nha | 20:00 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-edef91284b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-edef91284b",
-                  "name": "Ukraine vs Bồ Đào Nha",
-                  "streams": [
-                    {
-                      "id": "st-edef91284b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9d7fe92a7d",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Ukraine",
-            "team_b": "Bồ Đào Nha",
-            "logo_a": "https://khandai2.link/media/teams/logos/OIP_7oS7OkG.jpg",
-            "logo_b": "https://media.api-sports.io/football/teams/27.png",
-            "time": "20:00",
-            "date": "14/09",
-            "blv": "Server",
+            "blv": "Tiểu Mây",
             "is_live": true,
-            "cate_type": "volleyball",
+            "cate_type": "football",
             "status": "live",
             "home_score": 0,
             "away_score": 0
@@ -257,11 +169,20 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/ukraine-v-bo-dao-nha-volleyball-ph-1211881295_1bf8c9e7_20260914.png?v=1bf8c9e7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/548a5b57-be9a-43c6-aa2e-e7a49068f430_ebe8a7e6_20260914.png?v=ebe8a7e6",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "xc-eaefc72be0",
           "name": "Đức vs Thụy Sĩ | 21:00 14/09",
