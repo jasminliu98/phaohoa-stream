@@ -261,7 +261,7 @@
             "blv": "Người Kiến, Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 2,
             "away_score": 2
           },
@@ -361,8 +361,8 @@
             "blv": "Tày, Gà Rừng",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
-            "home_score": 2,
+            "status": "ht",
+            "home_score": 3,
             "away_score": 0
           },
           "image": {
