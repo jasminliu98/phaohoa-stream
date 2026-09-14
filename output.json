@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "xc-6567f017d3",
-          "name": "Dynamo Kyiv vs Epitsentr Dunayivtsi | 19:30 14/09",
+          "name": "Dynamo Kyiv vs Epitsentr Dunayivtsi",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -72,13 +72,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "",
             "team_a": "Dynamo Kyiv",
             "team_b": "Epitsentr Dunayivtsi",
-            "logo_a": "https://media.api-sports.io/football/teams/572.png",
-            "logo_b": "https://media.api-sports.io/football/teams/14434.png",
-            "time": "19:30",
-            "date": "14/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Người Kiến",
             "is_live": true,
             "cate_type": "football",
@@ -90,14 +90,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/277ee94c-34ab-4b1b-84fc-a802aef0b5f3_0639762e_20260914.png?v=0639762e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/277ee94c-34ab-4b1b-84fc-a802aef0b5f3_43a03299_20260914.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-62e80c9c61",
-          "name": "Neftchi vs Al Quwa Al Jawiya | 20:45 14/09",
+          "name": "Neftchi vs Al Quwa Al Jawiya",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -151,13 +151,13 @@
             }
           ],
           "org_metadata": {
-            "league": "AFC Champions League Elite",
+            "league": "",
             "team_a": "Neftchi",
             "team_b": "Al Quwa Al Jawiya",
-            "logo_a": "https://media.api-sports.io/football/teams/4217.png",
-            "logo_b": "https://media.api-sports.io/football/teams/8009.png",
-            "time": "20:45",
-            "date": "14/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Văn Minh",
             "is_live": false,
             "cate_type": "football",
@@ -169,7 +169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/badcda9c-08d3-48f6-9867-16c6eff78494_32c39d7f_20260914.png?v=32c39d7f",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/badcda9c-08d3-48f6-9867-16c6eff78494_43a03299_20260914.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
@@ -185,7 +185,7 @@
       "channels": [
         {
           "id": "xc-a08bdb2cda",
-          "name": "Ukraine vs Bồ Đào Nha | 20:00 14/09",
+          "name": "Ukraine vs Bồ Đào Nha",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -239,13 +239,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
+            "league": "",
             "team_a": "Ukraine",
             "team_b": "Bồ Đào Nha",
-            "logo_a": "https://khandai2.link/media/teams/logos/OIP_7oS7OkG.jpg",
-            "logo_b": "https://media.api-sports.io/football/teams/27.png",
-            "time": "20:00",
-            "date": "14/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "volleyball",
@@ -257,14 +257,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c992653e-f90a-4a8a-b651-9d53e33f291a_1bf8c9e7_20260914.png?v=1bf8c9e7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c992653e-f90a-4a8a-b651-9d53e33f291a_43a03299_20260914.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
         },
         {
           "id": "xc-eaefc72be0",
-          "name": "Đức vs Thụy Sĩ | 21:00 14/09",
+          "name": "Đức vs Thụy Sĩ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -318,13 +318,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
+            "league": "",
             "team_a": "Đức",
             "team_b": "Thụy Sĩ",
-            "logo_a": "https://media.api-sports.io/football/teams/20.png",
-            "logo_b": "https://khandai2.link/media/teams/logos/download.png",
-            "time": "21:00",
-            "date": "14/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Tày",
             "is_live": true,
             "cate_type": "volleyball",
@@ -336,7 +336,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/27278dff-a1a5-4005-80d2-b49f9b82d451_eaa9d574_20260914.png?v=eaa9d574",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/27278dff-a1a5-4005-80d2-b49f9b82d451_43a03299_20260914.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
