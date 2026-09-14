@@ -82,7 +82,7 @@
             "blv": "Văn Minh",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 0,
             "away_score": 0
           },
@@ -184,7 +184,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-a08bdb2cda",
+          "id": "xc-edef91284b",
           "name": "Ukraine vs Bồ Đào Nha | 20:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -199,23 +199,23 @@
           ],
           "sources": [
             {
-              "id": "src-a08bdb2cda",
+              "id": "src-edef91284b",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-a08bdb2cda",
+                  "id": "ct-edef91284b",
                   "name": "Ukraine vs Bồ Đào Nha",
                   "streams": [
                     {
-                      "id": "st-a08bdb2cda",
+                      "id": "st-edef91284b",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-9d7fe92a7d",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -246,7 +246,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/27.png",
             "time": "20:00",
             "date": "14/09",
-            "blv": "Chim Nhỏ",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -257,7 +257,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c992653e-f90a-4a8a-b651-9d53e33f291a_1bf8c9e7_20260914.png?v=1bf8c9e7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/ukraine-v-bo-dao-nha-volleyball-ph-1211881295_1bf8c9e7_20260914.png?v=1bf8c9e7",
             "width": 1600,
             "height": 1200
           }
