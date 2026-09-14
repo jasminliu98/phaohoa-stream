@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -163,7 +163,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -263,7 +263,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -349,6 +349,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9b615615-3f50-467e-8150-c29da3257b8a_66d46d43_20260915.png?v=66d46d43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d70975881d",
+          "name": "Al Qadsiah vs Al Wasl | 01:15 15/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d70975881d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d70975881d",
+                  "name": "Al Qadsiah vs Al Wasl",
+                  "streams": [
+                    {
+                      "id": "st-d70975881d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-edb60d88d9",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Al Qadsiah",
+            "team_b": "Al Wasl",
+            "logo_a": "https://media.api-sports.io/football/teams/3537.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/team_7828.jpg",
+            "time": "01:15",
+            "date": "15/09",
+            "blv": "Server",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/al-qadsiah-v-al-wasl-ph-80841_abe39c35_20260915.png?v=abe39c35",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-161643d74d",
+          "name": "Inter vs Udinese | 01:45 15/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-161643d74d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-161643d74d",
+                  "name": "Inter vs Udinese",
+                  "streams": [
+                    {
+                      "id": "st-161643d74d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-161889ae68",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Inter",
+            "team_b": "Udinese",
+            "logo_a": "https://media.api-sports.io/football/teams/505.png",
+            "logo_b": "https://media.api-sports.io/football/teams/494.png",
+            "time": "01:45",
+            "date": "15/09",
+            "blv": "Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/731deeca-3462-4dc2-9dbd-b3931f7d1f6b_ba498ff7_20260915.png?v=ba498ff7",
             "width": 1600,
             "height": 1200
           }
