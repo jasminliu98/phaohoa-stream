@@ -442,7 +442,7 @@
             "cate_type": "football",
             "status": "1h",
             "home_score": 1,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -463,7 +463,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-c693f91147",
+          "id": "xc-a8d126bd8c",
           "name": "Estonia vs Bỉ | 00:00 15/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -478,23 +478,23 @@
           ],
           "sources": [
             {
-              "id": "src-c693f91147",
+              "id": "src-a8d126bd8c",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-c693f91147",
+                  "id": "ct-a8d126bd8c",
                   "name": "Estonia vs Bỉ",
                   "streams": [
                     {
-                      "id": "st-c693f91147",
+                      "id": "st-a8d126bd8c",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Nhà Đài",
+                          "id": "lnk-c0e00e627b",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -525,7 +525,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1.png",
             "time": "00:00",
             "date": "15/09",
-            "blv": "Nhà Đài",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -536,7 +536,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/0388226d-91dc-4908-b6dc-8d92dda93f3a_93cdfca7_20260915.png?v=93cdfca7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/estonia-v-bi-volleyball-ph-1036852610_93cdfca7_20260915.png?v=93cdfca7",
             "width": 1600,
             "height": 1200
           }
