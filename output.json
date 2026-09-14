@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-c97d6da8e8",
+          "id": "xc-a61c92aec2",
           "name": "Chinese Taipei W vs Vietnam W | 14:00 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-c97d6da8e8",
+              "id": "src-a61c92aec2",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-c97d6da8e8",
+                  "id": "ct-a61c92aec2",
                   "name": "Chinese Taipei W vs Vietnam W",
                   "streams": [
                     {
-                      "id": "st-c97d6da8e8",
+                      "id": "st-a61c92aec2",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-b2c8b4685c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/team_11934.jpg",
             "time": "14:00",
             "date": "14/09",
-            "blv": "Tày",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1969d2ed-abf7-4f99-875e-1223355ff19c_7297e9d0_20260914.png?v=7297e9d0",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/chinese-taipei-w-v-vietnam-w-ph-81912_7297e9d0_20260914.png?v=7297e9d0",
             "width": 1600,
             "height": 1200
           }
