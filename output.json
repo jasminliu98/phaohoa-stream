@@ -254,6 +254,85 @@
           }
         },
         {
+          "id": "xc-e39a1b89a6",
+          "name": "Como vs Parma | 23:30 14/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e39a1b89a6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e39a1b89a6",
+                  "name": "Como vs Parma",
+                  "streams": [
+                    {
+                      "id": "st-e39a1b89a6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Kiến",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Como",
+            "team_b": "Parma",
+            "logo_a": "https://media.api-sports.io/football/teams/895.png",
+            "logo_b": "https://media.api-sports.io/football/teams/523.png",
+            "time": "23:30",
+            "date": "14/09",
+            "blv": "Người Kiến",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/5c26fd2f-1797-417a-9d31-84e4e70ffe76_37ef24bf_20260914.png?v=37ef24bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-3a2007c92e",
           "name": "Torino vs AS Roma | 23:30 14/09",
           "type": "single",
@@ -336,90 +415,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-eaefc72be0",
-          "name": "Đức vs Thụy Sĩ | 21:00 14/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eaefc72be0",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-eaefc72be0",
-                  "name": "Đức vs Thụy Sĩ",
-                  "streams": [
-                    {
-                      "id": "st-eaefc72be0",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Đức",
-            "team_b": "Thụy Sĩ",
-            "logo_a": "https://media.api-sports.io/football/teams/20.png",
-            "logo_b": "https://khandai2.link/media/teams/logos/download.png",
-            "time": "21:00",
-            "date": "14/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/27278dff-a1a5-4005-80d2-b49f9b82d451_eaa9d574_20260914.png?v=eaa9d574",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-a02301d62c",
           "name": "Bulgaria vs Israel | 23:00 14/09",
