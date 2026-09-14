@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-0155a7abb6",
+          "id": "xc-19fc0d733f",
           "name": "Japan W vs Thailand W | 17:30 14/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-0155a7abb6",
+              "id": "src-19fc0d733f",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-0155a7abb6",
+                  "id": "ct-19fc0d733f",
                   "name": "Japan W vs Thailand W",
                   "streams": [
                     {
-                      "id": "st-0155a7abb6",
+                      "id": "st-19fc0d733f",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
+                          "id": "lnk-edb60d88d9",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,10 +79,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/1564.png",
             "time": "17:30",
             "date": "14/09",
-            "blv": "Tiểu Mây",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 8,
             "away_score": 0
           },
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9642c454-59c5-44d2-a222-4f0b8db73f2c_a8dfd2e1_20260914.png?v=a8dfd2e1",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/japan-w-v-thailand-w-1639549_a8dfd2e1_20260914.png?v=a8dfd2e1",
             "width": 1600,
             "height": 1200
           }
