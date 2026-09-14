@@ -360,10 +360,31 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-08cbf83139",
                           "name": "Kaka",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub3/index.m3u8",
                           "request_headers": [
                             {
@@ -395,7 +416,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/497.png",
             "time": "23:30",
             "date": "14/09",
-            "blv": "Kaka",
+            "blv": "Pháo Thủ, Kaka",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
