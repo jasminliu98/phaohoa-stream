@@ -278,11 +278,90 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-9d90745000",
+          "name": "Bỉ vs Đan Mạch | 21:00 15/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9d90745000",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9d90745000",
+                  "name": "Bỉ vs Đan Mạch",
+                  "streams": [
+                    {
+                      "id": "st-9d90745000",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "Famy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Bỉ",
+            "team_b": "Đan Mạch",
+            "logo_a": "https://media.api-sports.io/football/teams/1.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/pngtree-national-flag-of-danish-emblem-vector-png-image_9987224.png",
+            "time": "21:00",
+            "date": "15/09",
+            "blv": "Famy",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66ef9fa5-7c63-4de8-85c7-73a993202e8c_73686076_20260915.png?v=73686076",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-233b681e6f",
           "name": "Hy Lạp vs Thuỵ Điển | 21:00 15/09",
