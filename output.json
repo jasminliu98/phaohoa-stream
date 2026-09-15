@@ -104,7 +104,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -163,6 +163,27 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-ee73df3a80",
+                          "name": "Conan",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -179,7 +200,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/540.png",
             "time": "00:00",
             "date": "16/09",
-            "blv": "Người Kiến",
+            "blv": "Người Kiến, Conan",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
@@ -205,7 +226,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-9d90745000",
+          "id": "xc-5fe65e110e",
           "name": "Bỉ vs Đan Mạch | 21:00 15/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -220,23 +241,23 @@
           ],
           "sources": [
             {
-              "id": "src-9d90745000",
+              "id": "src-5fe65e110e",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-9d90745000",
+                  "id": "ct-5fe65e110e",
                   "name": "Bỉ vs Đan Mạch",
                   "streams": [
                     {
-                      "id": "st-9d90745000",
+                      "id": "st-5fe65e110e",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Famy",
+                          "id": "lnk-afc7424529",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -267,7 +288,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/pngtree-national-flag-of-danish-emblem-vector-png-image_9987224.png",
             "time": "21:00",
             "date": "15/09",
-            "blv": "Famy",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -278,7 +299,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66ef9fa5-7c63-4de8-85c7-73a993202e8c_73686076_20260915.png?v=73686076",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/bi-v-dan-mach-volleyball-ph-1376358738_73686076_20260915.png?v=73686076",
             "width": 1600,
             "height": 1200
           }
