@@ -182,7 +182,7 @@
             "blv": "Văn Minh",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 1,
             "away_score": 0
           },
@@ -284,7 +284,7 @@
             "cate_type": "football",
             "status": "1h",
             "home_score": 1,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -383,7 +383,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -517,8 +517,8 @@
           }
         },
         {
-          "id": "xc-af01784552",
-          "name": "Rayo Vallecano vs Espanyol | 00:00 16/09",
+          "id": "xc-f2fcd190c0",
+          "name": "Elche vs Real Madrid | 02:30 16/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -532,15 +532,15 @@
           ],
           "sources": [
             {
-              "id": "src-af01784552",
+              "id": "src-f2fcd190c0",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-af01784552",
-                  "name": "Rayo Vallecano vs Espanyol",
+                  "id": "ct-f2fcd190c0",
+                  "name": "Elche vs Real Madrid",
                   "streams": [
                     {
-                      "id": "st-af01784552",
+                      "id": "st-f2fcd190c0",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -573,24 +573,24 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Rayo Vallecano",
-            "team_b": "Espanyol",
-            "logo_a": "https://media.api-sports.io/football/teams/728.png",
-            "logo_b": "https://media.api-sports.io/football/teams/540.png",
-            "time": "00:00",
+            "team_a": "Elche",
+            "team_b": "Real Madrid",
+            "logo_a": "https://media.api-sports.io/football/teams/797.png",
+            "logo_b": "https://media.api-sports.io/football/teams/541.png",
+            "time": "02:30",
             "date": "16/09",
             "blv": "Người Kiến",
             "is_live": false,
             "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 2,
-            "away_score": 1
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6f7f08e9-6d37-4dde-a163-34ea4531b8d1_a8f51b8c_20260916.png?v=a8f51b8c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/0c820775-b2b3-4913-8bdf-e49647b533a2_600708b8_20260916.png?v=600708b8",
             "width": 1600,
             "height": 1200
           }
