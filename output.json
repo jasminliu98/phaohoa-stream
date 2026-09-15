@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-4a7f32aa83",
+          "id": "xc-30505e2c5e",
           "name": "Brazil vs Chile | 06:00 16/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-4a7f32aa83",
+              "id": "src-30505e2c5e",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-4a7f32aa83",
+                  "id": "ct-30505e2c5e",
                   "name": "Brazil vs Chile",
                   "streams": [
                     {
-                      "id": "st-4a7f32aa83",
+                      "id": "st-30505e2c5e",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Famy",
+                          "id": "lnk-afc7424529",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/Flag_of_Chile.svg.webp",
             "time": "06:00",
             "date": "16/09",
-            "blv": "Famy",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3bfea8f2-d47c-4575-b475-e0b31d2db40c_81c8a96e_20260916.png?v=81c8a96e",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/brazil-v-chile-volleyball-ph-1205783760_81c8a96e_20260916.png?v=81c8a96e",
             "width": 1600,
             "height": 1200
           }
