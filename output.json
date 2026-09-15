@@ -11,169 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-93e9082963",
-          "name": "Liverpool vs Tottenham | 02:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-93e9082963",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-93e9082963",
-                  "name": "Liverpool vs Tottenham",
-                  "streams": [
-                    {
-                      "id": "st-93e9082963",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Cup",
-            "team_a": "Liverpool",
-            "team_b": "Tottenham",
-            "logo_a": "https://media.api-sports.io/football/teams/40.png",
-            "logo_b": "https://media.api-sports.io/football/teams/47.png",
-            "time": "02:00",
-            "date": "16/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1f76925e-29ed-4524-bf8b-b96e2611621c_9ff3f6d3_20260916.png?v=9ff3f6d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-5f37b78307",
-          "name": "Ipswich vs Arsenal | 02:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f37b78307",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5f37b78307",
-                  "name": "Ipswich vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-5f37b78307",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Cup",
-            "team_a": "Ipswich",
-            "team_b": "Arsenal",
-            "logo_a": "https://media.api-sports.io/football/teams/57.png",
-            "logo_b": "https://media.api-sports.io/football/teams/42.png",
-            "time": "02:00",
-            "date": "16/09",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 2,
-            "away_score": 4
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/95c88499-29d1-4a51-9f84-76a268c59bf5_f2e12f8f_20260916.png?v=f2e12f8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-f2fcd190c0",
           "name": "Elche vs Real Madrid | 02:30 16/09",
@@ -262,7 +104,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 2
           },
           "image": {
@@ -270,6 +112,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/0c820775-b2b3-4913-8bdf-e49647b533a2_600708b8_20260916.png?v=600708b8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-93e9082963",
+          "name": "Liverpool vs Tottenham | 02:00 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-93e9082963",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-93e9082963",
+                  "name": "Liverpool vs Tottenham",
+                  "streams": [
+                    {
+                      "id": "st-93e9082963",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2c8b4685c",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Liverpool",
+            "team_b": "Tottenham",
+            "logo_a": "https://media.api-sports.io/football/teams/40.png",
+            "logo_b": "https://media.api-sports.io/football/teams/47.png",
+            "time": "02:00",
+            "date": "16/09",
+            "blv": "Server",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 3,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1f76925e-29ed-4524-bf8b-b96e2611621c_9ff3f6d3_20260916.png?v=9ff3f6d3",
             "width": 1600,
             "height": 1200
           }
