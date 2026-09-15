@@ -203,7 +203,7 @@
             "blv": "Tiểu Mây, Lá Chanh",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 0,
             "away_score": 0
           },
@@ -384,7 +384,7 @@
             "cate_type": "football",
             "status": "1h",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -523,10 +523,31 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-161889ae68",
                           "name": "Tam Mao",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
@@ -558,7 +579,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/42.png",
             "time": "02:00",
             "date": "16/09",
-            "blv": "Tam Mao",
+            "blv": "Chim Nhỏ, Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
