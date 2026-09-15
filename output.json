@@ -11,190 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-5f122e2a78",
-          "name": "Beijing Guoan vs Pohang Steelers | 19:15 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f122e2a78",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5f122e2a78",
-                  "name": "Beijing Guoan vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-5f122e2a78",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Beijing Guoan",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://media.api-sports.io/football/teams/830.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2764.png",
-            "time": "19:15",
-            "date": "15/09",
-            "blv": "Tiểu Mây",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1a43adf4-eaed-40c5-89da-e861c40aea05_c2d2c59c_20260915.png?v=c2d2c59c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-bdf93a1157",
-          "name": "Johor Darul Takzim FC vs Buriram United | 19:15 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bdf93a1157",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-bdf93a1157",
-                  "name": "Johor Darul Takzim FC vs Buriram United",
-                  "streams": [
-                    {
-                      "id": "st-bdf93a1157",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-502bbb7c32",
-                          "name": "Tây Môn Khánh",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Johor Darul Takzim FC",
-            "team_b": "Buriram United",
-            "logo_a": "https://media.api-sports.io/football/teams/2523.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2780.png",
-            "time": "19:15",
-            "date": "15/09",
-            "blv": "Pháo Thủ, Tây Môn Khánh",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/2c99427c-98d6-4926-a898-3696ed800623_d242b693_20260915.png?v=d242b693",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-3e2caf58bd",
           "name": "Arkadag vs Muharraq | 20:45 15/09",
@@ -270,6 +91,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/00b68768-041f-460c-9e0c-b8292da8085f_e49705cc_20260915.png?v=e49705cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5f122e2a78",
+          "name": "Beijing Guoan vs Pohang Steelers | 19:15 15/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5f122e2a78",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5f122e2a78",
+                  "name": "Beijing Guoan vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "st-5f122e2a78",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Beijing Guoan",
+            "team_b": "Pohang Steelers",
+            "logo_a": "https://media.api-sports.io/football/teams/830.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2764.png",
+            "time": "19:15",
+            "date": "15/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 3,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1a43adf4-eaed-40c5-89da-e861c40aea05_c2d2c59c_20260915.png?v=c2d2c59c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-bdf93a1157",
+          "name": "Johor Darul Takzim FC vs Buriram United | 19:15 15/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bdf93a1157",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-bdf93a1157",
+                  "name": "Johor Darul Takzim FC vs Buriram United",
+                  "streams": [
+                    {
+                      "id": "st-bdf93a1157",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Elite",
+            "team_a": "Johor Darul Takzim FC",
+            "team_b": "Buriram United",
+            "logo_a": "https://media.api-sports.io/football/teams/2523.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2780.png",
+            "time": "19:15",
+            "date": "15/09",
+            "blv": "Pháo Thủ",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 1,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/2c99427c-98d6-4926-a898-3696ed800623_d242b693_20260915.png?v=d242b693",
             "width": 1600,
             "height": 1200
           }
