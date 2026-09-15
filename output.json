@@ -194,6 +194,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-3e2caf58bd",
+          "name": "Arkadag vs Muharraq | 20:45 15/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e2caf58bd",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3e2caf58bd",
+                  "name": "Arkadag vs Muharraq",
+                  "streams": [
+                    {
+                      "id": "st-3e2caf58bd",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Kiến",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Two",
+            "team_a": "Arkadag",
+            "team_b": "Muharraq",
+            "logo_a": "https://media.api-sports.io/football/teams/21232.png",
+            "logo_b": "https://media.api-sports.io/football/teams/5488.png",
+            "time": "20:45",
+            "date": "15/09",
+            "blv": "Người Kiến",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/00b68768-041f-460c-9e0c-b8292da8085f_e49705cc_20260915.png?v=e49705cc",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
