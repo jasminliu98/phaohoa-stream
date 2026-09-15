@@ -82,8 +82,8 @@
             "blv": "Tiểu Mây",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
-            "home_score": 2,
+            "status": "2h",
+            "home_score": 3,
             "away_score": 1
           },
           "image": {
@@ -182,7 +182,7 @@
             "blv": "Pháo Thủ, Tây Môn Khánh",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 1,
             "away_score": 1
           },
