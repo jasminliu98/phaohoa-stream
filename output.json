@@ -205,7 +205,7 @@
           }
         },
         {
-          "id": "xc-233b681e6f",
+          "id": "xc-4e5ed1dfc8",
           "name": "Hy Lạp vs Thuỵ Điển | 21:00 15/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -220,23 +220,23 @@
           ],
           "sources": [
             {
-              "id": "src-233b681e6f",
+              "id": "src-4e5ed1dfc8",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-233b681e6f",
+                  "id": "ct-4e5ed1dfc8",
                   "name": "Hy Lạp vs Thuỵ Điển",
                   "streams": [
                     {
-                      "id": "st-233b681e6f",
+                      "id": "st-4e5ed1dfc8",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Nhà Đài",
+                          "id": "lnk-c0e00e627b",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -267,7 +267,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/5.png",
             "time": "21:00",
             "date": "15/09",
-            "blv": "Nhà Đài",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -278,7 +278,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9d429a4a-b6d4-406e-b6da-85444f3efdeb_330801d9_20260915.png?v=330801d9",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/hy-lap-v-thuy-dien-volleyball-ph-1225494220_330801d9_20260915.png?v=330801d9",
             "width": 1600,
             "height": 1200
           }
