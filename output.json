@@ -220,7 +220,7 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -300,6 +300,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/92c4b23c-16b8-4e52-84ab-5bbc6c50ec0a_b28ebdc7_20260915.png?v=b28ebdc7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-fb5004702f",
+          "name": "Hà Lan vs Phần Lan | 00:00 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fb5004702f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fb5004702f",
+                  "name": "Hà Lan vs Phần Lan",
+                  "streams": [
+                    {
+                      "id": "st-fb5004702f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Nhà Đài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Hà Lan",
+            "team_b": "Phần Lan",
+            "logo_a": "https://media.api-sports.io/football/teams/1118.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/pngtree-finland-flag-pin-badge-png-image_6333890.png",
+            "time": "00:00",
+            "date": "16/09",
+            "blv": "Nhà Đài",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/36fa3f68-b2b9-4060-a14a-776883356a63_38aa9477_20260915.png?v=38aa9477",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e9f8280a21",
+          "name": "Đức vs Pháp | 00:00 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9f8280a21",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e9f8280a21",
+                  "name": "Đức vs Pháp",
+                  "streams": [
+                    {
+                      "id": "st-e9f8280a21",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "Famy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Đức",
+            "team_b": "Pháp",
+            "logo_a": "https://media.api-sports.io/football/teams/20.png",
+            "logo_b": "https://media.api-sports.io/football/teams/2.png",
+            "time": "00:00",
+            "date": "16/09",
+            "blv": "Famy",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/6cfd4673-892c-4396-bf7b-8f4439fbf54c_6f81907f_20260915.png?v=6f81907f",
             "width": 1600,
             "height": 1200
           }
