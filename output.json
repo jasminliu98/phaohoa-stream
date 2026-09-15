@@ -82,7 +82,7 @@
             "blv": "Người Kiến",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 0,
             "away_score": 0
           },
@@ -91,85 +91,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/00b68768-041f-460c-9e0c-b8292da8085f_e49705cc_20260915.png?v=e49705cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-5f122e2a78",
-          "name": "Beijing Guoan vs Pohang Steelers | 19:15 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5f122e2a78",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5f122e2a78",
-                  "name": "Beijing Guoan vs Pohang Steelers",
-                  "streams": [
-                    {
-                      "id": "st-5f122e2a78",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-edb60d88d9",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Beijing Guoan",
-            "team_b": "Pohang Steelers",
-            "logo_a": "https://media.api-sports.io/football/teams/830.png",
-            "logo_b": "https://media.api-sports.io/football/teams/2764.png",
-            "time": "19:15",
-            "date": "15/09",
-            "blv": "Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 3,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1a43adf4-eaed-40c5-89da-e861c40aea05_c2d2c59c_20260915.png?v=c2d2c59c",
             "width": 1600,
             "height": 1200
           }
