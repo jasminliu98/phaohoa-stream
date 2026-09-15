@@ -117,85 +117,6 @@
           }
         },
         {
-          "id": "xc-a7db36066f",
-          "name": "Daejeon Citizen vs Kyoto Sanga | 17:00 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a7db36066f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a7db36066f",
-                  "name": "Daejeon Citizen vs Kyoto Sanga",
-                  "streams": [
-                    {
-                      "id": "st-a7db36066f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cbc47e2fc7",
-                          "name": "Văn Minh",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa3/index.m3u8?expire=1815505159&sign=32dbf97946c3646cdd7f664aebd7fa2a",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Daejeon Citizen",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://media.api-sports.io/football/teams/2750.png",
-            "logo_b": "https://media.api-sports.io/football/teams/302.png",
-            "time": "17:00",
-            "date": "15/09",
-            "blv": "Văn Minh",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/2105b9e3-74ad-4e66-92db-beeb1e8fe854_ed9dc958_20260915.png?v=ed9dc958",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-28b4314e09",
           "name": "Kashima vs Newcastle Jets | 17:00 15/09",
           "type": "single",
@@ -223,11 +144,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-af5dee509c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -258,7 +179,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/946.png",
             "time": "17:00",
             "date": "15/09",
-            "blv": "Pháo Thủ",
+            "blv": "Server",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -270,85 +191,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e0c99a51-040d-4448-af2e-92bec17bf172_6b0507c3_20260915.png?v=6b0507c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8d81f9a2b5",
-          "name": "Gamba Osaka vs Công An Nhân Dân | 17:00 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d81f9a2b5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8d81f9a2b5",
-                  "name": "Gamba Osaka vs Công An Nhân Dân",
-                  "streams": [
-                    {
-                      "id": "st-8d81f9a2b5",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Gamba Osaka",
-            "team_b": "Công An Nhân Dân",
-            "logo_a": "https://media.api-sports.io/football/teams/293.png",
-            "logo_b": "https://media.api-sports.io/football/teams/16400.png",
-            "time": "17:00",
-            "date": "15/09",
-            "blv": "Chim Nhỏ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 4,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/ee6defcf-2a3c-4835-ade9-0abe075683ae_6577a0ff_20260915.png?v=6577a0ff",
             "width": 1600,
             "height": 1200
           }
