@@ -63,27 +63,6 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-3010a68436",
-                          "name": "Lá Chanh",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -100,7 +79,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/532.png",
             "time": "01:00",
             "date": "16/09",
-            "blv": "Tiểu Mây, Lá Chanh",
+            "blv": "Tiểu Mây",
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
@@ -282,7 +261,7 @@
             "blv": "Pháo Thủ, Tây Môn Khánh",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 2,
             "away_score": 2
           },
@@ -382,7 +361,7 @@
             "blv": "Tày, Kaka",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 0
           },
