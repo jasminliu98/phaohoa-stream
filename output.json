@@ -104,7 +104,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 0
           },
           "image": {
@@ -244,10 +244,31 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-3010a68436",
                           "name": "Lá Chanh",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub2/index.m3u8",
                           "request_headers": [
                             {
@@ -279,7 +300,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/532.png",
             "time": "01:00",
             "date": "16/09",
-            "blv": "Lá Chanh",
+            "blv": "Tiểu Mây, Lá Chanh",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
@@ -299,90 +320,11 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-f663eabe0e",
-          "name": "Ba Lan vs Ukraine | 23:00 15/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f663eabe0e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f663eabe0e",
-                  "name": "Ba Lan vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-f663eabe0e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Ba Lan",
-            "team_b": "Ukraine",
-            "logo_a": "https://media.api-sports.io/football/teams/24.png",
-            "logo_b": "https://khandai2.link/media/teams/logos/OIP_7oS7OkG.jpg",
-            "time": "23:00",
-            "date": "15/09",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/92c4b23c-16b8-4e52-84ab-5bbc6c50ec0a_b28ebdc7_20260916.png?v=b28ebdc7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-fb5004702f",
           "name": "Hà Lan vs Phần Lan | 00:00 16/09",
