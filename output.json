@@ -11,11 +11,90 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-62b6784223",
+          "name": "Levante vs Ath Bilbao | 02:30 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-62b6784223",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-62b6784223",
+                  "name": "Levante vs Ath Bilbao",
+                  "streams": [
+                    {
+                      "id": "st-62b6784223",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d516ad50bc",
+                          "name": "Văn Tài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub7/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Ath Bilbao",
+            "logo_a": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
+            "time": "02:30",
+            "date": "17/09",
+            "blv": "Văn Tài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/2f9c5105-11bd-46ac-8154-61daa2f8997d_2925e6b4_20260917.png?v=2925e6b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-042ba38863",
           "name": "Inter Miami vs Cruz Azul | 07:00 17/09",
