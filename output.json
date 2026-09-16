@@ -282,7 +282,7 @@
             "blv": "Tày, Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 1,
             "away_score": 0
           },
@@ -305,7 +305,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-f0f60d98b4",
+          "id": "xc-70a0274cf7",
           "name": "Nhật Bản vs Nepal | 17:20 16/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -320,23 +320,23 @@
           ],
           "sources": [
             {
-              "id": "src-f0f60d98b4",
+              "id": "src-70a0274cf7",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-f0f60d98b4",
+                  "id": "ct-70a0274cf7",
                   "name": "Nhật Bản vs Nepal",
                   "streams": [
                     {
-                      "id": "st-f0f60d98b4",
+                      "id": "st-70a0274cf7",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
+                          "id": "lnk-794a329024",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -367,7 +367,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/t%E1%BA%A3i_xu%E1%BB%91ng_IXBIJQ4.png",
             "time": "17:20",
             "date": "16/09",
-            "blv": "KaKa",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -378,7 +378,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c4f06d83-a0a9-4db5-ad36-1f82b3716449_0995392a_20260916.png?v=0995392a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/nhat-ban-v-nepal-volleyball-ph-1641557199_0995392a_20260916.png?v=0995392a",
             "width": 1600,
             "height": 1200
           }
