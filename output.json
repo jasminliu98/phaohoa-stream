@@ -11,111 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-bb077ef336",
-          "name": "Japan U23 vs Hong Kong U23 | 17:30 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb077ef336",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-bb077ef336",
-                  "name": "Japan U23 vs Hong Kong U23",
-                  "streams": [
-                    {
-                      "id": "st-bb077ef336",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-161889ae68",
-                          "name": "Tam Mao",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Japan U23",
-            "team_b": "Hong Kong U23",
-            "logo_a": "https://media.api-sports.io/football/teams/12.png",
-            "logo_b": "https://media.api-sports.io/football/teams/4460.png",
-            "time": "17:30",
-            "date": "16/09",
-            "blv": "Tày, Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3032973c-8960-42d0-b01e-4d8decbfe5b3_bcc1c90f_20260916.png?v=bcc1c90f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-e7588b5c79",
           "name": "Port FC vs Vissel Kobe | 19:15 16/09",
@@ -184,7 +84,7 @@
             "cate_type": "football",
             "status": "1h",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -291,6 +191,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1fc517f3-4aaa-4d2c-8a5d-09024c89ce8b_ade5566b_20260916.png?v=ade5566b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-bb077ef336",
+          "name": "Japan U23 vs Hong Kong U23 | 17:30 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb077ef336",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-bb077ef336",
+                  "name": "Japan U23 vs Hong Kong U23",
+                  "streams": [
+                    {
+                      "id": "st-bb077ef336",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "Japan U23",
+            "team_b": "Hong Kong U23",
+            "logo_a": "https://media.api-sports.io/football/teams/12.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4460.png",
+            "time": "17:30",
+            "date": "16/09",
+            "blv": "Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 2,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3032973c-8960-42d0-b01e-4d8decbfe5b3_bcc1c90f_20260916.png?v=bcc1c90f",
             "width": 1600,
             "height": 1200
           }
