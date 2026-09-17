@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -63,27 +63,6 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-913990a99f",
-                          "name": "Khô Cay",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -100,10 +79,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/546.png",
             "time": "00:00",
             "date": "18/09",
-            "blv": "Enzo, Khô Cay",
+            "blv": "Enzo",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -204,7 +183,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -224,10 +203,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -263,6 +242,27 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-5c316eb093",
+                          "name": "Chè",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -279,10 +279,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/413.png",
             "time": "02:00",
             "date": "18/09",
-            "blv": "Pháo Thủ",
-            "is_live": false,
+            "blv": "Pháo Thủ, Chè",
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
@@ -303,10 +303,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -380,9 +380,9 @@
             "time": "02:00",
             "date": "18/09",
             "blv": "Chim Nhỏ, Lá Chanh",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
@@ -403,10 +403,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -480,9 +480,9 @@
             "time": "02:00",
             "date": "18/09",
             "blv": "Tày, Tam Mao",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
