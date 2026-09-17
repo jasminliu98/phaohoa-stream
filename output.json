@@ -82,7 +82,7 @@
             "blv": "Server",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "2h",
             "home_score": 1,
             "away_score": 3
           },
@@ -91,94 +91,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/8f369a18-f151-4e2e-a5e9-87c28c5f7a90_0c02994c_20260918.png?v=0c02994c",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "xc-0b06c59881",
-          "name": "Italy vs Slovenia | 02:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b06c59881",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0b06c59881",
-                  "name": "Italy vs Slovenia",
-                  "streams": [
-                    {
-                      "id": "st-0b06c59881",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-794a329024",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Italy",
-            "team_b": "Slovenia",
-            "logo_a": "https://media.api-sports.io/football/teams/768.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1091.png",
-            "time": "02:00",
-            "date": "18/09",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/italy-v-slovenia-volleyball-ph-1553619370_156a0856_20260918.png?v=156a0856",
             "width": 1600,
             "height": 1200
           }
