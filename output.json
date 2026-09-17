@@ -423,10 +423,31 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-161889ae68",
                           "name": "Tam Mao",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
@@ -458,7 +479,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/35.png",
             "time": "02:00",
             "date": "18/09",
-            "blv": "Tam Mao",
+            "blv": "Tày, Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
