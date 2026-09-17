@@ -11,44 +11,44 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-042ba38863",
+          "id": "xc-32b38eb586",
           "name": "Inter Miami vs Cruz Azul | 07:00 17/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-042ba38863",
+              "id": "src-32b38eb586",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-042ba38863",
+                  "id": "ct-32b38eb586",
                   "name": "Inter Miami vs Cruz Azul",
                   "streams": [
                     {
-                      "id": "st-042ba38863",
+                      "id": "st-32b38eb586",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-b2c8b4685c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,10 +79,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/2295.png",
             "time": "07:00",
             "date": "17/09",
-            "blv": "Tày",
-            "is_live": true,
+            "blv": "Server",
+            "is_live": false,
             "cate_type": "football",
-            "status": "2h",
+            "status": "scheduled",
             "home_score": 2,
             "away_score": 0
           },
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/b7586a64-5b09-4c41-afd6-547662b74ac5_bfd9bd22_20260917.png?v=bfd9bd22",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/inter-miami-v-cruz-azul-1639573_bfd9bd22_20260917.png?v=bfd9bd22",
             "width": 1600,
             "height": 1200
           }
