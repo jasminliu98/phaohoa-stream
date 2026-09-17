@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-e80ca92be7",
-          "name": "Manchester City vs Norwich | 01:30 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e80ca92be7",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e80ca92be7",
-                  "name": "Manchester City vs Norwich",
-                  "streams": [
-                    {
-                      "id": "st-e80ca92be7",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Kiến",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Cup",
-            "team_a": "Manchester City",
-            "team_b": "Norwich",
-            "logo_a": "https://media.api-sports.io/football/teams/50.png",
-            "logo_b": "https://media.api-sports.io/football/teams/71.png",
-            "time": "01:30",
-            "date": "18/09",
-            "blv": "Người Kiến",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 5,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/77f2631b-59af-409b-9049-762aa5cd514e_5ae3a2aa_20260918.png?v=5ae3a2aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-0eb4c89b08",
           "name": "Juventus vs NEC Nijmegen | 02:00 18/09",
@@ -183,7 +104,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 3,
+            "home_score": 4,
             "away_score": 0
           },
           "image": {
