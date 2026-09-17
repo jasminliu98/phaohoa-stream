@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -80,9 +80,9 @@
             "time": "07:00",
             "date": "17/09",
             "blv": "Tày",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
@@ -91,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/b7586a64-5b09-4c41-afd6-547662b74ac5_bfd9bd22_20260917.png?v=bfd9bd22",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-28a96a49be",
+          "name": "Levante vs Ath Bilbao | 02:30 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-28a96a49be",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-28a96a49be",
+                  "name": "Levante vs Ath Bilbao",
+                  "streams": [
+                    {
+                      "id": "st-28a96a49be",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d516ad50bc",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub7/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Levante",
+            "team_b": "Ath Bilbao",
+            "logo_a": "https://apiv3.apifootball.com/badges/7259_levante.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7258_athletic-club.jpg",
+            "time": "02:30",
+            "date": "17/09",
+            "blv": "Server",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/levante-v-ath-bilbao-kg-1761104235_2925e6b4_20260917.png?v=2925e6b4",
             "width": 1600,
             "height": 1200
           }
