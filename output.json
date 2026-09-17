@@ -105,7 +105,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-ac590e6194",
+          "id": "xc-9c115b7f78",
           "name": "Slovakia vs Hy Lạp | 21:00 17/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -120,23 +120,23 @@
           ],
           "sources": [
             {
-              "id": "src-ac590e6194",
+              "id": "src-9c115b7f78",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-ac590e6194",
+                  "id": "ct-9c115b7f78",
                   "name": "Slovakia vs Hy Lạp",
                   "streams": [
                     {
-                      "id": "st-ac590e6194",
+                      "id": "st-9c115b7f78",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-66065dd70c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -167,7 +167,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1117.png",
             "time": "21:00",
             "date": "17/09",
-            "blv": "Enzo",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -178,7 +178,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c72d0b44-0b01-431f-9636-c1ff066f8a56_b40d942d_20260917.png?v=b40d942d",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/slovakia-v-hy-lap-volleyball-ph-1313926581_b40d942d_20260917.png?v=b40d942d",
             "width": 1600,
             "height": 1200
           }
