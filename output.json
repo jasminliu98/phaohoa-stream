@@ -178,7 +178,7 @@
     },
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -258,6 +258,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/363a19bc-6f9a-4a7e-9427-c6a0c6c90ee0_aa092ea0_20260917.png?v=aa092ea0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e2ea3a2799",
+          "name": "Indonesia vs Nepal | 17:20 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2ea3a2799",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e2ea3a2799",
+                  "name": "Indonesia vs Nepal",
+                  "streams": [
+                    {
+                      "id": "st-e2ea3a2799",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Nhà Đài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD GAME",
+            "team_a": "Indonesia",
+            "team_b": "Nepal",
+            "logo_a": "https://khandai2.link/media/teams/logos/OIP_WqmhllM.jpg",
+            "logo_b": "https://khandai2.link/media/teams/logos/t%E1%BA%A3i_xu%E1%BB%91ng_IXBIJQ4.png",
+            "time": "17:20",
+            "date": "17/09",
+            "blv": "Nhà Đài",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/af3f9889-11c9-4d34-9fe2-8a430c58dfd0_d8c28ef8_20260917.png?v=d8c28ef8",
             "width": 1600,
             "height": 1200
           }
