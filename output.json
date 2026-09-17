@@ -18,7 +18,7 @@
       "channels": [
         {
           "id": "xc-9f9a034805",
-          "name": "Malaga vs Villarreal | 02:30 18/09",
+          "name": "Malaga vs Villarreal",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -72,13 +72,13 @@
             }
           ],
           "org_metadata": {
-            "league": "La Liga",
+            "league": "",
             "team_a": "Malaga",
             "team_b": "Villarreal",
-            "logo_a": "https://media.api-sports.io/football/teams/535.png",
-            "logo_b": "https://media.api-sports.io/football/teams/533.png",
-            "time": "02:30",
-            "date": "18/09",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
             "blv": "Server",
             "is_live": true,
             "cate_type": "football",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/8f369a18-f151-4e2e-a5e9-87c28c5f7a90_0c02994c_20260918.png?v=0c02994c",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/8f369a18-f151-4e2e-a5e9-87c28c5f7a90_43a03299_20260918.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
