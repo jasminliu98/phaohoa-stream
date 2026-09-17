@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/5de315e8-c88d-443b-88ce-42483216d2ee_a4062964_20260917.png?v=a4062964",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-79f474b41e",
+          "name": "Đài Loan vs Mông Cổ | 14:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-79f474b41e",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-79f474b41e",
+                  "name": "Đài Loan vs Mông Cổ",
+                  "streams": [
+                    {
+                      "id": "st-79f474b41e",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "Famy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD GAME",
+            "team_a": "Đài Loan",
+            "team_b": "Mông Cổ",
+            "logo_a": "https://media.api-sports.io/football/teams/1557.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/images.webp",
+            "time": "14:00",
+            "date": "17/09",
+            "blv": "Famy",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c759996c-31ec-46f4-87d6-8069198b5d61_a6d92bd7_20260917.png?v=a6d92bd7",
             "width": 1600,
             "height": 1200
           }
