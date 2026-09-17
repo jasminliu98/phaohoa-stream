@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -170,6 +170,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/94718086-75f9-4b76-9e4e-62b135ef30e6_f24ddac8_20260917.png?v=f24ddac8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7ad06ef004",
+          "name": "Vietnam W vs Thailand W | 17:30 21/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7ad06ef004",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7ad06ef004",
+                  "name": "Vietnam W vs Thailand W",
+                  "streams": [
+                    {
+                      "id": "st-7ad06ef004",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be4e3fb4e7",
+                          "name": "Gà Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games Women",
+            "team_a": "Vietnam W",
+            "team_b": "Thailand W",
+            "logo_a": "https://apiv3.apifootball.com/badges/11934_vietnam-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/609_thailand-w.jpg",
+            "time": "17:30",
+            "date": "21/09",
+            "blv": "Gà Rừng",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/637a4e18-f5c5-40ab-ad68-e1d5654d48b2_04176ee6_20260917.png?v=04176ee6",
             "width": 1600,
             "height": 1200
           }
