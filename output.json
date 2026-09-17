@@ -96,7 +96,7 @@
           }
         },
         {
-          "id": "xc-79f474b41e",
+          "id": "xc-73103d8675",
           "name": "Đài Loan vs Mông Cổ | 14:00 17/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -111,23 +111,23 @@
           ],
           "sources": [
             {
-              "id": "src-79f474b41e",
+              "id": "src-73103d8675",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-79f474b41e",
+                  "id": "ct-73103d8675",
                   "name": "Đài Loan vs Mông Cổ",
                   "streams": [
                     {
-                      "id": "st-79f474b41e",
+                      "id": "st-73103d8675",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Famy",
+                          "id": "lnk-afc7424529",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -158,7 +158,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/images.webp",
             "time": "14:00",
             "date": "17/09",
-            "blv": "Famy",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -169,7 +169,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/c759996c-31ec-46f4-87d6-8069198b5d61_a6d92bd7_20260917.png?v=a6d92bd7",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/dai-loan-v-mong-co-volleyball-ph-1401281152_a6d92bd7_20260917.png?v=a6d92bd7",
             "width": 1600,
             "height": 1200
           }
