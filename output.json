@@ -94,6 +94,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-489e4acbe4",
+          "name": "Real Betis vs Getafe | 00:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-489e4acbe4",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-489e4acbe4",
+                  "name": "Real Betis vs Getafe",
+                  "streams": [
+                    {
+                      "id": "st-489e4acbe4",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-913990a99f",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Getafe",
+            "logo_a": "https://media.api-sports.io/football/teams/543.png",
+            "logo_b": "https://media.api-sports.io/football/teams/546.png",
+            "time": "00:00",
+            "date": "18/09",
+            "blv": "Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/0327777d-1700-499e-9c62-900e905701c6_605465a6_20260917.png?v=605465a6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
