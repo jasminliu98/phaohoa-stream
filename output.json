@@ -8,5 +8,94 @@
     "type": "cover",
     "url": "https://xoiche.tv/brand/hero.webp"
   },
-  "groups": []
+  "groups": [
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-371b86029d",
+          "name": "Đài Loan vs Thái Lan | 17:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-371b86029d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-371b86029d",
+                  "name": "Đài Loan vs Thái Lan",
+                  "streams": [
+                    {
+                      "id": "st-371b86029d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD GAME",
+            "team_a": "Đài Loan",
+            "team_b": "Thái Lan",
+            "logo_a": "https://media.api-sports.io/football/teams/1557.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1564.png",
+            "time": "17:00",
+            "date": "18/09",
+            "blv": "Enzo",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/4ae363b9-1a8d-40de-a4a3-a0afc5c27710_02a64e43_20260918.png?v=02a64e43",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    }
+  ]
 }
