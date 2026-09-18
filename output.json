@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-889fb94965",
-          "name": "AC Oulu vs Inter Turku | 23:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-889fb94965",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-889fb94965",
-                  "name": "AC Oulu vs Inter Turku",
-                  "streams": [
-                    {
-                      "id": "st-889fb94965",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Famy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "AC Oulu",
-            "team_b": "Inter Turku",
-            "logo_a": "https://media.api-sports.io/football/teams/2077.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1164.png",
-            "time": "23:00",
-            "date": "18/09",
-            "blv": "Famy",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/abbcdca6-b26b-4f57-bce3-328bec5b9253_6b362d07_20260919.png?v=6b362d07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-dc314097ee",
           "name": "VfL Wolfsburg vs SV Darmstadt 98 | 23:30 18/09",
           "type": "single",
@@ -261,10 +182,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -317,9 +238,9 @@
             "time": "01:00",
             "date": "19/09",
             "blv": "Tiểu Mây",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
