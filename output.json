@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-cfb220cab2",
+          "id": "xc-73bfaeb682",
           "name": "Bình Định vs Công An HCM | 18:00 18/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-cfb220cab2",
+              "id": "src-73bfaeb682",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-cfb220cab2",
+                  "id": "ct-73bfaeb682",
                   "name": "Bình Định vs Công An HCM",
                   "streams": [
                     {
-                      "id": "st-cfb220cab2",
+                      "id": "st-73bfaeb682",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Kiến",
+                          "id": "lnk-0c660f670a",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://luong.xoiche.tv/media/teams/logos/bb501c60-6694-4ae5-a3d2-5e0529827021.png",
             "time": "18:00",
             "date": "18/09",
-            "blv": "Người Kiến",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/22546394-2319-41f6-9dd9-f613d3b162bc_87b1fa20_20260918.png?v=87b1fa20",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/binh-dinh-v-cong-an-hcm-ph-81677_87b1fa20_20260918.png?v=87b1fa20",
             "width": 1600,
             "height": 1200
           }
@@ -161,7 +161,7 @@
             "blv": "Tiểu Mây",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 0,
             "away_score": 0
           },
@@ -170,173 +170,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/7a6ffd8a-f0b8-4072-b809-c9922e0fb50c_2df8b5e6_20260918.png?v=2df8b5e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-2e26c7ef30",
-          "name": "Saudi Arabia U23 vs Qatar U23 | 17:30 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2e26c7ef30",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-2e26c7ef30",
-                  "name": "Saudi Arabia U23 vs Qatar U23",
-                  "streams": [
-                    {
-                      "id": "st-2e26c7ef30",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b2c8b4685c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Saudi Arabia U23",
-            "team_b": "Qatar U23",
-            "logo_a": "https://media.api-sports.io/football/teams/23.png",
-            "logo_b": "https://media.api-sports.io/football/teams/1569.png",
-            "time": "17:30",
-            "date": "18/09",
-            "blv": "Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/394eb98d-7911-48f8-82a2-2247bec47fae_0a8ce956_20260918.png?v=0a8ce956",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
-    },
-    {
-      "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
-        {
-          "id": "xc-29a367db84",
-          "name": "Nhật Bản vs Indonesia | 17:20 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-29a367db84",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-29a367db84",
-                  "name": "Nhật Bản vs Indonesia",
-                  "streams": [
-                    {
-                      "id": "st-29a367db84",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-794a329024",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Nhật Bản",
-            "team_b": "Indonesia",
-            "logo_a": "https://media.api-sports.io/football/teams/12.png",
-            "logo_b": "https://khandai2.link/media/teams/logos/OIP_WqmhllM.jpg",
-            "time": "17:20",
-            "date": "18/09",
-            "blv": "Server",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/nhat-ban-v-indonesia-volleyball-ph-1578783826_3b4f3365_20260918.png?v=3b4f3365",
             "width": 1600,
             "height": 1200
           }
