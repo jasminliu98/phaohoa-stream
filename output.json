@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -24,10 +24,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -80,9 +80,9 @@
             "time": "13:30",
             "date": "18/09",
             "blv": "Tày",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football",
-            "status": "2h",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 2
           },
@@ -104,85 +104,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-ed2abb4bb1",
-          "name": "Mông Cổ vs Kyrgyzstan | 14:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ed2abb4bb1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ed2abb4bb1",
-                  "name": "Mông Cổ vs Kyrgyzstan",
-                  "streams": [
-                    {
-                      "id": "st-ed2abb4bb1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Mông Cổ",
-            "team_b": "Kyrgyzstan",
-            "logo_a": "https://khandai2.link/media/teams/logos/images.webp",
-            "logo_b": "https://khandai2.link/media/teams/logos/images.png",
-            "time": "14:00",
-            "date": "18/09",
-            "blv": "Tiểu Mây",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/51769e7f-9925-4d98-8b68-9eb2746e1e26_afb95c5c_20260918.png?v=afb95c5c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-540aee65c1",
           "name": "Việt Nam vs Hàn Quốc | 14:00 18/09",
@@ -211,11 +132,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
+                          "id": "lnk-c0e00e627b",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -246,7 +167,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/17.png",
             "time": "14:00",
             "date": "18/09",
-            "blv": "Lee Sin",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -258,6 +179,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61a5e98c-de3a-4e15-a2d7-8d6b964a20cf_42f77507_20260918.png?v=42f77507",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5244e8f15f",
+          "name": "Mông Cổ vs Kyrgyzstan | 14:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5244e8f15f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5244e8f15f",
+                  "name": "Mông Cổ vs Kyrgyzstan",
+                  "streams": [
+                    {
+                      "id": "st-5244e8f15f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-edb60d88d9",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD GAME",
+            "team_a": "Mông Cổ",
+            "team_b": "Kyrgyzstan",
+            "logo_a": "https://khandai2.link/media/teams/logos/images.webp",
+            "logo_b": "https://khandai2.link/media/teams/logos/images.png",
+            "time": "14:00",
+            "date": "18/09",
+            "blv": "Server",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/mong-co-v-kyrgyzstan-volleyball-ph-1714354939_afb95c5c_20260918.png?v=afb95c5c",
             "width": 1600,
             "height": 1200
           }
