@@ -82,7 +82,7 @@
             "blv": "Famy",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 0,
             "away_score": 1
           },
@@ -162,7 +162,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 3,
+            "home_score": 4,
             "away_score": 1
           },
           "image": {
@@ -328,6 +328,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/137085f4-6592-41ac-b181-7399b35e73a2_a73aab92_20260919.png?v=a73aab92",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ba36b6d19d",
+          "name": "Bayern München vs Union Berlin | 01:30 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ba36b6d19d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ba36b6d19d",
+                  "name": "Bayern München vs Union Berlin",
+                  "streams": [
+                    {
+                      "id": "st-ba36b6d19d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-161889ae68",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Bayern München",
+            "team_b": "Union Berlin",
+            "logo_a": "https://media.api-sports.io/football/teams/157.png",
+            "logo_b": "https://media.api-sports.io/football/teams/182.png",
+            "time": "01:30",
+            "date": "19/09",
+            "blv": "Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/03f00622-756b-45d6-a48e-503f966c9249_d086a799_20260919.png?v=d086a799",
             "width": 1600,
             "height": 1200
           }
