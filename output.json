@@ -94,6 +94,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-87ccc09439",
+          "name": "Qatar vs Hong Kong | 11:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87ccc09439",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-87ccc09439",
+                  "name": "Qatar vs Hong Kong",
+                  "streams": [
+                    {
+                      "id": "st-87ccc09439",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0e00e627b",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD GAME",
+            "team_a": "Qatar",
+            "team_b": "Hong Kong",
+            "logo_a": "https://media.api-sports.io/football/teams/1569.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/OIP_y52YJOU.jpg",
+            "time": "11:00",
+            "date": "18/09",
+            "blv": "Server",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/qatar-v-hong-kong-volleyball-ph-1328702369_8d8e1a4c_20260918.png?v=8d8e1a4c",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     }
