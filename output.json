@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-db49044fa8",
+          "id": "xc-fdd55d2fd2",
           "name": "Kazakhstan vs Trung Quốc | 11:00 18/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-db49044fa8",
+              "id": "src-fdd55d2fd2",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-db49044fa8",
+                  "id": "ct-fdd55d2fd2",
                   "name": "Kazakhstan vs Trung Quốc",
                   "streams": [
                     {
-                      "id": "st-db49044fa8",
+                      "id": "st-fdd55d2fd2",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
+                          "id": "lnk-794a329024",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1566.png",
             "time": "11:00",
             "date": "18/09",
-            "blv": "KaKa",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f452469b-b601-4a81-b9c1-2ea1bf7cbdd3_da3ed0d4_20260918.png?v=da3ed0d4",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/kazakhstan-v-trung-quoc-volleyball-ph-1510754321_da3ed0d4_20260918.png?v=da3ed0d4",
             "width": 1600,
             "height": 1200
           }
