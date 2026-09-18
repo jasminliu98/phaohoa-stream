@@ -63,27 +63,6 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-d516ad50bc",
-                          "name": "Văn Tài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub7/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -100,7 +79,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/116.png",
             "time": "01:45",
             "date": "19/09",
-            "blv": "Chim Nhỏ, Văn Tài",
+            "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
@@ -163,27 +142,6 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-ee73df3a80",
-                          "name": "Conan",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -200,10 +158,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/488.png",
             "time": "01:45",
             "date": "19/09",
-            "blv": "Lee Sin, Conan",
+            "blv": "Lee Sin",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 2,
             "away_score": 1
           },
@@ -304,7 +262,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -405,92 +363,13 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 1,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e2ef6918-4e10-44d7-b706-75ec6637d801_ca30d0ec_20260919.png?v=ca30d0ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ba36b6d19d",
-          "name": "Bayern München vs Union Berlin | 01:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ba36b6d19d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ba36b6d19d",
-                  "name": "Bayern München vs Union Berlin",
-                  "streams": [
-                    {
-                      "id": "st-ba36b6d19d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af5dee509c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Bayern München",
-            "team_b": "Union Berlin",
-            "logo_a": "https://media.api-sports.io/football/teams/157.png",
-            "logo_b": "https://media.api-sports.io/football/teams/182.png",
-            "time": "01:30",
-            "date": "19/09",
-            "blv": "Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 7,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/03f00622-756b-45d6-a48e-503f966c9249_d086a799_20260919.png?v=d086a799",
             "width": 1600,
             "height": 1200
           }
