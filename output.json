@@ -202,11 +202,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
+                          "id": "lnk-b2c8b4685c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -237,7 +237,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/1569.png",
             "time": "17:30",
             "date": "18/09",
-            "blv": "Tày",
+            "blv": "Server",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -263,7 +263,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-275d009eb0",
+          "id": "xc-29a367db84",
           "name": "Nhật Bản vs Indonesia | 17:20 18/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -278,23 +278,23 @@
           ],
           "sources": [
             {
-              "id": "src-275d009eb0",
+              "id": "src-29a367db84",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-275d009eb0",
+                  "id": "ct-29a367db84",
                   "name": "Nhật Bản vs Indonesia",
                   "streams": [
                     {
-                      "id": "st-275d009eb0",
+                      "id": "st-29a367db84",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
+                          "id": "lnk-794a329024",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -325,7 +325,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/OIP_WqmhllM.jpg",
             "time": "17:20",
             "date": "18/09",
-            "blv": "KaKa",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -336,7 +336,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59815316-2f00-475c-acb9-3345469c0a43_3b4f3365_20260918.png?v=3b4f3365",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/nhat-ban-v-indonesia-volleyball-ph-1578783826_3b4f3365_20260918.png?v=3b4f3365",
             "width": 1600,
             "height": 1200
           }
