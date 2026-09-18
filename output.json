@@ -161,8 +161,8 @@
             "blv": "Lee Sin",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
-            "home_score": 1,
+            "status": "ht",
+            "home_score": 2,
             "away_score": 1
           },
           "image": {
@@ -240,7 +240,7 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 1
           },
