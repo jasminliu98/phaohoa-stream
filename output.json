@@ -83,7 +83,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -481,10 +481,31 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-08cbf83139",
                           "name": "Kaka",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub3/index.m3u8",
                           "request_headers": [
                             {
@@ -516,7 +537,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/797.png",
             "time": "02:00",
             "date": "19/09",
-            "blv": "Kaka",
+            "blv": "Enzo, Kaka",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
