@@ -104,7 +104,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 6,
+            "home_score": 7,
             "away_score": 0
           },
           "image": {
@@ -304,7 +304,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -512,85 +512,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e2ef6918-4e10-44d7-b706-75ec6637d801_ca30d0ec_20260919.png?v=ca30d0ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ef98e1af8f",
-          "name": "Groningen vs PEC Zwolle | 01:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef98e1af8f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ef98e1af8f",
-                  "name": "Groningen vs PEC Zwolle",
-                  "streams": [
-                    {
-                      "id": "st-ef98e1af8f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Eredivisie",
-            "team_a": "Groningen",
-            "team_b": "PEC Zwolle",
-            "logo_a": "https://media.api-sports.io/football/teams/202.png",
-            "logo_b": "https://media.api-sports.io/football/teams/193.png",
-            "time": "01:00",
-            "date": "19/09",
-            "blv": "Tiểu Mây",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/137085f4-6592-41ac-b181-7399b35e73a2_a73aab92_20260919.png?v=a73aab92",
             "width": 1600,
             "height": 1200
           }
