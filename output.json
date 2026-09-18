@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_volleyball",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -91,6 +91,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/4ae363b9-1a8d-40de-a4a3-a0afc5c27710_02a64e43_20260918.png?v=02a64e43",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-275d009eb0",
+          "name": "Nhật Bản vs Indonesia | 17:20 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-275d009eb0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-275d009eb0",
+                  "name": "Nhật Bản vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "st-275d009eb0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD GAME",
+            "team_a": "Nhật Bản",
+            "team_b": "Indonesia",
+            "logo_a": "https://media.api-sports.io/football/teams/12.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/OIP_WqmhllM.jpg",
+            "time": "17:20",
+            "date": "18/09",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/59815316-2f00-475c-acb9-3345469c0a43_3b4f3365_20260918.png?v=3b4f3365",
             "width": 1600,
             "height": 1200
           }
