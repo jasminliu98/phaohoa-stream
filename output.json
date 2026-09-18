@@ -17,7 +17,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-540aee65c1",
+          "id": "xc-14cd10fb45",
           "name": "Việt Nam vs Hàn Quốc | 14:00 18/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-540aee65c1",
+              "id": "src-14cd10fb45",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-540aee65c1",
+                  "id": "ct-14cd10fb45",
                   "name": "Việt Nam vs Hàn Quốc",
                   "streams": [
                     {
-                      "id": "st-540aee65c1",
+                      "id": "st-14cd10fb45",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
+                          "id": "lnk-c0e00e627b",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/17.png",
             "time": "14:00",
             "date": "18/09",
-            "blv": "Lee Sin",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/61a5e98c-de3a-4e15-a2d7-8d6b964a20cf_42f77507_20260918.png?v=42f77507",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/viet-nam-v-han-quoc-volleyball-ph-1953955423_42f77507_20260918.png?v=42f77507",
             "width": 1600,
             "height": 1200
           }
