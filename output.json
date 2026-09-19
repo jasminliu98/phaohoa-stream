@@ -11,13 +11,13 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-8b5c7e2184",
+          "id": "xc-b58967e3dc",
           "name": "Thanh Hoá vs Becamex TP Hồ Chí Minh | 17:00 19/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -32,23 +32,23 @@
           ],
           "sources": [
             {
-              "id": "src-8b5c7e2184",
+              "id": "src-b58967e3dc",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-8b5c7e2184",
+                  "id": "ct-b58967e3dc",
                   "name": "Thanh Hoá vs Becamex TP Hồ Chí Minh",
                   "streams": [
                     {
-                      "id": "st-8b5c7e2184",
+                      "id": "st-b58967e3dc",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-af5dee509c",
+                          "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -79,7 +79,7 @@
             "logo_b": "https://khandai2.link/media/teams/logos/team_8057.jpg",
             "time": "17:00",
             "date": "19/09",
-            "blv": "Pháo Thủ",
+            "blv": "Server",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
@@ -90,7 +90,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e4062b23-c980-4d64-a855-45cd974e7286_8ca0f240_20260919.png?v=8ca0f240",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/thanh-hoa-v-becamex-tp-ho-chi-minh-ph-82314_8ca0f240_20260919.png?v=8ca0f240",
             "width": 1600,
             "height": 1200
           }
@@ -203,10 +203,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -259,9 +259,9 @@
             "time": "19:00",
             "date": "19/09",
             "blv": "Người Kiến",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
+            "status": "1h",
             "home_score": 0,
             "away_score": 0
           },
