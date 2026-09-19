@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -170,6 +170,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/849965da-9fe7-44de-af5c-47b9820f9db2_82211a4f_20260919.png?v=82211a4f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8b5c7e2184",
+          "name": "Thanh Hoá vs Becamex TP Hồ Chí Minh | 17:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b5c7e2184",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8b5c7e2184",
+                  "name": "Thanh Hoá vs Becamex TP Hồ Chí Minh",
+                  "streams": [
+                    {
+                      "id": "st-8b5c7e2184",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup",
+            "team_a": "Thanh Hoá",
+            "team_b": "Becamex TP Hồ Chí Minh",
+            "logo_a": "https://media.api-sports.io/football/teams/3680.png",
+            "logo_b": "https://khandai2.link/media/teams/logos/team_8057.jpg",
+            "time": "17:00",
+            "date": "19/09",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e4062b23-c980-4d64-a855-45cd974e7286_8ca0f240_20260919.png?v=8ca0f240",
             "width": 1600,
             "height": 1200
           }
