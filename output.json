@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 1,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -161,7 +161,7 @@
             "blv": "Văn Tài",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 1,
             "away_score": 2
           },
@@ -240,9 +240,9 @@
             "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -340,9 +340,9 @@
             "blv": "Enzo, Tây Môn Khánh",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 2,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -440,8 +440,8 @@
             "blv": "Lee Sin, Gà Rừng",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
-            "home_score": 1,
+            "status": "ht",
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -540,7 +540,7 @@
             "blv": "Tày, Conan",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 0
           },
