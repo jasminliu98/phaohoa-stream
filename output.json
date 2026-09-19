@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-1ed29c793c",
-          "name": "AS Roma vs Inter | 23:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ed29c793c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-1ed29c793c",
-                  "name": "AS Roma vs Inter",
-                  "streams": [
-                    {
-                      "id": "st-1ed29c793c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "AS Roma",
-            "team_b": "Inter",
-            "logo_a": "https://media.api-sports.io/football/teams/497.png",
-            "logo_b": "https://media.api-sports.io/football/teams/505.png",
-            "time": "23:00",
-            "date": "19/09",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1448472d-38c8-4933-8c2d-1123c9c37ca0_0d26fdcb_20260920.png?v=0d26fdcb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-ef6ddcb378",
           "name": "VfB Stuttgart vs Borussia Dortmund | 23:30 19/09",
@@ -262,7 +183,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 3,
+            "home_score": 4,
             "away_score": 0
           },
           "image": {
@@ -362,7 +283,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -440,7 +361,7 @@
             "blv": "Conan",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 3,
             "away_score": 0
           },
