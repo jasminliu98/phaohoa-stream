@@ -11,248 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-03cf8c2171",
-          "name": "Borussia Mönchengladbach vs FSV Mainz 05 | 20:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03cf8c2171",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-03cf8c2171",
-                  "name": "Borussia Mönchengladbach vs FSV Mainz 05",
-                  "streams": [
-                    {
-                      "id": "st-03cf8c2171",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d516ad50bc",
-                          "name": "Văn Tài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub7/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Borussia Mönchengladbach",
-            "team_b": "FSV Mainz 05",
-            "logo_a": "https://media.api-sports.io/football/teams/163.png",
-            "logo_b": "https://media.api-sports.io/football/teams/164.png",
-            "time": "20:30",
-            "date": "19/09",
-            "blv": "Văn Tài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 2,
-            "away_score": 4
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/652de8aa-6e2e-425e-a99d-2974dc3262e0_79f92b17_20260919.png?v=79f92b17",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-4028f1247d",
-          "name": "Werder Bremen vs FC Augsburg | 20:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4028f1247d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-4028f1247d",
-                  "name": "Werder Bremen vs FC Augsburg",
-                  "streams": [
-                    {
-                      "id": "st-4028f1247d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Werder Bremen",
-            "team_b": "FC Augsburg",
-            "logo_a": "https://media.api-sports.io/football/teams/162.png",
-            "logo_b": "https://media.api-sports.io/football/teams/170.png",
-            "time": "20:30",
-            "date": "19/09",
-            "blv": "Pháo Thủ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/fd12cde9-95be-494b-9a8a-57b04bc5cbcc_0a54a2d6_20260919.png?v=0a54a2d6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-fc94f40b71",
-          "name": "Eintracht Frankfurt vs SC Freiburg | 20:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc94f40b71",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-fc94f40b71",
-                  "name": "Eintracht Frankfurt vs SC Freiburg",
-                  "streams": [
-                    {
-                      "id": "st-fc94f40b71",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Eintracht Frankfurt",
-            "team_b": "SC Freiburg",
-            "logo_a": "https://media.api-sports.io/football/teams/169.png",
-            "logo_b": "https://media.api-sports.io/football/teams/160.png",
-            "time": "20:30",
-            "date": "19/09",
-            "blv": "Enzo",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 2,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/fe312dcb-d99a-43e5-8827-a7aaf25c62f3_85432914_20260919.png?v=85432914",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-a51090fd4e",
           "name": "Brighton vs Arsenal | 21:00 19/09",
@@ -521,7 +284,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -599,7 +362,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -737,6 +500,27 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
+                        },
+                        {
+                          "id": "lnk-161889ae68",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
                         }
                       ]
                     }
@@ -753,7 +537,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/505.png",
             "time": "23:00",
             "date": "19/09",
-            "blv": "Pháo Thủ",
+            "blv": "Pháo Thủ, Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
@@ -844,6 +628,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3690cba6-d07d-4f83-ba0e-4e68cda1abe6_c2c3be71_20260919.png?v=c2c3be71",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
+    },
+    {
+      "id": "cate_volleyball",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
+        {
+          "id": "xc-feb230b118",
+          "name": "Đức vs Bulgaria | 23:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-feb230b118",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-feb230b118",
+                  "name": "Đức vs Bulgaria",
+                  "streams": [
+                    {
+                      "id": "st-feb230b118",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95e438c878",
+                          "name": "KaKa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vô Địch Châu Âu",
+            "team_a": "Đức",
+            "team_b": "Bulgaria",
+            "logo_a": "https://media.api-sports.io/football/teams/20.png",
+            "logo_b": "https://media.api-sports.io/football/teams/1103.png",
+            "time": "23:00",
+            "date": "19/09",
+            "blv": "KaKa",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/8c64859e-ce3d-45ea-a1a3-841eb85dd9a4_b8e04b03_20260919.png?v=b8e04b03",
             "width": 1600,
             "height": 1200
           }
