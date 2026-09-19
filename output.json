@@ -105,7 +105,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 2,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -203,7 +203,7 @@
             "blv": "Người Kiến, Khô Cay",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 0,
             "away_score": 0
           },
@@ -282,7 +282,7 @@
             "blv": "Enzo",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 2,
             "away_score": 0
           },
@@ -382,9 +382,9 @@
             "blv": "Tày, Gà Rừng",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -462,7 +462,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -476,7 +476,7 @@
         },
         {
           "id": "xc-0271a9110f",
-          "name": "Ajax vs Excelsior",
+          "name": "Ajax vs Excelsior | 01:00 20/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -530,13 +530,13 @@
             }
           ],
           "org_metadata": {
-            "league": "",
+            "league": "Eredivisie",
             "team_a": "Ajax",
             "team_b": "Excelsior",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "",
-            "date": "",
+            "logo_a": "https://media.api-sports.io/football/teams/194.png",
+            "logo_b": "https://media.api-sports.io/football/teams/196.png",
+            "time": "01:00",
+            "date": "20/09",
             "blv": "Lee Sin",
             "is_live": false,
             "cate_type": "football",
@@ -548,7 +548,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/083f1cdf-dbee-4dfa-bcb1-c671c94fa316_43a03299_20260920.png?v=43a03299",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/083f1cdf-dbee-4dfa-bcb1-c671c94fa316_fe808b99_20260920.png?v=fe808b99",
             "width": 1600,
             "height": 1200
           }
