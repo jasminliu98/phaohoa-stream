@@ -82,7 +82,7 @@
             "blv": "Lee Sin",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 1,
             "away_score": 1
           },
@@ -283,7 +283,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
