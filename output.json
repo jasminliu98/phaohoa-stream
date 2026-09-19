@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -63,27 +63,6 @@
                               "value": "https://xoiche.tv"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-161889ae68",
-                          "name": "Tam Mao",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -100,7 +79,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/505.png",
             "time": "23:00",
             "date": "19/09",
-            "blv": "Pháo Thủ, Tam Mao",
+            "blv": "Pháo Thủ",
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
@@ -205,7 +184,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -283,7 +262,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 0
           },
           "image": {
@@ -482,10 +461,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -538,6 +517,85 @@
             "time": "01:00",
             "date": "20/09",
             "blv": "Lee Sin",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/083f1cdf-dbee-4dfa-bcb1-c671c94fa316_fe808b99_20260920.png?v=fe808b99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2e54ea6e38",
+          "name": "Venezia vs Lazio | 01:45 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2e54ea6e38",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2e54ea6e38",
+                  "name": "Venezia vs Lazio",
+                  "streams": [
+                    {
+                      "id": "st-2e54ea6e38",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Venezia",
+            "team_b": "Lazio",
+            "logo_a": "https://media.api-sports.io/football/teams/517.png",
+            "logo_b": "https://media.api-sports.io/football/teams/487.png",
+            "time": "01:45",
+            "date": "20/09",
+            "blv": "Pháo Thủ",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
@@ -548,7 +606,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/083f1cdf-dbee-4dfa-bcb1-c671c94fa316_fe808b99_20260920.png?v=fe808b99",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/66b689ef-b13e-48dd-a75f-161f29cf42e0_25e95ef6_20260920.png?v=25e95ef6",
             "width": 1600,
             "height": 1200
           }
