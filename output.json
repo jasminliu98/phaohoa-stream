@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-870e472b8e",
-          "name": "Sevilla vs Barcelona | 02:00 20/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-870e472b8e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-870e472b8e",
-                  "name": "Sevilla vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-870e472b8e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Sevilla",
-            "team_b": "Barcelona",
-            "logo_a": "https://media.api-sports.io/football/teams/536.png",
-            "logo_b": "https://media.api-sports.io/football/teams/529.png",
-            "time": "02:00",
-            "date": "20/09",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 3
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3991be91-3f23-4d61-9ce0-bc457d5a0254_b404402a_20260920.png?v=b404402a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-57c397b46d",
           "name": "Sporting CP vs Arouca | 02:30 20/09",
@@ -163,92 +84,13 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/8af8246c-3225-4b20-a51b-13206d49d086_3306b7aa_20260920.png?v=3306b7aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-c02c475999",
-          "name": "Lyon vs Rennes | 01:45 20/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c02c475999",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c02c475999",
-                  "name": "Lyon vs Rennes",
-                  "streams": [
-                    {
-                      "id": "st-c02c475999",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0c660f670a",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Lyon",
-            "team_b": "Rennes",
-            "logo_a": "https://media.api-sports.io/football/teams/80.png",
-            "logo_b": "https://media.api-sports.io/football/teams/94.png",
-            "time": "01:45",
-            "date": "20/09",
-            "blv": "Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 4,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/74027806-5c27-445e-99b5-5c6d58dbcb82_128998e4_20260920.png?v=128998e4",
             "width": 1600,
             "height": 1200
           }
