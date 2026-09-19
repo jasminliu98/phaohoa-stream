@@ -196,85 +196,6 @@
           }
         },
         {
-          "id": "xc-6b2b3bae9f",
-          "name": "Ath Bilbao vs Alaves | 21:15 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b2b3bae9f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6b2b3bae9f",
-                  "name": "Ath Bilbao vs Alaves",
-                  "streams": [
-                    {
-                      "id": "st-6b2b3bae9f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-913990a99f",
-                          "name": "Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Ath Bilbao",
-            "team_b": "Alaves",
-            "logo_a": "https://media.api-sports.io/football/teams/13975.png",
-            "logo_b": "https://media.api-sports.io/football/teams/542.png",
-            "time": "21:15",
-            "date": "19/09",
-            "blv": "Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "ns",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/db659446-4077-469a-bf93-b1d15e6f61dd_8e5af801_20260919.png?v=8e5af801",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-ef6ddcb378",
           "name": "VfB Stuttgart vs Borussia Dortmund | 23:30 19/09",
           "type": "single",
@@ -370,6 +291,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/27fc3376-66b0-426b-832a-a998e5ca9a4f_b67c16de_20260919.png?v=b67c16de",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6046b2ee0c",
+          "name": "Celta Vigo vs Racing Santander | 23:30 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6046b2ee0c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6046b2ee0c",
+                  "name": "Celta Vigo vs Racing Santander",
+                  "streams": [
+                    {
+                      "id": "st-6046b2ee0c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Celta Vigo",
+            "team_b": "Racing Santander",
+            "logo_a": "https://media.api-sports.io/football/teams/538.png",
+            "logo_b": "https://media.api-sports.io/football/teams/4665.png",
+            "time": "23:30",
+            "date": "19/09",
+            "blv": "Enzo",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/690ab4cc-72e6-476e-b535-5140137f91c2_0c81915b_20260919.png?v=0c81915b",
             "width": 1600,
             "height": 1200
           }
