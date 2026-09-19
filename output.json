@@ -103,8 +103,8 @@
             "blv": "Lee Sin, Tây Môn Khánh",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
-            "home_score": 0,
+            "status": "2h",
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -182,7 +182,7 @@
             "blv": "Người Kiến",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 0
           },
