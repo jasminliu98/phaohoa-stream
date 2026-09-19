@@ -17,85 +17,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-9d30c4aa1d",
-          "name": "Trabzonspor vs Galatasaray | 00:00 20/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9d30c4aa1d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9d30c4aa1d",
-                  "name": "Trabzonspor vs Galatasaray",
-                  "streams": [
-                    {
-                      "id": "st-9d30c4aa1d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ee73df3a80",
-                          "name": "Conan",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Süper Lig",
-            "team_a": "Trabzonspor",
-            "team_b": "Galatasaray",
-            "logo_a": "https://media.api-sports.io/football/teams/998.png",
-            "logo_b": "https://media.api-sports.io/football/teams/645.png",
-            "time": "00:00",
-            "date": "20/09",
-            "blv": "Conan",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 4,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/fc1ec9b5-9bf9-465a-b840-817d3a002801_7fe0f276_20260920.png?v=7fe0f276",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-0271a9110f",
           "name": "Ajax vs Excelsior | 01:00 20/09",
           "type": "single",
@@ -461,10 +382,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -538,6 +459,85 @@
             "time": "02:00",
             "date": "20/09",
             "blv": "Chim Nhỏ, Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3991be91-3f23-4d61-9ce0-bc457d5a0254_b404402a_20260920.png?v=b404402a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-57c397b46d",
+          "name": "Sporting CP vs Arouca | 02:30 20/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-57c397b46d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-57c397b46d",
+                  "name": "Sporting CP vs Arouca",
+                  "streams": [
+                    {
+                      "id": "st-57c397b46d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primeira Liga",
+            "team_a": "Sporting CP",
+            "team_b": "Arouca",
+            "logo_a": "https://media.api-sports.io/football/teams/228.png",
+            "logo_b": "https://media.api-sports.io/football/teams/240.png",
+            "time": "02:30",
+            "date": "20/09",
+            "blv": "Tày",
             "is_live": false,
             "cate_type": "football",
             "status": "ns",
@@ -548,7 +548,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3991be91-3f23-4d61-9ce0-bc457d5a0254_b404402a_20260920.png?v=b404402a",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/8af8246c-3225-4b20-a51b-13206d49d086_3306b7aa_20260920.png?v=3306b7aa",
             "width": 1600,
             "height": 1200
           }
