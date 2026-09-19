@@ -82,7 +82,7 @@
             "blv": "Tiểu Mây",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 2,
             "away_score": 1
           },
@@ -182,7 +182,7 @@
             "blv": "Pháo Thủ, Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 2,
             "away_score": 1
           },
@@ -282,7 +282,7 @@
             "blv": "Người Kiến, Khô Cay",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 0,
             "away_score": 0
           },
@@ -362,7 +362,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -461,7 +461,7 @@
             "blv": "Tày, Gà Rừng",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 0,
             "away_score": 0
           },
