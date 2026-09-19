@@ -204,7 +204,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "2h",
-            "home_score": 3,
+            "home_score": 4,
             "away_score": 0
           },
           "image": {
@@ -284,7 +284,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 3,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -384,7 +384,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 1,
-            "away_score": 2
+            "away_score": 3
           },
           "image": {
             "padding": 1,
