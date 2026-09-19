@@ -11,90 +11,11 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-a00f0fd13a",
-          "name": "Paris FC vs Strasbourg | 22:15 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a00f0fd13a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a00f0fd13a",
-                  "name": "Paris FC vs Strasbourg",
-                  "streams": [
-                    {
-                      "id": "st-a00f0fd13a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Paris FC",
-            "team_b": "Strasbourg",
-            "logo_a": "https://media.api-sports.io/football/teams/114.png",
-            "logo_b": "https://media.api-sports.io/football/teams/95.png",
-            "time": "22:15",
-            "date": "19/09",
-            "blv": "Tiểu Mây",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/54d68d40-360c-420d-a286-87d03b3af53b_cef4b28f_20260920.png?v=cef4b28f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-1ed29c793c",
           "name": "AS Roma vs Inter | 23:00 19/09",
@@ -361,7 +282,7 @@
             "blv": "Enzo",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 2,
             "away_score": 0
           },
@@ -549,6 +470,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/fc1ec9b5-9bf9-465a-b840-817d3a002801_7fe0f276_20260920.png?v=7fe0f276",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0271a9110f",
+          "name": "Ajax vs Excelsior",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0271a9110f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0271a9110f",
+                  "name": "Ajax vs Excelsior",
+                  "streams": [
+                    {
+                      "id": "st-0271a9110f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Lee Sin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Ajax",
+            "team_b": "Excelsior",
+            "logo_a": "",
+            "logo_b": "",
+            "time": "",
+            "date": "",
+            "blv": "Lee Sin",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/083f1cdf-dbee-4dfa-bcb1-c671c94fa316_43a03299_20260920.png?v=43a03299",
             "width": 1600,
             "height": 1200
           }
