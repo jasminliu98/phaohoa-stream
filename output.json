@@ -11,7 +11,7 @@
   "groups": [
     {
       "id": "cate_football",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -84,7 +84,7 @@
             "cate_type": "football",
             "status": "2h",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -184,7 +184,7 @@
             "cate_type": "football",
             "status": "ht",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -362,7 +362,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "1h",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -482,10 +482,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -538,10 +538,10 @@
             "time": "00:00",
             "date": "20/09",
             "blv": "Conan",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football",
-            "status": "ns",
-            "home_score": 0,
+            "status": "1h",
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
